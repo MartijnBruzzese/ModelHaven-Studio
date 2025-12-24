@@ -1,28 +1,30 @@
 ---
 layout: default
-title: Book Draft
+title: Toward Humane AI — Book Draft
 ---
 
 # MODELHAVEN — The Why and The How
 
-## Working Title
+## Working subtitle
 Ethical Creative AI: building systems that protect identity, consent and autonomy
 
 ---
 
 ## Table of Contents
 
-Part I — Why this matters  
-Part II — What this is  
-Part III — How it works  
-Part IV — Risks and open questions  
-Part V — The road ahead
-
----
-
-# Toward Humane AI — A Working Draft
-
----
+- [Part I — WHY](#part-i--why)
+- [Part II — WHAT](#part-ii--what)
+- [Part III — HOW](#part-iii--how)
+  - [1. Consent systems](#1-consent-systems)
+  - [2. Identity safety and resemblance thresholds](#2-identity-safety-and-resemblance-thresholds)
+  - [3. Protection of minors](#3-protection-of-minors)
+  - [4. Adult mode and ethical adult spaces](#4-adult-mode-and-ethical-adult-spaces)
+  - [5. Domestic-violence aware safety features](#5-domestic-violence-aware-safety-features)
+  - [6. Kill-switch and sleep-switch mechanisms](#6-kill-switch-and-sleep-switch-mechanisms)
+  - [7. Animals and representation](#7-animals-and-representation)
+  - [Defending the voiceless](#defending-the-voiceless)
+- [Part IV — Risks and Open Questions](#part-iv--risks-and-open-questions)
+- [Part V — The Road Ahead](#part-v--the-road-ahead)
 
 ## Part I — WHY
 
