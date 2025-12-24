@@ -8,39 +8,103 @@
 
   <style>
     :root { color-scheme: light; }
+
     body{
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background:#fafafa; color:#222;
-      margin:0; padding:44px 18px;
-      line-height:1.6;
+      background:#f4f1ea; /* parchment background */
+      color:#222;
+      margin:0;
+      padding:48px 18px;
+      line-height:1.65;
     }
-    .wrap{ max-width:760px; margin:0 auto; }
-    header{ margin-bottom:28px; }
-    h1{ font-size:2rem; margin:0 0 6px 0; }
-    .subtitle{ color:#555; margin:0; }
+
+    .wrap{
+      max-width:760px;
+      margin:0 auto;
+      background:#fffdf8; /* parchment paper */
+      padding:32px 34px;
+      border-radius:14px;
+      box-shadow:0 10px 32px rgba(0,0,0,0.06);
+    }
+
+    header{
+      margin-bottom:28px;
+    }
+
+    h1{
+      font-size:2rem;
+      margin:0 0 6px 0;
+      font-weight:600;
+    }
+
+    .subtitle{
+      margin:0;
+      color:#555;
+    }
+
     .pill{
-      display:inline-block; margin-top:10px;
-      padding:4px 10px; border:1px solid #ddd; border-radius:999px;
-      background:#fff; color:#444; font-size:.9rem;
+      display:inline-block;
+      margin-top:12px;
+      padding:4px 12px;
+      border:1px solid #ddd;
+      border-radius:999px;
+      background:#ffffff;
+      color:#444;
+      font-size:0.9rem;
     }
-    hr{ border:none; border-top:1px solid #ddd; margin:26px 0; }
+
+    hr{
+      border:none;
+      border-top:1px solid #ddd;
+      margin:28px 0;
+    }
+
     h2{
-      font-size:1.05rem; letter-spacing:.06em; text-transform:uppercase;
-      color:#555; margin:0 0 10px 0;
+      font-size:1.05rem;
+      letter-spacing:0.06em;
+      text-transform:uppercase;
+      color:#555;
+      margin:0 0 12px 0;
     }
-    ul{ margin:0; padding-left:1.2em; }
-    li{ margin:8px 0; }
-    a{ color:#0057ff; text-decoration:none; }
-    a:hover{ text-decoration:underline; }
+
+    ul{
+      margin:0;
+      padding-left:1.2em;
+    }
+
+    li{
+      margin:8px 0;
+    }
+
+    a{
+      color:#0057ff;
+      text-decoration:none;
+    }
+
+    a:hover{
+      text-decoration:underline;
+    }
+
     .note{
-      margin-top:18px; color:#666; font-size:.95rem;
-      background:#fff; border:1px solid #e6e6e6; border-radius:12px;
-      padding:12px 14px;
+      margin-top:20px;
+      color:#666;
+      font-size:0.95rem;
+      background:#ffffff;
+      border:1px solid #e6e6e6;
+      border-radius:12px;
+      padding:14px 16px;
     }
+
     footer{
-      margin-top:28px; color:#777; font-size:.9rem;
+      margin-top:30px;
+      color:#777;
+      font-size:0.9rem;
     }
-    .small{ font-size:.85rem; color:#777; }
+
+    .small{
+      font-size:0.85rem;
+      color:#777;
+    }
   </style>
 </head>
 
@@ -55,7 +119,7 @@
 
     <p>
       This project is in early testing. All structures, documents, and decisions are provisional during Beta.
-      The goal is clarity, critique, and safe iteration before any lock-in.
+      The intent is to allow critique, reflection, and correction before any form of lock-in.
     </p>
 
     <hr />
@@ -72,13 +136,13 @@
     </ul>
 
     <div class="note">
-      <strong>Note:</strong> Documents are published openly and may change as part of ongoing field testing.
-      If you want to contribute, please read the Framework and Principles first and use GitHub Issues for feedback.
+      <strong>Note:</strong> All documents are published openly and may change as part of ongoing field testing.
+      Feedback and critique are welcome via GitHub Issues.
     </div>
 
     <footer>
       <div>© ModelHaven Studio (working title) — Beta documentation.</div>
-      <div class="small">Last build marker: v1</div>
+      <div class="small">Last build marker: v2</div>
     </footer>
 
   </div>
