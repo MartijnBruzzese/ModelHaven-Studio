@@ -1,3 +1,8 @@
+---
+layout: default
+title: README
+---
+
 # ModelHaven Studio – Framework (Draft)
 
 Status: Draft  
