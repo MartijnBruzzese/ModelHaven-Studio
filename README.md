@@ -34,3 +34,6 @@ This phase exists for:
 ## Naming
 “ModelHaven Studio” is a working title.
 The final name may emerge from community use and testing.
+
+© 2025 — Content authored by the project initiator.
+Rights reserved during Beta.
