@@ -5,9 +5,24 @@ title: Toward Humane AI — Book Draft
 
 # MODELHAVEN — The Why and The How
 
-## Working subtitle
+## Working Subtitle
 Ethical Creative AI: building systems that protect identity, consent and autonomy
 
+---
+
+## Author’s Note
+
+This book did not begin as a book. It began as questions, late-night conversations, unfinished notes, and a feeling that something important was changing faster than our ability to talk about it.
+
+I am not writing this as a distant expert. I am simply a person living in the same world as everyone else — a world where AI is already shaping identity, intimacy, creativity, safety, and the way we see one another. I care about those things, and this project grew out of that care.
+
+Along the way I have been influenced, challenged, and inspired by many people: technologists building responsibly, activists defending the vulnerable, artists experimenting with new tools, and those who quietly protect children, animals, and other beings who do not always have a voice within our systems. This text would not exist without them, even if their names are not written here.
+
+This document is a work in progress. It will change. Parts of it will improve because others will disagree with it, correct it, or take it further than I can. That is not a flaw — that is the point.
+
+If there is one thread running through every page, it is this: technology is not separate from us. It reflects our choices, our values, and our courage. We get to decide what kind of future we build with it.
+
+Thank you for reading, and for caring enough to think about these questions with me.
 ---
 
 ## Table of Contents
