@@ -1,3 +1,8 @@
+---
+layout: default
+title: README
+---
+
 # Contributing (Beta)
 
 ModelHaven Studio is in an experimental Beta phase.
