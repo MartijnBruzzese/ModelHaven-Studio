@@ -22,6 +22,7 @@ The intent is to allow critique, reflection, and correction before any form of l
 - [Scope](SCOPE.html)
 - [Contributing](CONTRIBUTING.html)
 - [Governance](GOVERNANCE.html)
+- [Book Draft — The Why and The How](BOOK_DRAFT.html)
 
 ---
 
