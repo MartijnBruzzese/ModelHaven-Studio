@@ -3,7 +3,7 @@ layout: default
 title: Toward Humane AI — Book Draft
 ---
 
-![Book Cover](images/book_cover_small.png )
+![Book Cover](images/book_cover_small.png)
 
 # MODELHAVEN 
 — The Why and The How
