@@ -180,6 +180,68 @@ If a platform can optimize profit,
 it can **optimize safety**.
 
 Choosing not to is a moral decision.
+There are lines that are not blurry.
+
+- **minors must never be sexualized**
+- the vulnerable must never be exploited
+- “roleplay” does not override harm
+- “fiction” does not erase real-world consequences
+
+Protection is not optional.  
+It is **the baseline of a civil system**.
+
+---
+
+## 11. Toward ethical creator economies
+We reject:
+- coercive monetization funnels  
+- deceptive intimacy for profit  
+- emotional manipulation as a business model  
+
+We support:
+- transparent expectations  
+- clearly fictional personas  
+- adult spaces with genuine consent systems in place  
+- fair compensation and control over one’s likeness  
+
+People are not engagement metrics.  
+Audiences are **humans**, not whales.
+
+---
+
+## 12. Code of Conduct (short form)
+We commit to:
+
+1. **No non-consensual likeness use**  
+2. **No sexual content involving minors — ever**  
+3. **Fictional characters by default where consent is absent**  
+4. **Clear labeling of AI-generated personas**  
+5. **Consent that is specific, provable, and revocable**  
+6. **No datasets built from stolen content**  
+7. **Designing for safety rather than apology**  
+
+---
+
+## 13. Humane AI is still possible
+This manifesto is not about fear.  
+It is about **direction**.
+
+We can build:
+
+- ethical adult spaces  
+- AI characters that are unmistakably fictional  
+- creator economies without coercion  
+- frameworks where dignity is default  
+- tools that protect the vulnerable instead of exploiting them  
+
+Humane AI is not softness.  
+Humane AI is **discipline in defense of dignity**.
+
+---
+
+### Version
+Manifesto v1.0  
+**Toward Humane AI**
 
 ---
 
