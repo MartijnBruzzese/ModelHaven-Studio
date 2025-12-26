@@ -50,7 +50,7 @@ This space is part of that journey.
 
 <p align="center">
   <a href="BOOK_DRAFT.md">
-    <img src="/images/book_cover_small.png"
+    <img src="images/book_cover_small.png"
          style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;">
   </a>
 </p>
