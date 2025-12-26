@@ -3,7 +3,7 @@ layout: default
 title: Toward Humane AI — Book Draft
 ---
 
-![Book cover](/images/book_cover_small.png){: style="max-width: 600px; width: 100%; height: auto; border-radius: 6px;" }
+![Book cover](/images/book_cover_small.png){: style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;" }
 
 # MODELHAVEN 
 ## Working Subtitle
