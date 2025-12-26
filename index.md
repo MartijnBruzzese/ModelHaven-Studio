@@ -42,4 +42,10 @@ This space is part of that journey.
 - 🏷️ **Naming** – [NAMING.md](NAMING.md)
 - 📊 **Status** – [STATUS.md](STATUS.md)
 - 🤝 **Contributing** – [CONTRIBUTING.md](CONTRIBUTING.md)
-- 🛡
+- 🛡️ **License** – [LICENSE.md](LICENSE.md)
+
+---
+
+## 📚 Cover
+
+![Book cover](/images/book_cover_small.png){: style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;" }
