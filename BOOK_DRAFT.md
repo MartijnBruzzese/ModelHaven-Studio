@@ -1,14 +1,12 @@
 ---
 layout: default
+title: Toward Humane AI
 ---
 
 ![Book cover](/images/book_cover_small.png){: style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;" }
 
-# Book Draft — Toward Humane AI
-
 # MODELHAVEN 
-## Working Subtitle
-Ethical Creative AI: building systems that protect identity, consent and autonomy
+## Ethical Creative AI: building systems that protect identity, consent and autonomy
 
 ---
 
