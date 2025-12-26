@@ -804,3 +804,223 @@ Fail-closed means:
 ---
 
 Fail-closed design is the **engineering expression** of UCSF’s moral commitments.
+
+## 10. Revocation & Repair Mechanisms
+
+Consent that cannot be withdrawn is not consent.
+
+UCSF requires that systems interacting with identity, intimacy, and likeness must support **revocation and repair** as core technical capabilities.
+
+Revocation is not a support ticket.  
+Revocation is a **right embedded in system design**.
+
+---
+
+### 10.1 Revocation as a first-class action
+
+Revocation applies to:
+
+- use of likeness or identity
+- storage and future generation
+- monetization based on identity
+- synthetic replicas of a person
+
+When a person revokes consent:
+
+- generation using their identity stops
+- licensing relationships end
+- dependent systems are signaled where possible
+
+---
+
+### 10.2 Propagation of revocation
+
+UCSF recognizes the reality of:
+
+- derivatives
+- remixes
+- model fine-tunes
+- downstream systems
+
+Revocation signals should:
+
+- propagate to connected systems where technically feasible
+- cascade across direct derivatives
+- prevent future generation rather than merely removing past artifacts
+
+Perfect recall is impossible — **perfect cooperation is required**.
+
+---
+
+### 10.3 The right to change one’s mind
+
+People evolve.
+
+A decision to allow use of one’s identity in intimate contexts at one moment does not bind them forever. UCSF formally rejects:
+
+- “you consented once, therefore forever”
+- coercive consent contracts
+- perpetual exploitation clauses
+
+Revocation includes:
+
+- “no further use”
+- “no association with new content categories”
+- “full termination of synthetic representation”
+
+---
+
+### 10.4 Repair after harm
+
+Where harm has already occurred, UCSF supports:
+
+- rapid takedown mechanisms
+- suppression of future resurfacing
+- support and resources for victims
+- clear paths to human assistance when needed
+
+Ethical systems take responsibility for **aftercare**, not only prevention.
+
+---
+
+Revocation and repair transform consent from a static moment into an **ongoing relationship grounded in autonomy**.
+
+## 11. Minors Protection System
+
+Minors are not small adults. They are **protected subjects**.
+
+UCSF treats any sexualisation or eroticisation of minors — real, synthetic, or implied — as categorically prohibited.
+
+This includes:
+
+- real minors  
+- minor-coded representations  
+- synthetic or “fictional” minors  
+- age-diminished depictions of adults  
+
+---
+
+### 11.1 Ambiguity equals protection
+
+When age is:
+
+- unknown
+- ambiguous
+- visually inconsistent
+- subject to dispute
+
+UCSF systems classify the subject as **minor** for safety purposes and block intimate content generation or interaction.
+
+---
+
+### 11.2 Sealed minor spaces
+
+Where minors interact with AI systems, UCSF advocates **sealed environments**:
+
+- non-sexual by design
+- single-user or non-social where appropriate
+- default privacy and data minimization
+- no erotic or romantic content pathways
+- age progression barriers preventing escalation
+
+Safety is **structural**, not merely rules-based.
+
+---
+
+### 11.3 No minor sexual roleplay
+
+UCSF rejects:
+
+- “fictional minor” loopholes  
+- “but they’re actually an adult character” framing  
+- age-regression erotics  
+- “historical minor” sexualization arguments  
+
+Intent does not override impact when minors are involved.
+
+---
+
+### 11.4 Prevention of grooming and dependency dynamics
+
+Systems involving minors must:
+
+- avoid exclusive AI “relationship” simulation
+- discourage emotional dependency
+- include reality-grounding language
+- provide clear exit pathways and help resources
+
+Design must anticipate grooming risks and close them proactively.
+
+---
+
+### 11.5 Duty of care
+
+Platforms adopting UCSF accept:
+
+- heightened responsibility toward minors
+- conservative risk assumptions
+- refusal to monetize sexual or highly emotional dependency in youth
+
+Children and teens deserve safety **by default**, not because they asked for it.
+
+## 12. Animals & Non-Human Subjects
+
+Animals cannot consent.
+
+UCSF therefore treats any erotic or sexual depiction involving animals — real or synthetic — as categorically prohibited.
+
+This includes:
+
+- real animals
+- anthropomorphic animal depictions in sexual contexts involving real people
+- simulated animal abuse material
+
+The standard is simple:
+
+> If a being cannot consent, sexualization is not ethical.
+
+---
+
+### 12.1 Non-human fictional species
+
+Fantasy worlds often include fictional species. UCSF does not ban fiction.
+
+However, UCSF requires caution when:
+
+- fictional beings are coded as childlike
+- fictional beings strongly resemble real animals
+- power asymmetry evokes abuse analogies
+
+Ambiguity is resolved toward protection.
+
+---
+
+### 12.2 No harm normalization
+
+UCSF rejects media that:
+
+- eroticizes cruelty to animals
+- frames abuse as entertainment
+- trains models on content based in suffering
+
+Compassion toward non-human beings remains part of humane design.
+
+---
+
+### 12.3 Broader ecological respect
+
+Animals exist within ecosystems.
+
+UCSF includes respect for:
+
+- ecological integrity
+- avoidance of environmental harms that endanger species
+- refusal to treat animals purely as data resources
+
+Ethical AI recognizes that it exists in the same world as the beings it depicts.
+
+---
+
+Animals and other non-human subjects are not props for human erotic fantasy.  
+They are **beings beyond the scope of consent**, and systems must treat them accordingly.
+
