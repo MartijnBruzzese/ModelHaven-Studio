@@ -306,3 +306,224 @@ When these costs are pushed onto marginalized communities without consultation o
 UCSF asserts that:
 
 > A system cannot be ethical if the people and environments sustaining it are harmed without voice, transparency, or benefit.
+
+## 4. Design Goals of UCSF
+
+UCSF is not only a set of values; it is a design framework meant to be implemented in real systems. The framework is guided by a small number of clear goals that shape every component that follows.
+
+### 4.1 Consent as a first-class system primitive
+
+Consent must not be implied, assumed, or buried in terms of service. In UCSF:
+
+- consent is explicit
+- consent is specific
+- consent is revocable
+- consent is technically represented as a data object
+
+Systems built on UCSF know **who consented to what, when, and under which conditions**.
+
+### 4.2 Fail-closed safety by default
+
+If identity, age, or consent is uncertain, the system:
+
+> defaults to safety, not permissiveness.
+
+This means:
+
+- ambiguity about age → blocked
+- ambiguity about consent → blocked
+- ambiguity about identity source → blocked
+
+The burden of proof lies on enabling risky output, not on preventing it.
+
+### 4.3 Absolute protection of minors and animals
+
+UCSF treats minors and animals as **protected subjects**.
+
+- no sexualisation  
+- no erotic roleplay involving minors  
+- no “minor-coded” workarounds  
+- no simulated abuse of animals  
+
+Ambiguity resolves toward protection.
+
+### 4.4 Separation of fiction and real identity
+
+Fiction is legitimate and important. UCSF preserves it by enforcing:
+
+- clear separation of **fictional characters**
+- clear boundaries for **real people’s identities**
+
+Fantasy remains possible without dragging unwilling real people into it.
+
+### 4.5 Revocation and repair
+
+Consent that cannot be revoked is not consent.
+
+UCSF requires:
+
+- revocation mechanisms
+- propagation of revocation across systems
+- ability to stop ongoing use of identity or likeness
+
+Repair of harm is a core capability, not an afterthought.
+
+### 4.6 Transparency without exposure
+
+Users should know:
+
+- when identity is synthetic
+- when consent applies
+- when protections are active
+
+But private information should not be revealed to achieve transparency.
+
+### 4.7 Non-exploitation of vulnerable users
+
+Systems touching intimacy must:
+
+- avoid addictive engagement loops
+- avoid emotional manipulation
+- not monetize increasing dependency or distress
+
+Compassion is part of safety.
+
+### 4.8 No externalization of hidden harms
+
+A system is not ethical if it simply moves harm elsewhere.
+
+UCSF design goals include attention to:
+
+- environmental impact
+- labor conditions
+- affected local communities
+
+Ethics extend beyond the screen.
+
+## 5. Relationship to ModelHaven
+
+UCSF is a **framework**.  
+ModelHaven is a **reference implementation concept**.
+
+UCSF defines:
+
+- principles
+- primitives
+- protections
+- architecture
+- governance patterns
+
+ModelHaven shows:
+
+- what a culture built on UCSF could feel like
+- how creators and audiences coexist safely
+- how fiction and autonomy can thrive without exploitation
+
+UCSF answers the question:
+
+> “What rules must an ethical AI intimacy ecosystem follow?”
+
+ModelHaven answers the question:
+
+> “What kind of world can we build if we follow those rules?”
+
+They are independent but complementary:
+
+- UCSF can be used without ModelHaven
+- ModelHaven should always be grounded in UCSF
+- both evolve separately, but in dialogue
+
+In this white paper, ModelHaven appears **only as an illustrative example**, not as the goal of the framework. Any platform could implement UCSF, including ones not yet imagined.
+
+## 6. Core Concepts & Definitions
+
+To make UCSF practical, several key terms require precise meaning.
+
+### 6.1 Identity
+
+“Identity” refers to:
+
+- a real person’s face, body, voice, or distinctive traits
+- a composite that is strongly recognizable as a specific person
+
+Identity use includes both:
+
+- direct depiction
+- close imitative resemblance
+
+### 6.2 Likeness
+
+Likeness is the recognizable representation of a person even when:
+
+- the name is changed
+- small traits differ
+- the image is “stylized”
+
+If a reasonable observer would say “that is clearly X,” the likeness is active.
+
+### 6.3 Fictional character
+
+A fictional character is:
+
+- not a real person
+- not strongly mapped to a real person
+- safe from accidental identity appropriation
+
+UCSF encourages clear signaling of fictional status.
+
+### 6.4 Consent
+
+Consent in UCSF is:
+
+- informed
+- specific
+- limited in scope
+- tied to identity use
+- **revocable**
+
+Consent is represented as a **consent object**, not a checkbox.
+
+### 6.5 Revocation
+
+Revocation means:
+
+- the right to withdraw previous consent
+- the stopping of future generation or distribution
+- the propagation of that change downstream when possible
+
+Revocation is a **core right**, not a customer service feature.
+
+### 6.6 Minor
+
+A minor is a person under the age defined by applicable law.  
+In UCSF, ambiguity about age is treated as **minor status**.
+
+Minor-coded depictions are treated as minors for safety purposes.
+
+### 6.7 Protected subjects
+
+Protected subjects include:
+
+- minors
+- animals
+- people lacking capacity to consent
+- people under coercion or duress
+
+### 6.8 Parasocial system
+
+A parasocial system is:
+
+- an AI or media system simulating relationship or intimacy
+- designed such that emotional attachment becomes one-directional
+
+UCSF evaluates these for **dependency risk and manipulative design**.
+
+### 6.9 Fail-closed behavior
+
+Fail-closed means:
+
+> When uncertainty exists, the system stops rather than proceeds.
+
+This is a foundational UCSF design pattern.
+
+These definitions form the language used in all later chapters of this book.
