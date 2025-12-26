@@ -3,7 +3,7 @@ layout: default
 title: LICENSE
 
 ---
-
+This license applies to all documents in this repository unless otherwise stated.
 
 # Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International Public License
 
