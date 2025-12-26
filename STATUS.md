@@ -1,4 +1,4 @@
-# Project Status – Toward Humane AI / ModelHaven
+no# Project Status – Toward Humane AI / ModelHaven
 
 This document tracks **where the project stands right now**: what is drafted, what is stable, and what is still exploratory or awaiting peer review.
 
@@ -136,4 +136,4 @@ This is a **framework + research + writing project**, intentionally open-ended.
 
 ---
 
-_Last updated: december 26 2025
+_Last updated: December 26, 2025_
