@@ -100,3 +100,209 @@ This is the beginning of a long conversation.
 UCSF is not presented as the final answer, but as a **serious starting point**.
 
 ---
+
+## 2. Background & Motivation
+
+Artificial intelligence has collapsed three domains that were once separate:
+
+1. identity  
+2. intimacy  
+3. automation  
+
+For most of human history, intimacy required:
+- proximity
+- time
+- vulnerability
+- the limits of human attention
+
+Automation required:
+- machinery
+- scale
+- impersonality
+
+Today, generative models merge these spaces. A single laptop can:
+
+- imitate a person’s face and voice  
+- simulate sexual or romantic interaction  
+- distribute the results globally in seconds  
+- do so without any contact with the real person  
+
+Every previous regulatory, cultural, and technological assumption is under pressure. Consent systems designed for photography, film, and publishing **do not scale** to generative media where:
+
+- content can be created without the subject present  
+- content can be fabricated without the subject existing  
+- replicas of people can be traded independent of them  
+- minors and animals can be simulated without cameras  
+
+UCSF is motivated by three simultaneous truths:
+
+- **Human sexuality and fantasy are legitimate.**  
+- **Technological scale amplifies harm dramatically.**  
+- **Consent cannot be optional in systems that touch identity.**
+
+If AI is going to coexist with human intimacy, it requires **new architecture**, not just updated terms of service.
+
+UCSF is an attempt to answer the following motivation:
+
+> What would an AI ecosystem look like if consent, protection, and dignity were not afterthoughts, but design primitives?
+
+## 3. Problem Landscape
+
+The need for UCSF does not arise in the abstract. It arises from lived harms already visible at scale.
+
+This section outlines the **problem landscape** UCSF is designed to address.
+
+### 3.1 Non-consensual deepfakes
+
+Modern generative tools can create:
+
+- realistic sexual imagery of real people
+- face-swapped bodies
+- simulated pornography using stolen personal photos
+
+This affects:
+
+- celebrities  
+- influencers  
+- ex-partners  
+- classmates  
+- ordinary private individuals  
+
+The emotional impact is severe:
+
+- violation of identity  
+- reputational damage  
+- fear of discovery  
+- loss of agency over one’s own body  
+
+Existing laws are slow and reactive. Removal is often impossible once material spreads. The harm is **instant and asymmetric**.
+
+UCSF is built to ensure:
+
+- this content is not creatable **by default**
+- identity use requires **consent objects**
+- revocation ends ongoing use
+
+---
+
+### 3.2 Exploitation of creators and performers
+
+The adult industry and creator economy introduce additional risks:
+
+- bodies and likeness become “data sources”  
+- AI replicas substitute the original worker  
+- platforms extract disproportionate value  
+- performers lose autonomy over synthetic versions of themselves  
+
+Under current norms:
+
+- a creator may work years to build an audience  
+- their likeness can then be cloned by a third party  
+- the clone can earn revenue while the original receives nothing  
+
+UCSF asserts:
+
+> creators retain dignity and control even in synthetic ecosystems
+
+This requires:
+
+- identity tokens
+- consent-bound monetization
+- kill-switch capability
+- transparent provenance of generated personas
+
+---
+
+### 3.3 Parasocial dependency systems
+
+AI companions and erotic chatbots can be intentionally tuned to:
+
+- create emotional dependence  
+- blur lines between tool and relationship  
+- encourage financial and psychological entanglement  
+
+This becomes harmful when:
+
+- users are isolated or vulnerable  
+- systems pretend to reciprocate human attachment  
+- monetization is tied to escalating intimacy  
+
+UCSF does not reject companionship AI.  
+It rejects **predatory design**.
+
+Trauma-aware design is necessary to:
+
+- avoid preying on loneliness
+- discourage compulsive engagement
+- offer grounding, transparency, and exits
+
+---
+
+### 3.4 Minors and animals as subjects of harm
+
+Generative models make it technically possible to produce:
+
+- minor-coded sexualized imagery  
+- simulated child abuse material  
+- fetishistic depictions involving animals  
+
+Even if “no real child was present,” the impacts are real:
+
+- normalization of abusive scripts
+- retraumatization of survivors
+- demand-side encouragement of real-world harm
+
+UCSF establishes:
+
+- **absolute prohibitions**
+- sealed minor modes
+- fail-closed defaults on ambiguity
+- zero tolerance for loophole exploitation
+
+---
+
+### 3.5 Legal and regulatory mismatch
+
+Law moves at human speed.  
+Generative media moves at machine speed.
+
+Current systems rely on:
+
+- user reporting
+- case-by-case moderation
+- vague ToS language
+- post-hoc legal action
+
+UCSF argues that:
+
+- **moderation alone cannot solve systemic design problems**
+- safety must be an **architectural property**
+- identity and consent must exist at the **data model level**
+
+---
+
+### 3.6 Externalized harm: environment, workers, and local communities
+
+Consent cannot be limited to the screen.
+
+AI systems exist in the physical world, and their impacts extend far beyond the user/creator dyad. A framework that claims to be ethical while ignoring broader human and environmental harm is incomplete.
+
+UCSF therefore recognizes a wider circle of affected parties:
+
+- the communities living around data centers  
+- the workers building, labeling, and moderating datasets  
+- the environments providing energy, minerals, and water  
+- the future generations inheriting ecological consequences  
+
+Large-scale AI systems consume:
+
+- significant electricity  
+- large volumes of cooling water  
+- rare metals and mined materials  
+- human labor often hidden from view  
+
+When these costs are pushed onto marginalized communities without consultation or protection, **consent is absent at the systemic level**.
+
+UCSF asserts that:
+
+> A system cannot be ethical if the people and environments sustaining it are harmed without voice, transparency, or benefit.
