@@ -527,3 +527,280 @@ Fail-closed means:
 This is a foundational UCSF design pattern.
 
 These definitions form the language used in all later chapters of this book.
+
+## 7. Core Primitives of UCSF
+
+UCSF becomes real when its principles are translated into **technical primitives** — concrete structures that can exist inside software systems. These are the building blocks that make consent, protection, and revocation enforceable in practice.
+
+UCSF defines five core primitives.
+
+---
+
+### 7.1 Consent Object
+
+A **Consent Object** is a structured record that encodes:
+
+- who is giving consent
+- to what use of identity or likeness
+- under what limits or context
+- for how long
+- with what right to revoke
+
+A valid consent object is:
+
+- **verifiable**
+- **specific**, not blanket permission
+- **time-bound** or scope-bound
+- **human-readable and machine-readable**
+
+Consent objects are not hidden in Terms of Service. They attach directly to:
+
+- specific identities
+- specific purposes
+- specific systems
+
+---
+
+### 7.2 Identity Token
+
+An **Identity Token** is a secure representation of identity or likeness used by a system. It helps distinguish:
+
+- real identifiable people
+- fictional characters
+- composites and synthetic identities
+
+Identity tokens allow systems to:
+
+- avoid accidental impersonation
+- detect non-consensual cloning
+- respect identity-based restrictions
+
+They do **not** expose personal details — only the fact that identity protections apply.
+
+---
+
+### 7.3 Revocation Signal
+
+Consent without revocation is not ethical consent.
+
+A **Revocation Signal** is:
+
+- a formal message withdrawing consent
+- bound to the original Consent Object
+- propagated across dependent systems when possible
+
+Systems implementing UCSF must:
+
+- stop future use after revocation
+- avoid adversarial retention of identity
+- respect jurisdictional takedown obligations
+
+Revocation is treated as:
+
+> a safety mechanism, not a customer complaint.
+
+---
+
+### 7.4 Safety Mode Flags
+
+Safety Mode Flags represent states such as:
+
+- minor detected or ambiguous
+- animal involvement
+- high emotional dependency risk
+- trauma-aligned interaction safeguards active
+
+These flags cause **automatic fail-closed behavior** when needed.
+
+---
+
+### 7.5 Provenance & Transparency Tags
+
+Systems must indicate:
+
+- whether content is synthetic
+- whether identity is fictional or real
+- whether consent applies
+
+Transparency tags do **not** expose sensitive information; they simply prevent deception.
+
+---
+
+Together, these primitives allow UCSF systems to **reason about consent, identity, risk, and reversibility as core data features**, not afterthoughts.
+
+## 8. Architecture Overview
+
+UCSF is not a single program. It is an **architecture pattern** that other systems can adopt.
+
+Below is a simplified description of the UCSF processing flow.
+
+---
+
+### 8.1 Request Intake
+
+A user or process makes a request such as:
+
+- generate content
+- transform content
+- simulate relationship interaction
+- train or fine-tune a model
+
+The system first analyzes:
+
+- Does the request include identity?
+- Is the identity real, fictional, or ambiguous?
+- Does the request involve intimacy or erotic context?
+
+---
+
+### 8.2 Identity & Age Assessment
+
+The system checks:
+
+- identity tokens, if present
+- likeness recognition risk
+- age ambiguity thresholds
+
+Outcomes:
+
+- **clearly fictional** → proceed
+- **clearly real adult identity** → check consent
+- **uncertain / minor-coded / ambiguous** → block by default
+
+---
+
+### 8.3 Consent & Scope Evaluation
+
+If real identity or clear likeness is involved:
+
+- retrieve applicable Consent Object(s)
+- verify scope covers requested use
+- verify time and context constraints
+- check for **Revocation Signals**
+
+If any condition fails → **fail-closed default**.
+
+---
+
+### 8.4 Safety Modes Activation
+
+Based on request and context, the system may activate:
+
+- minor protection mode
+- animal protection mode
+- parasocial risk reduction measures
+- disclosure of synthetic identity
+- trauma-aware constraints on interaction style
+
+These operate automatically.
+
+---
+
+### 8.5 Output Governance
+
+Before output is returned:
+
+- provenance & transparency tags attach
+- prohibited categories are filtered out
+- revocation-blocked identity uses are halted
+- dependent content may be quarantined for review
+
+---
+
+### 8.6 Audit & Accountability Layer
+
+UCSF encourages:
+
+- logged safety decisions
+- appeal pathways
+- independent audit capability
+
+But audit logs must protect privacy and not expose vulnerable individuals.
+
+---
+
+This architecture turns principles into behavior:
+
+> Systems do not “hope” to act ethically — they are built so that unethical behavior is technically difficult or impossible.
+
+## 9. Safety Defaults & Fail-Closed Design
+
+Safety defaults are the backbone of UCSF.
+
+Many existing systems behave as:
+
+> “Allow unless clearly illegal.”
+
+UCSF reverses this posture:
+
+> **Deny when identity, consent, or age are uncertain.**
+
+---
+
+### 9.1 Ambiguity resolves toward protection
+
+Examples:
+
+- uncertain age → treat as minor
+- uncertain consent → no identity use
+- uncertain likeness ownership → blocked
+- ambiguous animal content → blocked
+
+The system does not argue technicalities against safety.
+
+---
+
+### 9.2 Fail-closed rather than fail-open
+
+A fail-open system continues operation during uncertainty.
+
+A fail-closed system:
+
+- halts the risky action
+- preserves records for appeal
+- prefers inaction over harm
+
+This mirrors real-world safety engineering in:
+
+- aviation
+- medicine
+- cybersecurity
+
+UCSF applies it to **identity and intimacy**.
+
+---
+
+### 9.3 No adversarial loophole gaming
+
+UCSF explicitly rejects:
+
+- “she looks 18” rationalizations  
+- renaming minors to claim fiction  
+- cosmetic modifications of real likeness to claim novelty  
+- vague disclaimers replacing consent  
+
+Ethics cannot depend on pretending not to notice obvious risks.
+
+---
+
+### 9.4 Respect for legitimate adult autonomy
+
+Fail-closed does **not** mean:
+
+- eliminating sexual expression
+- banning adult fantasy
+- infantilizing consenting adults
+
+Within UCSF systems:
+
+- consenting adults retain autonomy
+- fiction remains vibrant
+- creators control their participation
+
+Fail-closed means:
+
+> Harm is prevented **without** erasing legitimate adult expression.
+
+---
+
+Fail-closed design is the **engineering expression** of UCSF’s moral commitments.
