@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Toward Humane AI — Book Draft
+title: Book Draft — Toward Humane AI
 ---
+
+# Book Draft — Toward Humane AI
 
 ![Book cover](/images/book_cover_small.png){: style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;" }
 
