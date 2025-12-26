@@ -7,28 +7,40 @@ title: Toward Humane AI
 
 Welcome to the working space for the **Toward Humane AI** manifesto and book draft.
 
+This project is part of a broader initiative exploring ethical, humane artificial intelligence, creator autonomy, consent systems, and safer digital ecosystems.
+
+---
+
+## 🛰️ ModelHaven – Initiative
+
+**Model Haven** is the idea of a refuge:
+
+A place where:
+- fictional AI characters are clearly fictional
+- consent and autonomy are respected by design
+- identity theft and exploitation are not “business models”
+- creators and audiences meet within clear boundaries
+- fantasy remains fantasy — without harming real people
+- animals are protected from abusive representation and exploitation 
+
+Model Haven is not about censorship.  
+It is about **safety with dignity** — humane systems that fail closed rather than fail people and animals. 
+
+This space is part of that journey.
+
 ---
 
 ## 📜 Manifesto
 
-The full manifesto lives in the README of this repository and defines the core principles:
-
-- Humane AI
-- Consent
-- Fictionalization for protection
-- Ethical creator economies
-
-You can read the manifesto here:
-
-👉 [Toward Humane AI — Manifesto](README.md)
+👉 **Read the full manifesto:**  
+[Toward Humane AI — Manifesto](README.md)
 
 ---
 
 ## 📘 Book Draft
 
-This page collects the current draft of the book:
-
-👉 [Book Draft](BOOK_DRAFT.md)
+👉 **Read the book draft here:**  
+[BOOK_DRAFT.md](BOOK_DRAFT.md)
 
 ---
 
