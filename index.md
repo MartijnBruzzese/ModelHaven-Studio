@@ -46,6 +46,11 @@ This space is part of that journey.
 
 ---
 
-## 📚 Cover
+<h2>📚 Cover</h2>
 
-[![Book cover](/images/book_cover_small.png){: style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;" }](BOOK_DRAFT.md)
+<p align="center">
+  <a href="/BOOK_DRAFT.html">
+    <img src="/images/book_cover_small.png"
+         style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;">
+  </a>
+</p>
