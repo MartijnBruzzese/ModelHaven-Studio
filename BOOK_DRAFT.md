@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Book Draft — Toward Humane AI
 ---
 
 # Book Draft — Toward Humane AI
