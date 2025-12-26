@@ -36,6 +36,7 @@ This space is part of that journey.
 - 📘 **Book Draft** – [BOOK_DRAFT.md](BOOK_DRAFT.md)
 - 🧩 **Framework** – [FRAMEWORK.md](FRAMEWORK.md)
 - 🧭 **Principles** – [PRINCIPLES.md](PRINCIPLES.md)
+- 🧬 **Core Primitives (Spec)** – [PRIMITIVES.md](PRIMITIVES.md)
 - 🎯 **Scope** – [SCOPE.md](SCOPE.md)
 - 🏛️ **Governance** – [GOVERNANCE.md](GOVERNANCE.md)
 - 🧪 **Open Questions** – [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md)
