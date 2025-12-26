@@ -1,29 +1,37 @@
 ---
 layout: default
-title: ModelHaven Studio
+title: Toward Humane AI
 ---
 
-# ModelHaven Studio (working title)
+# Toward Humane AI
 
-<span class="status"><strong>Status:</strong> Beta (Experimental)</span>
-
-ModelHaven Studio is an experimental creative platform initiative.
-All structures, documents, and decisions are provisional during Beta.
-The intent is to allow critique, reflection, and correction before any form of lock-in.
+Welcome to the working space for the **Toward Humane AI** manifesto and book draft.
 
 ---
 
-## Documentation
+## 📜 Manifesto
 
-- [README](README.html)
-- [Framework](FRAMEWORK.html)
-- [Core Principles](PRINCIPLES.html)
-- [Open Questions](OPEN_QUESTIONS.html)
-- [Scope](SCOPE.html)
-- [Contributing](CONTRIBUTING.html)
-- [Governance](GOVERNANCE.html)
-- [Book Draft — The Why and The How](BOOK_DRAFT.html)
+The full manifesto lives in the README of this repository and defines the core principles:
+
+- Humane AI
+- Consent
+- Fictionalization for protection
+- Ethical creator economies
+
+You can read the manifesto here:
+
+👉 [Toward Humane AI — Manifesto](README.md)
 
 ---
 
-All documents are published openly for peer review.
+## 📘 Book Draft
+
+This page collects the current draft of the book:
+
+👉 [Book Draft](BOOK_DRAFT.md)
+
+---
+
+## 📚 Cover
+
+![Book cover](/images/book_cover_small.png){: style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;" }
