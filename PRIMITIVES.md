@@ -1,6 +1,5 @@
 ---
-style: default
-
+layout: default
 ---
 
 # UCSF Core Primitives – Consent, Identity, Revocation, Safety Modes
