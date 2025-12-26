@@ -9,6 +9,64 @@ layout: default
 **Date:** December 26, 2025  
 
 ---
+## Table of Contents
+
+- [Preface](#preface)
+
+- [Introduction](#1-introduction)
+
+- [Background & Motivation](#2-background--motivation)
+
+- [Problem Landscape](#3-problem-landscape)
+  - [Non-consensual deepfakes](#31-non-consensual-deepfakes)
+  - [Exploitation of creators and performers](#32-exploitation-of-creators-and-performers)
+  - [Parasocial dependency systems](#33-parasocial-dependency-systems)
+  - [Minors and animals as subjects of harm](#34-minors-and-animals-as-subjects-of-harm)
+  - [Legal and regulatory mismatch](#35-legal-and-regulatory-mismatch)
+  - [Externalized harm: environment, workers, and communities](#36-externalized-harm-environment-workers-and-local-communities)
+
+- [Design Goals of UCSF](#4-design-goals-of-ucsf)
+
+- [Relationship to ModelHaven](#5-relationship-to-modelhaven)
+
+- [Core Concepts & Definitions](#6-core-concepts--definitions)
+
+- [Core Primitives of UCSF](#7-core-primitives-of-ucsf)
+
+- [Architecture Overview](#8-architecture-overview)
+
+- [Safety Defaults & Fail-Closed Design](#9-safety-defaults--fail-closed-design)
+
+- [Revocation & Repair Mechanisms](#10-revocation--repair-mechanisms)
+
+- [Minors Protection System](#11-minors-protection-system)
+
+- [Animals & Non-Human Subjects](#12-animals--non-human-subjects)
+
+- [Vulnerable Users & Trauma-Aware Design](#13-vulnerable-users--trauma-aware-design)
+
+- [Fiction vs Identity Separation](#14-fiction-vs-identity-separation)
+
+- [Governance & Accountability](#15-governance--accountability)
+
+- [Certification & Compliance Paths](#16-certification--compliance-paths)
+
+- [Ethical Positioning](#17-ethical-positioning)
+
+- [Limitations of UCSF](#18-limitations-of-ucsf)
+
+- [Open Research Questions](#19-open-research-questions)
+
+- [Adoption Roadmap](#20-adoption-roadmap)
+
+- [Conclusion](#21-conclusion)
+
+- [Call for Peer Review](#22-call-for-peer-review)
+
+- [Acknowledgements](#acknowledgements)
+  - [Authorship & Method Note](#authorship--method-note)
+  - [Copyright & License](#copyright--license)
+
 
 ## Preface
 
