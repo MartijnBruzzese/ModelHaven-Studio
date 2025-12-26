@@ -1,64 +1,114 @@
 ---
 layout: default
-title: Toward Humane AI
+title: UCSF & ModelHaven Studio 
 ---
 
 # Toward Humane AI  
 ### ModelHaven Studio
 
-A working space for building ethical, humane AI ecosystems focused on:
+This repository is the working space for:
 
-- consent and autonomy  
-- creator and performer protection  
-- clear distinction between fiction and identity  
-- strong protection for minors and animals  
-- trauma-aware system design  
-- fail-closed safety architecture  
-- reducing exploitation and non-consensual synthetic media  
+- **ModelHaven** — a refuge concept for ethical AI characters and media  
+- **UCSF – Universal Consent & Safety Framework** — technical & ethical framework  
+- **Toward Humane AI** — manifesto and book-length explorations  
 
-This repository contains the **ModelHaven initiative** and the **Universal Consent & Safety Framework (UCSF)**.
+Focus areas:
+
+- consent and autonomy by design  
+- clear separation between fiction and real identity  
+- protection of minors and animals  
+- trauma-aware interaction design  
+- revocation & repair mechanisms  
+- fail-closed safety defaults  
+- non-exploitation of creators and performers  
+- prevention of non-consensual synthetic media  
 
 ---
 
 ## 📚 Core Documents
 
-- 📜 **Toward Humane AI – Manifesto**  
-  → [MANIFESTO.md](MANIFESTO.md)
+### Primary Works
+
+- 📜 **Toward Humane AI — Manifesto**  
+  → **[MANIFESTO.md](MANIFESTO.md)**
 
 - 📘 **ModelHaven Book / Draft**  
-  → [MODELHAVEN_BOOK.md](MODELHAVEN_BOOK.md)
+  → **[MODELHAVEN_BOOK.md](MODELHAVEN_BOOK.md)**
 
-- 🛡️ **UCSF – Universal Consent & Safety Framework (Book / White Paper)**  
-  → [UCSF_BOOK.md](UCSF_BOOK.md)
+- 🛡️ **UCSF — Universal Consent & Safety Framework (White Paper / Book)**  
+  → **[UCSF_BOOK.md](UCSF_BOOK.md)**
 
 ---
 
-## 🧭 Project Overview
+### Supporting Project Documents
+
+- 🧭 **Principles**  
+  → **[PRINCIPLES.md](PRINCIPLES.md)**
+
+- 🧩 **Framework Notes & Structure**  
+  → **[FRAMEWORK.md](FRAMEWORK.md)**
+
+- 🗺️ **Scope Definition**  
+  → **[SCOPE.md](SCOPE.md)**
+
+- 🏛️ **Governance Model**  
+  → **[GOVERNANCE.md](GOVERNANCE.md)**
+
+- ❓ **Open Questions & Research Threads**  
+  → **[OPEN_QUESTIONS.md](OPEN_QUESTIONS.md)**
+
+- 🏷️ **Naming & Terminology Development**  
+  → **[NAMING.md](NAMING.md)**
+
+- 🤝 **Contributing Guide**  
+  → **[CONTRIBUTING.md](CONTRIBUTING.md)**
+
+- 📊 **Project Status Log**  
+  → **[STATUS.md](STATUS.md)**
+
+---
+
+## 🗂 Repository Structure
+
+- **/images/** — book covers, diagrams, assets  
+- **/docs/** — notes & future expansions  
+- **[UCSF_BOOK.md](UCSF_BOOK.md)** — UCSF white paper / book  
+- **[MODELHAVEN_BOOK.md](MODELHAVEN_BOOK.md)** — ModelHaven book draft  
+- **[MANIFESTO.md](MANIFESTO.md)** — Toward Humane AI manifesto  
+- **[LICENSE.md](LICENSE.md)** — MIT (code) + CC BY-NC 4.0 (documents)
+
+---
+
+## 🧭 What is ModelHaven?
 
 ModelHaven is the idea of a **refuge**:
 
 A place where:
 
 - fictional AI characters are clearly fictional  
-- identity and likeness are not exploited  
-- animals and minors are protected  
-- consent is real and revocable  
-- creators retain agency  
+- identity theft is not a business model  
+- consent is real, revocable, and respected  
+- minors and animals are absolutely protected  
+- creators retain control of their likeness and labor  
 - fantasy remains fantasy without harming real people  
-
-UCSF provides the **technical and ethical framework** supporting this vision.
 
 ---
 
-## 🗂 Project Structure
+## 🛡️ What is UCSF?
 
-- `/images` — covers, diagrams, visual assets  
-- `/docs` — auxiliary notes and future expansions  
-- `MODELHAVEN_BOOK.md` — ModelHaven book draft  
-- `UCSF_BOOK.md` — UCSF white paper / book  
-- `MANIFESTO.md` — Toward Humane AI manifesto  
-- `STATUS.md` — current progress and open tasks  
-- `LICENSE.md` — project licensing (MIT + CC BY-NC 4.0)
+The **Universal Consent & Safety Framework (UCSF)** is:
+
+- a design framework  
+- a safety architecture  
+- an ethical foundation for AI systems touching intimacy and identity  
+
+It provides:
+
+- consent primitives  
+- revocation and repair pathways  
+- minors-protection core  
+- trauma-aware design guidance  
+- governance and accountability models  
 
 ---
 
@@ -66,47 +116,45 @@ UCSF provides the **technical and ethical framework** supporting this vision.
 
 See: **[STATUS.md](STATUS.md)**
 
-The project is currently in:
+Current phase:
 
-- drafting phase for both books  
-- consolidation of notes → structured documents  
-- preparing for peer review release
+- drafting and consolidating books  
+- structuring framework documents  
+- preparing for external peer review  
 
 ---
 
 ## 🧑‍⚖️ Licensing
 
-- 🔓 **Code** — MIT License  
-- 📄 **Books & written content** — Creative Commons Attribution–NonCommercial 4.0  
+- 💻 **Code:** MIT License  
+- 📄 **Books & Written Content:** Creative Commons Attribution–NonCommercial 4.0  
 
-Full details: **[LICENSE.md](LICENSE.md)**
-
----
-
-## 🤝 Contributing / Peer Review
-
-This is an open working space.
-
-You may:
-
-- read and share  
-- open issues  
-- suggest improvements  
-- provide ethical, legal, or technical critique  
-
-Commercial reuse requires permission.
+Full text and details: **[LICENSE.md](LICENSE.md)**
 
 ---
 
-## ✉️ Contact / Attribution
+## 🤝 Peer Review & Contribution
+
+You are welcome to:
+
+- read and share the documents  
+- open issues or suggestions  
+- propose edits or structural feedback  
+- engage in ethical or technical critique  
+
+Commercial use requires permission.
+
+---
+
+## ✉️ Attribution
 
 © 2025 **Martijn Bruzzese / HavenSmith**
 
-If you cite or reference this work, please attribute the author.
+If you cite or reference this work, please credit the author.
 
 ---
 
-### ⭐ Acknowledgement
+### 📝 Note on AI Assistance
 
-This project uses AI tools for **draft structuring and wording assistance**.  
-The **concepts, framework intent, and authorship** are human-originated.
+AI tools were used for **drafting and structuring support**.  
+The **ideas, frameworks, intentions, and ethical stance are authored by a human**.
