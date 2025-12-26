@@ -1546,3 +1546,4 @@ The AI did not originate the framework or its philosophy. Its role was assistive
 © 2025 Martijn Bruzzese / HavenSmith.
 
 This work is licensed under the Creative Commons Attribution–NonCommercial 4.0 International License (CC BY-NC 4.0). You may share and adapt this material for non-commercial purposes, provided appropriate credit is given to the author.
+For permissions beyond the scope of this license, please contact the author.
