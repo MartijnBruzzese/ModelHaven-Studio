@@ -46,11 +46,10 @@ This space is part of that journey.
 
 ---
 
-
 <h2>📚 Cover</h2>
 
 <p align="center">
-  <a href="https://github.com/martijnbruzzese/ModelHaven-Studio/blob/master/BOOK_DRAFT.md">
+  <a href="BOOK_DRAFT.html">
     <img src="images/book_cover_small.png"
          style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;">
   </a>
