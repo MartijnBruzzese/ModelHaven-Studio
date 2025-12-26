@@ -1,3 +1,9 @@
+---
+layout: default
+
+---
+
+
 # Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International Public License
 
 © 2025 **Martijn Bruzzese, publishing as Havensmith**
