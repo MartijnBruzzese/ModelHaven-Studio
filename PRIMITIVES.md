@@ -93,4 +93,144 @@ An **Identity Token** encodes the link between:
 and
 - AI-generated content that depicts or imitates them  
 
-It marks that **identity is involved**, not
+It marks that **identity is involved**, not just style or category.
+
+## 2.2 Required properties
+
+- `subject_id`
+- `token_id` (unique identifier)
+- `issued_at`
+- reference to at least one valid **Consent Object**
+
+## 2.3 Behavioural guarantees
+
+Systems MUST:
+
+- refuse to create Identity Tokens without consent  
+- invalidate Identity Tokens upon revocation  
+- prevent use for:
+  - non-consensual deepfakes  
+  - non-consensual erotica  
+  - harassment or impersonation  
+
+## 2.4 Identity vs Style separation
+
+Identity Tokens MUST be distinguished from:
+
+- **Style Tokens** — vibe, art style, aesthetic  
+- **Category Tokens** — general descriptors (e.g., redhead, biker, elf)
+
+UCSF requires systems to:
+
+- allow style transfer  
+- prevent **identity theft**
+
+This enables:
+
+> extracting aesthetic essence **without copying the person**.
+
+---
+
+# 3) Revocation Signal
+
+## 3.1 Definition
+
+A **Revocation Signal** is a global instruction issued by a subject to:
+
+- withdraw consent  
+- disable identity use  
+- invalidate Identity Tokens  
+
+## 3.2 Required behaviours
+
+Upon receiving a Revocation Signal, a UCSF-compliant system MUST:
+
+- propagate the revocation through dependent subsystems  
+- prevent further generation using the revoked identity  
+- mark related Identity Tokens as **invalid**  
+- default to:
+  - blocked output, or  
+  - fictionalised replacement content  
+
+## 3.3 Nature of revocation
+
+Revocation under UCSF is:
+
+- unilateral  
+- immediate  
+- does not require justification  
+
+Platform inconvenience is **not** a valid reason to deny revocation.
+
+---
+
+# 4) Safety Mode Flag
+
+## 4.1 Definition
+
+A **Safety Mode Flag** determines which kinds of content the system is allowed to generate.
+
+Minimum required modes:
+
+- `MINOR_MODE`
+- `ADULT_MODE`
+
+## 4.2 MINOR_MODE guarantees
+
+MINOR_MODE MUST:
+
+- disallow all erotic/sexual content  
+- prohibit sexualisation of minors entirely  
+- fail closed on age ambiguity  
+- reduce parasocial bonding mechanics  
+- avoid addictive interaction loops  
+
+## 4.3 ADULT_MODE guarantees
+
+ADULT_MODE MUST:
+
+- require Consent Objects for identity-based generation  
+- still prohibit minor/animal sexualisation absolutely  
+- provide revocation controls and exits  
+- fall back to fictionalisation where consent is absent or unclear  
+
+---
+
+# 5) Fictionalisation Engine (Conceptual Component)
+
+## 5.1 Purpose
+
+The Fictionalisation Engine exists to:
+
+- preserve fantasy  
+- avoid harming real people
+
+## 5.2 Behaviour
+
+When identity consent is missing or revoked, the engine:
+
+- strips identity-linked characteristics  
+- generates **fully fictional characters instead**  
+- clearly signals to the user that fictionalisation occurred  
+
+## 5.3 Hard constraints
+
+The Fictionalisation Engine MUST NOT:
+
+- recreate the same real person  
+- allow easy “reverse-engineering” of identity  
+- intentionally mimic minors or specific real individuals  
+
+---
+
+## ✔ Status of this document
+
+- Draft specification  
+- Implementation-agnostic  
+- Open to peer review  
+- Linked conceptually to:
+  - `FRAMEWORK.md`
+  - `PRINCIPLES.md`
+  - `BOOK_DRAFT.md`
+
+_Last updated: December 26, 2025_
