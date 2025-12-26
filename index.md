@@ -3,55 +3,110 @@ layout: default
 title: Toward Humane AI
 ---
 
-# Toward Humane AI
+# Toward Humane AI  
+### ModelHaven Studio
 
-Welcome to the working space for the **Toward Humane AI** manifesto and book draft.
+A working space for building ethical, humane AI ecosystems focused on:
 
-This project is part of a broader initiative exploring ethical, humane artificial intelligence, creator autonomy, consent systems, and safer digital ecosystems.
+- consent and autonomy  
+- creator and performer protection  
+- clear distinction between fiction and identity  
+- strong protection for minors and animals  
+- trauma-aware system design  
+- fail-closed safety architecture  
+- reducing exploitation and non-consensual synthetic media  
+
+This repository contains the **ModelHaven initiative** and the **Universal Consent & Safety Framework (UCSF)**.
 
 ---
 
-## 🛰️ ModelHaven – Initiative
+## 📚 Core Documents
 
-**Model Haven** is the idea of a refuge:
+- 📜 **Toward Humane AI – Manifesto**  
+  → [MANIFESTO.md](MANIFESTO.md)
+
+- 📘 **ModelHaven Book / Draft**  
+  → [MODELHAVEN_BOOK.md](MODELHAVEN_BOOK.md)
+
+- 🛡️ **UCSF – Universal Consent & Safety Framework (Book / White Paper)**  
+  → [UCSF_BOOK.md](UCSF_BOOK.md)
+
+---
+
+## 🧭 Project Overview
+
+ModelHaven is the idea of a **refuge**:
 
 A place where:
-- fictional AI characters are clearly fictional
-- consent and autonomy are respected by design
-- identity theft and exploitation are not business models
-- creators and audiences meet within clear boundaries
-- fantasy remains fantasy — without harming real people
-- animals are protected from abusive representation and exploitation
 
-Model Haven is not about censorship.  
-It is about **safety with dignity** — humane systems that fail closed rather than fail people and animals.
+- fictional AI characters are clearly fictional  
+- identity and likeness are not exploited  
+- animals and minors are protected  
+- consent is real and revocable  
+- creators retain agency  
+- fantasy remains fantasy without harming real people  
 
-This space is part of that journey.
+UCSF provides the **technical and ethical framework** supporting this vision.
 
 ---
 
-## 📑 Project Documents
+## 🗂 Project Structure
 
-- 📜 **Manifesto** – [README.md](README.md)
-- 📘 **Book Draft** – [BOOK_DRAFT.md](BOOK_DRAFT.md)
-- 🧩 **Framework** – [FRAMEWORK.md](FRAMEWORK.md)
-- 🧭 **Principles** – [PRINCIPLES.md](PRINCIPLES.md)
-- 🧬 **Core Primitives (Spec)** – [PRIMITIVES.md](PRIMITIVES.md)
-- 🎯 **Scope** – [SCOPE.md](SCOPE.md)
-- 🏛️ **Governance** – [GOVERNANCE.md](GOVERNANCE.md)
-- 🧪 **Open Questions** – [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md)
-- 🏷️ **Naming** – [NAMING.md](NAMING.md)
-- 📊 **Status** – [STATUS.md](STATUS.md)
-- 🤝 **Contributing** – [CONTRIBUTING.md](CONTRIBUTING.md)
-- 🛡️ **License** – [LICENSE.md](LICENSE.md)
+- `/images` — covers, diagrams, visual assets  
+- `/docs` — auxiliary notes and future expansions  
+- `MODELHAVEN_BOOK.md` — ModelHaven book draft  
+- `UCSF_BOOK.md` — UCSF white paper / book  
+- `MANIFESTO.md` — Toward Humane AI manifesto  
+- `STATUS.md` — current progress and open tasks  
+- `LICENSE.md` — project licensing (MIT + CC BY-NC 4.0)
 
 ---
 
-<h2>📚 Cover</h2>
+## 🚧 Project Status
 
-<p align="center">
-  <a href="BOOK_DRAFT.html">
-    <img src="images/book_cover_small.png"
-         style="max-width: 700px; width: 100%; height: auto; border-radius: 6px;">
-  </a>
-</p>
+See: **[STATUS.md](STATUS.md)**
+
+The project is currently in:
+
+- drafting phase for both books  
+- consolidation of notes → structured documents  
+- preparing for peer review release
+
+---
+
+## 🧑‍⚖️ Licensing
+
+- 🔓 **Code** — MIT License  
+- 📄 **Books & written content** — Creative Commons Attribution–NonCommercial 4.0  
+
+Full details: **[LICENSE.md](LICENSE.md)**
+
+---
+
+## 🤝 Contributing / Peer Review
+
+This is an open working space.
+
+You may:
+
+- read and share  
+- open issues  
+- suggest improvements  
+- provide ethical, legal, or technical critique  
+
+Commercial reuse requires permission.
+
+---
+
+## ✉️ Contact / Attribution
+
+© 2025 **Martijn Bruzzese / HavenSmith**
+
+If you cite or reference this work, please attribute the author.
+
+---
+
+### ⭐ Acknowledgement
+
+This project uses AI tools for **draft structuring and wording assistance**.  
+The **concepts, framework intent, and authorship** are human-originated.
