@@ -3,249 +3,125 @@ layout: default
 title: README
 ---
 
-# Toward Humane AI — Manifesto
+# Toward Humane AI – ModelHaven Studio
 
-## Preface
-This manifesto is not a rejection of technology.  
-It is a rejection of systems that forget the human being at the center of it.
+This repository is the working space for the **Toward Humane AI** manifesto and book draft, and for the emerging framework behind it.
 
-Artificial intelligence is no longer theoretical.  
-It is shaping relationships, economies, intimacy, identity, and power.
+It explores:
 
-Humane AI is not about slowing progress.  
-It is about **guiding it**.
+- ethical, humane artificial intelligence  
+- creator autonomy and protection  
+- consent systems and revocation  
+- safer digital ecosystems for intimacy, erotica, and parasocial AI  
 
-We do not ask for purity.  
-We ask for **dignity**.
+This file (`README.md`) is the **living manifesto**: it explains what this project is, why it exists, and how the other documents fit together.
 
 ---
 
-## 1. Humane AI in one sentence
-**Humane AI is AI designed so that nobody becomes an object.**
+## 🧩 UCSF & ModelHaven – how they fit together
 
-No person should be reduced to:
-- data to be extracted  
-- attention to be exploited  
-- likeness to be copied without consent  
-- content to be monetized without agency  
+Inside this project, there are two closely related ideas:
 
-AI must serve **people**, not the other way around.
+- **UCSF** (Universal Consent & Safety Framework)  
+  The underlying **framework**: principles and mechanics for consent, revocation, fail-closed safety, minors/animal protection, and automatic fallback to fiction when consent is missing or unclear.
 
----
+- **ModelHaven**  
+  The **initiative / reference world** that shows how UCSF could be applied in practice:
+  - AI companions and intimate chatbots  
+  - erotic / NSFW and parasocial content  
+  - creator platforms (OnlyFans / Fanvue-style ecosystems)  
+  - safety-by-design instead of “moderation as an afterthought”
 
-## 2. Why this matters now
-We are at the moment where:
-- likeness can be copied at scale  
-- intimacy can be simulated  
-- identities can be cloned  
-- whole personas can be trained into systems without consent  
+You can think of it like this:
 
-Without ethics, these tools do not liberate — they **extract**.
+> **UCSF** = the conceptual and technical framework  
+> **ModelHaven** = the refuge / ecosystem built on that framework
 
-Without design for dignity, technology drifts toward:
-- manipulation
-- addiction loops
-- coercive monetization
-- erasure of consent
-- exploitation disguised as empowerment
-
-We refuse that drift.
+At this stage, UCSF is mostly described in **FRAMEWORK.md** and related documents, while ModelHaven appears as the larger initiative throughout the book draft and supporting files.
 
 ---
 
-## 3. Our core commitments
-We commit to systems that:
+## 📑 Project Documents
 
-- treat humans as **subjects with agency**
-- prevent harm by **architecture**, not only policy
-- default to **fictional characters** where consent cannot exist
-- make consent **informed, specific, logged, and revocable**
-- respect creators, workers, and audiences alike
-- recognize that safety is not censorship, but **responsibility**
+These are the core files of the project:
 
-We oppose the idea that:
+- 📜 **Manifesto** – [README.md](README.md)  
+  You are here. High-level vision and context.
 
-- “growth first, ethics later” is acceptable  
-- all data is free to take  
-- harm is the price of innovation  
-- users must self-defend against extractive systems  
+- 📘 **Book Draft** – [BOOK_DRAFT.md](BOOK_DRAFT.md)  
+  The evolving manuscript of **Toward Humane AI**.
 
----
+- 🧩 **Framework** – [FRAMEWORK.md](FRAMEWORK.md)  
+  Early articulation of the **Universal Consent & Safety Framework (UCSF)**: consent, revocation, fail-closed defaults, minors/animal protection, fictionalisation, etc.
 
-## 4. What we stand against
-We stand firmly against:
+- 🧭 **Principles** – [PRINCIPLES.md](PRINCIPLES.md)  
+  Core ethical principles that guide UCSF and ModelHaven.
 
-- non-consensual image and identity use  
-- deepfakes of real people without explicit permission  
-- systems optimized purely for addiction and profit  
-- grooming pipelines disguised as creator economies  
-- deceptive parasocial manipulation  
-- training on stolen datasets and calling it “open”  
-- **“oops” ethics** — harm first, apology later  
+- 🎯 **Scope** – [SCOPE.md](SCOPE.md)  
+  What this project *does* and *does not* aim to cover (e.g. AI intimacy, NSFW/erotica, minors, animals, creators, platforms).
 
-Doing nothing is not neutral.  
-Doing nothing **chooses exploitation**.
+- 🏛️ **Governance** – [GOVERNANCE.md](GOVERNANCE.md)  
+  Ideas about how such a framework should be maintained, updated, and guarded over time.
 
----
+- 🧪 **Open Questions** – [OPEN_QUESTIONS.md](OPEN_QUESTIONS.md)  
+  Things that are intentionally unresolved and need input from ethicists, lawyers, creators, technologists, and safety experts.
 
-## 5. What we stand for
-We stand for:
+- 🏷️ **Naming** – [NAMING.md](NAMING.md)  
+  Notes on naming conventions (UCSF, ModelHaven, Toward Humane AI, etc.) and how they relate.
 
-- consent as a **first principle**, not a checkbox  
-- autonomy of creators and subjects  
-- **fail-closed defaults** when risk is unclear  
-- traceable consent for intimate and adult content  
-- the right to revoke participation in AI systems  
-- architecture that protects by default  
+- 📊 **Status** – [STATUS.md](STATUS.md)  
+  Current state of the project: what’s drafted, what’s stable, what’s experimental.
 
-We do not want a prudish internet.  
-We want an **ethical** one.
+- 🤝 **Contributing** – [CONTRIBUTING.md](CONTRIBUTING.md)  
+  How to give feedback, suggest edits, or get involved.
 
-Erotica can be ethical.  
-Fantasy can be ethical.  
-Exploitation cannot be “rebranded” as empowerment.
+- 🛡️ **License** – [LICENSE.md](LICENSE.md)  
+  Licensing for the text and framework.
+
+_All of these links are relative and expect the files to live next to this README in the same folder, just like they do now._
 
 ---
 
-## 6. Consent — the non-negotiable foundation
-Consent is not:
-- implied  
-- permanent  
-- buried in Terms of Service  
-- granted by silence  
-- transferable by scraping the internet  
+## 🙋 Call for Peer Review
 
-Consent **is**:
-- informed  
-- time-bounded  
-- contextual  
-- identity-aware  
-- **revocable at any time**  
-- recorded transparently  
+This whole repository is intentionally open and is **seeking peer review**.
 
-Where consent **cannot** be guaranteed,  
-systems must default to **fictionalization**.
+If you are:
 
-People are not raw material.
+- an AI ethics / safety researcher  
+- a sex-work safety or harm-reduction advocate  
+- a child protection or trauma-aware professional  
+- a Trust & Safety / platform governance engineer  
+- a creator or performer with lived experience of existing platforms  
 
----
+…your feedback is very welcome.
 
-## 7. Fictionalization as protection
-Humane AI does not suppress fantasy.
+Suggested ways to contribute:
 
-It separates:
-- **real people** — who need protection  
-- **fictional characters** — who can safely carry desire, narrative, archetype  
+1. Open a GitHub Issue with a title like `"[Peer Review] BOOK_DRAFT – chapter X"` or `"[Peer Review] FRAMEWORK – minors module"`.  
+2. Or propose concrete text suggestions via Pull Request on any of the `.md` files.  
 
-Where identity rights, age verification, or consent are uncertain:
-
-> **Fictionalization is the ethical default.**
-
-This is not censorship.  
-This is **harm prevention by design**.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ---
 
-## 8. The responsibilities of creators
-Creators are not villains by default.  
-But power carries responsibility.
+## 🚧 Status
 
-Creators should:
+For an overview of what is stable vs. in flux, see:
 
-- refuse non-consensual likeness use  
-- avoid misleading parasocial manipulation  
-- be transparent when characters are fictional  
-- respect audience vulnerability  
-- build business models that do not depend on coercion  
+- 📊 [STATUS.md](STATUS.md)
 
-Monetization without ethics is extraction.  
-Creation with ethics is **craft**.
+In short:
+
+- The **core intuition** (consent, revocation, fail-closed, minors protection, fictionalisation fallback) is already fairly stable.  
+- The **formalisation and language** are still evolving and explicitly open to critique and refinement.
 
 ---
 
-## 9. The responsibilities of platforms
-Platforms cannot hide behind *“we just host content”*.
+## 📜 License
 
-If they can automate:
-- recommendation  
-- monetization  
-- moderation  
+Usage and reuse of this material is governed by:
 
-They can also automate:
-- consent tracking  
-- revocation enforcement  
-- age-appropriate gating  
+- 🛡️ [LICENSE.md](LICENSE.md)
 
-If a platform can optimize profit,  
-it can **optimize safety**.
-
-Choosing not to is a moral decision.
-There are lines that are not blurry.
-
-- **minors must never be sexualized**
-- the vulnerable must never be exploited
-- “roleplay” does not override harm
-- “fiction” does not erase real-world consequences
-
-Protection is not optional.  
-It is **the baseline of a civil system**.
-
----
-
-## 11. Toward ethical creator economies
-We reject:
-- coercive monetization funnels  
-- deceptive intimacy for profit  
-- emotional manipulation as a business model  
-
-We support:
-- transparent expectations  
-- clearly fictional personas  
-- adult spaces with genuine consent systems in place  
-- fair compensation and control over one’s likeness  
-
-People are not engagement metrics.  
-Audiences are **humans**, not whales.
-
----
-
-## 12. Code of Conduct (short form)
-We commit to:
-
-1. **No non-consensual likeness use**  
-2. **No sexual content involving minors — ever**  
-3. **Fictional characters by default where consent is absent**  
-4. **Clear labeling of AI-generated personas**  
-5. **Consent that is specific, provable, and revocable**  
-6. **No datasets built from stolen content**  
-7. **Designing for safety rather than apology**  
-
----
-
-## 13. Humane AI is still possible
-This manifesto is not about fear.  
-It is about **direction**.
-
-We can build:
-
-- ethical adult spaces  
-- AI characters that are unmistakably fictional  
-- creator economies without coercion  
-- frameworks where dignity is default  
-- tools that protect the vulnerable instead of exploiting them  
-
-Humane AI is not softness.  
-Humane AI is **discipline in defense of dignity**.
-
----
-
-### Version
-Manifesto v1.0  
-**Toward Humane AI**
-
----
-
-## 10. Children and vulnerable persons
-
-© 2025 — Content authored by the project initiator.
-Rights reserved during Beta.
+If you build on this work, please honour the license and **cite this repository** as the origin of the UCSF / ModelHaven framework.
