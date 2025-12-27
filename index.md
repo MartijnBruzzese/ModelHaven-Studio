@@ -27,6 +27,8 @@ This repository is the working space for:
 - 🛡️ **UCSF — Universal Consent & Safety Framework**  
   → **[Read the framework](FRAMEWORK.html)**
 
+- 🧪 **Peer Review Invitation**
+  → [PEER_REVIEW](PEER_REVIEW.html)
 ---
 
 ### Supporting Project Documents
