@@ -1,3 +1,9 @@
+---
+layout: default
+title: <OPEN QUESTIONS>
+---
+
+
 # Open Questions
 
 Status: Draft  
