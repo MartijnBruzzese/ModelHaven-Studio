@@ -1,3 +1,8 @@
+---
+layout: default
+title: <NAMING>
+---
+
 # Naming Policy
 
 “ModelHaven Studio” is a working title.
