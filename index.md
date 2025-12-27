@@ -3,8 +3,8 @@ layout: default
 title: UCSF & ModelHaven Studio 
 ---
 
-# Toward Humane AI  
-### ModelHaven Studio
+# UCSF & ModelHaven Studio
+### Toward Humane AI
 
 This repository is the working space for:
 
