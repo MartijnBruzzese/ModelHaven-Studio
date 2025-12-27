@@ -1,4 +1,10 @@
-no# Project Status – Toward Humane AI / ModelHaven
+---
+layout: default
+title: status
+---
+
+
+Project Status – Toward Humane AI / ModelHaven
 
 This document tracks **where the project stands right now**: what is drafted, what is stable, and what is still exploratory or awaiting peer review.
 
