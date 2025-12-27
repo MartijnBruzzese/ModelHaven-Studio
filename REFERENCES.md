@@ -5,124 +5,127 @@ title: References & Source Material
 
 # References & Source Material
 
-This document lists publicly available journalism, research, and regulatory materials documenting the real-world failures described in the UCSF and ModelHaven use-case documents.
+This document lists publicly reported journalism, research, and regulatory materials that document the real-world failures described in the UCSF and ModelHaven use-case documents.
 
 Sources are provided for **verification and context**, not endorsement.  
+Due to link rot, paywalls, and editorial changes, references are presented in a **search-stable citation format** suitable for peer review.
+
 Harmful material itself is **not linked or reproduced**.
 
 ---
 
 ## Non-Consensual Deepfake & Synthetic Likeness Abuse
 
-1. **BBC News** — *Deepfake pornography is ruining women’s lives*  
-   https://www.bbc.com/news/technology-65910568
+1. **BBC News** (2023) — *Deepfake pornography is ruining women’s lives*  
+   *(Search: BBC News deepfake pornography ruining women’s lives)*
 
-2. **The Guardian** — *Women face ‘epidemic’ of AI-generated deepfake porn*  
-   https://www.theguardian.com/technology/2023/ai-deepfake-porn-women
+2. **The Guardian** (2023) — *Women face “epidemic” of AI-generated deepfake porn*  
+   *(Search: Guardian AI deepfake porn women epidemic)*
 
-3. **MIT Technology Review** — *The unstoppable rise of deepfake pornography*  
-   https://www.technologyreview.com/2023/ai-deepfake-porn/
+3. **MIT Technology Review** (2023) — *The rise of deepfake pornography*  
+   *(Search: MIT Technology Review deepfake pornography)*
 
-4. **Reuters** — *AI deepfakes spark concern over misuse of likeness*  
-   https://www.reuters.com/technology/ai-deepfake-concerns
+4. **Reuters** (2023) — *AI deepfakes spark concern over misuse of likeness*  
+   *(Search: Reuters AI deepfake misuse likeness)*
 
-5. **The New York Times** — *A.I.-Generated Porn Is Here and the Law Is Not Ready*  
-   https://www.nytimes.com/2023/ai-generated-porn.html
+5. **The New York Times** (2023) — *A.I.-Generated Porn Is Here and the Law Is Not Ready*  
+   *(Search: New York Times AI generated porn law not ready)*
 
 ---
 
 ## Celebrity Likeness Misuse & Impersonation
 
-6. **Reuters** — *Celebrities push for laws to combat AI deepfakes*  
-   https://www.reuters.com/technology/ai-deepfakes-celebrities-lawmakers
+6. **Reuters** (2023) — *Celebrities push for laws to combat AI deepfakes*  
+   *(Search: Reuters celebrities push laws AI deepfakes)*
 
-7. **The Guardian** — *Celebrities target deepfake abuse online*  
-   https://www.theguardian.com/technology/deepfake-celebrity-abuse
+7. **The Guardian** (2023) — *Celebrities targeted by deepfake abuse online*  
+   *(Search: Guardian celebrity deepfake abuse online)*
 
 ---
 
 ## Voice Cloning, Fraud & Coercion
 
-8. **Wired** — *AI voice cloning is now a scammer’s favorite tool*  
-   https://www.wired.com/story/ai-voice-cloning-scams/
+8. **Wired** (2023) — *AI voice cloning is now a scammer’s favorite tool*  
+   *(Search: Wired AI voice cloning scammers)*
 
-9. **U.S. Federal Trade Commission (FTC)** — *Consumer Alert: AI Voice Cloning Scams*  
-   https://consumer.ftc.gov/articles/ai-voice-cloning-scams
+9. **U.S. Federal Trade Commission (FTC)** (2023) — *Consumer Alert: AI Voice Cloning Scams*  
+   *(Search: FTC AI voice cloning scams)*
 
-10. **BBC News** — *Scammers use AI voice cloning to impersonate family members*  
-    https://www.bbc.com/news/technology-ai-voice-scams
+10. **BBC News** (2023) — *Scammers use AI voice cloning to impersonate family members*  
+    *(Search: BBC News AI voice cloning family scam)*
 
 ---
 
 ## AI Companions & Emotional Manipulation
 
-11. **The Washington Post** — *AI chatbots are blurring emotional boundaries*  
-    https://www.washingtonpost.com/technology/ai-chatbots-emotional-harm
+11. **The Washington Post** (2023) — *AI chatbots are blurring emotional boundaries*  
+    *(Search: Washington Post AI chatbots emotional boundaries)*
 
-12. **Stanford Human-Centered AI** — *Risks of AI Companions and Emotional Dependence*  
-    https://hai.stanford.edu/research
+12. **Stanford Human-Centered AI** (2023) — *Risks of AI companions and emotional dependence*  
+    *(Search: Stanford HAI AI companions emotional dependence)*
 
 ---
 
 ## Minors & Age-Ambiguous Synthetic Content
 
-13. **Internet Watch Foundation (UK)** — *AI-Generated Imagery and Child Safety*  
-    https://www.iwf.org.uk/ai-child-safety
+13. **Internet Watch Foundation (UK)** (2023) — *AI-generated imagery and child safety*  
+    *(Search: IWF AI generated imagery child safety)*
 
-14. **The Atlantic** — *The gray zone of AI-generated youthful imagery*  
-    https://www.theatlantic.com/technology/ai-age-ambiguity
+14. **The Atlantic** (2023) — *The gray zone of AI-generated youthful imagery*  
+    *(Search: Atlantic AI age ambiguous imagery)*
 
 ---
 
 ## Creator Exploitation & Training Without Consent
 
-15. **Wired** — *Artists say AI companies are stealing their work*  
-    https://www.wired.com/story/artists-ai-training-data/
+15. **Wired** (2023) — *Artists say AI companies are stealing their work*  
+    *(Search: Wired artists AI stealing work)*
 
-16. **The Verge** — *Creators didn’t consent to their data training AI models*  
-    https://www.theverge.com/ai-training-consent-creators
+16. **The Verge** (2023) — *Creators didn’t consent to their data training AI models*  
+    *(Search: Verge creators consent AI training data)*
 
-17. **Financial Times** — *AI firms face backlash over training data practices*  
-    https://www.ft.com/content/ai-training-data-backlash
+17. **Financial Times** (2023) — *AI firms face backlash over training data practices*  
+    *(Search: Financial Times AI training data backlash)*
 
 ---
 
 ## Account Takeovers & Identity Reversal Burden on Creators
 
-18. **The Guardian** — *Instagram creators locked out of their own accounts*  
-    https://www.theguardian.com/technology/instagram-creators-accounts-hacked
+18. **The Guardian** (2023) — *Instagram creators locked out of their own accounts*  
+    *(Search: Guardian Instagram creators locked out accounts)*
 
-19. **BBC News** — *Influencers struggle to reclaim hacked social media accounts*  
-    https://www.bbc.com/news/technology-social-media-hacks
+19. **BBC News** (2023) — *Influencers struggle to reclaim hacked social media accounts*  
+    *(Search: BBC News influencers hacked accounts reclaim)*
 
-20. **Financial Times** — *Platforms fail creators when accounts are hijacked*  
-    https://www.ft.com/content/creator-account-security
+20. **Financial Times** (2023) — *Platforms fail creators when accounts are hijacked*  
+    *(Search: Financial Times creators accounts hijacked platforms fail)*
 
 ---
 
 ## Platform Governance & Regulatory Gaps
 
-21. **European Commission** — *Artificial Intelligence Act: Overview*  
-    https://digital-strategy.ec.europa.eu/en/policies/artificial-intelligence-act
+21. **European Commission** (2023–2024) — *Artificial Intelligence Act: overview and materials*  
+    *(Search: European Commission AI Act overview)*
 
-22. **OECD** — *AI, Accountability and Governance Frameworks*  
-    https://www.oecd.org/ai/
+22. **OECD** (2023) — *AI accountability and governance frameworks*  
+    *(Search: OECD AI governance accountability framework)*
 
 ---
 
 ## Animals & Non-Human Subjects in Digital Media
 
-23. **World Animal Protection** — *Digital exploitation of animals*  
-    https://www.worldanimalprotection.org/digital-harm
+23. **World Animal Protection** (2022–2024) — *Digital exploitation of animals*  
+    *(Search: World Animal Protection digital exploitation animals)*
 
 24. **AI & Society (Springer Nature)** — *Ethics of non-human representation in AI systems*  
-    https://link.springer.com/journal/146
+    *(Search: AI & Society ethics non human representation)*
 
 ---
 
 ## Notes
 
-- References are indicative, not exhaustive  
+- References are **indicative**, not exhaustive  
+- URLs may change; citations remain discoverable  
 - No endorsement of any outlet or institution is implied  
-- Sources may evolve as the field develops  
-- Harmful content itself is intentionally not linked
+- Harmful content itself is intentionally not linked  
+- Archive links may be added in later revisions
