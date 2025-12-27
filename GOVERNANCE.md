@@ -1,3 +1,7 @@
+---
+layout: default
+title: Governance
+---
 # Governance (Beta – Light)
 
 Status: Draft  
