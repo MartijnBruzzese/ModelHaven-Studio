@@ -57,6 +57,14 @@ This repository is the working space for:
 - 📊 **Project Status Log**  
   → **[STATUS](STATUS.html)**
 
+### Supporting Peer Review Documentation
+
+- 🧭 **Use Cases & Real-World Failures**  
+  → **[USE_CASES](USE_CASES.html)**
+
+- 📚 **References & Source Material**  
+  → **[REFERENCES](REFERENCES.html)**
+
 ---
 
 ## 🗂 Repository Structure
