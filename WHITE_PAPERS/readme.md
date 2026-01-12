@@ -1,3 +1,8 @@
+---
+layout: default
+title: UCSF White Papers
+---
+
 # UCSF White Papers
 
 This directory contains all official versions of the  
