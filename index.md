@@ -18,11 +18,9 @@ This repository is the working space for:
 
 ### Primary Works
 
-  • 📄 UCSF — Universal Consent & Safety Framework  
-  → White Papers (academic & normative)
-
-  • 🇳🇱 Academische White Paper (v1.0)  
-    → Read the white paper
+• 🇳🇱 **Academische White Paper (v1.0)**  
+→ **[Read the white paper](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.md)**
+ 
 
 - 📜 **Toward Humane AI — Manifesto**  
   → **[Read the manifesto](README.html)**
