@@ -4,6 +4,11 @@
 **Versie:** v1.0  
 **Datum:** 12 januari 2026 
 **Status:** Publieke white paper – open voor peer review
+
+<!--
+Source of truth: ModelHaven / UCSF White Papers
+Version: v1.0 (NL)
+-->
 ---
 
 ## Inhoudsopgave
