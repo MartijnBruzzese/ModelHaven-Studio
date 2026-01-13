@@ -1,3 +1,8 @@
+---
+layout: default
+title: UCSF White paper NL v1.0
+---
+
 <a id="inhoudsopgave"></a>
 # UCSF — Universal Consent & Safety Framework  
 ## Academische Nederlandstalige Versie
