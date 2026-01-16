@@ -20,7 +20,7 @@ Version: v1.0 (NL)
 
 0. [Voorwoord](#0-voorwoord)
 
-1. [Waarom UCSF Bestaat](#ch-1)  
+1. [Aanleiding en Noodzaak](#ch-1)  
    1.1 Structurele schade in digitale systemen  
    1.2 Van incident naar ontwerppatroon  
 
@@ -92,7 +92,9 @@ Het stelt grenzen.
 ---
 
 <a id="ch-1"></a>
-## 1. Waarom UCSF Bestaat
+## 1. Aanleiding en Noodzaak
+
+Dit hoofdstuk beschrijft de structurele ontwikkelingen en ontwerppatronen die aanleiding geven tot de formulering van het Universal Consent & Safety Framework (UCSF).
 
 Digitale systemen nemen in toenemende mate beslissingen die directe gevolgen hebben voor mensen. Zij bepalen wie zichtbaar is, wie toegang heeft tot diensten of inkomsten, wie wordt uitgesloten en wie zonder duidelijke uitleg zijn positie verliest. Deze beslissingen vinden steeds vaker plaats zonder directe menselijke tussenkomst, op basis van geautomatiseerde processen, beleidslogica en schaalmechanismen die voor gebruikers grotendeels ondoorzichtig zijn.
 
