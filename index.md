@@ -97,7 +97,7 @@ Documents marked v1.0 are considered *stable for peer review*.
 ## Licensing & Use
 
 - **UCSF & White Papers**  
-  → [Licensing & Use](LICENSING.html)
+  → [Licensing & Use](LICENSE.md)
 
 - **Framework Usage Conditions**  
   → [Framework Use & Limitations](FRAMEWORK_USE.html)
