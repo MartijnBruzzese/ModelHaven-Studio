@@ -6,88 +6,87 @@ title: UCSF & ModelHaven Studio
 # UCSF & ModelHaven Studio
 ### Toward Humane AI
 
-This repository is the working space for:
-
-- **ModelHaven** — a refuge concept for ethical AI characters and media  
-- **UCSF – Universal Consent & Safety Framework** — technical & ethical framework  
-- **Toward Humane AI** — manifesto and book-length explorations  
+This repository hosts the conceptual, ethical, and structural foundations
+of **ModelHaven Studio**, grounded in the  
+**Universal Consent & Safety Framework (UCSF)**.
 
 ---
 
-## 📚 Core Documents
+## 📘 Core White Papers
 
-### Primary Works
+These documents define the normative and ethical basis of the project.
 
-• 🇳🇱 **Academische White Paper (v1.0)**  
-→ **[Read the white paper](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.md)**
- 
+- 🇳🇱 **UCSF — Academic White Paper (Dutch, v1.0)**  
+  → [Read the white paper](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.md)
 
-- 📜 **Toward Humane AI — Manifesto**  
-  → **[Read the manifesto](README.html)**
+- 🇬🇧 **UCSF — Academic White Paper (English, v1.0)**  
+  → [Read the white paper](WHITE_PAPERS/EN/UCSF_WHITE_PAPER_EN_v1.0.md)
 
-- 📘 **ModelHaven Book / Draft**  
-  → **[Read the draft](BOOK_DRAFT.html)**
+---
 
-- 🛡️ **UCSF — Universal Consent & Safety Framework**  
-  → **[Read the framework](FRAMEWORK.html)**
+## 🛡️ UCSF Framework
 
-- 🧪 **Peer Review Invitation**
+Supporting materials that elaborate, operationalize, or contextualize UCSF.
+
+- **Framework Overview**  
+  → [UCSF Framework](FRAMEWORK.html)
+
+- **Principles & Normative Boundaries**  
+  → [PRINCIPLES](PRINCIPLES.html)
+
+- **Scope & Explicit Limits**  
+  → [SCOPE](SCOPE.html)
+
+- **Governance & Responsibility Model**  
+  → [GOVERNANCE](GOVERNANCE.html)
+
+- **Use Cases & Real-World Failures**  
+  → [USE_CASES](USE_CASES.html)
+
+- **References & Source Material**  
+  → [REFERENCES](REFERENCES.html)
+
+---
+
+## 📖 Toward Humane AI
+
+Long-form exploratory work expanding on the ethical and cultural implications.
+
+- **Manifesto**  
+  → [Toward Humane AI — Manifesto](README.html)
+
+- **Book / Draft (in progress)**  
+  → [ModelHaven Book Draft](BOOK_DRAFT.html)
+
+---
+
+## 🧪 Peer Review
+
+UCSF is explicitly open to academic and interdisciplinary peer review.
+
+- **Peer Review Invitation & Guidelines**  
   → [PEER_REVIEW](PEER_REVIEW.html)
----
-
-### Supporting Project Documents
-
-- 🧭 **Principles**  
-  → **[PRINCIPLES](PRINCIPLES.html)**
-
-- 🧩 **Framework Notes & Structure**  
-  → **[FRAMEWORK](FRAMEWORK.html)**
-
-- 🗺️ **Scope Definition**  
-  → **[SCOPE](SCOPE.html)**
-
-- 🏛️ **Governance Model**  
-  → **[GOVERNANCE](GOVERNANCE.html)**
-
-- ❓ **Open Questions & Research Threads**  
-  → **[OPEN_QUESTIONS](OPEN_QUESTIONS.html)**
-
-- 🏷️ **Naming & Terminology Development**  
-  → **[NAMING](NAMING.html)**
-
-- 🤝 **Contributing Guide**  
-  → **[CONTRIBUTING](CONTRIBUTING.html)**
-
-- 📊 **Project Status Log**  
-  → **[STATUS](STATUS.html)**
-
-### Supporting Peer Review Documentation
-
-- 🧭 **Use Cases & Real-World Failures**  
-  → **[USE_CASES](USE_CASES.html)**
-
-- 📚 **References & Source Material**  
-  → **[REFERENCES](REFERENCES.html)**
 
 ---
 
 ## 🗂 Repository Structure
 
-- **/images/** — book covers, diagrams, assets  
-- **/docs/** — notes & future expansions  
-- **[README](README.html)** — Manifesto entry point  
-- **[BOOK_DRAFT](BOOK_DRAFT.html)** — ModelHaven book draft  
-- **[FRAMEWORK](FRAMEWORK.html)** — UCSF framework  
-- **[LICENSE](LICENSE.html)** — MIT (code) + CC BY-NC 4.0 (documents)
+- `/WHITE_PAPERS/` — all UCSF white papers (by language & version)  
+- `/images/` — diagrams, covers, visual assets  
+- `/docs/` — notes & future expansions  
 
 ---
 
 ## 🚧 Project Status
 
-See: **[STATUS](STATUS.html)**
+See current development state and roadmap:  
+→ [STATUS](STATUS.html)
 
 ---
 
-## ✉️ Attribution
+## ⚖️ License & Attribution
+
+- **Code:** MIT License  
+- **Documents:** CC BY-NC 4.0  
 
 © 2025 **Martijn Bruzzese / HavenSmith**
