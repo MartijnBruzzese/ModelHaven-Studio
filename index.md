@@ -1,92 +1,119 @@
 ---
 layout: default
-title: UCSF & ModelHaven Studio
+title: ModelHaven Studio — Toward Humane AI
 ---
 
-# UCSF & ModelHaven Studio
-### Toward Humane AI
+# ModelHaven Studio  
+## Toward Humane AI
 
-This repository hosts the conceptual, ethical, and structural foundations
-of **ModelHaven Studio**, grounded in the  
-**Universal Consent & Safety Framework (UCSF)**.
+ModelHaven Studio is a research-driven space for developing ethical frameworks, narratives, and design principles for AI systems that meaningfully affect human autonomy, safety, and dignity.
+
+The project is anchored in the **Universal Consent & Safety Framework (UCSF)** and expands into related work on humane AI, governance, and ethical refusal.
 
 ---
 
-## 📘 Core White Papers
+## What This Repository Contains
 
-These documents define the normative and ethical basis of the project.
+This repository serves as the canonical home for:
+
+- **UCSF — Universal Consent & Safety Framework**  
+  A normative, design-oriented framework for consent, safety, power, and responsibility in digital systems.
+
+- **Academic White Papers**  
+  Peer-review-ready texts outlining the framework and its ethical foundations.
+
+- **Toward Humane AI**  
+  Manifesto-style and long-form explorations on humane system design.
+
+- **ModelHaven**  
+  A conceptual research space for ethical AI characters, media, and narrative experimentation, grounded in consent-first design.
+
+---
+
+## Core Documents
+
+### UCSF — Academic White Papers
 
 - 🇳🇱 **UCSF — Academic White Paper (Dutch, v1.0)**  
-  → [Read the white paper](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.md)
+  → [Read the white paper](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.html)
 
 - 🇬🇧 **UCSF — Academic White Paper (English, v1.0)**  
-  → [Read the white paper](WHITE_PAPERS/EN/UCSF_WHITE_PAPER_EN_v1.0.md)
+  → [Read the white paper](WHITE_PAPERS/EN/UCSF_WHITE_PAPER_EN_v1.0.html)
 
 ---
 
-## 🛡️ UCSF Framework
+### Framework & Canon
 
-Supporting materials that elaborate, operationalize, or contextualize UCSF.
+- **UCSF — Framework Overview**  
+  → [Framework](FRAMEWORK.html)
 
-- **Framework Overview**  
-  → [UCSF Framework](FRAMEWORK.html)
+- **Principles**  
+  → [Principles](PRINCIPLES.html)
 
-- **Principles & Normative Boundaries**  
-  → [PRINCIPLES](PRINCIPLES.html)
+- **Scope Definition**  
+  → [Scope](SCOPE.html)
 
-- **Scope & Explicit Limits**  
-  → [SCOPE](SCOPE.html)
+---
 
-- **Governance & Responsibility Model**  
-  → [GOVERNANCE](GOVERNANCE.html)
+### Peer Review & Governance
+
+- **Peer Review Invitation**  
+  → [Peer review guidelines](PEER_REVIEW.html)
+
+- **Governance Model**  
+  → [Governance](GOVERNANCE.html)
 
 - **Use Cases & Real-World Failures**  
-  → [USE_CASES](USE_CASES.html)
+  → [Use cases](USE_CASES.html)
+
+---
+
+### Supporting & Ongoing Work
+
+- **Toward Humane AI — Manifesto**  
+  → [Manifesto](README.html)
+
+- **ModelHaven — Book Draft**  
+  → [Book draft](BOOK_DRAFT.html)
+
+- **Open Questions & Research Threads**  
+  → [Open questions](OPEN_QUESTIONS.html)
 
 - **References & Source Material**  
-  → [REFERENCES](REFERENCES.html)
+  → [References](REFERENCES.html)
 
 ---
 
-## 📖 Toward Humane AI
+## Project Status
 
-Long-form exploratory work expanding on the ethical and cultural implications.
+- **Current Status & Roadmap**  
+  → [STATUS](STATUS.html)
 
-- **Manifesto**  
-  → [Toward Humane AI — Manifesto](README.html)
-
-- **Book / Draft (in progress)**  
-  → [ModelHaven Book Draft](BOOK_DRAFT.html)
+This project is under active development.  
+Documents marked v1.0 are considered *stable for peer review*.
 
 ---
 
-## 🧪 Peer Review
+## Licensing & Use
 
-UCSF is explicitly open to academic and interdisciplinary peer review.
+- **Documents & Frameworks:**  
+  Creative Commons **CC BY-NC 4.0** (unless stated otherwise)
 
-- **Peer Review Invitation & Guidelines**  
-  → [PEER_REVIEW](PEER_REVIEW.html)
+- **Code (if applicable):**  
+  MIT License
 
----
-
-## 🗂 Repository Structure
-
-- `/WHITE_PAPERS/` — all UCSF white papers (by language & version)  
-- `/images/` — diagrams, covers, visual assets  
-- `/docs/` — notes & future expansions  
+UCSF is a **normative framework**, not a certification or compliance label.  
+Referencing UCSF does not constitute ethical approval.
 
 ---
 
-## 🚧 Project Status
+## Authorship
 
-See current development state and roadmap:  
-→ [STATUS](STATUS.html)
+© 2025–2026  
+**Martijn Bruzzese**  
+ModelHaven Studio / Universal Consent & Safety Framework
+
+This work is authored by a human.  
+AI tools were used for structuring and language assistance; ethical responsibility remains human.
 
 ---
-
-## ⚖️ License & Attribution
-
-- **Code:** MIT License  
-- **Documents:** CC BY-NC 4.0  
-
-© 2025 **Martijn Bruzzese / HavenSmith**
