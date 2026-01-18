@@ -1,145 +1,161 @@
 ---
 layout: default
-title: status
+title: Project Status — UCSF & ModelHaven Studio
 ---
 
+# Project Status
+### UCSF & ModelHaven Studio
 
-Project Status – Toward Humane AI / ModelHaven
-
-This document tracks **where the project stands right now**: what is drafted, what is stable, and what is still exploratory or awaiting peer review.
-
-It is meant to give readers and contributors a quick orientation without having to read the entire repository.
-
----
-
-## 📌 High-level status
-
-- 🚀 **Project is active**
-- 🧩 **Core concepts are defined**
-- 🧪 **Language and structure are still evolving**
-- 🧭 **Actively seeking peer review and critique**
-- 🛠️ **No production system — this is a framework & book project**
+**Last updated:** January 2026  
+**Author:** Martijn Bruzzese  
+**Status:** Active — UCSF publication phase / ModelHaven preparation phase
 
 ---
 
-## 🧠 Key components
+## 🧭 Overview
 
-### ✅ Stable ideas (unlikely to change)
+This document provides an up-to-date overview of the development status of:
 
-These concepts are now **foundational canon** for the project:
+- **UCSF — Universal Consent & Safety Framework**
+- **ModelHaven Studio**
+- **Toward Humane AI** (manifesto and long-form work)
 
-- consent as a **system primitive**, not a checkbox  
-- **revocation rights** and creator kill-switches  
-- **fail-closed by default** rather than permissive failure  
-- **strict protection of minors and animals**
-- **automatic fallback to fiction** when consent is missing or unclear  
-- separation of:
-  - **UCSF** (framework)
-  - **ModelHaven** (reference world/implementation concept)
-
-These are considered **committed direction**, not drafts.
+The distinction between *completed*, *active*, and *future* components is made explicit to support academic, societal, and interdisciplinary review.
 
 ---
 
-### ✍️ Drafted but evolving
+## 📘 UCSF — Universal Consent & Safety Framework
 
-The following exist in written form but are still being refined:
+### ✅ Completed
 
-- `BOOK_DRAFT.md`
-- `FRAMEWORK.md`
-- `PRINCIPLES.md`
-- `SCOPE.md`
-- `GOVERNANCE.md`
+- **UCSF Academic White Paper (Dutch) — v1.0**
+  - Fully written and published
+  - Publicly available
+  - Includes:
+    - explicit scope and boundaries
+    - normative ethical positioning
+    - licensing and usage terms
+    - peer review invitation
+    - academic references
 
-They are **coherent enough to review**, but open to:
+- **UCSF Academic White Paper (English) — v1.0**
+  - Full translation of the Dutch v1.0
+  - Terminologically aligned
+  - Ready for international peer review
 
-- clearer terminology  
-- restructuring  
-- additional references and research citations  
-- expert critique (ethics, safety, legal, trauma, sex-work, child protection)
-
----
-
-### 🧪 Experimental / open questions
-
-These areas are intentionally **not final** yet:
-
-- terminology overlaps (ModelHaven / UCSF / “Toward Humane AI”)
-- economic models for ethical creator platforms
-- technical primitives implementation paths (tokens, consent-objects etc.)
-- trauma-aware UX patterns in AI companions
-- boundaries around AI intimacy vs. emotional reliance
-- governance body model (foundation? open standard? consortium?)
-- interactions between UCSF and current or future regulation
-
-See: `OPEN_QUESTIONS.md` for deeper detail.
+- **Core UCSF Principles**
+  - Consent as a condition, not an event
+  - Safety as a design responsibility
+  - Repair as an ethical obligation
+  - Power coupled to responsibility
+  - Ethical refusal as a valid outcome
 
 ---
 
-## 📚 Document status checklist
+### 🧪 Open Review Phase
 
-| Document | Status |
-|----------|--------|
-| README.md | 🟢 Stable as manifesto entry point |
-| BOOK_DRAFT.md | 🟡 Draft in progress |
-| FRAMEWORK.md | 🟡 Draft – core UCSF ideas described |
-| PRINCIPLES.md | 🟡 Draft |
-| SCOPE.md | 🟡 Draft |
-| GOVERNANCE.md | 🟡 Draft |
-| OPEN_QUESTIONS.md | 🟡 Active and expanding |
-| NAMING.md | 🟡 Subject to change |
-| STATUS.md | 🟢 You are reading it |
-| CONTRIBUTING.md | 🟡 Basic guidance present |
-| LICENSE.md | 🟢 Exists |
+- **Open peer review**
+  - Via GitHub issues and pull requests
+  - Via direct academic or professional feedback
+  - Contributions are documented and evaluated on content, not agreement
 
-Legend:  
-- 🟢 = usable and relatively stable  
-- 🟡 = drafted, evolving  
-- 🔴 = not yet written
+- **Terminological refinement**
+  - Minor language and clarity improvements may occur
+  - No substantive repositioning without a version upgrade
 
 ---
 
-## 👥 Peer review status
+### 🔒 Explicitly Out of Scope (v1.0)
 
-Currently seeking input from:
+- Legal implementation manuals
+- Certification schemes or compliance labels
+- Product or platform endorsements
+- Technical specifications or APIs
 
-- AI ethics and safety researchers  
-- trust & safety engineers  
-- sex-work safety and rights advocates  
-- child-protection / trauma-aware psychologists  
-- creators and platform users with lived experience  
-
-Reviews may be submitted as:
-
-- Issues  
-- Pull requests  
-- Margin comments on sections of text  
-
-See `CONTRIBUTING.md` for details.
+These exclusions are intentional and foundational.
 
 ---
 
-## 🧭 Roadmap (short-term)
+## 🛡️ UCSF — Supporting Framework Documentation
 
-Near-term goals:
+### 🟡 In Development
 
-- tighten terminology across documents  
-- strengthen minors-protection section  
-- add citations to academic and policy research  
-- produce **UCSF v1.0** formal spec draft  
-- prepare public call for peer reviewers
+- Framework operationalization notes
+- Use cases and real-world failure analysis
+- Governance and responsibility models
+- Scope differentiation by system type
 
----
-
-## 🛑 What this project is NOT (yet)
-
-- ❌ a working AI model or product  
-- ❌ a regulatory authority  
-- ❌ legal advice  
-- ❌ a completed book
-
-This is a **framework + research + writing project**, intentionally open-ended.
+These documents are **supporting materials** and do not override the normative authority of the white paper.
 
 ---
 
-_Last updated: December 26, 2025_
+## 🏗️ ModelHaven Studio
+
+### 🟡 Concept & Architecture Phase
+
+ModelHaven Studio is a **conceptual and applied project** informed by UCSF, but not equivalent to it.
+
+Current status:
+- Conceptual groundwork in progress
+- No public product release
+- No commercial deployment
+- No ethical endorsement claims
+
+Planned next steps:
+- Technical exploration
+- Architectural documentation
+- Clear separation between framework and implementation
+
+---
+
+## 📖 Toward Humane AI
+
+### 🟡 Ongoing Work
+
+- **Manifesto**
+  - Published
+  - Cultural and reflective in nature
+  - Not normatively binding
+
+- **Book / long-form draft**
+  - In development
+  - Exploratory and analytical
+  - Builds upon UCSF without restating it
+
+---
+
+## 🧩 Archiving & Versioning
+
+- All white papers are versioned
+- Language versions are maintained in parallel
+- Earlier versions remain accessible and citable
+- UCSF v1.0 will not be substantively altered without:
+  - a formal version increment
+  - a documented changelog
+  - an explicit rationale
+
+---
+
+## 🧠 Positioning Summary
+
+- **UCSF** — Normative ethical framework  
+- **ModelHaven Studio** — Potential application domain  
+- **Toward Humane AI** — Cultural and reflective work  
+
+None of these are intended to function as:
+- marketing tools
+- certification systems
+- ethical shields
+
+---
+
+## 📬 Contact & Review
+
+For peer review, academic engagement, or inquiries:
+
+- **GitHub:** https://github.com/MartijnBruzzese  
+- **Email:** martijnbruzzese@gmail.com  
+
+---
+
+*This status document is updated periodically to maintain transparency and accountability.*
