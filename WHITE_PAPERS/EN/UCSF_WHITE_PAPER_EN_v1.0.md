@@ -3,14 +3,6 @@ layout: default
 title: UCSF White paper EN v1.0
 ---
 
-
-UCSF — Universal Consent & Safety Framework (v1.0)
-
-Academic English Edition  
-Translated from: UCSF_WHITE_PAPER_NL_v1.0.md  
-Translation method: faithful academic translation  
-Status: Draft (translation in progress)
-
 <a id="inhoudsopgave"></a>
 # UCSF — Universal Consent & Safety Framework  
 ## Academic English Version  
@@ -66,7 +58,7 @@ Status: Draft (translation in progress)
 - [License and Use](#license-and-use)  
 - [Invitation to Peer Review](#invitation-to-peer-review)  
 - [Concluding Reflections](#concluding-reflections)  
-- [Accessibility of Sources](#accessibility-of-sources)  
+- [UCSF of Sources](#accessibility-of-sources)  
 - [References / Bibliography](#references--bibliography)
 
 ---
