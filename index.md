@@ -96,14 +96,23 @@ Documents marked v1.0 are considered *stable for peer review*.
 
 ## Licensing & Use
 
-- **Documents & Frameworks:**  
-  Creative Commons **CC BY-NC 4.0** (unless stated otherwise)
+- **UCSF & White Papers**  
+  → [Licensing & Use](LICENSING.html)
 
-- **Code (if applicable):**  
-  MIT License
+- **Framework Usage Conditions**  
+  → [Framework Use & Limitations](FRAMEWORK_USE.html)
 
-UCSF is a **normative framework**, not a certification or compliance label.  
-Referencing UCSF does not constitute ethical approval.
+- **Citation Guidance**  
+  → [How to Cite UCSF](CITATION.html)
+
+Unless explicitly stated otherwise:
+
+- **Documents & frameworks** are licensed under  
+  **Creative Commons CC BY-NC 4.0**
+- **Code (if present)** is licensed under the **MIT License**
+
+UCSF is a **normative framework**, not a certification, endorsement, or compliance label.  
+Referencing UCSF does **not** imply ethical approval.
 
 ---
 
