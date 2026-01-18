@@ -1,3 +1,9 @@
+---
+layout: default
+title: UCSF White paper EN v1.0
+---
+
+
 UCSF — Universal Consent & Safety Framework (v1.0)
 
 Academic English Edition  
