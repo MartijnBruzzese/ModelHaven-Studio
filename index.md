@@ -6,11 +6,11 @@ title: ModelHaven Studio — Toward Humane AI
 # ModelHaven Studio  
 ## Toward Humane AI
 
-ModelHaven Studio is a research-driven framework and design architecture for AI systems in which consent, identity, and safety are treated as foundational requirements rather than post-hoc constraints.
+- **Toward Humane AI — Conceptual Framework (EN)**  
+  → [Read document](TOWARD_HUMANE_AI_EN.md)
 
-The project is anchored in the Universal Consent & Safety Framework (UCSF) and provides its operational translation into system architecture, governance models, and ethical design practices. Together, UCSF and ModelHaven Studio aim to support innovation while preserving human autonomy, dignity, and protection by design.
-
-The work is situated within the broader "Toward Humane AI" discourse, which explores the philosophical, societal, and narrative dimensions of consent-centered system design.
+- **Toward Humane AI — Conceptueel Kader (NL)**  
+  → [Lees document](TOWARD_HUMANE_AI_NL.md)
 
 
 
