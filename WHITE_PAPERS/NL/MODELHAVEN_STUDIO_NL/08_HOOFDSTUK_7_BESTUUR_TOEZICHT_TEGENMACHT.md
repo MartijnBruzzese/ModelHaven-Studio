@@ -103,3 +103,7 @@ Hoofdstuk 7 laat zien dat ModelHaven Studio governance niet uitbesteedt aan bele
 Menselijke tegenmacht, transparantie en externe toetsing vormen samen het sociale draagvlak van het systeem.
 
 In het volgende hoofdstuk wordt uitgewerkt hoe deze structuur schaalbaar blijft via **samenwerking en maatschappelijke inbedding**.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
