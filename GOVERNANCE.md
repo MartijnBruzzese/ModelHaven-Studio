@@ -1,87 +1,155 @@
 ---
 layout: default
-title: Governance
+title: Governance — UCSF & ModelHaven Studio
 ---
-# Governance (Beta – Light)
 
-Status: Draft  
-Phase: Beta  
+# Governance
+### UCSF & ModelHaven Studio
 
-This document defines provisional governance for ModelHaven Studio
-during the Beta phase.
-
-It is intentionally minimal.
-Governance exists to prevent arbitrariness, not to centralize power.
+**Version:** v1.0  
+**Last updated:** January 2026  
+**Author:** Martijn Bruzzese
 
 ---
 
-## 1. Role of the Initiator
+## Purpose
 
-During Beta, the project initiator acts as:
-- caretaker of the framework
-- editor of documents
-- facilitator of discussion
+This document defines the governance principles underlying UCSF and ModelHaven Studio.
 
-This role does not imply permanent authority.
+Governance here refers to how ethical responsibility, oversight, review, and correction are structurally embedded into system design and project operation.
 
----
-
-## 2. Decision-Making in Beta
-
-Decisions during Beta are made according to the following principles:
-- changes are documented publicly
-- rationale is explained where relevant
-- feedback is considered but not binding
-
-There is no voting system during Beta.
+Governance is treated as a core architectural component — not an administrative afterthought.
 
 ---
 
-## 3. Community Input
+## Human Responsibility
 
-Community members may:
-- raise issues
-- ask questions
-- propose alternatives
+No automated system is ethically autonomous.
 
-Community input informs decisions
-but does not override safety principles.
+Ultimate responsibility rests with human designers, operators, and institutions.
 
----
+AI systems must never be positioned as moral agents.
 
-## 4. Safety Overrides
-
-In cases involving:
-- consent ambiguity
-- identity harm
-- exploitation risk
-
-The initiator may pause discussion or content
-to prevent harm.
-
-This is a protective measure, not a disciplinary one.
+Accountability cannot be delegated to models.
 
 ---
 
-## 5. Transition to Alpha
+## Layered Oversight
 
-Alpha status introduces:
-- locked framework versions
-- formal governance structures
-- clearer decision authority
+UCSF assumes governance operates across multiple layers:
 
-The governance model for Alpha
-will be documented separately
-and may involve shared or delegated authority.
+1. **Design Layer**  
+   Ethical constraints embedded into architecture.
+
+2. **Operational Layer**  
+   Human monitoring of system behavior.
+
+3. **Review Layer**  
+   Independent evaluation of outcomes and risks.
+
+4. **Correction Layer**  
+   Mechanisms for repair, revision, and withdrawal.
+
+Each layer exists to counterbalance concentration of power.
 
 ---
 
-## 6. Amendments
+## Peer Review
 
-This governance document:
-- may change during Beta
-- must remain transparent
-- cannot retroactively legitimize harm
+UCSF is explicitly open to peer review.
 
-Governance evolves through testing,
-not assumption.
+Review may occur through:
+
+- academic engagement  
+- interdisciplinary feedback  
+- public documentation  
+- GitHub issues and pull requests  
+
+Substantive critiques are logged, evaluated, and documented.
+
+Agreement is not required.
+
+Transparency is.
+
+---
+
+## Version Control and Change Management
+
+Normative documents (UCSF v1.0) are versioned.
+
+Substantive changes require:
+
+- explicit version increment  
+- documented rationale  
+- visible changelog  
+
+Backward compatibility is not assumed for ethical boundaries.
+
+---
+
+## Conflict of Interest
+
+No commercial entity is granted interpretive authority over UCSF.
+
+Framework adoption does not imply endorsement.
+
+Use of UCSF terminology does not confer ethical legitimacy.
+
+---
+
+## Repair and Accountability
+
+When harm or failure occurs:
+
+- acknowledgement is required  
+- remediation must be attempted  
+- learning must be documented  
+
+Governance includes responsibility for repair, not only prevention.
+
+---
+
+## Public Positioning
+
+UCSF and ModelHaven Studio are presented as:
+
+- research frameworks  
+- architectural explorations  
+- ethical propositions  
+
+They are not:
+
+- compliance products  
+- safety certifications  
+- regulatory substitutes  
+
+---
+
+## Relationship to External Regulation
+
+UCSF complements existing regulatory frameworks.
+
+It does not replace:
+
+- legal systems  
+- statutory enforcement  
+- governmental oversight  
+
+Governance within UCSF is designed to operate alongside formal regulation, not instead of it.
+
+---
+
+## Positioning Summary
+
+Governance within UCSF emphasizes:
+
+- human accountability  
+- distributed oversight  
+- transparent revision  
+- refusal of ethical authority claims  
+
+This framework exists to support responsible design — not to centralize moral power.
+
+---
+
+*This governance document defines UCSF v1.0 governance positioning and will not be substantively altered without formal versioning.*
