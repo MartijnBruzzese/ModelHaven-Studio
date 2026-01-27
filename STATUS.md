@@ -3,7 +3,7 @@ layout: default
 title: Project Status — UCSF & ModelHaven Studio
 ---
 
-# Project Status
+# Project Status  
 ### UCSF & ModelHaven Studio
 
 **Last updated:** January 2026  
@@ -18,7 +18,7 @@ This document provides an up-to-date overview of the development status of:
 
 - **UCSF — Universal Consent & Safety Framework**
 - **ModelHaven Studio**
-- **Toward Humane AI** (manifesto and long-form work)
+- **Toward Humane AI** (conceptual and long-form work)
 
 The distinction between *completed*, *active*, and *future* components is made explicit to support academic, societal, and interdisciplinary review.
 
@@ -43,12 +43,19 @@ The distinction between *completed*, *active*, and *future* components is made e
   - Terminologically aligned
   - Ready for international peer review
 
+- **Combined Executive Summary (EN/NL)**
+  - Public entry point for UCSF & ModelHaven Studio
+  - Provides high-level architectural and ethical overview
+  - Intended for policymakers, reviewers, and interdisciplinary audiences
+
 - **Core UCSF Principles**
   - Consent as a condition, not an event
   - Safety as a design responsibility
   - Repair as an ethical obligation
   - Power coupled to responsibility
   - Ethical refusal as a valid outcome
+  - Recognition of non-human life as morally relevant
+  - Environmental limits treated as design constraints (energy, water, ecological impact)
 
 ---
 
@@ -67,10 +74,10 @@ The distinction between *completed*, *active*, and *future* components is made e
 
 ### 🔒 Explicitly Out of Scope (v1.0)
 
-- Legal implementation manuals
-- Certification schemes or compliance labels
-- Product or platform endorsements
-- Technical specifications or APIs
+- Legal implementation manuals  
+- Certification schemes or compliance labels  
+- Product or platform endorsements  
+- Technical specifications or APIs  
 
 These exclusions are intentional and foundational.
 
@@ -80,10 +87,10 @@ These exclusions are intentional and foundational.
 
 ### 🟡 In Development
 
-- Framework operationalization notes
-- Use cases and real-world failure analysis
-- Governance and responsibility models
-- Scope differentiation by system type
+- Framework operationalization notes  
+- Use cases and real-world failure analysis  
+- Governance and responsibility models  
+- Scope differentiation by system type  
 
 These documents are **supporting materials** and do not override the normative authority of the white paper.
 
@@ -96,15 +103,26 @@ These documents are **supporting materials** and do not override the normative a
 ModelHaven Studio is a **conceptual and applied project** informed by UCSF, but not equivalent to it.
 
 Current status:
-- Conceptual groundwork in progress
-- No public product release
-- No commercial deployment
-- No ethical endorsement claims
+
+- Conceptual groundwork in progress  
+- No public product release  
+- No commercial deployment  
+- No ethical endorsement claims  
 
 Planned next steps:
-- Technical exploration
-- Architectural documentation
-- Clear separation between framework and implementation
+
+- Technical exploration  
+- Architectural documentation  
+- Clear separation between framework and implementation  
+
+Planned architectural layers (not yet published):
+
+- Ethical Adult Interaction Layer  
+- Consent Token Technical Specification  
+- Sandbox Execution Model  
+- Risk Classification Matrix  
+- Resource & Environmental Impact Layer  
+- Animal Protection Mapping  
 
 ---
 
@@ -112,10 +130,11 @@ Planned next steps:
 
 ### 🟡 Ongoing Work
 
-- **Manifesto**
-  - Published
+- **Conceptual Framework (Toward Humane AI)**
+  - Published in English and Dutch
   - Cultural and reflective in nature
   - Not normatively binding
+  - Serves as philosophical and narrative entry point into the project
 
 - **Book / long-form draft**
   - In development
@@ -126,13 +145,15 @@ Planned next steps:
 
 ## 🧩 Archiving & Versioning
 
-- All white papers are versioned
-- Language versions are maintained in parallel
-- Earlier versions remain accessible and citable
-- UCSF v1.0 will not be substantively altered without:
-  - a formal version increment
-  - a documented changelog
-  - an explicit rationale
+- All white papers are versioned  
+- Language versions are maintained in parallel  
+- Earlier versions remain accessible and citable  
+
+UCSF v1.0 will not be substantively altered without:
+
+- a formal version increment  
+- a documented changelog  
+- an explicit rationale  
 
 ---
 
@@ -143,9 +164,10 @@ Planned next steps:
 - **Toward Humane AI** — Cultural and reflective work  
 
 None of these are intended to function as:
-- marketing tools
-- certification systems
-- ethical shields
+
+- marketing tools  
+- certification systems  
+- ethical shields  
 
 ---
 
