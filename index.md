@@ -40,9 +40,13 @@ This repository serves as the canonical home for:
 - 🇬🇧 **UCSF — (English, v1.0)**  
   → [Read the white paper](WHITE_PAPERS/EN/UCSF_WHITE_PAPER_EN_v1.0.html)
 
-• 🇳🇱 ModelHaven Studio — (Dutch, v1.0)  
-→ [Read the white paper](WHITE_PAPERS/NL/MODELHAVEN_STUDIO_WHITE_PAPER_NL_v1.0.md)
+• 🇳🇱 **ModelHaven Studio — (Dutch, v1.0)**  
+  → [Read the white paper](WHITE_PAPERS/NL/MODELHAVEN_STUDIO_WHITE_PAPER_NL_v1.0.md)
 
+**English translation in development**
+• 🇬🇧 **ModelHaven Studio — (English, v1.0)**
+  → [Read the white paper](WHITE_PAPERS/EN/MODELHAVEN_STUDIO_WHITE_PAPER_EN_v1.0.md)
+     
 ---
 
 ### Framework & Canon
