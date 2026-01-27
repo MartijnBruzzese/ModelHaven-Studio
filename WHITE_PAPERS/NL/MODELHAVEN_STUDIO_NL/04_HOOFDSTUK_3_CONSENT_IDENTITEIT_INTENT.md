@@ -205,3 +205,7 @@ Modi verfijnen interpretatie, maar heffen bescherming niet op.
 Fail-closed gedrag en menselijke verantwoordelijkheid blijven leidend.
 
 In het volgende hoofdstuk wordt uitgewerkt hoe deze principes worden vertaald naar **veiligheidsmodi, sandboxes en risicoklassen** — en hoe het systeem omgaat met oplopend risico, slechte intenties en ethische stresspunten.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
