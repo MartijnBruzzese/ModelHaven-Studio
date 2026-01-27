@@ -15,3 +15,7 @@ Toekomstige ontwikkeling vereist:
 Nieuwe technologieën zullen nieuwe risico’s introduceren.
 
 Dit raamwerk is ontworpen om mee te evolueren.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
