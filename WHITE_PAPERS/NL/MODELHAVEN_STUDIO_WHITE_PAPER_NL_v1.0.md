@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ModelHaven Studio — Whitepaper
+title: ModelHaven Studio
 ---
 
 # ModelHaven Studio — Whitepaper  
