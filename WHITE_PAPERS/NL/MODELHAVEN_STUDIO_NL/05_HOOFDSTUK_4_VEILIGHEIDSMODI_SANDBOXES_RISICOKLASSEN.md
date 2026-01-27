@@ -123,3 +123,7 @@ Zij zorgen ervoor dat:
 - en menselijke verantwoordelijkheid ingebed blijft.
 
 In het volgende hoofdstuk wordt uitgewerkt hoe deze structuur wordt aangevuld met **niet-onderhandelbare bescherming en expliciete faalmodi**.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
