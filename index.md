@@ -4,6 +4,18 @@ title: ModelHaven Studio — Toward Humane AI
 ---
 
 # ModelHaven Studio  
+## Research & Design for Humane AI
+
+ModelHaven Studio is a research-driven initiative exploring consent-first system design, ethical AI governance, and humane digital infrastructure.
+
+Choose your language:
+
+English introduction → [Toward Humane AI (EN)](TOWARD_HUMANE_AI_EN.md)  
+Nederlandse introductie → [Toward Humane AI (NL)](TOWARD_HUMANE_AI_NL.md)
+
+---
+
+# ModelHaven Studio  
 ## Toward Humane AI
 
 English introduction → [Toward Humane AI (EN)](TOWARD_HUMANE_AI_EN.md)  
