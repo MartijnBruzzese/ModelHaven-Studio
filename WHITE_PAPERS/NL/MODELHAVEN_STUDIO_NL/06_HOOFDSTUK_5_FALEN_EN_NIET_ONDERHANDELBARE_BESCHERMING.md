@@ -150,3 +150,7 @@ Niet alles wat technisch mogelijk is, mag bestaan.
 Niet alles wat winstgevend is, is legitiem.
 
 In het volgende hoofdstuk wordt uitgewerkt hoe deze grenzen worden gedragen door **identiteit, consent tokens en operationele toestemming in de praktijk**.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
