@@ -63,3 +63,7 @@ Niet alles wat schaalbaar is, is wenselijk.
 Toestemming, bescherming en menselijke tegenmacht zijn geen obstakels voor innovatie.
 
 Zij zijn haar voorwaarde.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
