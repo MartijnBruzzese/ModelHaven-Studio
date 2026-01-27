@@ -10,10 +10,13 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
 
 Choose your language:
 
-- 🇬🇧 Introduction 
-  → [Toward Humane AI English]   (TOWARD_HUMANE_AI_EN.md)
+## Toward Humane AI — Introduction
 
-- 🇳🇱 Introductie [Toward Humane AI — Nederlands](TOWARD_HUMANE_AI_NL.md)
+- 🇬🇧 **Toward Humane AI — English**  
+  → [Read introduction](TOWARD_HUMANE_AI_EN.md)
+
+- 🇳🇱 **Toward Humane AI — Nederlands**  
+  → [Lees introductie](TOWARD_HUMANE_AI_NL.md)
 
 ---
 
