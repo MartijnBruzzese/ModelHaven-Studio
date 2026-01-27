@@ -2,30 +2,41 @@
 ## Systeemarchitectuur voor Toestemming, Veiligheid en Ethisch Verantwoorde AI
 
 **Auteur:** Martijn Bruzzese  
-**Status:** Officieel whitepaper — versie 1.0 (klaar voor toetsing)  
-**Datum:** 25 januari 2026  
-
-**Relatie:**  
-ModelHaven Studio vormt de implementatie- en architectuurlaag van het  
-**Universal Consent & Safety Framework (UCSF)**
+**Versie:** 1.0 (klaar voor toetsing)  
+**Datum:** Januari 2026  
 
 ---
 
-## Positionering en interpretatie
+### Relatie tot UCSF
 
-Dit document beschrijft geen afgerond product en geen volledig uitgewerkt platform.  
-Het beschrijft een **ontwerpbenadering en systeempositie**.
+Dit whitepaper beschrijft ModelHaven Studio als implementatie- en architectuurlaag van het  
+**Universal Consent & Safety Framework (UCSF)**.
 
-ModelHaven Studio is op dit moment een **te bouwen concept**, geen bestaande infrastructuur.
+UCSF vormt het normatieve kader.  
+ModelHaven Studio vertaalt deze principes naar systeemgedrag, ontwerpkeuzes en operationele structuren.
 
-De auteur is zich ervan bewust dat de hier beschreven principes — zoals consent-architectuur, identiteitsbescherming en fail-closed veiligheid — ook door anderen kunnen worden opgepakt, aangepast of geïmplementeerd. Dat is geen risico, maar een gegeven.
+---
 
-Ethische systemen zijn nooit neutraal en nooit identiek: zij worden onvermijdelijk gevormd door menselijke keuzes, context en verantwoordelijkheid.
+### Status van dit document
 
-Zelfs wanneer derden vergelijkbare uitgangspunten hanteren, zullen uitwerkingen verschillen.  
-Niet vanwege technische beperkingen, maar omdat ethiek zich niet laat kopiëren zonder interpretatie.
+Dit document beschrijft een ontwerpbenadering en systeempositie.  
+Het betreft geen afgerond product en geen actieve infrastructuur.
 
-Dit document pretendeert daarom geen universele blauwdruk te zijn, maar een  
-**expliciete en toetsbare positionering**.
+De inhoud is bedoeld voor:
 
-De in dit whitepaper beschreven concepten zijn bedoeld als **grondslag voor verdere ontwikkeling, toetsing en — waar passend — licentieerbare toepassing**, zonder dat daarmee wordt gesuggereerd dat één enkele implementatie de enige juiste is.
+- technische en ethische toetsing  
+- peer review  
+- conceptuele validatie  
+- verdere ontwikkeling
+
+---
+
+### Licentie en gebruik
+
+Tenzij anders vermeld is deze tekst beschikbaar onder een nog te bepalen licentie.  
+Gebruik voor evaluatie, discussie en niet-extractieve toepassing is toegestaan.  
+Commerciële implementatie vereist expliciete toestemming van de auteur.
+
+---
+
+© 2026 — Martijn Bruzzese
