@@ -128,3 +128,7 @@ Hoofdstuk 2 laat zien dat:
 ModelHaven Studio positioneert ontwerpethiek als primaire verantwoordelijkheid. Niet om innovatie te blokkeren, maar om te voorkomen dat schaal, snelheid en marktlogica ethische erosie normaliseren.
 
 In het volgende hoofdstuk wordt uitgewerkt hoe **consent, identiteit en intent** binnen deze ontwerpfilosofie functioneren als dragende systeemlagen.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
