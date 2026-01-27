@@ -1,3 +1,30 @@
+<a id="inhoudsopgave"></a>
+## Inhoudsopgave
+
+<a id="inhoudsopgave"></a>
+## Inhoudsopgave
+
+- [Inleiding](#inleiding)
+- [Positionering en interpretatie](#positionering-en-interpretatie)
+
+- [Hoofdstuk 1 — Het implementatieprobleem](#hoofdstuk-1)
+- [Hoofdstuk 2 — Van moderatie achteraf naar ontwerpverantwoordelijkheid](#hoofdstuk-2)
+- [Hoofdstuk 3 — Consent, identiteit en intent](#hoofdstuk-3)
+- [Hoofdstuk 4 — Veiligheidsmodi, sandboxes en risicoklassen](#hoofdstuk-4)
+- [Hoofdstuk 5 — Falen, grenzen en niet-onderhandelbare bescherming](#hoofdstuk-5)
+- [Hoofdstuk 6 — Identiteit en consent tokens](#hoofdstuk-6)
+- [Hoofdstuk 7 — Bestuur, toezicht en menselijke tegenmacht](#hoofdstuk-7)
+- [Hoofdstuk 8 — Schaal, samenwerking en maatschappelijke inbedding](#hoofdstuk-8)
+- [Hoofdstuk 9 — Slotpositie](#hoofdstuk-9)
+- [Hoofdstuk 10 — Epiloog](#hoofdstuk-10)
+
+- [Hoofdstuk 11 — Context, bronnen en verantwoording](#hoofdstuk-11)
+- [Hoofdstuk 12 — Begrippenkader](#hoofdstuk-12)
+- [Hoofdstuk 13 — Afbakening en toekomst](#hoofdstuk-13)
+- [Hoofdstuk 14 — Ontstaansproces en reflectie](#hoofdstuk-14)
+
+--- 
+
 <a id="inleiding"></a>
 ## Inleiding
 
