@@ -526,7 +526,6 @@ Het open laten van deze vragen is geen tekortkoming, maar een **bewuste ethische
 
 ---
 
-<a id="h3-9"></a>
 ### 3.9 Samenvatting
 
 Consent, identiteit en intent vormen samen het **dragende ethische fundament** van ModelHaven Studio.
