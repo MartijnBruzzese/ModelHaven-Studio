@@ -32,7 +32,7 @@ This repository serves as the canonical home for:
 
 ## Core Documents
 
-### UCSF — Academic White Papers
+### Academic White Papers
 
 - 🇳🇱 **UCSF — Academic White Paper (Dutch, v1.0)**  
   → [Read the white paper](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.html)
@@ -40,6 +40,10 @@ This repository serves as the canonical home for:
 - 🇬🇧 **UCSF — Academic White Paper (English, v1.0)**  
   → [Read the white paper](WHITE_PAPERS/EN/UCSF_WHITE_PAPER_EN_v1.0.html)
 
+- 🇳🇱 **ModelHaven Studio — Academic White Paper (Dutch, v1.0)**  
+
+👉 Full Whitepaper (NL):  
+[ModelHaven Studio — Whitepaper](WHITE_PAPERS/NL/MODELHAVEN_STUDIO_WHITE_PAPER_NL_v1.0.md)
 ---
 
 ### Framework & Canon
