@@ -45,7 +45,14 @@ This repository serves as the canonical home for:
      
 - 🇬🇧 **ModelHaven Studio — (English, v1.0)**
   → [Read the white paper](WHITE_PAPERS/EN/MODELHAVEN_STUDIO_WHITE_PAPER_EN_v1.0.md) 
-English translation is being worked on
+currently under development 
+
+### Ethical Foundations
+
+This section is currently under development and will be expanded in subsequent revisions.
+
+This section articulates the ethical framework underlying the project, clarifying the author’s normative position and the principles guiding system design.
+
      
 ---
 
