@@ -55,3 +55,5 @@ Zelfs wanneer derden vergelijkbare uitgangspunten hanteren, zullen uitwerkingen 
 De in dit whitepaper beschreven concepten zijn bedoeld als **grondslag voor verdere ontwikkeling, toetsing en — waar passend — licentieerbare toepassing**, zonder dat daarmee wordt gesuggereerd dat één enkele implementatie de enige juiste is.
 
 De hoofdstukken die volgen beschrijven hoe ModelHaven Studio functioneert als **operationele vertaling van UCSF**: van normatief kader naar systeemgedrag. Niet om te overtuigen, maar om zichtbaar te maken welke keuzes noodzakelijk zijn wanneer toestemming, veiligheid en verantwoordelijkheid geen optionele waarden zijn, maar structurele vereisten.
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
