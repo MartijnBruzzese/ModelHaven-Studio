@@ -122,3 +122,7 @@ Zij zorgen ervoor dat:
 - en falen leidt tot begrenzing.
 
 In het volgende hoofdstuk wordt uitgewerkt hoe deze mechanismen worden ingebed in **bestuur, toezicht en menselijke tegenmacht**.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
