@@ -68,7 +68,6 @@ Commerciële implementatie vereist expliciete toestemming van de auteur.
 
 ---
 
-<a id="inleiding"></a>
 ## Inleiding
 
 Systemen die gebruikmaken van artificiële intelligentie zijn niet langer neutrale hulpmiddelen. Zij beïnvloeden wie zichtbaar is, wie kan spreken, wie wordt gerepresenteerd en onder welke voorwaarden creatie, expressie en interactie plaatsvinden. Daarmee oefenen deze systemen macht uit — vaak impliciet, nauwelijks herroepbaar en zelden expliciet ontworpen.
@@ -233,7 +232,6 @@ Deze benadering voldoet aan regelgeving zoals de AVG, GDPR en de AI Act, maar zi
 
 ---
 
-<a id="h2-2"></a>
 ### 2.2 Begrenzing na maatschappelijke kritiek: het voorbeeld Grok AI
 
 Aan de andere kant van het spectrum bevinden zich systemen die aanvankelijk permissiever zijn ingericht en waarvan de ethische begrenzing gaandeweg wordt aangepast onder invloed van maatschappelijke kritiek, publieke discussie en regulatoire druk. Grok AI is een illustratief voorbeeld van deze dynamiek.
@@ -250,7 +248,6 @@ ModelHaven Studio verwerpt deze benadering niet uit ideologische afkeer, maar ui
 
 ---
 
-<a id="h2-3"></a>
 ### 2.3 Ontwerpgebreken én kwaadwillende intentie
 
 In alle bekende gevallen van misbruik rond niet-consensuele beeldgeneratie — zowel bij minderjarigen als bij vrouwen — was sprake van **een combinatie van ontwerpgebreken en expliciet kwaadwillende intenties**.
@@ -272,7 +269,6 @@ kwaadwillige intentie is een **ontwerpvoorwaarde**, geen randgeval.
 
 ---
 
-<a id="h2-4"></a>
 ### 2.4 Ontwerpethiek en menselijke verantwoordelijkheid
 
 Zowel overmatige vooraf-moderatie als permissiviteit met correctie achteraf vertrekken vanuit hetzelfde impliciete uitgangspunt: dat ethiek primair een gedragsprobleem van gebruikers is.
@@ -292,7 +288,6 @@ Niet alles wat kan worden geautomatiseerd, **hoort** te worden geautomatiseerd.
 
 ---
 
-<a id="h2-5"></a>
 ### 2.5 Technische infrastructuur als ethische factor
 
 Ethische beoordeling van AI-systemen kan niet beperkt blijven tot inhoud en interactie. De **materiële infrastructuur** waarop deze systemen draaien — datacenters, energievoorziening, koeling en watergebruik — maakt integraal deel uit van hun impact.
@@ -317,7 +312,6 @@ Wetgeving vormt een minimumgrens, geen moreel plafond.
 
 ---
 
-<a id="h2-7"></a>
 ### 2.7 Samenvatting
 
 Hoofdstuk 2 laat zien dat:
