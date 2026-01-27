@@ -45,29 +45,28 @@ Commerciële implementatie vereist expliciete toestemming van de auteur.
 © 2026 — Martijn Bruzzese
 
 ---
-<a id="inhoudsopgave"></a>
 ## Inhoudsopgave
 
 - [Inleiding](#inleiding)
 - [Positionering en interpretatie](#positionering-en-interpretatie)
 
-- [Hoofdstuk 1 — Het implementatieprobleem](#hoofdstuk-1)
-- [Hoofdstuk 2 — Van moderatie achteraf naar ontwerpverantwoordelijkheid](#hoofdstuk-2)
-- [Hoofdstuk 3 — Consent, identiteit en intent](#hoofdstuk-3)
-- [Hoofdstuk 4 — Veiligheidsmodi, sandboxes en risicoklassen](#hoofdstuk-4)
-- [Hoofdstuk 5 — Falen, grenzen en niet-onderhandelbare bescherming](#hoofdstuk-5)
-- [Hoofdstuk 6 — Identiteit en consent tokens](#hoofdstuk-6)
-- [Hoofdstuk 7 — Bestuur, toezicht en menselijke tegenmacht](#hoofdstuk-7)
-- [Hoofdstuk 8 — Schaal, samenwerking en maatschappelijke inbedding](#hoofdstuk-8)
-- [Hoofdstuk 9 — Slotpositie](#hoofdstuk-9)
-- [Hoofdstuk 10 — Epiloog](#hoofdstuk-10)
+- [Hoofdstuk 1 — Het implementatieprobleem](#hoofdstuk-1--het-implementatieprobleem)
+- [Hoofdstuk 2 — Van moderatie achteraf naar ontwerpverantwoordelijkheid](#hoofdstuk-2--van-moderatie-achteraf-naar-ontwerpverantwoordelijkheid)
+- [Hoofdstuk 3 — Consent, identiteit en intent](#hoofdstuk-3--consent-identiteit-en-intent)
+- [Hoofdstuk 4 — Veiligheidsmodi, sandboxes en risicoklassen](#hoofdstuk-4--veiligheidsmodi-sandboxes-en-risicoklassen)
+- [Hoofdstuk 5 — Falen, grenzen en niet-onderhandelbare bescherming](#hoofdstuk-5--falen-grenzen-en-niet-onderhandelbare-bescherming)
+- [Hoofdstuk 6 — Identiteit en consent tokens](#hoofdstuk-6--identiteit-en-consent-tokens)
+- [Hoofdstuk 7 — Bestuur, toezicht en menselijke tegenmacht](#hoofdstuk-7--bestuur-toezicht-en-menselijke-tegenmacht)
+- [Hoofdstuk 8 — Schaal, samenwerking en maatschappelijke inbedding](#hoofdstuk-8--schaal-samenwerking-en-maatschappelijke-inbedding)
+- [Hoofdstuk 9 — Slotpositie](#hoofdstuk-9--slotpositie)
+- [Hoofdstuk 10 — Epiloog](#hoofdstuk-10--epiloog)
 
-- [Hoofdstuk 11 — Context, bronnen en verantwoording](#hoofdstuk-11)
-- [Hoofdstuk 12 — Begrippenkader](#hoofdstuk-12)
-- [Hoofdstuk 13 — Afbakening en toekomst](#hoofdstuk-13)
-- [Hoofdstuk 14 — Ontstaansproces en reflectie](#hoofdstuk-14)
+- [Hoofdstuk 11 — Context, bronnen en verantwoording](#hoofdstuk-11--context-bronnen-en-verantwoording)
+- [Hoofdstuk 12 — Begrippenkader](#hoofdstuk-12--begrippenkader)
+- [Hoofdstuk 13 — Afbakening en toekomst](#hoofdstuk-13--afbakening-en-toekomst)
+- [Hoofdstuk 14 — Ontstaansproces en reflectie](#hoofdstuk-14--ontstaansproces-en-reflectie)
 
---- 
+---
 
 <a id="inleiding"></a>
 ## Inleiding
