@@ -1,3 +1,8 @@
+---
+layout: default
+title: ModelHaven Studio — Whitepaper
+---
+
 # ModelHaven Studio — Whitepaper  
 ## Systeemarchitectuur voor Toestemming, Veiligheid en Ethisch Verantwoorde AI
 
