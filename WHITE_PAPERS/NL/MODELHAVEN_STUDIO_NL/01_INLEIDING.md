@@ -1,9 +1,6 @@
 <a id="inhoudsopgave"></a>
 ## Inhoudsopgave
 
-<a id="inhoudsopgave"></a>
-## Inhoudsopgave
-
 - [Inleiding](#inleiding)
 - [Positionering en interpretatie](#positionering-en-interpretatie)
 
