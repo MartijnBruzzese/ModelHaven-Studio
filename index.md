@@ -72,7 +72,7 @@ This section articulates the ethical framework underlying the project, clarifyin
      
 ---
 
-### Framework & Canon
+### Core Architecture
 
 - **UCSF — Framework Overview**  
   → [Framework](FRAMEWORK.html)
