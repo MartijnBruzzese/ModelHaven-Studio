@@ -6,13 +6,8 @@ title: ModelHaven Studio — Toward Humane AI
 # ModelHaven Studio  
 ## Toward Humane AI
 
-- **Toward Humane AI — Conceptual Framework (EN)**  
-  → [Read document](TOWARD_HUMANE_AI_EN.md)
-
-- **Toward Humane AI — Conceptueel Kader (NL)**  
-  → [Lees document](TOWARD_HUMANE_AI_NL.md)
-
-
+English introduction → [Toward Humane AI (EN)](TOWARD_HUMANE_AI_EN.md)  
+Nederlandse introductie → [Toward Humane AI (NL)](TOWARD_HUMANE_AI_NL.md)
 
 ## What This Repository Contains
 
