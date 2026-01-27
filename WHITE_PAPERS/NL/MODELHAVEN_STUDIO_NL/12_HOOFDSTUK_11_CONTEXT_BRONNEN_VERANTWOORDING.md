@@ -10,3 +10,7 @@ Alle standpunten in dit document zijn de verantwoordelijkheid van de auteur.
 Waar mogelijk wordt aangesloten bij bestaande wetgeving (AVG/GDPR, AI Act) en ethische kaders, zonder deze als voldoende te beschouwen.
 
 Dit document nodigt expliciet uit tot peer review en kritische toetsing.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
