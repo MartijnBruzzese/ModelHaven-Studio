@@ -32,8 +32,8 @@ This repository serves as the canonical home for:
 
 ## Core Documents
 
-- 📓 Executive Summary (NL & EN):  
-[UCSF & ModelHaven Studio — TL;DR](EXECUTIVE_SUMMARY.md)
+- 📄 Executive Summary (NL & EN):  
+  →[UCSF & ModelHaven Studio — Executive Summary](EXECUTIVE_SUMMARY.md)
 
 ### Academic White Papers
 
