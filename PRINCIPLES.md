@@ -1,271 +1,171 @@
-# Core Principles – ModelHaven & UCSF
+---
+layout: default
+title: Core Principles — UCSF
+---
 
-This document unifies the **ModelHaven Principles** and the
-**UCSF (Universal Consent & Safety Framework) Principles** into a single,
-coherent principles set.
+# Core Principles  
+### Universal Consent & Safety Framework (UCSF)
 
-These principles guide the design of humane AI systems that interact with:
-
-- intimacy and erotica
-- identity and likeness
-- minors and vulnerable people
-- parasocial relationships
-- creator economies and digital labour
+**Version:** v1.0  
+**Last updated:** January 2026  
+**Author:** Martijn Bruzzese
 
 ---
 
-## 🧭 How the principles relate
+## Purpose
 
-There are two levels:
+This document defines the core ethical principles underlying UCSF.
 
-- **ModelHaven Principles (primary)**  
-  Philosophy, values, and the idea of AI as a refuge that does not harm people or animals.
+These principles are normative: they describe how systems *ought* to behave when consent, identity, safety, and power asymmetry are treated as design responsibilities rather than policy afterthoughts.
 
-- **UCSF Principles (operational)**  
-  How those values are enforced in practice, as rules, architecture choices, and safety defaults.
-
-In short:
-
-> **ModelHaven = why**  
-> **UCSF = how**
-
-UCSF does **not replace** ModelHaven’s principles.  
-It **implements them.**
+They do not prescribe implementation.
 
 ---
 
-# PART I — ModelHaven Principles (Primary)
+## 1. Consent Is a Condition, Not an Event
 
-These are the original foundational principles of ModelHaven.
+Consent is not a one-time checkbox.
 
-They define the **ethical north star**.
+It is:
 
----
+- contextual  
+- revocable  
+- continuous  
+- dependent on clarity and agency  
 
-## 1. Refuge, not extraction
+Systems must treat consent as an ongoing state rather than a transactional moment.
 
-ModelHaven is conceived as a **haven**:
-
-A place where:
-
-- people are not exploited
-- fantasy does not consume reality
-- safety is designed in from the start
-
-Systems inspired by ModelHaven must feel:
-
-- humane  
-- honest  
-- non-predatory  
+Absence of consent defaults to refusal.
 
 ---
 
-## 2. Fiction remains fiction
+## 2. Safety Is a Design Responsibility
 
-Fiction is powerful — but it must remain **honestly fictional**.
+Safety must be embedded at the architectural level.
 
-Principles:
+It is not achieved through moderation alone.
 
-- clearly fictional AI characters remain **clearly fictional**
-- do not pass fiction off as real people without consent
-- audiences should not be deceived into believing synthetic people are real
+Systems must be designed to:
 
-Fantasy is permitted.  
-**Harm is not.**
+- prevent foreseeable harm  
+- fail closed under uncertainty  
+- avoid optimizing for engagement at the expense of protection  
 
----
-
-## 3. Consent and autonomy by design
-
-ModelHaven assumes:
-
-- consent is **active and revocable**
-- creators control their identity and likeness
-- participation is not coerced by economic or technical traps
-
-No one should be trapped inside a system that uses their body, face, or voice.
+Safety is not reactive.
 
 ---
 
-## 4. No exploitation as a business model
+## 3. Ethical Refusal Is a Valid Outcome
 
-ModelHaven rejects systems based on:
+Not all technically possible actions should be permitted.
 
-- addictive engagement loops
-- manipulation of loneliness or grief
-- creator disposability
-- “pay more to be loved” mechanics
+Systems must retain the capacity to refuse requests that violate:
 
-Revenue must not depend on harm.
+- consent  
+- identity integrity  
+- safety boundaries  
+- power asymmetries  
 
----
-
-## 5. Minors and animals are absolutely protected
-
-Core principle:
-
-> minors and animals are never sexualised — directly or indirectly
-
-This includes:
-
-- “aged up but obviously a child”
-- “role-play” that eroticises children
-- fetishisation of animals
-
-Ambiguity defaults to **protection**, not permissiveness.
+Refusal must be explicit, explainable, and consistent.
 
 ---
 
-## 6. Boundaries are a feature, not a bug
+## 4. Power Requires Responsibility
 
-ModelHaven treats boundaries as:
+Every system concentrates power:
 
-- healthy
-- necessary
-- dignity-preserving
+- over visibility  
+- over representation  
+- over access  
+- over interaction  
 
-Systems should help users:
+Power without accountability leads to harm.
 
-- recognise limits
-- avoid dependency
-- engage safely with fantasy
-
----
-
-# PART II — UCSF Principles (Operational)
-
-These principles **implement** ModelHaven ethics at the framework level.
-
-They translate values into:
-
-- system behaviour
-- architecture choices
-- enforcement mechanisms
+UCSF asserts that those who design and operate systems carry responsibility for their structural effects.
 
 ---
 
-## 1. Consent is a system primitive
+## 5. Repair Is an Ethical Obligation
 
-Consent is:
+When harm occurs, responsibility does not end at prevention.
 
-- explicit
-- informed
-- specific
-- **revocable**
+Systems and institutions must support:
 
-It exists as a **data object**, not a legal footnote.
+- acknowledgement  
+- remediation  
+- transparency  
+- learning  
 
----
-
-## 2. Revocation is a right
-
-Creators and subjects may:
-
-- withdraw consent
-- deactivate identity usage
-- trigger global **kill-switches**
-
-Withdrawal must be:
-
-- respected
-- propagated
-- technically possible
+Repair is part of ethical design, not a reputational afterthought.
 
 ---
 
-## 3. Safety must fail closed
+## 6. Human Oversight Must Remain Meaningful
 
-When:
+Automation must not replace moral judgment.
 
-- age is unclear
-- identity is unclear
-- consent is unclear
-- risk is high
+Human involvement is required where:
 
-…the system must:
+- consent is ambiguous  
+- harm is plausible  
+- identity is at stake  
+- vulnerability is present  
 
-- stop
-- or switch to **clearly fictional content**
-
-Never “generate first, moderate later.”
+Delegating ethical decisions entirely to automated systems is itself an ethical failure.
 
 ---
 
-## 4. Fictionalisation fallback
+## 7. Non-Human Life Is Morally Relevant
 
-When valid consent is not present:
+UCSF recognizes that ethical systems cannot be limited to human users alone.
 
-- real-world referents are removed
-- a **new fictional persona** is generated instead
-- style is separated from identity
+Animals and vulnerable non-human beings must not be exposed to exploitation or harm through digital systems.
 
-This enables fantasy  
-**without abusing real people.**
+Their protection is treated as a design constraint, not an optional feature.
 
 ---
 
-## 5. Minor & animal protections are absolute
+## 8. Environmental Limits Are Design Constraints
 
-UCSF enforces:
+Large-scale digital systems consume:
 
-- sealed, non-sexual minor spaces
-- no experiential sexualisation
-- immediate fail-closed on ambiguity
-- prohibition of erotic animal content
+- energy  
+- water  
+- physical infrastructure  
 
-These are not moderation guidelines — they are **system defaults**.
+These impacts are ethical considerations, not externalities.
 
----
-
-## 6. Transparency and auditability
-
-Systems should communicate:
-
-- whether content is fictional or real-person-based
-- what consent applies
-- how consent can be revoked
-
-Black-box intimacy systems are unacceptable.
+UCSF treats environmental pressure as a first-class design factor rather than a secondary operational concern.
 
 ---
 
-## 7. Creator dignity and labour rights
+## 9. Ethics Must Be Architectural
 
-Creators are:
+Ethical intent without system-level enforcement is insufficient.
 
-- humans
-- not commodities
+Values must be reflected in:
 
-Frameworks must:
+- structural boundaries  
+- interaction constraints  
+- default behaviors  
+- governance models  
 
-- prevent identity theft
-- prevent long-term lock-in
-- support exit and erasure
-
----
-
-## 8. Trauma-aware design
-
-Avoid designing for:
-
-- addiction loops
-- love-bombing pipelines
-- emotional dependency
-
-Systems dealing in intimacy must not prey on wounds.
+Ethics belongs in architecture, not only in policy documents.
 
 ---
 
-## 9. Accountability
+## Positioning Note
 
-UCSF rejects:
+UCSF does not claim universal authority.
 
-- “just the platform” excuses
-- hiding behind neutrality
-- denial of predictable harms
+It offers an explicit ethical position intended for:
 
-If a system **predictably enables abuse**, the builder is responsible.
+- peer review  
+- interdisciplinary discussion  
+- responsible adaptation  
+
+Agreement is not required. Transparency is.
 
 ---
 
-_Last updated: December 26, 2025_
+*These principles define UCSF v1.0 and will not be substantively altered without formal versioning.*
