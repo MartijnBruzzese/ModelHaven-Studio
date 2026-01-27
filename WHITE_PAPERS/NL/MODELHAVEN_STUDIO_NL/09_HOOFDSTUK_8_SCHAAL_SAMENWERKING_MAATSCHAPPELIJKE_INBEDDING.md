@@ -98,3 +98,7 @@ Schaal vereist ontwerpdiscipline.
 Samenwerking vereist gedeelde waarden.
 
 In het volgende hoofdstuk wordt de **slotpositie** van dit whitepaper uitgewerkt.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
