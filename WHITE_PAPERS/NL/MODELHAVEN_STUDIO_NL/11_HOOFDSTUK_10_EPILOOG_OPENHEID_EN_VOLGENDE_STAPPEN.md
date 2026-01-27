@@ -50,3 +50,7 @@ Het is een uitnodiging om anders te ontwerpen.
 Met aandacht.  
 Met twijfel.  
 Met verantwoordelijkheid.
+
+---
+
+[Terug naar inhoudsopgave](#inhoudsopgave)
