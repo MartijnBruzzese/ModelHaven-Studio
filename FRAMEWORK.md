@@ -54,6 +54,7 @@ UCSF principles become enforceable through architectural commitments:
 These commitments operate independently of user intent or platform incentives.
 
 ## Traceability Overview
+
 ```mermaid
 flowchart TD
 
