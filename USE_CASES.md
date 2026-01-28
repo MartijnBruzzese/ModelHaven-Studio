@@ -397,6 +397,81 @@ Distributed abuse networks exploit moderation gaps.
 
 ---
 
+## Use Case 17 — Cross-Platform Sexual Image Trafficking
+
+### Scenario
+
+Explicit or manipulated images of individuals are generated or collected on one platform and redistributed across multiple services.
+
+### Failure Mode
+
+- Platform-local moderation fails to stop propagation  
+- Consent does not travel with assets  
+- Victims repeatedly report identical material  
+
+### UCSF Response
+
+- Persistent consent provenance  
+- Cross-system revocation propagation  
+- Identity integrity enforced beyond platform boundaries  
+
+**Related UCSF Elements**
+
+- Principles: Consent as Condition; Repair Obligation; Power Requires Responsibility  
+- Framework: Interoperable Consent; Revocation Architecture  
+- Open Questions: Cross-platform enforcement; victim-centered takedown design  
+
+---
+
+## Use Case 18 — Coordinated Abuse Networks
+
+### Scenario
+
+Organized groups coordinate exploitation and harassment across fragmented platforms.
+
+### Failure Mode
+
+- Pattern-level abuse remains invisible  
+- Responsibility diffused  
+
+### UCSF Response
+
+- Network-level risk classification  
+- Human escalation paths  
+- Shared revocation signals  
+
+**Related UCSF Elements**
+
+- Principles: Power Requires Responsibility; Repair Obligation; Human Oversight  
+- Framework: Cross-System Governance; Risk Aggregation  
+- Open Questions: Distributed accountability  
+
+---
+
+## Use Case 19 — Youth Exposure via Algorithmic Discovery
+
+### Scenario
+
+Recommendation systems surface borderline or adult-adjacent content to minors.
+
+### Failure Mode
+
+- Engagement prioritized over developmental safety  
+- Boundary erosion occurs gradually  
+
+### UCSF Response
+
+- Sealed minor environments  
+- Drift detection tied to youth risk thresholds  
+
+**Related UCSF Elements**
+
+- Principles: Safety as Design Responsibility; Human Oversight  
+- Framework: Risk Classification; Drift Detection  
+- Open Questions: Algorithmic responsibility in youth contexts  
+
+---
+
 ## Design Lessons
 
 - Ethics without architecture fails  
@@ -408,7 +483,7 @@ Distributed abuse networks exploit moderation gaps.
 - Environmental impact cannot be externalized  
 - Fragmented platforms enable organized harm  
 
-UCSF reframes these problems as infrastructure design failures.
+Together, these patterns demonstrate that consent, identity, safety, and sustainability cannot be layered on top of systems — they must be embedded as first-class infrastructure.
 
 ---
 
