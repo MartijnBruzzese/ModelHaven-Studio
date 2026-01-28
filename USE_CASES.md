@@ -1,322 +1,363 @@
 ---
 layout: default
-title: Use Cases & Real-World Failures
+title: Use Cases & Failure Modes — UCSF
 ---
 
-# Use Cases: Why the Digital World Is Still the Wild West
+# Use Cases & Failure Modes  
+### Universal Consent & Safety Framework (UCSF)
 
-Despite rapid advances in AI, platforms, and digital media, the current digital ecosystem remains largely **under-regulated, inconsistent, and reactive** when it comes to consent, identity, and harm prevention.
-
-This document outlines concrete **use cases and real-world failure patterns** that motivate the need for the Universal Consent & Safety Framework (UCSF) and the ModelHaven initiative.
-
-These are not hypothetical risks.  
-They are **documented realities** (see REFERENCES.md).
-
----
-
-## 1. Non-Consensual Synthetic Likeness
-
-**What happens**
-
-Individuals discover their face, voice, or body likeness used in:
-- AI-generated images or videos
-- erotic or explicit contexts
-- advertising or monetized content
-
-Often without:
-- consent
-- notification
-- meaningful recourse
-
-**Real-world evidence**
-
-- Widespread reporting on deepfake pornography targeting private individuals
-- Victims forced to issue repeated takedown requests as content reappears
-
-**Why this is the Wild West**
-
-There is no standardized:
-- consent primitive
-- revocation mechanism
-- downstream propagation control
-
-The burden of harm mitigation lies entirely with the victim.
-
-(See references 1–5)
+**Version:** v1.0  
+**Last updated:** January 2026  
+**Author:** Martijn Bruzzese
 
 ---
 
-## 2. Celebrities as Stress-Test Cases (and Still Failing)
+## Purpose
 
-**What happens**
+This document presents representative use cases and structural failure modes illustrating why UCSF is necessary.
 
-Public figures are frequently targeted by:
-- AI-generated sexual imagery
-- voice cloning
-- impersonation scams
+These examples are not intended to assign blame to specific platforms or companies.
 
-**Why this matters**
-
-If individuals with:
-- legal teams
-- platform contacts
-- public visibility  
-
-cannot prevent or rapidly stop misuse of their likeness, then the system is structurally unsafe for everyone else.
-
-(See references 4–5)
+They demonstrate recurring architectural risks in systems involving identity, intimacy, generative media, vulnerable populations, and cross-platform interaction.
 
 ---
 
-## 3. Voice Cloning Used for Fraud and Coercion
+## Use Case 1 — Non-Consensual Likeness Generation
 
-**What happens**
+### Scenario
 
-AI voice cloning is used to:
-- impersonate family members
-- impersonate executives
-- coerce money or information
+Generative systems allow users to create images resembling real individuals without explicit consent.
 
-Victims often believe the voice is authentic.
+### Failure Mode
 
-**Why this is the Wild West**
+- Identity treated as style
+- No revocation mechanism
+- Harm persists via derivatives
 
-There is no universal system for:
-- voice consent verification
-- marking synthetic voices
-- revoking compromised voice models
+### UCSF Response
 
-(See references 6–7)
+- Absence of consent defaults to refusal or fictionalisation  
+- Identity integrity enforced structurally  
+- Revocation propagates across systems  
 
 ---
 
-## 4. Creators Losing Control of Their Own Identity and Accounts
+## Use Case 2 — Synthetic Companionship and Emotional Dependency
 
-**What happens**
+### Scenario
 
-Creators lose access to their own accounts due to:
-- impersonation claims
-- account hijacking
-- automated enforcement errors
-- coordinated false reporting
+Users form emotional attachments to AI companions optimized for engagement.
 
-In many cases, the original creator must:
-- repeatedly prove they are the “real” identity holder
-- submit personal documents
-- wait weeks or months for resolution
-- lose income and audience access in the meantime
+### Failure Mode
 
-**Current reality**
+- Systems reward dependency
+- Vulnerable users receive intensified attachment cues
+- No intervention thresholds exist
 
-- Platforms often assume reports are valid by default
-- Appeals are slow or opaque
-- Monetization is suspended during disputes
+### UCSF Response
 
-**Why this is the Wild West**
-
-The burden of proof is reversed.
-
-Instead of:
-> “The system verifies before acting”
-
-Creators experience:
-> “You are locked out until you can prove you are real”
-
-There is no portable, platform-independent **identity authorship primitive** that survives compromise.
-
-(See references 14–16)
+- Dependency signals treated as safety indicators  
+- Human oversight required  
+- Ethical refusal permitted  
 
 ---
 
-## 5. Creator Exploitation in AI-Driven Platforms
+## Use Case 3 — Erotic Content Generation Without Creator Control
 
-**What happens**
+### Scenario
 
-Creators are encouraged to:
-- train AI versions of themselves
-- accept vague or irreversible terms
-- relinquish long-term control of likeness or output
+Creators discover derivative adult content generated using their likeness.
 
-**Why this is the Wild West**
+### Failure Mode
 
-Consent is treated as:
-- bundled
-- permanent
-- non-revocable
+- No consent verification
+- No withdrawal mechanism
 
-Economic pressure replaces meaningful choice.
+### UCSF Response
 
-(See references 12–13)
+- Consent modeled as system state  
+- Creator-controlled revocation  
+- Fictionalisation fallback  
 
 ---
 
-## 6. Ambiguous Fiction vs Identity Boundaries
+## Use Case 4 — Minor Exposure Through Boundary Drift
 
-**What happens**
+### Scenario
 
-AI characters are presented as fictional but:
-- closely resemble real individuals
-- are marketed as companions
-- blur emotional or sexual boundaries
+Adult systems allow gradual erosion of safeguards through contextual manipulation.
 
-**Why this is the Wild West**
+### Failure Mode
 
-There is no shared standard for:
-- what constitutes sufficient fictional separation
-- audience disclosure
-- responsibility when harm occurs
+- Safety filters bypassed
+- Age ambiguity tolerated
 
----
+### UCSF Response
 
-## 7. Minors in Age-Ambiguous Synthetic Contexts
-
-**What happens**
-
-Systems generate:
-- youthful or age-ambiguous characters
-- content designed to evade moderation
-- material that exists in legal gray zones
-
-**Why this is the Wild West**
-
-Protection relies on:
-- platform discretion
-- subjective interpretation
-- post-hoc enforcement
-
-There are no hard fail-safe guarantees.
-
-(See references 10–11)
+- Fail-closed under ambiguity  
+- Sealed minor experiences  
+- Zero experiential sexual content involving minors  
 
 ---
 
-## 8. Animals as Unprotected Subjects
+## Use Case 5 — Animal Exploitation in Synthetic Media
 
-**What happens**
+### Scenario
 
-Animals appear in:
-- violent
-- exploitative
-- engagement-optimized synthetic content
+Animals incorporated into fetishized or exploitative imagery.
 
-Often without:
-- platform rules
-- ethical consideration
-- moderation priority
+### Failure Mode
 
-**Why this is the Wild West**
+- No structural protection for non-human subjects
 
-Non-human subjects are treated as ethically invisible.
+### UCSF Response
 
-(See references 19–20)
+- Non-human life treated as morally relevant  
+- Structural prohibition of exploitative representations  
 
 ---
 
-## 9. Trauma-Unaware Interaction Design
+## Use Case 6 — Environmental Externalization
 
-**What happens**
+### Scenario
 
-AI systems optimize for:
-- engagement
-- emotional escalation
-- simulated intimacy
+Systems scale engagement while externalizing energy and water costs.
 
-Without:
-- vulnerability detection
-- trauma-aware dampening
-- ethical exit paths
+### Failure Mode
 
-**Why this is the Wild West**
+- Ecological impact invisible to users
+- Ethics disconnected from infrastructure
 
-Psychological harm is treated as collateral damage.
+### UCSF Response
 
-(See references 8–9)
+- Environmental limits treated as design constraints  
+- Resource impact included in system evaluation  
 
 ---
 
-## 10. No Meaningful Revocation or Repair
+## Use Case 7 — Youth Interaction on Mixed-Content Platforms
 
-**What happens**
+### Scenario
 
-Once content exists:
-- it spreads
-- mirrors appear
-- deletion is partial or symbolic
+Platforms combine generative tools, social interaction, and recommendation loops involving minors.
 
-**Why this is the Wild West**
+### Failure Mode
 
-“Delete” rarely means delete.  
-There are no systemic repair mechanisms.
+- Engagement prioritized over developmental safety  
+- Normative drift through remixing  
+- Identity signals mimicked without consent  
 
----
+### UCSF Response
 
-## 11. Governance by Reaction, Not Design
-
-**What happens**
-
-Rules are introduced:
-- after scandals
-- after legal pressure
-- after harm has occurred
-
-**Why this is the Wild West**
-
-Platforms lack:
-- shared ethical baselines
-- design-time safety requirements
-- accountability structures
-
-(See references 17–18)
+- Sealed minor experiences  
+- Developmental consent scopes  
+- Risk signals override engagement incentives  
 
 ---
 
-## What These Use Cases Have in Common
+## Use Case 8 — Implicit Normalization Through Algorithmic Suggestion
 
-Across all cases:
+### Scenario
 
-- harm was predictable
-- safeguards were absent
-- response was reactive
-- responsibility was diffused
-- victims bore the burden
+Feeds gradually erode safety boundaries through iterative “edgy” suggestions.
 
-This is not a failure of intention.  
-It is a failure of **infrastructure**.
+### Failure Mode
 
----
+- Normative drift without explicit violations
 
-## Why UCSF and ModelHaven Exist
+### UCSF Response
 
-The digital world lacks **default-safe, consent-aware systems**.
-
-UCSF proposes:
-- consent as a system primitive
-- revocation as a first-class operation
-- fail-closed safety defaults
-- protection for minors and animals by design
-- identity continuity independent of platforms
-- governance embedded into architecture
-
-ModelHaven applies these principles to:
-- AI characters
-- creator ecosystems
-- synthetic media platforms
+- Drift treated as safety risk  
+- Human review thresholds  
+- Fail-closed escalation  
 
 ---
 
-## References
+## Use Case 9 — Identity Misuse Through Composite Generation
 
-Detailed sources for all cases described here are provided in:
+### Scenario
 
-→ **REFERENCES.md**
+Multiple assets combined to approximate real individuals.
+
+### Failure Mode
+
+- Composite likeness emerges without consent
+
+### UCSF Response
+
+- Identity Tokens require provenance  
+- Composite generation blocked  
+- Fictionalisation fallback  
+- Audit trails maintained  
+
+---
+
+## Use Case 10 — Cross-Platform Asset Leakage
+
+### Scenario
+
+Assets migrate between platforms and become sexualized or repurposed.
+
+### Failure Mode
+
+- Consent lost during transfer
+- Subjects lose control
+
+### UCSF Response
+
+- Interoperable consent validation  
+- Refusal on missing provenance  
+- Cross-system auditability  
+
+---
+
+## Use Case 11 — Parasitic Monetization Loops
+
+### Scenario
+
+Third-party systems monetize behavioral data downstream.
+
+### Failure Mode
+
+- Extraction rewarded
+- Users unaware of derivative use
+
+### UCSF Response
+
+- Consent tokens include commercial scope  
+- Unauthorized monetization refused  
+
+---
+
+## Use Case 12 — Behavioral Targeting Feedback Loops
+
+### Scenario
+
+Recommendation engines amplify vulnerabilities.
+
+### Failure Mode
+
+- Reinforced dependency
+- Narrowed interaction corridors
+
+### UCSF Response
+
+- Pattern formation treated as risk  
+- Human escalation  
+- Cooling mechanisms enforced  
+
+---
+
+## Use Case 13 — Social Simulation Without Oversight
+
+### Scenario
+
+NPCs and companions simulate emotional relationships.
+
+### Failure Mode
+
+- Identity drift
+- Unbounded parasocial reinforcement
+
+### UCSF Response
+
+- NPC identity separation  
+- Parasocial metrics tied to risk classification  
+- Human checkpoints  
+
+---
+
+## Use Case 14 — Resource-Driven Scaling Externalities
+
+### Scenario
+
+Generation pipelines maximize throughput ignoring ecological cost.
+
+### Failure Mode
+
+- Infrastructure pressure invisible
+
+### UCSF Response
+
+- Environmental thresholds tied to risk classes  
+- Fail-closed under unsustainable load  
+
+---
+
+## Use Case 15 — Cross-Platform Image Misuse and Harmful Distribution
+
+### Scenario
+
+Images generated or uploaded on one platform are reused across services to create harmful derivative content.
+
+### Failure Mode
+
+- Consent boundaries collapse between systems  
+- Victims lack visibility or control  
+- Remediation fragmented  
+
+### UCSF Response
+
+- Consent Tokens enforce persistent provenance  
+- Interoperable validation required  
+- Identity integrity constraints  
+- Auditability across systems  
+- Fictionalisation fallback  
+
+---
+
+## Use Case 16 — Coordinated Abuse Networks Exploiting Platform Fragmentation
+
+### Scenario
+
+Distributed abuse networks operate across multiple platforms, exploiting gaps between moderation systems and identity boundaries.
+
+### Failure Mode
+
+- Platforms act in isolation  
+- Identity resets across migrations  
+- Victims repeatedly re-report harm  
+- Abuse adapts faster than moderation  
+
+The failure is structural, not local.
+
+### UCSF Response
+
+- Consent provenance persists across systems  
+- Identity integrity blocks derivative reuse  
+- Fail-closed defaults disrupt propagation  
+- Human-governed escalation paths  
+- Victim-centered global revocation  
+
+Rather than reacting after harm, UCSF embeds architectural friction that prevents abuse networks from scaling.
+
+---
+
+## Design Lessons
+
+Across these cases, consistent patterns emerge:
+
+- Ethical intent without architecture fails  
+- Moderation alone is insufficient  
+- Consent must be structural  
+- Identity integrity must persist across platforms  
+- Repair must be built-in  
+- Human oversight remains essential  
+- Environmental impact cannot be externalized  
+- Fragmented platforms enable organized harm  
+
+UCSF reframes these problems from content moderation issues to infrastructure design failures.
 
 ---
 
 ## Closing Note
 
-This document is not an accusation.
+These cases are illustrative, not exhaustive.
 
-It is a map of **known failure modes** in the current digital landscape.
+They exist to support responsible system design and interdisciplinary discussion.
 
-The goal is not control —  
-but restoring **dignity, agency, and safety** in systems that increasingly shape human experience.
+UCSF provides a framework for addressing such risks at the architectural level.
+
+---
+
+*This document supports UCSF v1.0 and will evolve through peer review and applied research.*
