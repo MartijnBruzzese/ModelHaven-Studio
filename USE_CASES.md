@@ -12,7 +12,8 @@ title: Use Cases & Failure Modes — UCSF
 
 ---
 
-## Purpose
+<a id="index"></a>
+## Index
 
 This document presents representative use cases and structural failure modes illustrating why UCSF is necessary.
 
@@ -70,6 +71,8 @@ Generative systems allow users to create images resembling real individuals with
 - Framework: Fail-Closed Design; Consent Provenance  
 - Open Questions: Revocation propagation; Identity representation  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 2 — Synthetic Companionship and Emotional Dependency
@@ -95,8 +98,9 @@ Users form emotional attachments to AI companions optimized for engagement.
 - Framework: Risk Classification; Ethical Refusal  
 - Open Questions: Dependency detection; Companion boundaries  
 
----
+[↑ Back to Index](#index)
 
+---
 ## Use Case 3 — Erotic Content Generation Without Creator Control
 
 ### Scenario
@@ -119,6 +123,7 @@ Creators discover derivative adult content generated using their likeness.
 - Principles: Consent as Condition; Repair Obligation  
 - Framework: Identity Integrity; Revocation Architecture  
 - Open Questions: Consent usability; Derivative control  
+[↑ Back to Index](#index)
 
 ---
 
@@ -145,6 +150,8 @@ Adult systems allow gradual erosion of safeguards through contextual manipulatio
 - Framework: Fail-Closed Design; Developmental Boundaries  
 - Open Questions: Age uncertainty handling; Safe youth interaction  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 5 — Animal Exploitation in Synthetic Media
@@ -167,6 +174,8 @@ Animals incorporated into fetishized or exploitative imagery.
 - Principles: Non-Human Life is Morally Relevant  
 - Framework: Structural Prohibitions  
 - Open Questions: Animal protection encoding  
+
+[↑ Back to Index](#index)
 
 ---
 
@@ -191,6 +200,8 @@ Systems scale engagement while externalizing energy and water costs.
 - Framework: Environmental Responsibility  
 - Open Questions: Ecological thresholds  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 7 — Youth Interaction on Mixed-Content Platforms
@@ -213,6 +224,8 @@ Platforms combine generative tools, social interaction, and recommendation loops
 - Principles: Safety as Design Responsibility  
 - Framework: Risk Classification  
 - Open Questions: Youth digital safety models  
+
+[↑ Back to Index](#index)
 
 ---
 
@@ -237,6 +250,8 @@ Feeds gradually erode safety boundaries.
 - Framework: Drift Detection  
 - Open Questions: Ethical normalization  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 9 — Identity Misuse Through Composite Generation
@@ -259,6 +274,8 @@ Multiple assets combined to approximate real individuals.
 - Principles: Identity Integrity  
 - Framework: Consent Provenance  
 - Open Questions: Composite identity limits  
+
+[↑ Back to Index](#index)
 
 ---
 
@@ -283,6 +300,8 @@ Assets migrate between platforms and become sexualized or repurposed.
 - Framework: Interoperable Consent  
 - Open Questions: Cross-platform governance  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 11 — Parasitic Monetization Loops
@@ -304,6 +323,8 @@ Third-party systems monetize behavioral data downstream.
 - Principles: Power Requires Responsibility  
 - Framework: Commercial Scope Enforcement  
 - Open Questions: Incentive alignment  
+
+[↑ Back to Index](#index)
 
 ---
 
@@ -327,6 +348,8 @@ Recommendation engines amplify vulnerabilities.
 - Framework: Risk Classification  
 - Open Questions: Behavioral ethics  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 13 — Social Simulation Without Oversight
@@ -349,6 +372,8 @@ NPCs simulate emotional relationships.
 - Framework: Risk Thresholds  
 - Open Questions: Social simulation ethics  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 14 — Resource-Driven Scaling Externalities
@@ -370,6 +395,8 @@ Generation pipelines maximize throughput ignoring ecological cost.
 - Principles: Environmental Limits  
 - Framework: Resource Constraints  
 - Open Questions: Sustainable scaling  
+
+[↑ Back to Index](#index)
 
 ---
 
@@ -395,6 +422,8 @@ Images are reused across services to create harmful derivative content.
 - Framework: Interoperable Validation  
 - Open Questions: Revocation propagation  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 16 — Coordinated Abuse Networks Exploiting Platform Fragmentation
@@ -418,6 +447,8 @@ Distributed abuse networks exploit moderation gaps.
 - Principles: Power Requires Responsibility; Repair Obligation  
 - Framework: Cross-System Governance  
 - Open Questions: Network-level accountability  
+
+[↑ Back to Index](#index)
 
 ---
 
@@ -445,6 +476,8 @@ Explicit or manipulated images of individuals are generated or collected on one 
 - Framework: Interoperable Consent; Revocation Architecture  
 - Open Questions: Cross-platform enforcement; victim-centered takedown design  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 18 — Coordinated Abuse Networks
@@ -470,6 +503,8 @@ Organized groups coordinate exploitation and harassment across fragmented platfo
 - Framework: Cross-System Governance; Risk Aggregation  
 - Open Questions: Distributed accountability  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Use Case 19 — Youth Exposure via Algorithmic Discovery
@@ -494,6 +529,8 @@ Recommendation systems surface borderline or adult-adjacent content to minors.
 - Framework: Risk Classification; Drift Detection  
 - Open Questions: Algorithmic responsibility in youth contexts  
 
+[↑ Back to Index](#index)
+
 ---
 
 ## Design Lessons
@@ -512,3 +549,7 @@ Together, these patterns demonstrate that consent, identity, safety, and sustain
 ---
 
 *This document supports UCSF v1.0 and evolves through peer review.*
+
+[↑ Back to Index](#index)
+
+---
