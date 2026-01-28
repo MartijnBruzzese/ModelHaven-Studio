@@ -1,7 +1,6 @@
 ---
 layout: default
 title: README
-permalink: /readme/
 ---
 
 # ModelHaven Studio — UCSF
