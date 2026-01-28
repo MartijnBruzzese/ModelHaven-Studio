@@ -86,7 +86,7 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
   → [Book draft](BOOK_DRAFT.html)
 
 - References & Source Material  
-  → [References](REFERENCES.html)
+  → [References](REFERENCES.md)
 
 ---
 
