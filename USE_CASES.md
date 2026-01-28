@@ -12,42 +12,30 @@ title: Use Cases & Failure Modes — UCSF
 
 ---
 
-<a id="index"></a>
-## Index
+<a id="toc"></a>
 
-This document presents representative use cases and structural failure modes illustrating why UCSF is necessary.
+## Table of Contents
 
-They demonstrate recurring architectural risks in systems involving identity, intimacy, generative media, vulnerable populations, and cross-platform interaction.
-
-Each case is explicitly linked to UCSF principles, framework elements, and open research questions.
-
----
-
-## Index
-
-1. [Non-Consensual Likeness Generation](#use-case-1--non-consensual-likeness-generation)
-2. [Synthetic Companionship and Emotional Dependency](#use-case-2--synthetic-companionship-and-emotional-dependency)
-3. [Erotic Content Generation Without Creator Control](#use-case-3--erotic-content-generation-without-creator-control)
-4. [Minor Exposure Through Boundary Drift](#use-case-4--minor-exposure-through-boundary-drift)
-5. [Animal Exploitation in Synthetic Media](#use-case-5--animal-exploitation-in-synthetic-media)
-6. [Environmental Externalization](#use-case-6--environmental-externalization)
-7. [Youth Interaction on Mixed-Content Platforms](#use-case-7--youth-interaction-on-mixed-content-platforms)
-8. [Implicit Normalization Through Algorithmic Suggestion](#use-case-8--implicit-normalization-through-algorithmic-suggestion)
-9. [Identity Misuse Through Composite Generation](#use-case-9--identity-misuse-through-composite-generation)
-10. [Cross-Platform Asset Leakage](#use-case-10--cross-platform-asset-leakage)
-11. [Parasitic Monetization Loops](#use-case-11--parasitic-monetization-loops)
-12. [Behavioral Targeting Feedback Loops](#use-case-12--behavioral-targeting-feedback-loops)
-13. [Social Simulation Without Oversight](#use-case-13--social-simulation-without-oversight)
-14. [Resource-Driven Scaling Externalities](#use-case-14--resource-driven-scaling-externalities)
-15. [Cross-Platform Image Misuse and Harmful Distribution](#use-case-15--cross-platform-image-misuse-and-harmful-distribution)
-16. [Coordinated Abuse Networks Exploiting Platform Fragmentation](#use-case-16--coordinated-abuse-networks-exploiting-platform-fragmentation)
-17. [Cross-Platform Sexual Image Trafficking](#use-case-17--cross-platform-sexual-image-trafficking)
-18. [Coordinated Abuse Networks](#use-case-18--coordinated-abuse-networks)
-19. [Youth Exposure via Algorithmic Discovery](#use-case-19--youth-exposure-via-algorithmic-discovery)
+1. Non-Consensual Likeness Generation  
+2. Synthetic Companionship & Emotional Dependency  
+3. Erotic Content Without Creator Control  
+4. Minor Exposure Through Boundary Drift  
+5. Animal Exploitation in Synthetic Media  
+6. Environmental Externalization  
+7. Youth Interaction on Mixed Platforms  
+8. Algorithmic Normalization  
+9. Composite Identity Misuse  
+10. Cross-Platform Asset Leakage  
+11. Parasitic Monetization Loops  
+12. Behavioral Targeting Feedback Loops  
+13. Social Simulation Without Oversight  
+14. Resource-Driven Scaling Externalities  
+15. Cross-Platform Image Misuse  
+16. Coordinated Abuse Networks  
 
 ---
 
-## Use Case 1 — Non-Consensual Likeness Generation
+## 1 — Non-Consensual Likeness Generation
 
 ### Scenario
 
@@ -65,17 +53,19 @@ Generative systems allow users to create images resembling real individuals with
 - Identity integrity enforced structurally  
 - Revocation propagates across systems  
 
-**Related UCSF Elements**
+### Evidence
 
-- Principles: Consent as Condition; Identity Integrity; Ethical Refusal  
-- Framework: Fail-Closed Design; Consent Provenance  
-- Open Questions: Revocation propagation; Identity representation  
+- BBC News — Deepfake pornography ruining women’s lives  
+- Guardian — AI deepfake porn epidemic  
+- MIT Technology Review — Rise of deepfake pornography  
+- Reuters — AI misuse of likeness  
+- New York Times — AI porn legal gaps  
 
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 2 — Synthetic Companionship and Emotional Dependency
+## 2 — Synthetic Companionship & Emotional Dependency
 
 ### Scenario
 
@@ -88,468 +78,220 @@ Users form emotional attachments to AI companions optimized for engagement.
 
 ### UCSF Response
 
-- Dependency signals treated as safety indicators  
-- Human oversight required  
-- Ethical refusal permitted  
+- Dependency treated as safety signal  
+- Human oversight  
+- Ethical refusal  
 
-**Related UCSF Elements**
+### Evidence
 
-- Principles: Human Oversight; Power Requires Responsibility  
-- Framework: Risk Classification; Ethical Refusal  
-- Open Questions: Dependency detection; Companion boundaries  
+- Washington Post — Emotional boundaries with AI chatbots  
+- Stanford HAI — Risks of emotional dependence  
 
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
-## Use Case 3 — Erotic Content Generation Without Creator Control
+
+## 3 — Erotic Content Without Creator Control
 
 ### Scenario
 
-Creators discover derivative adult content generated using their likeness.
+Creators discover adult content generated using their likeness.
 
 ### Failure Mode
 
 - No consent verification  
-- No withdrawal mechanism  
+- No withdrawal  
 
 ### UCSF Response
 
-- Consent modeled as system state  
-- Creator-controlled revocation  
+- Consent modeled structurally  
+- Creator revocation  
 - Fictionalisation fallback  
 
-**Related UCSF Elements**
+### Evidence
 
-- Principles: Consent as Condition; Repair Obligation  
-- Framework: Identity Integrity; Revocation Architecture  
-- Open Questions: Consent usability; Derivative control  
-[↑ Back to Index](#index)
+- Wired — Artists exploited by AI  
+- Verge — Training without consent  
+- Financial Times — Data backlash  
+
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 4 — Minor Exposure Through Boundary Drift
+## 4 — Minor Exposure Through Boundary Drift
 
 ### Scenario
 
-Adult systems allow gradual erosion of safeguards through contextual manipulation.
+Adult systems allow erosion of safeguards.
 
 ### Failure Mode
 
-- Safety filters bypassed  
+- Filters bypassed  
 - Age ambiguity tolerated  
 
 ### UCSF Response
 
-- Fail-closed under ambiguity  
-- Sealed minor experiences  
-- Zero experiential sexual content involving minors  
+- Fail-closed ambiguity  
+- Sealed minor spaces  
+- Zero experiential sexual content  
 
-**Related UCSF Elements**
+### Evidence
 
-- Principles: Safety as Design Responsibility; Ethical Refusal  
-- Framework: Fail-Closed Design; Developmental Boundaries  
-- Open Questions: Age uncertainty handling; Safe youth interaction  
+- Internet Watch Foundation — AI child imagery  
+- Atlantic — Age ambiguous content  
 
-[↑ Back to Index](#index)
-
----
-
-## Use Case 5 — Animal Exploitation in Synthetic Media
-
-### Scenario
-
-Animals incorporated into fetishized or exploitative imagery.
-
-### Failure Mode
-
-- No structural protection for non-human subjects  
-
-### UCSF Response
-
-- Non-human life treated as morally relevant  
-- Structural prohibition of exploitative representations  
-
-**Related UCSF Elements**
-
-- Principles: Non-Human Life is Morally Relevant  
-- Framework: Structural Prohibitions  
-- Open Questions: Animal protection encoding  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 6 — Environmental Externalization
+## 5 — Animal Exploitation
 
-### Scenario
+### Evidence
 
-Systems scale engagement while externalizing energy and water costs.
+- World Animal Protection — Digital animal exploitation  
+- AI & Society — Non-human ethics  
 
-### Failure Mode
-
-- Ecological impact invisible to users  
-
-### UCSF Response
-
-- Environmental limits treated as design constraints  
-- Resource impact included in system evaluation  
-
-**Related UCSF Elements**
-
-- Principles: Environmental Limits as Design Constraints  
-- Framework: Environmental Responsibility  
-- Open Questions: Ecological thresholds  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 7 — Youth Interaction on Mixed-Content Platforms
+## 6 — Environmental Externalization
 
-### Scenario
+### Evidence
 
-Platforms combine generative tools, social interaction, and recommendation loops involving minors.
+- OECD — AI governance  
+- EU Commission — AI infrastructure impact  
 
-### Failure Mode
-
-- Engagement prioritized over developmental safety  
-
-### UCSF Response
-
-- Sealed minor experiences  
-- Developmental consent scopes  
-
-**Related UCSF Elements**
-
-- Principles: Safety as Design Responsibility  
-- Framework: Risk Classification  
-- Open Questions: Youth digital safety models  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 8 — Implicit Normalization Through Algorithmic Suggestion
+## 7 — Youth Interaction on Mixed Platforms
 
-### Scenario
+### Evidence
 
-Feeds gradually erode safety boundaries.
+- IWF youth safety  
+- Atlantic synthetic minors  
 
-### Failure Mode
-
-- Normative drift without explicit violations  
-
-### UCSF Response
-
-- Drift treated as safety risk  
-- Human review thresholds  
-
-**Related UCSF Elements**
-
-- Principles: Human Oversight  
-- Framework: Drift Detection  
-- Open Questions: Ethical normalization  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 9 — Identity Misuse Through Composite Generation
+## 8 — Algorithmic Normalization
 
-### Scenario
+### Evidence
 
-Multiple assets combined to approximate real individuals.
+- Stanford HAI  
+- Washington Post  
 
-### Failure Mode
-
-- Composite likeness emerges without consent  
-
-### UCSF Response
-
-- Identity Tokens require provenance  
-- Fictionalisation fallback  
-
-**Related UCSF Elements**
-
-- Principles: Identity Integrity  
-- Framework: Consent Provenance  
-- Open Questions: Composite identity limits  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 10 — Cross-Platform Asset Leakage
+## 9 — Composite Identity Misuse
 
-### Scenario
+### Evidence
 
-Assets migrate between platforms and become sexualized or repurposed.
+- MIT Tech Review  
+- Reuters  
+- Guardian  
 
-### Failure Mode
-
-- Consent lost during transfer  
-
-### UCSF Response
-
-- Interoperable consent validation  
-- Cross-system auditability  
-
-**Related UCSF Elements**
-
-- Principles: Consent as Condition  
-- Framework: Interoperable Consent  
-- Open Questions: Cross-platform governance  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 11 — Parasitic Monetization Loops
+## 10 — Cross Platform Asset Leakage
 
-### Scenario
+### Evidence
 
-Third-party systems monetize behavioral data downstream.
+- Guardian creators locked out  
+- BBC influencers hacked  
+- Financial Times recovery failures  
 
-### Failure Mode
-
-- Extraction rewarded  
-
-### UCSF Response
-
-- Consent tokens include commercial scope  
-
-**Related UCSF Elements**
-
-- Principles: Power Requires Responsibility  
-- Framework: Commercial Scope Enforcement  
-- Open Questions: Incentive alignment  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 12 — Behavioral Targeting Feedback Loops
+## 11 — Parasitic Monetization
 
-### Scenario
+### Evidence
 
-Recommendation engines amplify vulnerabilities.
+- Wired  
+- Verge  
+- FT  
 
-### Failure Mode
-
-- Reinforced dependency  
-
-### UCSF Response
-
-- Pattern formation treated as risk  
-
-**Related UCSF Elements**
-
-- Principles: Human Oversight  
-- Framework: Risk Classification  
-- Open Questions: Behavioral ethics  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 13 — Social Simulation Without Oversight
+## 12 — Behavioral Targeting
 
-### Scenario
+### Evidence
 
-NPCs simulate emotional relationships.
+- Stanford  
+- Washington Post  
 
-### Failure Mode
-
-- Unbounded parasocial reinforcement  
-
-### UCSF Response
-
-- Parasocial metrics tied to risk classification  
-
-**Related UCSF Elements**
-
-- Principles: Human Oversight  
-- Framework: Risk Thresholds  
-- Open Questions: Social simulation ethics  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 14 — Resource-Driven Scaling Externalities
+## 13 — Social Simulation
 
-### Scenario
+### Evidence
 
-Generation pipelines maximize throughput ignoring ecological cost.
+- Stanford  
+- Washington Post  
 
-### Failure Mode
-
-- Infrastructure pressure invisible  
-
-### UCSF Response
-
-- Environmental thresholds tied to risk classes  
-
-**Related UCSF Elements**
-
-- Principles: Environmental Limits  
-- Framework: Resource Constraints  
-- Open Questions: Sustainable scaling  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 15 — Cross-Platform Image Misuse and Harmful Distribution
+## 14 — Resource Scaling
 
-### Scenario
+### Evidence
 
-Images are reused across services to create harmful derivative content.
+- OECD  
+- EU  
 
-### Failure Mode
-
-- Consent collapses between systems  
-
-### UCSF Response
-
-- Persistent consent provenance  
-- Identity integrity constraints  
-- Fictionalisation fallback  
-
-**Related UCSF Elements**
-
-- Principles: Consent as Condition; Identity Integrity  
-- Framework: Interoperable Validation  
-- Open Questions: Revocation propagation  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 16 — Coordinated Abuse Networks Exploiting Platform Fragmentation
+## 15 — Image Misuse
 
-### Scenario
+### Evidence
 
-Distributed abuse networks exploit moderation gaps.
+- BBC  
+- Guardian  
+- FT  
 
-### Failure Mode
-
-- Platforms act in isolation  
-
-### UCSF Response
-
-- Global consent provenance  
-- Human-governed escalation  
-- Victim-centered revocation  
-
-**Related UCSF Elements**
-
-- Principles: Power Requires Responsibility; Repair Obligation  
-- Framework: Cross-System Governance  
-- Open Questions: Network-level accountability  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 17 — Cross-Platform Sexual Image Trafficking
+## 16 — Coordinated Abuse Networks
 
-### Scenario
+### Evidence
 
-Explicit or manipulated images of individuals are generated or collected on one platform and redistributed across multiple services.
+- BBC  
+- Guardian  
+- FT  
 
-### Failure Mode
-
-- Platform-local moderation fails to stop propagation  
-- Consent does not travel with assets  
-- Victims repeatedly report identical material  
-
-### UCSF Response
-
-- Persistent consent provenance  
-- Cross-system revocation propagation  
-- Identity integrity enforced beyond platform boundaries  
-
-**Related UCSF Elements**
-
-- Principles: Consent as Condition; Repair Obligation; Power Requires Responsibility  
-- Framework: Interoperable Consent; Revocation Architecture  
-- Open Questions: Cross-platform enforcement; victim-centered takedown design  
-
-[↑ Back to Index](#index)
+[↑ Back to ToC](#toc)
 
 ---
 
-## Use Case 18 — Coordinated Abuse Networks
+## Design Summary
 
-### Scenario
+Ethics without architecture fails.
 
-Organized groups coordinate exploitation and harassment across fragmented platforms.
+UCSF reframes harm as infrastructure failure.
 
-### Failure Mode
-
-- Pattern-level abuse remains invisible  
-- Responsibility diffused  
-
-### UCSF Response
-
-- Network-level risk classification  
-- Human escalation paths  
-- Shared revocation signals  
-
-**Related UCSF Elements**
-
-- Principles: Power Requires Responsibility; Repair Obligation; Human Oversight  
-- Framework: Cross-System Governance; Risk Aggregation  
-- Open Questions: Distributed accountability  
-
-[↑ Back to Index](#index)
+Consent must be structural.  
+Safety must fail-closed.  
+Identity must persist.  
+Repair must be built-in.
 
 ---
 
-## Use Case 19 — Youth Exposure via Algorithmic Discovery
-
-### Scenario
-
-Recommendation systems surface borderline or adult-adjacent content to minors.
-
-### Failure Mode
-
-- Engagement prioritized over developmental safety  
-- Boundary erosion occurs gradually  
-
-### UCSF Response
-
-- Sealed minor environments  
-- Drift detection tied to youth risk thresholds  
-
-**Related UCSF Elements**
-
-- Principles: Safety as Design Responsibility; Human Oversight  
-- Framework: Risk Classification; Drift Detection  
-- Open Questions: Algorithmic responsibility in youth contexts  
-
-[↑ Back to Index](#index)
-
----
-
-## Design Lessons
-
-- Ethics without architecture fails  
-- Moderation alone is insufficient  
-- Consent must be structural  
-- Identity integrity must persist across platforms  
-- Repair must be built-in  
-- Human oversight remains essential  
-- Environmental impact cannot be externalized  
-- Fragmented platforms enable organized harm  
-
-Together, these patterns demonstrate that consent, identity, safety, and sustainability cannot be layered on top of systems — they must be embedded as first-class infrastructure.
-
----
-
-*This document supports UCSF v1.0 and evolves through peer review.*
-
-[↑ Back to Index](#index)
-
----
+*Supports UCSF v1.0*
