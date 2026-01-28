@@ -54,7 +54,7 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
 ## System Architecture
 
 - **Framework Overview**  
-  → [Framework](FRAMEWORK.html)
+  → [Framework](FRAMEWORK.md)
 
 - **Principles**  
   → [Principles](PRINCIPLES.html)
