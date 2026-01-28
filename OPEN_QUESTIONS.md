@@ -1,101 +1,140 @@
 ---
 layout: default
-title: <OPEN QUESTIONS>
+title: Open Questions — UCSF & ModelHaven Studio
 ---
 
+# Open Questions  
+### UCSF & ModelHaven Studio
 
-# Open Questions
-
-Status: Draft  
-Phase: Beta  
-
-This document lists unresolved questions, tensions, and areas of uncertainty.
-These are not weaknesses.
-They are active research and design topics.
-
-Community input is explicitly welcome here.
+**Version:** v1.0  
+**Last updated:** January 2026  
+**Author:** Martijn Bruzzese
 
 ---
 
-## 1. Likeness Thresholds
+## Purpose
 
-How should likeness or resemblance be measured in practice?
+This document collects unresolved questions arising from the development of UCSF and ModelHaven Studio.
 
-Questions include:
-- What constitutes “too close” to a real individual?
-- Should thresholds be technical, perceptual, or contextual?
-- How can false positives and false negatives be handled safely?
+These questions are not implementation tasks.
 
----
+They represent areas requiring interdisciplinary input from:
 
-## 2. Consent Verification
+- ethics  
+- law  
+- computer science  
+- psychology  
+- sociology  
+- environmental studies  
 
-What forms of consent verification are appropriate without being invasive?
-
-Open questions:
-- Is self-attestation sufficient in some cases?
-- When is third-party verification justified?
-- How should consent revocation propagate through systems?
+This document exists to support ongoing inquiry, not to assert closure.
 
 ---
 
-## 3. Fictional Anchoring
+## Consent and Identity
 
-How strong must fictional separation be before an identity is considered safe?
+- How can consent be modeled in ways that remain understandable to non-technical users?
 
-Considerations:
-- portrait-first anchoring
-- identity diffusion techniques
-- reference image discard policies
+- How should revocation propagate across distributed systems and derivative content?
 
----
+- What constitutes meaningful consent in parasocial or emotionally asymmetrical contexts?
 
-## 4. Adult Mode Boundaries
-
-Where should adult expression be permitted, and where should it be constrained?
-
-Questions include:
-- how intent is verified
-- how mode-switching is governed
-- how to prevent gradual boundary erosion
+- How should identity be represented when partial stylistic influence is permitted but likeness is not?
 
 ---
 
-## 5. Governance Structure
+## Power and Dependency
 
-What governance model best balances safety, freedom, and adaptability?
+- How can systems detect unhealthy attachment without pathologizing normal human connection?
 
-Options under consideration:
-- founder-led with community review
-- foundation-guarded frameworks
-- multi-stakeholder councils
+- Where is the boundary between companionship and exploitation in AI-mediated relationships?
 
----
+- How should platforms respond when users exhibit dependency patterns?
 
-## 6. Transparency vs. Abuse
-
-How much system transparency is safe?
-
-Open tensions:
-- transparency aids trust
-- transparency can enable abuse
-- where should opacity be intentional?
+- What governance structures best counterbalance platform-scale power?
 
 ---
 
-## 7. Failure Modes
+## Minors and Vulnerable Populations
 
-What happens when systems fail despite safeguards?
+- How can age uncertainty be handled without excluding legitimate users?
 
-Key questions:
-- how to respond proportionally
-- how to document failures without amplifying harm
-- how to learn without blame
+- What constitutes a safe digital experience for minors in AI systems beyond content filtering?
+
+- How should systems respond to attempts at boundary erosion or gradual normalization?
 
 ---
 
-## 8. Scope Boundaries
+## Ethical Adult Interaction
 
-What should ModelHaven Studio explicitly *not* attempt to do?
+- How can adult consent be verified without invasive surveillance?
 
-Clarity here is as important as ambition.
+- What architectural safeguards prevent coercive monetization of intimacy?
+
+- How can ethical adult interaction systems avoid reinforcing harmful gender or power stereotypes?
+
+---
+
+## Non-Human Protection
+
+- How should animal protection be encoded structurally in generative systems?
+
+- What constitutes exploitation in synthetic representations involving animals?
+
+---
+
+## Environmental Responsibility
+
+- How should energy and water consumption factor into ethical system evaluation?
+
+- What thresholds of environmental impact are acceptable for generative AI?
+
+- How can ecological cost be made visible to users and designers?
+
+---
+
+## Governance and Accountability
+
+- What forms of independent oversight are viable for globally deployed AI systems?
+
+- How should responsibility be distributed between model creators, platform operators, and downstream deployers?
+
+- What mechanisms ensure repair is more than symbolic?
+
+---
+
+## Implementation and Adoption
+
+- How can UCSF principles be adopted incrementally within existing platforms?
+
+- What incentives would encourage ethical architecture over extractive design?
+
+- How can smaller organizations participate without prohibitive cost?
+
+---
+
+## Cultural and Societal Context
+
+- How do cultural differences affect consent interpretation?
+
+- How should systems handle conflicting normative expectations across regions?
+
+- What role should public discourse play in shaping technical boundaries?
+
+---
+
+## Closing Note
+
+UCSF does not claim to have resolved these questions.
+
+They are presented to invite:
+
+- peer review  
+- collaborative research  
+- critical engagement  
+
+Ethical system design is a continuous process, not a finished product.
+
+---
+
+*This document is intentionally open-ended and will evolve through interdisciplinary contribution.*
