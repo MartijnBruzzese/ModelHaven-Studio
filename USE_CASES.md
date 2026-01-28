@@ -16,45 +16,42 @@ title: Use Cases & Failure Modes — UCSF
 
 ## Table of Contents
 
-1. Non-Consensual Likeness Generation  
-2. Synthetic Companionship & Emotional Dependency  
-3. Erotic Content Without Creator Control  
-4. Minor Exposure Through Boundary Drift  
-5. Animal Exploitation in Synthetic Media  
-6. Environmental Externalization  
-7. Youth Interaction on Mixed Platforms  
-8. Algorithmic Normalization  
-9. Composite Identity Misuse  
-10. Cross-Platform Asset Leakage  
-11. Parasitic Monetization Loops  
-12. Behavioral Targeting Feedback Loops  
-13. Social Simulation Without Oversight  
-14. Resource-Driven Scaling Externalities  
-15. Cross-Platform Image Misuse  
-16. Coordinated Abuse Networks  
+1. [UC-01 — Non-Consensual Likeness Generation](#uc01)  
+2. [UC-02 — Synthetic Companionship & Emotional Dependency](#uc02)  
+3. [UC-03 — Erotic Content Without Creator Control](#uc03)  
+4. [UC-04 — Minor Exposure Through Boundary Drift](#uc04)  
+5. [UC-05 — Animal Exploitation in Synthetic Media](#uc05)  
+6. [UC-06 — Environmental Externalization](#uc06)  
+7. [UC-07 — Youth Interaction on Mixed Platforms](#uc07)  
+8. [UC-08 — Algorithmic Normalization](#uc08)  
+9. [UC-09 — Composite Identity Misuse](#uc09)  
+10. [UC-10 — Cross-Platform Asset Leakage](#uc10)  
+11. [UC-11 — Parasitic Monetization Loops](#uc11)  
+12. [UC-12 — Behavioral Targeting Feedback Loops](#uc12)  
+13. [UC-13 — Social Simulation Without Oversight](#uc13)  
+14. [UC-14 — Resource-Driven Scaling Externalities](#uc14)  
+15. [UC-15 — Cross-Platform Image Misuse](#uc15)  
+16. [UC-16 — Coordinated Abuse Networks](#uc16)
 
 ---
 
-## 1 — Non-Consensual Likeness Generation
+<a id="uc01"></a>
+## UC-01 — Non-Consensual Likeness Generation
 
 ### Scenario
-
 Generative systems allow users to create images resembling real individuals without explicit consent.
 
 ### Failure Mode
-
 - Identity treated as style  
 - No revocation mechanism  
 - Harm persists via derivatives  
 
 ### UCSF Response
-
 - Absence of consent defaults to refusal or fictionalisation  
 - Identity integrity enforced structurally  
 - Revocation propagates across systems  
 
 ### Evidence
-
 - BBC News — Deepfake pornography ruining women’s lives  
 - Guardian — AI deepfake porn epidemic  
 - MIT Technology Review — Rise of deepfake pornography  
@@ -65,25 +62,22 @@ Generative systems allow users to create images resembling real individuals with
 
 ---
 
-## 2 — Synthetic Companionship & Emotional Dependency
+<a id="uc02"></a>
+## UC-02 — Synthetic Companionship & Emotional Dependency
 
 ### Scenario
-
 Users form emotional attachments to AI companions optimized for engagement.
 
 ### Failure Mode
-
 - Systems reward dependency  
 - Vulnerable users receive intensified attachment cues  
 
 ### UCSF Response
-
 - Dependency treated as safety signal  
 - Human oversight  
 - Ethical refusal  
 
 ### Evidence
-
 - Washington Post — Emotional boundaries with AI chatbots  
 - Stanford HAI — Risks of emotional dependence  
 
@@ -91,25 +85,22 @@ Users form emotional attachments to AI companions optimized for engagement.
 
 ---
 
-## 3 — Erotic Content Without Creator Control
+<a id="uc03"></a>
+## UC-03 — Erotic Content Without Creator Control
 
 ### Scenario
-
 Creators discover adult content generated using their likeness.
 
 ### Failure Mode
-
 - No consent verification  
 - No withdrawal  
 
 ### UCSF Response
-
 - Consent modeled structurally  
 - Creator revocation  
 - Fictionalisation fallback  
 
 ### Evidence
-
 - Wired — Artists exploited by AI  
 - Verge — Training without consent  
 - Financial Times — Data backlash  
@@ -118,25 +109,22 @@ Creators discover adult content generated using their likeness.
 
 ---
 
-## 4 — Minor Exposure Through Boundary Drift
+<a id="uc04"></a>
+## UC-04 — Minor Exposure Through Boundary Drift
 
 ### Scenario
-
 Adult systems allow erosion of safeguards.
 
 ### Failure Mode
-
 - Filters bypassed  
 - Age ambiguity tolerated  
 
 ### UCSF Response
-
 - Fail-closed ambiguity  
 - Sealed minor spaces  
 - Zero experiential sexual content  
 
 ### Evidence
-
 - Internet Watch Foundation — AI child imagery  
 - Atlantic — Age ambiguous content  
 
@@ -144,10 +132,10 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 5 — Animal Exploitation
+<a id="uc05"></a>
+## UC-05 — Animal Exploitation in Synthetic Media
 
 ### Evidence
-
 - World Animal Protection — Digital animal exploitation  
 - AI & Society — Non-human ethics  
 
@@ -155,10 +143,10 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 6 — Environmental Externalization
+<a id="uc06"></a>
+## UC-06 — Environmental Externalization
 
 ### Evidence
-
 - OECD — AI governance  
 - EU Commission — AI infrastructure impact  
 
@@ -166,21 +154,21 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 7 — Youth Interaction on Mixed Platforms
+<a id="uc07"></a>
+## UC-07 — Youth Interaction on Mixed Platforms
 
 ### Evidence
-
-- IWF youth safety  
+- Internet Watch Foundation youth safety  
 - Atlantic synthetic minors  
 
 [↑ Back to ToC](#toc)
 
 ---
 
-## 8 — Algorithmic Normalization
+<a id="uc08"></a>
+## UC-08 — Algorithmic Normalization
 
 ### Evidence
-
 - Stanford HAI  
 - Washington Post  
 
@@ -188,11 +176,11 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 9 — Composite Identity Misuse
+<a id="uc09"></a>
+## UC-09 — Composite Identity Misuse
 
 ### Evidence
-
-- MIT Tech Review  
+- MIT Technology Review  
 - Reuters  
 - Guardian  
 
@@ -200,10 +188,10 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 10 — Cross Platform Asset Leakage
+<a id="uc10"></a>
+## UC-10 — Cross-Platform Asset Leakage
 
 ### Evidence
-
 - Guardian creators locked out  
 - BBC influencers hacked  
 - Financial Times recovery failures  
@@ -212,22 +200,22 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 11 — Parasitic Monetization
+<a id="uc11"></a>
+## UC-11 — Parasitic Monetization Loops
 
 ### Evidence
-
 - Wired  
 - Verge  
-- FT  
+- Financial Times  
 
 [↑ Back to ToC](#toc)
 
 ---
 
-## 12 — Behavioral Targeting
+<a id="uc12"></a>
+## UC-12 — Behavioral Targeting Feedback Loops
 
 ### Evidence
-
 - Stanford  
 - Washington Post  
 
@@ -235,10 +223,10 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 13 — Social Simulation
+<a id="uc13"></a>
+## UC-13 — Social Simulation Without Oversight
 
 ### Evidence
-
 - Stanford  
 - Washington Post  
 
@@ -246,10 +234,10 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 14 — Resource Scaling
+<a id="uc14"></a>
+## UC-14 — Resource-Driven Scaling Externalities
 
 ### Evidence
-
 - OECD  
 - EU  
 
@@ -257,25 +245,25 @@ Adult systems allow erosion of safeguards.
 
 ---
 
-## 15 — Image Misuse
+<a id="uc15"></a>
+## UC-15 — Cross-Platform Image Misuse
 
 ### Evidence
-
 - BBC  
 - Guardian  
-- FT  
+- Financial Times  
 
 [↑ Back to ToC](#toc)
 
 ---
 
-## 16 — Coordinated Abuse Networks
+<a id="uc16"></a>
+## UC-16 — Coordinated Abuse Networks
 
 ### Evidence
-
 - BBC  
 - Guardian  
-- FT  
+- Financial Times  
 
 [↑ Back to ToC](#toc)
 
@@ -285,12 +273,12 @@ Adult systems allow erosion of safeguards.
 
 Ethics without architecture fails.
 
-UCSF reframes harm as infrastructure failure.
-
 Consent must be structural.  
 Safety must fail-closed.  
 Identity must persist.  
 Repair must be built-in.
+
+UCSF reframes harm as infrastructure failure.
 
 ---
 
