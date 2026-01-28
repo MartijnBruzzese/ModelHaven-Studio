@@ -96,10 +96,10 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
   → [Licensing](LICENSE.md)
 
 - Framework Usage Conditions  
-  → [Framework Use](FRAMEWORK_USE.html)
+  → [Framework Use](FRAMEWORK_USE.md)
 
 - Citation Guidance  
-  → [How to Cite UCSF](CITATION.html)
+  → [How to Cite UCSF](CITATION.md)
 
 Unless explicitly stated otherwise:
 
