@@ -41,6 +41,8 @@ This document exists to support ongoing inquiry, not to assert closure.
 
 - How should identity be represented when partial stylistic influence is permitted but likeness is not?
 
+- Where is the boundary between inspiration and identity reconstruction in generative systems?
+
 ---
 
 ## Power and Dependency
@@ -63,6 +65,8 @@ This document exists to support ongoing inquiry, not to assert closure.
 
 - How should systems respond to attempts at boundary erosion or gradual normalization?
 
+- How can developmental safety be embedded architecturally rather than procedurally?
+
 ---
 
 ## Ethical Adult Interaction
@@ -73,6 +77,8 @@ This document exists to support ongoing inquiry, not to assert closure.
 
 - How can ethical adult interaction systems avoid reinforcing harmful gender or power stereotypes?
 
+- How can consent remain meaningful in financially asymmetrical creator platforms?
+
 ---
 
 ## Non-Human Protection
@@ -80,6 +86,8 @@ This document exists to support ongoing inquiry, not to assert closure.
 - How should animal protection be encoded structurally in generative systems?
 
 - What constitutes exploitation in synthetic representations involving animals?
+
+- How should systems respond to ambiguous or symbolic representations involving non-human subjects?
 
 ---
 
@@ -91,6 +99,20 @@ This document exists to support ongoing inquiry, not to assert closure.
 
 - How can ecological cost be made visible to users and designers?
 
+- How can sustainability constraints be treated as architectural inputs rather than externalities?
+
+---
+
+## Cross-Platform Harm and Coordination
+
+- How should consent revocation propagate across independent platforms?
+
+- What shared signals are required to detect coordinated abuse networks?
+
+- How can victims avoid repeatedly reporting identical harm across systems?
+
+- What forms of interoperability are necessary for ethical enforcement?
+
 ---
 
 ## Governance and Accountability
@@ -101,6 +123,8 @@ This document exists to support ongoing inquiry, not to assert closure.
 
 - What mechanisms ensure repair is more than symbolic?
 
+- How can governance avoid becoming performative or purely procedural?
+
 ---
 
 ## Implementation and Adoption
@@ -110,6 +134,8 @@ This document exists to support ongoing inquiry, not to assert closure.
 - What incentives would encourage ethical architecture over extractive design?
 
 - How can smaller organizations participate without prohibitive cost?
+
+- What minimum viable components meaningfully improve safety?
 
 ---
 
