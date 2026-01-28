@@ -53,6 +53,8 @@ UCSF principles become enforceable through architectural commitments:
 
 These commitments operate independently of user intent or platform incentives.
 
+---
+
 ## Traceability Overview
 
 ```mermaid
@@ -77,9 +79,9 @@ F5[Human Escalation Paths]
 F6[Environmental Constraints]
 
 %% Use Cases
-U4[Use Case 4: Minors Boundary Drift]
-U15[Use Case 15: Cross-Platform Image Misuse]
-U16[Use Case 16: Coordinated Abuse Networks]
+U4[Minors Boundary Drift]
+U15[Cross-Platform Image Misuse]
+U16[Coordinated Abuse Networks]
 
 %% Open Questions
 Q1[Revocation Propagation]
@@ -87,7 +89,7 @@ Q2[Cross-System Accountability]
 Q3[Dependency Detection]
 Q4[Sustainable Scaling]
 
-%% Links Principles -> Framework
+%% Links
 P1 --> F2
 P2 --> F1
 P3 --> F1
@@ -97,20 +99,15 @@ P6 --> F5
 P7 --> F3
 P8 --> F6
 
-%% Framework -> Use Cases
 F1 --> U4
 F2 --> U15
-F3 --> U15
 F5 --> U16
-F2 --> U16
-F6 --> U15
 
-%% Use Cases -> Open Questions
 U4 --> Q1
 U15 --> Q2
-U16 --> Q2
 U16 --> Q3
-U15 --> Q4
+F6 --> Q4
+
 
 ---
 
