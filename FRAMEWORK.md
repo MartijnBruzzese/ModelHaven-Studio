@@ -53,6 +53,64 @@ UCSF principles become enforceable through architectural commitments:
 
 These commitments operate independently of user intent or platform incentives.
 
+## Traceability Overview
+```mermaid
+flowchart TD
+
+%% Principles
+P1[Consent as Condition]
+P2[Safety by Design]
+P3[Ethical Refusal]
+P4[Power ↔ Responsibility]
+P5[Repair Obligation]
+P6[Human Oversight]
+P7[Non-Human Protection]
+P8[Environmental Limits]
+
+%% Framework
+F1[Fail-Closed Architecture]
+F2[Consent Provenance]
+F3[Identity Integrity]
+F4[Risk Classification]
+F5[Human Escalation Paths]
+F6[Environmental Constraints]
+
+%% Use Cases
+U4[Use Case 4: Minors Boundary Drift]
+U15[Use Case 15: Cross-Platform Image Misuse]
+U16[Use Case 16: Coordinated Abuse Networks]
+
+%% Open Questions
+Q1[Revocation Propagation]
+Q2[Cross-System Accountability]
+Q3[Dependency Detection]
+Q4[Sustainable Scaling]
+
+%% Links Principles -> Framework
+P1 --> F2
+P2 --> F1
+P3 --> F1
+P4 --> F5
+P5 --> F5
+P6 --> F5
+P7 --> F3
+P8 --> F6
+
+%% Framework -> Use Cases
+F1 --> U4
+F2 --> U15
+F3 --> U15
+F5 --> U16
+F2 --> U16
+F6 --> U15
+
+%% Use Cases -> Open Questions
+U4 --> Q1
+U15 --> Q2
+U16 --> Q2
+U16 --> Q3
+U15 --> Q4
+
 ---
 
 ## Fail-Closed Design
