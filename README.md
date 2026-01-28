@@ -1,3 +1,9 @@
+---
+layout: default
+title: README
+permalink: /readme/
+---
+
 # ModelHaven Studio — UCSF
 
 This repository contains the canonical documentation for:
