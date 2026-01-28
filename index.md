@@ -80,17 +80,7 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
 
 ---
 
-## Repository Overview
-
-- 📘 **Technical README (project structure & contribution)**  
-  → [README](README.html)
-
----
-
 ## Supporting Work
-
-- Toward Humane AI — Manifesto  
-  → [Manifesto](README.html)
 
 - ModelHaven — Book Draft  
   → [Book draft](BOOK_DRAFT.html)
