@@ -58,6 +58,7 @@ These commitments operate independently of user intent or platform incentives.
 ## Traceability Overview
 
 ```mermaid
+
 flowchart TD
 
 %% Principles
@@ -107,6 +108,7 @@ U4 --> Q1
 U15 --> Q2
 U16 --> Q3
 F6 --> Q4
+
 ```
 
 
