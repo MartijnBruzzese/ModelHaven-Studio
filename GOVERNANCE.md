@@ -54,6 +54,35 @@ Each layer exists to counterbalance concentration of power.
 
 ---
 
+## Escalation and Intervention
+
+Governance mechanisms must support escalation when safety, consent, or dignity are at risk.
+
+Escalation may be initiated by:
+
+- affected individuals or creators  
+- system operators  
+- independent reviewers  
+- trusted safety stakeholders  
+
+Escalation triggers include:
+
+- credible harm reports  
+- consent revocation signals  
+- detection of abuse patterns  
+- boundary drift involving minors or vulnerable populations  
+
+Escalation outcomes may include:
+
+- temporary system suspension  
+- forced fictionalisation  
+- consent withdrawal propagation  
+- human review intervention  
+
+Fail-closed behavior applies during unresolved escalation.
+
+---
+
 ## Peer Review
 
 UCSF is explicitly open to peer review.
@@ -109,6 +138,22 @@ Governance includes responsibility for repair, not only prevention.
 
 ---
 
+## Consent Authority
+
+Consent remains under the authority of the represented individual or creator.
+
+Systems must provide:
+
+- direct revocation mechanisms  
+- transparent confirmation of revocation  
+- propagation of withdrawal across dependent systems  
+
+No platform, operator, or commercial entity may override valid consent withdrawal.
+
+Governance exists to enforce this asymmetry of power in favor of the individual.
+
+---
+
 ## Public Positioning
 
 UCSF and ModelHaven Studio are presented as:
@@ -149,7 +194,7 @@ Governance within UCSF emphasizes:
 - refusal of ethical authority claims  
 
 This framework exists to support responsible design — not to centralize moral power.
-
----
+Governance is therefore not symbolic.
+It is intended to be executable: embedded in architecture, reflected in operational practice, and accountable to human review.
 
 *This governance document defines UCSF v1.0 governance positioning and will not be substantively altered without formal versioning.*
