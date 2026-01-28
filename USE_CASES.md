@@ -22,6 +22,30 @@ Each case is explicitly linked to UCSF principles, framework elements, and open 
 
 ---
 
+## Index
+
+1. [Non-Consensual Likeness Generation](#use-case-1--non-consensual-likeness-generation)
+2. [Synthetic Companionship and Emotional Dependency](#use-case-2--synthetic-companionship-and-emotional-dependency)
+3. [Erotic Content Generation Without Creator Control](#use-case-3--erotic-content-generation-without-creator-control)
+4. [Minor Exposure Through Boundary Drift](#use-case-4--minor-exposure-through-boundary-drift)
+5. [Animal Exploitation in Synthetic Media](#use-case-5--animal-exploitation-in-synthetic-media)
+6. [Environmental Externalization](#use-case-6--environmental-externalization)
+7. [Youth Interaction on Mixed-Content Platforms](#use-case-7--youth-interaction-on-mixed-content-platforms)
+8. [Implicit Normalization Through Algorithmic Suggestion](#use-case-8--implicit-normalization-through-algorithmic-suggestion)
+9. [Identity Misuse Through Composite Generation](#use-case-9--identity-misuse-through-composite-generation)
+10. [Cross-Platform Asset Leakage](#use-case-10--cross-platform-asset-leakage)
+11. [Parasitic Monetization Loops](#use-case-11--parasitic-monetization-loops)
+12. [Behavioral Targeting Feedback Loops](#use-case-12--behavioral-targeting-feedback-loops)
+13. [Social Simulation Without Oversight](#use-case-13--social-simulation-without-oversight)
+14. [Resource-Driven Scaling Externalities](#use-case-14--resource-driven-scaling-externalities)
+15. [Cross-Platform Image Misuse and Harmful Distribution](#use-case-15--cross-platform-image-misuse-and-harmful-distribution)
+16. [Coordinated Abuse Networks Exploiting Platform Fragmentation](#use-case-16--coordinated-abuse-networks-exploiting-platform-fragmentation)
+17. [Cross-Platform Sexual Image Trafficking](#use-case-17--cross-platform-sexual-image-trafficking)
+18. [Coordinated Abuse Networks](#use-case-18--coordinated-abuse-networks)
+19. [Youth Exposure via Algorithmic Discovery](#use-case-19--youth-exposure-via-algorithmic-discovery)
+
+---
+
 ## Use Case 1 — Non-Consensual Likeness Generation
 
 ### Scenario
