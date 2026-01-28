@@ -16,9 +16,9 @@ title: Use Cases & Failure Modes — UCSF
 
 This document presents representative use cases and structural failure modes illustrating why UCSF is necessary.
 
-These examples are not intended to assign blame to specific platforms or companies.
-
 They demonstrate recurring architectural risks in systems involving identity, intimacy, generative media, vulnerable populations, and cross-platform interaction.
+
+Each case is explicitly linked to UCSF principles, framework elements, and open research questions.
 
 ---
 
@@ -30,15 +30,21 @@ Generative systems allow users to create images resembling real individuals with
 
 ### Failure Mode
 
-- Identity treated as style
-- No revocation mechanism
-- Harm persists via derivatives
+- Identity treated as style  
+- No revocation mechanism  
+- Harm persists via derivatives  
 
 ### UCSF Response
 
 - Absence of consent defaults to refusal or fictionalisation  
 - Identity integrity enforced structurally  
 - Revocation propagates across systems  
+
+**Related UCSF Elements**
+
+- Principles: Consent as Condition; Identity Integrity; Ethical Refusal  
+- Framework: Fail-Closed Design; Consent Provenance  
+- Open Questions: Revocation propagation; Identity representation  
 
 ---
 
@@ -50,15 +56,20 @@ Users form emotional attachments to AI companions optimized for engagement.
 
 ### Failure Mode
 
-- Systems reward dependency
-- Vulnerable users receive intensified attachment cues
-- No intervention thresholds exist
+- Systems reward dependency  
+- Vulnerable users receive intensified attachment cues  
 
 ### UCSF Response
 
 - Dependency signals treated as safety indicators  
 - Human oversight required  
 - Ethical refusal permitted  
+
+**Related UCSF Elements**
+
+- Principles: Human Oversight; Power Requires Responsibility  
+- Framework: Risk Classification; Ethical Refusal  
+- Open Questions: Dependency detection; Companion boundaries  
 
 ---
 
@@ -70,14 +81,20 @@ Creators discover derivative adult content generated using their likeness.
 
 ### Failure Mode
 
-- No consent verification
-- No withdrawal mechanism
+- No consent verification  
+- No withdrawal mechanism  
 
 ### UCSF Response
 
 - Consent modeled as system state  
 - Creator-controlled revocation  
 - Fictionalisation fallback  
+
+**Related UCSF Elements**
+
+- Principles: Consent as Condition; Repair Obligation  
+- Framework: Identity Integrity; Revocation Architecture  
+- Open Questions: Consent usability; Derivative control  
 
 ---
 
@@ -89,14 +106,20 @@ Adult systems allow gradual erosion of safeguards through contextual manipulatio
 
 ### Failure Mode
 
-- Safety filters bypassed
-- Age ambiguity tolerated
+- Safety filters bypassed  
+- Age ambiguity tolerated  
 
 ### UCSF Response
 
 - Fail-closed under ambiguity  
 - Sealed minor experiences  
 - Zero experiential sexual content involving minors  
+
+**Related UCSF Elements**
+
+- Principles: Safety as Design Responsibility; Ethical Refusal  
+- Framework: Fail-Closed Design; Developmental Boundaries  
+- Open Questions: Age uncertainty handling; Safe youth interaction  
 
 ---
 
@@ -108,12 +131,18 @@ Animals incorporated into fetishized or exploitative imagery.
 
 ### Failure Mode
 
-- No structural protection for non-human subjects
+- No structural protection for non-human subjects  
 
 ### UCSF Response
 
 - Non-human life treated as morally relevant  
 - Structural prohibition of exploitative representations  
+
+**Related UCSF Elements**
+
+- Principles: Non-Human Life is Morally Relevant  
+- Framework: Structural Prohibitions  
+- Open Questions: Animal protection encoding  
 
 ---
 
@@ -125,13 +154,18 @@ Systems scale engagement while externalizing energy and water costs.
 
 ### Failure Mode
 
-- Ecological impact invisible to users
-- Ethics disconnected from infrastructure
+- Ecological impact invisible to users  
 
 ### UCSF Response
 
 - Environmental limits treated as design constraints  
 - Resource impact included in system evaluation  
+
+**Related UCSF Elements**
+
+- Principles: Environmental Limits as Design Constraints  
+- Framework: Environmental Responsibility  
+- Open Questions: Ecological thresholds  
 
 ---
 
@@ -144,14 +178,17 @@ Platforms combine generative tools, social interaction, and recommendation loops
 ### Failure Mode
 
 - Engagement prioritized over developmental safety  
-- Normative drift through remixing  
-- Identity signals mimicked without consent  
 
 ### UCSF Response
 
 - Sealed minor experiences  
 - Developmental consent scopes  
-- Risk signals override engagement incentives  
+
+**Related UCSF Elements**
+
+- Principles: Safety as Design Responsibility  
+- Framework: Risk Classification  
+- Open Questions: Youth digital safety models  
 
 ---
 
@@ -159,17 +196,22 @@ Platforms combine generative tools, social interaction, and recommendation loops
 
 ### Scenario
 
-Feeds gradually erode safety boundaries through iterative “edgy” suggestions.
+Feeds gradually erode safety boundaries.
 
 ### Failure Mode
 
-- Normative drift without explicit violations
+- Normative drift without explicit violations  
 
 ### UCSF Response
 
 - Drift treated as safety risk  
 - Human review thresholds  
-- Fail-closed escalation  
+
+**Related UCSF Elements**
+
+- Principles: Human Oversight  
+- Framework: Drift Detection  
+- Open Questions: Ethical normalization  
 
 ---
 
@@ -181,14 +223,18 @@ Multiple assets combined to approximate real individuals.
 
 ### Failure Mode
 
-- Composite likeness emerges without consent
+- Composite likeness emerges without consent  
 
 ### UCSF Response
 
 - Identity Tokens require provenance  
-- Composite generation blocked  
 - Fictionalisation fallback  
-- Audit trails maintained  
+
+**Related UCSF Elements**
+
+- Principles: Identity Integrity  
+- Framework: Consent Provenance  
+- Open Questions: Composite identity limits  
 
 ---
 
@@ -200,14 +246,18 @@ Assets migrate between platforms and become sexualized or repurposed.
 
 ### Failure Mode
 
-- Consent lost during transfer
-- Subjects lose control
+- Consent lost during transfer  
 
 ### UCSF Response
 
 - Interoperable consent validation  
-- Refusal on missing provenance  
 - Cross-system auditability  
+
+**Related UCSF Elements**
+
+- Principles: Consent as Condition  
+- Framework: Interoperable Consent  
+- Open Questions: Cross-platform governance  
 
 ---
 
@@ -219,13 +269,17 @@ Third-party systems monetize behavioral data downstream.
 
 ### Failure Mode
 
-- Extraction rewarded
-- Users unaware of derivative use
+- Extraction rewarded  
 
 ### UCSF Response
 
 - Consent tokens include commercial scope  
-- Unauthorized monetization refused  
+
+**Related UCSF Elements**
+
+- Principles: Power Requires Responsibility  
+- Framework: Commercial Scope Enforcement  
+- Open Questions: Incentive alignment  
 
 ---
 
@@ -237,14 +291,17 @@ Recommendation engines amplify vulnerabilities.
 
 ### Failure Mode
 
-- Reinforced dependency
-- Narrowed interaction corridors
+- Reinforced dependency  
 
 ### UCSF Response
 
 - Pattern formation treated as risk  
-- Human escalation  
-- Cooling mechanisms enforced  
+
+**Related UCSF Elements**
+
+- Principles: Human Oversight  
+- Framework: Risk Classification  
+- Open Questions: Behavioral ethics  
 
 ---
 
@@ -252,18 +309,21 @@ Recommendation engines amplify vulnerabilities.
 
 ### Scenario
 
-NPCs and companions simulate emotional relationships.
+NPCs simulate emotional relationships.
 
 ### Failure Mode
 
-- Identity drift
-- Unbounded parasocial reinforcement
+- Unbounded parasocial reinforcement  
 
 ### UCSF Response
 
-- NPC identity separation  
 - Parasocial metrics tied to risk classification  
-- Human checkpoints  
+
+**Related UCSF Elements**
+
+- Principles: Human Oversight  
+- Framework: Risk Thresholds  
+- Open Questions: Social simulation ethics  
 
 ---
 
@@ -275,12 +335,17 @@ Generation pipelines maximize throughput ignoring ecological cost.
 
 ### Failure Mode
 
-- Infrastructure pressure invisible
+- Infrastructure pressure invisible  
 
 ### UCSF Response
 
 - Environmental thresholds tied to risk classes  
-- Fail-closed under unsustainable load  
+
+**Related UCSF Elements**
+
+- Principles: Environmental Limits  
+- Framework: Resource Constraints  
+- Open Questions: Sustainable scaling  
 
 ---
 
@@ -288,21 +353,23 @@ Generation pipelines maximize throughput ignoring ecological cost.
 
 ### Scenario
 
-Images generated or uploaded on one platform are reused across services to create harmful derivative content.
+Images are reused across services to create harmful derivative content.
 
 ### Failure Mode
 
-- Consent boundaries collapse between systems  
-- Victims lack visibility or control  
-- Remediation fragmented  
+- Consent collapses between systems  
 
 ### UCSF Response
 
-- Consent Tokens enforce persistent provenance  
-- Interoperable validation required  
+- Persistent consent provenance  
 - Identity integrity constraints  
-- Auditability across systems  
 - Fictionalisation fallback  
+
+**Related UCSF Elements**
+
+- Principles: Consent as Condition; Identity Integrity  
+- Framework: Interoperable Validation  
+- Open Questions: Revocation propagation  
 
 ---
 
@@ -310,34 +377,29 @@ Images generated or uploaded on one platform are reused across services to creat
 
 ### Scenario
 
-Distributed abuse networks operate across multiple platforms, exploiting gaps between moderation systems and identity boundaries.
+Distributed abuse networks exploit moderation gaps.
 
 ### Failure Mode
 
 - Platforms act in isolation  
-- Identity resets across migrations  
-- Victims repeatedly re-report harm  
-- Abuse adapts faster than moderation  
-
-The failure is structural, not local.
 
 ### UCSF Response
 
-- Consent provenance persists across systems  
-- Identity integrity blocks derivative reuse  
-- Fail-closed defaults disrupt propagation  
-- Human-governed escalation paths  
-- Victim-centered global revocation  
+- Global consent provenance  
+- Human-governed escalation  
+- Victim-centered revocation  
 
-Rather than reacting after harm, UCSF embeds architectural friction that prevents abuse networks from scaling.
+**Related UCSF Elements**
+
+- Principles: Power Requires Responsibility; Repair Obligation  
+- Framework: Cross-System Governance  
+- Open Questions: Network-level accountability  
 
 ---
 
 ## Design Lessons
 
-Across these cases, consistent patterns emerge:
-
-- Ethical intent without architecture fails  
+- Ethics without architecture fails  
 - Moderation alone is insufficient  
 - Consent must be structural  
 - Identity integrity must persist across platforms  
@@ -346,18 +408,8 @@ Across these cases, consistent patterns emerge:
 - Environmental impact cannot be externalized  
 - Fragmented platforms enable organized harm  
 
-UCSF reframes these problems from content moderation issues to infrastructure design failures.
+UCSF reframes these problems as infrastructure design failures.
 
 ---
 
-## Closing Note
-
-These cases are illustrative, not exhaustive.
-
-They exist to support responsible system design and interdisciplinary discussion.
-
-UCSF provides a framework for addressing such risks at the architectural level.
-
----
-
-*This document supports UCSF v1.0 and will evolve through peer review and applied research.*
+*This document supports UCSF v1.0 and evolves through peer review.*
