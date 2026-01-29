@@ -1,3 +1,9 @@
+---
+layout: default
+title: Regenerative Digital Infrastructure
+---
+
+
 # Placeholder — Regenerative Digital Infrastructure
 
 Status: Concept reserved  
