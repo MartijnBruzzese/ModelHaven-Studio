@@ -619,9 +619,81 @@ UCSF vereist dat infrastructuurdeelname wordt meegenomen in ethische beoordeling
 
 ---
 
+<a id="ch-8"></a>
+## 8. Infrastructuur, Materiële Schade en Gedeelde Verantwoordelijkheid
+
+Digitale systemen worden vaak gepresenteerd als immaterieel. In werkelijkheid rusten zij op omvangrijke fysieke infrastructuren: datacenters, energievoorziening, watergebruik, grondstoffenwinning en menselijke arbeid.
+
+UCSF stelt dat ethische verantwoordelijkheid niet eindigt bij de gebruikersinterface.
+
+### 8.1 De materialiteit van digitale systemen
+
+Elke digitale interactie heeft materiële gevolgen. De schaal waarop systemen opereren vertaalt zich direct naar ecologische belasting en sociale impact.
+
+Deze gevolgen worden vaak:
+- geografisch verplaatst  
+- uitbesteed aan kwetsbare gemeenschappen  
+- juridisch gefragmenteerd  
+- buiten zicht gehouden van eindgebruikers  
+
+UCSF beschouwt deze verschuiving niet als logistiek detail, maar als fundamenteel ethisch vraagstuk.
+
+### 8.2 Externalisering als ethisch falen
+
+Wanneer systemen efficiëntie, schaal of winst bereiken door ecologische en sociale kosten buiten hun directe verantwoordelijkheid te plaatsen, is sprake van externalisering.
+
+Onder UCSF geldt deze externalisering als ethisch falen wanneer:
+- schade voorzienbaar is  
+- getroffen partijen geen betekenisvolle instemming kunnen geven  
+- baten en lasten structureel ongelijk verdeeld zijn  
+
+Juridische naleving heft deze verantwoordelijkheid niet op.
+
+### 8.3 Gedeelde maar niet verdunde verantwoordelijkheid
+
+Hoewel digitale infrastructuur bestaat uit complexe ketens van leveranciers, cloudproviders, energiebedrijven en subcontractanten, verdwijnt verantwoordelijkheid niet in die complexiteit.
+
+Gedeelde verantwoordelijkheid betekent niet verdunde verantwoordelijkheid.
+
+Onder UCSF geldt:
+- elke actor blijft verantwoordelijk voor zijn bijdrage  
+- kennis van schade impliceert plicht tot handelen  
+- schaal vergroot verplichting, geen afstand  
+
+Indirecte betrokkenheid ontslaat niet van ethische agency.
+
+### 8.4 Onzichtbare arbeid en menselijke kosten
+
+Naast ecologische impact rusten digitale systemen op grootschalige menselijke arbeid: moderatie, data-annotatie, onderhoud en herstel.
+
+Wanneer deze arbeid:
+- structureel onderbetaald is  
+- psychologisch belastend is  
+- sociaal onzichtbaar blijft  
+- behandeld wordt als vervangbaar  
+
+dan functioneert exploitatie als systeemafhankelijkheid.
+
+Contractuele legitimiteit neutraliseert deze ethische problematiek niet wanneer arbeid wordt gevormd door asymmetrie en gebrek aan alternatieven.
+
+### 8.5 Infrastructuur en ethische legitimiteit
+
+Systemen die hun materiële schade structureel externaliseren, verliezen hun ethische legitimiteit, zelfs wanneer hun digitale functionaliteit ogenschijnlijk “veilig” is.
+
+UCSF vereist dat infrastructuurdeelname expliciet wordt meegenomen in ethische beoordeling, inclusief:
+
+- energie- en watergebruik  
+- levenscyclusimpact van hardware  
+- arbeidsomstandigheden binnen ketens  
+- langetermijneffecten op lokale gemeenschappen  
+
+Zonder deze toetsing blijft digitale veiligheid oppervlakkig.
+
+*(Zie [5](#ref-5), [6](#ref-6), [9](#ref-9), [13](#ref-13))*
+
 ### 8.6 Van extractieve naar regeneratieve infrastructuur
 
-De meeste hedendaagse digitale infrastructuren functioneren volgens een extractief model: waarde wordt centraal geconcentreerd, terwijl milieuschade, arbeids­precariteit en sociale kosten naar buiten worden verplaatst.
+De meeste hedendaagse digitale infrastructuren functioneren volgens een extractief model: waarde wordt gecentraliseerd, terwijl milieuschade, arbeids­precariteit en sociale kosten naar buiten worden verplaatst.
 
 UCSF verwerpt extractieve infrastructuur expliciet als ethisch neutraal uitgangspunt.
 
@@ -633,12 +705,12 @@ Regeneratieve infrastructuur verwijst naar systeemarchitecturen die niet slechts
 
 Dit omvat onder andere:
 
-- voorkeur voor hernieuwbare of gemeenschaps­eigendom energiebronnen;  
-- transparantie over energieverbruik, watergebruik en levenscyclusimpact van datacenters;  
-- architectonische terughoudendheid in schaal waar gedecentraliseerde of gefedereerde modellen mogelijk zijn;  
-- herinvestering in gemeenschappen die fysieke infrastructuur huisvesten;  
-- verantwoorde herkomst van materialen en hardware;  
-- bescherming van menselijke arbeid tegen onzichtbaarheid, precariteit en psychologische schade.
+- voorkeur voor hernieuwbare of gemeenschaps­eigendom energiebronnen  
+- transparantie over energieverbruik, watergebruik en levenscyclusimpact van datacenters  
+- architectonische terughoudendheid in schaal waar gedecentraliseerde modellen mogelijk zijn  
+- herinvestering in gemeenschappen die fysieke infrastructuur huisvesten  
+- verantwoorde herkomst van materialen en hardware  
+- bescherming van menselijke arbeid tegen onzichtbaarheid, precariteit en psychologische schade  
 
 Regeneratie impliceert geen perfectie.
 
@@ -657,6 +729,8 @@ Regeneratieve infrastructuur is daarom geen optionele verbetering, maar een uitb
 Ethiek stopt niet bij interfaces.
 
 Zij begint bij grondstoffenwinning.
+
+[⬆ Terug naar inhoudsopgave](#inhoudsopgave)
 
 ---
 
