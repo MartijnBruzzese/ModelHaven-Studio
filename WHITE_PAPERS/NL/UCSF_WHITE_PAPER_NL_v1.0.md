@@ -619,6 +619,47 @@ UCSF vereist dat infrastructuurdeelname wordt meegenomen in ethische beoordeling
 
 ---
 
+### 8.6 Van extractieve naar regeneratieve infrastructuur
+
+De meeste hedendaagse digitale infrastructuren functioneren volgens een extractief model: waarde wordt centraal geconcentreerd, terwijl milieuschade, arbeids­precariteit en sociale kosten naar buiten worden verplaatst.
+
+UCSF verwerpt extractieve infrastructuur expliciet als ethisch neutraal uitgangspunt.
+
+Het minimaliseren van schade is onvoldoende wanneer systemen structureel afhankelijk zijn van uitputting.
+
+UCSF introduceert daarom regeneratieve infrastructuur als normatieve richting.
+
+Regeneratieve infrastructuur verwijst naar systeemarchitecturen die niet slechts negatieve impact verminderen, maar actief bijdragen aan ecologisch herstel, sociale veerkracht en lokale zeggenschap.
+
+Dit omvat onder andere:
+
+- voorkeur voor hernieuwbare of gemeenschaps­eigendom energiebronnen;  
+- transparantie over energieverbruik, watergebruik en levenscyclusimpact van datacenters;  
+- architectonische terughoudendheid in schaal waar gedecentraliseerde of gefedereerde modellen mogelijk zijn;  
+- herinvestering in gemeenschappen die fysieke infrastructuur huisvesten;  
+- verantwoorde herkomst van materialen en hardware;  
+- bescherming van menselijke arbeid tegen onzichtbaarheid, precariteit en psychologische schade.
+
+Regeneratie impliceert geen perfectie.
+
+Het impliceert directionele verantwoordelijkheid.
+
+Ethiek begint niet bij interfaces. Het werkelijke begin ligt bij grondstoffenwinning, toeleveringsketens en de manier waarop omliggende omgevingen worden behandeld. Infrastructuur is niet neutraal.
+
+Extractie is, standaard, een ontwerpkeuze.
+
+Systemen erven extractieve patronen niet toevallig; zij coderen ze. Waar digitale architecturen afhankelijk zijn van uitputting zonder wederkerige verantwoordelijkheid, is ethische legitimiteit reeds aangetast.
+
+Binnen UCSF moeten systemen aantoonbaar bewegen van extractieve afhankelijkheid naar herstellende participatie in de omgevingen en gemeenschappen die zij beïnvloeden.
+
+Regeneratieve infrastructuur is daarom geen optionele verbetering, maar een uitbreiding van toestemming en veiligheid naar de materiële wereld.
+
+Ethiek stopt niet bij interfaces.
+
+Zij begint bij grondstoffenwinning.
+
+---
+
 <a id="ch-9"></a>
 ## 9. Reikwijdte en Gebruik
 
