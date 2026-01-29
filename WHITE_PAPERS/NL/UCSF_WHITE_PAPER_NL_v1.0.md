@@ -14,7 +14,8 @@ title: UCSF White paper NL v1.0
 Source of truth: ModelHaven / UCSF White Papers
 Version: v1.0 (NL)
 -->
----
+
+--- 
 
 ## Inhoudsopgave
 
@@ -50,8 +51,12 @@ Version: v1.0 (NL)
    7.2 Niet-bouwen als ethische uitkomst  
 
 8. [Infrastructuur, Materiële Schade en Gedeelde Verantwoordelijkheid](#ch-8)  
-   8.1 Digitale systemen als fysieke infrastructuur  
-   8.2 Externalisering van ecologische en sociale kosten  
+   8.1 De materialiteit van digitale systemen  
+   8.2 Externalisering als ethisch falen  
+   8.3 Gedeelde maar niet verdunde verantwoordelijkheid  
+   8.4 Onzichtbare arbeid en menselijke kosten  
+   8.5 Infrastructuur en ethische legitimiteit  
+   8.6 Van extractieve naar regeneratieve infrastructuur  
 
 9. [Reikwijdte en Gebruik](#ch-9)  
    9.1 Normatief kader, geen certificaat  
@@ -66,7 +71,6 @@ Version: v1.0 (NL)
 - [Toegankelijkheid van Bronnen](#toegankelijkheid-van-bronnen)  
 - [Referenties / Literatuurlijst](#referenties--literatuurlijst)
 
----
 ---
 
 <a id="0-voorwoord"></a>
