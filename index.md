@@ -93,13 +93,10 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
 ## Companion Concepts (Future)
 
 - **Van Extractie naar Herstel — Regeneratieve Digitale Infrastructuur (NL)**  
-  Dutch placeholder document for future work on ecological shareholding, community ownership of compute resources, and regenerative AI systems.  
-  → [View Dutch placeholder](VAN_EXTRACTIE_NAAR_HERSTEL_NL.md)
+  → [View Dutch placeholder](./WHITE_PAPERS/NL/VAN_EXTRACTIE_NAAR_HERSTEL_NL.md)
 
 - **Regenerative Digital Infrastructure (EN)**  
-  English placeholder document for future work on ecological shareholding, community ownership of compute resources, and regenerative AI systems.  
-  → [View English placeholder](FUTURE_PAPER_REGENERATIVE_INFRASTRUCTURE.md)
-
+  → [View English placeholder](./WHITE_PAPERS/EN/FUTURE_PAPER_REGENERATIVE_INFRASTRUCTURE.md)
 ---
 
 ## Licensing & Use
