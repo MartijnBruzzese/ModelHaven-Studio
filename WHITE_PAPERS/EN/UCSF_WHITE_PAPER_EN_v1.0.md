@@ -637,6 +637,49 @@ Systems that systematically externalise material harm undermine their own ethica
 
 ---
 
+### 8.6 From Extractive to Regenerative Infrastructure
+
+Most contemporary digital infrastructures operate on an extractive model: value is concentrated centrally while environmental degradation, labour precarity, and social costs are distributed outward.
+
+UCSF explicitly rejects extractive infrastructure as an ethically neutral baseline.
+
+Minimising harm is insufficient when systems are structurally dependent on depletion.
+
+UCSF therefore introduces regenerative infrastructure as a normative direction.
+
+Regenerative infrastructure refers to system architectures that do not merely reduce negative impact, but actively contribute to ecological recovery, social resilience, and local agency.
+
+This includes, but is not limited to:
+
+- preference for renewable or community-owned energy sources;
+- transparency regarding data center energy, water use, and lifecycle impact;
+- architectural restraint in scale where decentralised or federated models are viable;
+- reinvestment in communities hosting physical infrastructure;
+- responsible sourcing of materials and hardware;
+- protection of human labour from invisibility, precarity, and psychological harm.
+
+Regeneration does not imply perfection.
+
+It implies directional responsibility.
+
+Ethics do not start at interfaces. Their true beginning lies in resource harvesting, supply chains, and in how surrounding environments are treated. Infrastructure is not neutral.
+
+Extraction, by default, is a design Choice.
+
+Systems do not inherit extractive patterns accidentally; they encode them. Where digital architectures depend on depletion without reciprocal responsibility, ethical legitimacy is already compromised.
+
+Under UCSF, systems must demonstrate movement away from extractive dependency toward restorative participation in the environments and communities they affect.
+
+Regenerative infrastructure is therefore not an optional enhancement, but an extension of consent and safety into the material world.
+
+Ethics does not stop at interfaces.
+
+It begins at resource harvesting.
+
+[⬆ Back to table of contents](#inhoudsopgave)
+
+---
+
 <a id="ch-9"></a>
 ## 9. Scope, Applicability, and Limits of Use
 
