@@ -1,3 +1,9 @@
+---
+layout: default
+title: Regeneratieve Digitale Infrastructuur
+---
+
+
 # Placeholder — Regeneratieve Digitale Infrastructuur
 
 Status: Concept gereserveerd  
