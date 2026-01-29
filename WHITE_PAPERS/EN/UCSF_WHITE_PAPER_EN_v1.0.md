@@ -15,9 +15,7 @@ title: UCSF White paper EN v1.0
 
 0. [Preface](#0-preface)
 
-1. [Rationale and Necessity](#ch-1)  
-   1.1 Structural harm in digital systems  
-   1.2 From incident to design pattern  
+1. [Rationale and Necessity](#ch-1)
 
 2. [Consent in Digital Systems](#ch-2)  
    2.1 Consent as a condition, not an action  
@@ -25,32 +23,54 @@ title: UCSF White paper EN v1.0
    2.3 Legal versus ethical legitimacy  
 
 3. [Safety as a Design Responsibility](#ch-3)  
-   3.1 Reactive versus preventive safety  
-   3.2 Predictable harm and design accountability  
+   3.1 Testable safety  
+   3.2 Risk versus harm  
+   3.3 Automation and responsibility  
+   3.4 Safety as a relational design principle  
 
 4. [Failure, Recovery, and Repair](#ch-4)  
-   4.1 Inevitability of failure at scale  
-   4.2 Recovery as obligation, not goodwill  
+   4.1 Failure as a predictable design problem  
+   4.2 Recovery as a design requirement  
+   4.3 Repair versus correction  
+   4.4 Asymmetry of power and burden of proof  
+   4.5 Irreparable harm and ethical limits  
 
 5. [Power, Governance, and Responsibility](#ch-5)  
-   5.1 Platform power and decision-making  
-   5.2 Transparency, counter-power, and legitimacy  
+   5.1 Power as a system property  
+   5.2 Governance versus intent  
+   5.3 Concentration of power and absence of counterpower  
+   5.4 Responsibility and delegation  
+   5.5 Transparency as a necessary but insufficient condition  
+   5.6 Power and ethical limitation  
 
 6. [Implementation Without Ethical Evasion](#ch-6)  
-   6.1 Ethics as a boundary condition  
-   6.2 Scalability versus permissibility  
+   6.1 The myth of the implementation dilemma  
+   6.2 Ethical debt and technical debt  
+   6.3 Ethics as a boundary condition  
+   6.4 Institutional responsibility in implementation  
+   6.5 Implementation as ethical proof  
 
 7. [Limits and Ethical Refusal](#ch-7)  
-   7.1 Normalisation of structural harm  
-   7.2 Not-building as an ethical outcome  
+   7.1 The normalisation of structural harm  
+   7.2 The ethical limit of optimisation  
+   7.3 Refusal as a valid outcome  
+   7.4 Refusal as a design principle  
+   7.5 Responsibility in saying “no”  
 
 8. [Infrastructure, Material Harm, and Shared Responsibility](#ch-8)  
-   8.1 Digital systems as physical infrastructure  
-   8.2 Externalisation of ecological and social costs  
+   8.1 The materiality of digital systems  
+   8.2 Externalisation as an ethical failure  
+   8.3 Shared but non-diluted responsibility  
+   8.4 Invisible labour and human cost  
+   8.5 Infrastructure and ethical legitimacy  
+   8.6 From Extractive to Regenerative Infrastructure  
 
-9. [Scope and Use](#ch-9)  
-   9.1 Normative framework, not certification  
-   9.2 Limitations and explicit boundaries  
+9. [Scope, Applicability, and Limits of Use](#ch-9)  
+   9.1 A normative, not instrumental framework  
+   9.2 Systems within scope  
+   9.3 Systems outside direct resolution  
+   9.4 Ethical refusal as a valid outcome  
+   9.5 Limits of interpretation and use  
 
 10. [Authorship and Human Responsibility](#ch-10)
 
@@ -58,10 +78,9 @@ title: UCSF White paper EN v1.0
 - [License and Use](#license-and-use)  
 - [Invitation to Peer Review](#invitation-to-peer-review)  
 - [Concluding Reflections](#concluding-reflections)  
-- [UCSF of Sources](#accessibility-of-sources)  
+- [Accessibility of Sources](#accessibility-of-sources)  
 - [References / Bibliography](#references--bibliography)
 
----
 ---
 
 <a id="0-preface"></a>
