@@ -120,13 +120,3 @@ Unless explicitly stated otherwise:
 UCSF is a normative framework, not a certification or compliance label.
 
 ---
-
-## Authorship
-
-© 2025–2026  
-**Martijn Bruzzese**  
-ModelHaven Studio / Universal Consent & Safety Framework
-
-This work is authored by a human.  
-AI tools assisted with structuring and language.  
-Ethical responsibility remains human.
