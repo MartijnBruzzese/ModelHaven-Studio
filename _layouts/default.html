@@ -1,44 +1,87 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: "ModelHaven Studio" }}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | default: "ModelHaven Studio" }}</title>
 
-  <!-- Use the repo-root style.css (Workspace theme) -->
-  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+
 </head>
 
 <body>
-  <div class="wrap">
+<div class="wrap">
 
-    {{ content }}
+{{ content }}
 
-    <footer class="footer">
-      <div>
-        <strong>Contact</strong><br>
-        <a href="mailto:martijnbruzzese@gmail.com">martijnbruzzese@gmail.com</a>
-      </div>
-      <div class="muted">© 2026 Martijn Bruzzese — All Rights Reserved</div>
-    </footer>
+{% if page.show_licensing %}
+<hr>
 
-  </div>
+<section>
+<h2>⚖️ Licensing & Use</h2>
 
-  <!-- Optional: Mermaid support -->
-  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-  <script>
-    mermaid.initialize({ startOnLoad: true });
+<ul>
+<li>UCSF & White Papers → <a href="{{ '/LICENSE.md' | relative_url }}">Licensing</a></li>
+<li>Framework Usage Conditions → <a href="{{ '/FRAMEWORK_USE.md' | relative_url }}">Framework Use</a></li>
+<li>Citation Guidance → <a href="{{ '/CITATION.md' | relative_url }}">How to Cite UCSF</a></li>
+</ul>
 
-    document.addEventListener("DOMContentLoaded", () => {
-      document.querySelectorAll("pre > code.language-mermaid").forEach((code) => {
-        const pre = code.parentElement;
-        const div = document.createElement("div");
-        div.className = "mermaid";
-        div.textContent = code.textContent;
-        pre.replaceWith(div);
-      });
-      mermaid.init(undefined, document.querySelectorAll(".mermaid"));
-    });
-  </script>
+<p class="muted">Unless explicitly stated otherwise:</p>
+
+<ul>
+<li>Documents & frameworks: <strong>Creative Commons CC BY-NC 4.0</strong></li>
+<li>Code (if present): <strong>MIT License</strong></li>
+</ul>
+
+<p class="muted">
+UCSF is a normative framework, not a certification or compliance label.
+</p>
+
+<hr>
+
+<section>
+<h2>✍️ Authorship</h2>
+
+<p class="muted">
+© 2025–2026<br>
+<strong>Martijn Bruzzese</strong><br>
+ModelHaven Studio / Universal Consent & Safety Framework
+</p>
+
+<p class="muted">
+This work is authored by a human.<br>
+AI tools assisted with structuring and language.<br>
+Ethical responsibility remains human.
+</p>
+
+</section>
+{% endif %}
+
+<footer class="footer">
+<div>
+<strong>Contact</strong><br>
+<a href="mailto:martijnbruzzese@gmail.com">martijnbruzzese@gmail.com</a>
+</div>
+<div class="muted">© 2026 Martijn Bruzzese — All Rights Reserved</div>
+</footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+mermaid.initialize({ startOnLoad: true });
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("pre > code.language-mermaid").forEach((code) => {
+    const pre = code.parentElement;
+    const div = document.createElement("div");
+    div.className = "mermaid";
+    div.textContent = code.textContent;
+    pre.replaceWith(div);
+  });
+  mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+});
+</script>
+
 </body>
 </html>
