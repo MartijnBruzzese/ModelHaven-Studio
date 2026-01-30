@@ -570,46 +570,7 @@ Systemen die geen mogelijkheid tot ethische weigering bevatten, zijn per definit
 [⬆ Terug naar inhoudsopgave](#inhoudsopgave)
 ---
 
-<a id="ch-8"></a>
-## 8. Infrastructuur, Materiële Schade en Gedeelde Verantwoordelijkheid
-
-Digitale systemen worden vaak gepresenteerd als immaterieel. In werkelijkheid rusten zij op omvangrijke fysieke infrastructuren: datacenters, energievoorziening, watergebruik, grondstoffenwinning en menselijke arbeid.
-
-UCSF stelt dat ethische verantwoordelijkheid niet eindigt bij de gebruikersinterface.
-
-### 8.1 De materialiteit van digitale systemen
-
-Elke digitale interactie heeft materiële gevolgen. De schaal waarop systemen opereren vertaalt zich direct naar ecologische belasting en sociale impact.
-
-Deze gevolgen worden vaak:
-- geografisch verplaatst  
-- uitbesteed aan kwetsbare gemeenschappen  
-- juridisch gefragmenteerd  
-- buiten zicht gehouden van eindgebruikers  
-
-UCSF beschouwt deze externalisering als een ethisch vraagstuk, niet slechts als logistiek of economisch probleem.
-
-### 8.2 Gedeelde maar niet verdunde verantwoordelijkheid
-
-Hoewel infrastructuur vaak bestaat uit complexe ketens, verwerpt UCSF het idee dat verantwoordelijkheid daardoor verdwijnt.
-
-Gedeelde verantwoordelijkheid is geen vrijbrief voor verdunning.
-
-Onder UCSF geldt:
-- elke actor is verantwoordelijk voor zijn bijdrage  
-- kennis van schade impliceert verantwoordelijkheid  
-- schaal vergroot verplichting, niet afstand  
-
-### 8.3 Onzichtbare arbeid en menselijke kosten
-
-Naast ecologische impact rusten digitale systemen op grootschalige menselijke arbeid: moderatie, labeling, onderhoud en correctie.
-
-Wanneer deze arbeid:
-- structureel onderbetaald is  
-- psychologisch schadelijk is  
-- sociaal onzichtbaar blijft  
-
-dan is sprake van ethische exploitatie, ongeacht contractuele legitimiteit.
+ legitimiteit.
 
 ### 8.4 Infrastructuur en ethische legitimiteit
 
@@ -693,8 +654,6 @@ UCSF vereist dat infrastructuurdeelname expliciet wordt meegenomen in ethische b
 
 Zonder deze toetsing blijft digitale veiligheid oppervlakkig.
 
-*(Zie [5](#ref-5), [6](#ref-6), [9](#ref-9), [13](#ref-13))*
-
 ### 8.6 Van extractieve naar regeneratieve infrastructuur
 
 De meeste hedendaagse digitale infrastructuren functioneren volgens een extractief model: waarde wordt gecentraliseerd, terwijl milieuschade, arbeids­precariteit en sociale kosten naar buiten worden verplaatst.
@@ -733,6 +692,8 @@ Regeneratieve infrastructuur is daarom geen optionele verbetering, maar een uitb
 Ethiek stopt niet bij interfaces.
 
 Zij begint bij grondstoffenwinning.
+
+*(Zie [5](#ref-5), [6](#ref-6), [9](#ref-9), [13](#ref-13))*
 
 [⬆ Terug naar inhoudsopgave](#inhoudsopgave)
 
