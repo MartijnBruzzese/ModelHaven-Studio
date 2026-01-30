@@ -12,11 +12,6 @@
 <body>
 <div class="wrap">
 
-<!-- layout proof -->
-<div class="muted" style="opacity:.6;font-size:12px;margin-bottom:8px;">
-MODELHAVEN LAYOUT ACTIVE
-</div>
-
 {{ content }}
 
 {% if page.show_licensing %}
@@ -26,17 +21,15 @@ MODELHAVEN LAYOUT ACTIVE
 <h2>⚖️ Licensing & Use</h2>
 
 <ul>
-<li>UCSF & White Papers → <a href="{{ '/LICENSE.md' | relative_url }}">Licensing</a></li>
-<li>Framework Usage Conditions → <a href="{{ '/FRAMEWORK_USE.md' | relative_url }}">Framework Use</a></li>
-<li>Citation Guidance → <a href="{{ '/CITATION.md' | relative_url }}">How to Cite UCSF</a></li>
+  <li>License text → <a href="{{ '/LICENSE.md' | relative_url }}">LICENSE.md</a></li>
+  <li>Framework usage → <a href="{{ '/FRAMEWORK_USE.md' | relative_url }}">FRAMEWORK_USE.md</a></li>
+  <li>Citation guidance → <a href="{{ '/CITATION.md' | relative_url }}">CITATION.md</a></li>
 </ul>
 
-<p class="muted">Unless explicitly stated otherwise:</p>
-
-<ul>
-<li>Documents & frameworks: <strong>Creative Commons CC BY-NC 4.0</strong></li>
-<li>Code (if present): <strong>MIT License</strong></li>
-</ul>
+<p class="muted">
+Unless explicitly stated otherwise: documents & frameworks are licensed under <strong>CC BY-NC 4.0</strong>.
+Any code (if present) is licensed under <strong>MIT</strong>.
+</p>
 
 <p class="muted">
 UCSF is a normative framework, not a certification or compliance label.
@@ -50,7 +43,7 @@ UCSF is a normative framework, not a certification or compliance label.
 <p class="muted">
 © 2025–2026<br>
 <strong>Martijn Bruzzese</strong><br>
-ModelHaven Studio / Universal Consent & Safety Framework
+ModelHaven Studio / Universal Consent &amp; Safety Framework
 </p>
 
 <p class="muted">
@@ -63,11 +56,16 @@ Ethical responsibility remains human.
 {% endif %}
 
 <footer class="footer">
-<div>
-<strong>Contact</strong><br>
-<a href="mailto:martijnbruzzese@gmail.com">martijnbruzzese@gmail.com</a>
-</div>
-<div class="muted">© 2026 Martijn Bruzzese — All Rights Reserved</div>
+  <div>
+    <strong>Contact</strong><br>
+    <a href="mailto:martijnbruzzese@gmail.com">martijnbruzzese@gmail.com</a>
+  </div>
+
+  {% if page.show_licensing %}
+  <div class="muted">
+    Docs &amp; frameworks: <strong>CC BY-NC 4.0</strong> · Code (if present): <strong>MIT</strong>
+  </div>
+  {% endif %}
 </footer>
 
 </div>
