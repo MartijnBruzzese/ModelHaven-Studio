@@ -1,8 +1,3 @@
----
-layout: default 
-title: Toward Humane AI
----
-
 ### Toward Humane AI
 
 ModelHaven Studio is a research-driven framework and design architecture for AI systems in which consent, identity, and safety are treated as foundational requirements rather than post-hoc constraints.
