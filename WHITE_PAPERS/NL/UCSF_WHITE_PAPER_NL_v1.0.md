@@ -19,7 +19,7 @@ Version: v1.0 (NL)
 
 ## Inhoudsopgave
 
-0. [Voorwoord](#0-voorwoord)
+- [Voorwoord](#0-voorwoord)
 
 1. [Aanleiding en Noodzaak](#ch-1)  
    1.1 Structurele schade in digitale systemen  
