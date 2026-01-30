@@ -6,66 +6,12 @@
 <title>{{ page.title | default: "ModelHaven Studio" }}</title>
 
 <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
-
 </head>
 
 <body>
 <div class="wrap">
 
 {{ content }}
-
-{% if page.show_licensing %}
-<hr>
-
-<section>
-<h2>⚖️ Licensing & Use</h2>
-
-<ul>
-  <li>License text → <a href="{{ '/LICENSE.md' | relative_url }}">LICENSE.md</a></li>
-  <li>Framework usage → <a href="{{ '/FRAMEWORK_USE.md' | relative_url }}">FRAMEWORK_USE.md</a></li>
-  <li>Citation guidance → <a href="{{ '/CITATION.md' | relative_url }}">CITATION.md</a></li>
-</ul>
-
-<p class="muted">
-Unless explicitly stated otherwise: documents & frameworks are licensed under <strong>CC BY-NC 4.0</strong>.
-Any code (if present) is licensed under <strong>MIT</strong>.
-</p>
-
-<p class="muted">
-UCSF is a normative framework, not a certification or compliance label.
-</p>
-
-<hr>
-
-<section>
-<h2>✍️ Authorship</h2>
-
-<p class="muted">
-© 2025–2026<br>
-<strong>Martijn Bruzzese</strong><br>
-ModelHaven Studio / Universal Consent &amp; Safety Framework
-</p>
-
-<p class="muted">
-This work is authored by a human.<br>
-AI tools assisted with structuring and language.<br>
-Ethical responsibility remains human.
-</p>
-
-</section>
-{% endif %}
-
-<footer class="footer">
-  ...
-</footer>
-
-  {% if page.show_licensing %}
-  <div class="muted">
-    Docs &amp; frameworks: <strong>CC BY-NC 4.0</strong> · 
-Code (if present): <strong>MIT</strong>
-  </div>
-  {% endif %}
-</footer>
 
 </div>
 
