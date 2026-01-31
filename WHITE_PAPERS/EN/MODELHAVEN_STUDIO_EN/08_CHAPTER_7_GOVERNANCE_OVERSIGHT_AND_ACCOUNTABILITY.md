@@ -1,4 +1,4 @@
-<a id="h7"></a>
+<a id="ch-7"></a>
 ## Chapter 7 — Governance, Oversight, and Human Counterbalance
 
 No technical system should hold exclusive authority over ethically charged decisions.
@@ -9,6 +9,7 @@ Automation supports processes, but does not replace moral judgment.
 
 ---
 
+<a id="ch-7-1"></a>
 ### 7.1 Why governance is not a side issue
 
 Many AI systems treat governance as an organizational peripheral matter: something delegated to legal departments or compliance teams.
@@ -21,6 +22,7 @@ Without explicit governance, silent concentrations of power emerge.
 
 ---
 
+<a id="ch-7-2"></a>
 ### 7.2 Layered oversight
 
 Oversight within ModelHaven Studio is organized across multiple layers:
@@ -36,6 +38,7 @@ It is precisely their overlap that creates robustness.
 
 ---
 
+<a id="ch-7-3"></a>
 ### 7.3 Escalation pathways
 
 When automated systems reach defined boundaries or detect ambiguity, escalation follows:
@@ -47,6 +50,7 @@ Escalation is not an exceptional state, but a normal component of ethical operat
 
 ---
 
+<a id="ch-7-4"></a>
 ### 7.4 Transparency and audit trails
 
 All relevant decisions leave traces:
@@ -65,6 +69,7 @@ They enable accountability without becoming surveillance systems.
 
 ---
 
+<a id="ch-7-5"></a>
 ### 7.5 Peer review and external assessment
 
 ModelHaven Studio does not position itself as a closed system.
@@ -82,6 +87,7 @@ No team should be permitted to monopolize its own moral framework.
 
 ---
 
+<a id="ch-7-6"></a>
 ### 7.6 Human counterbalance as a permanent factor
 
 Human intervention is not an emergency provision.
@@ -96,6 +102,7 @@ This is not a slowdown of innovation, but its legitimization.
 
 ---
 
+<a id="ch-7-7"></a>
 ### 7.7 Summary
 
 Chapter 7 shows that ModelHaven Studio does not outsource governance to policy, but anchors it in design.
@@ -104,6 +111,6 @@ Human counterbalance, transparency, and external assessment together form the so
 
 The next chapter explains how this structure remains scalable through **collaboration and societal embedding**.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+---
