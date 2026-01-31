@@ -1,4 +1,4 @@
-<a id="h13"></a>
+<a id="ch-13"></a>
 ## Chapter 13 — Scope Limits and Future Directions
 
 ModelHaven Studio is a conceptual and architectural framework.
@@ -16,7 +16,6 @@ New technologies will introduce new risks.
 
 This framework is designed to evolve alongside them.
 
----
-
 [Back to table of contents](#table-of-contents)
 
+---
