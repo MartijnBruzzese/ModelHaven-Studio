@@ -1,4 +1,4 @@
-<a id="h3"></a>
+<a id="ch-3"></a>
 ## Chapter 3 — Consent, Identity, and Intent as a Foundational Framework
 
 ModelHaven Studio is designed from the conviction that ethical safety cannot be enforced through a single rule, a single filter, or a single form of moderation. It emerges from the **interplay** between multiple layers that constrain, correct, and reinforce one another.
@@ -13,7 +13,7 @@ Without this coherence, ethics remains fragile and context-blind. With it, prote
 
 ---
 
-<a id="h3-1"></a>
+<a id="ch-3-1"></a>
 ### 3.1 Consent as a dynamic state
 
 Within ModelHaven Studio, consent is not understood as a one-time action, but as a **continuous, revocable state**.
@@ -31,7 +31,7 @@ Consent is not a checkbox here, but a **design parameter**.
 
 ---
 
-<a id="h3-2"></a>
+<a id="ch-3-2"></a>
 ### 3.2 Identity without reduction
 
 Many digital systems reduce identity to:
@@ -55,7 +55,7 @@ It is a **precondition for protection**, not a product.
 
 ---
 
-<a id="h3-3"></a>
+<a id="ch-3-3"></a>
 ### 3.3 Intent as an ethical signal
 
 Within ModelHaven Studio, intent is not treated as a moral judgment of the user, but as a **contextual signal** that guides system behavior.
@@ -85,7 +85,7 @@ Intent is temporary, situational, and **not identity**.
 
 ---
 
-<a id="h3-4"></a>
+<a id="ch-3-4"></a>
 ### 3.4 Interaction between consent, identity, and intent
 
 The core of ModelHaven Studio lies in the **interaction** between these three layers.
@@ -103,7 +103,7 @@ Uncertainty does not lead to optimization, but to **constraint**.
 
 ---
 
-<a id="h3-5"></a>
+<a id="ch-3-5"></a>
 ### 3.5 Modes as interpretive frameworks, not exemptions
 
 ModelHaven Studio supports multiple **modes** (such as adult, satire, art, music, journalism, story, voice), but these modes do **not constitute ethical exception zones**.
@@ -126,7 +126,7 @@ Modes guide **how** something is interpreted, not **whether** protection applies
 
 ---
 
-<a id="h3-6"></a>
+<a id="ch-3-6"></a>
 ### 3.6 User choice and adaptive reconfiguration
 
 Users may choose their **starting position**: they can indicate which mode they wish to work in. The system then aligns itself with the corresponding safety and interpretive frameworks.
@@ -145,7 +145,7 @@ The workflow is not blocked, but **safely recalibrated**.
 
 ---
 
-<a id="h3-7"></a>
+<a id="ch-3-7"></a>
 ### 3.7 UCSF as a non-static framework
 
 UCSF is not a closed dogma. The framework acknowledges that:
@@ -160,7 +160,7 @@ Ethics that cannot evolve loses its protective value.
 
 ---
 
-<a id="h3-8"></a>
+<a id="ch-3-8"></a>
 ### 3.8 Modality-independent design (open design question)
 
 Current AI discourse focuses heavily on text- and prompt-based systems. This focus is understandable, but fundamentally limited.
@@ -196,7 +196,7 @@ Leaving these questions open is not a deficiency, but a **deliberate ethical cho
 
 ---
 
-<a id="h3-9"></a>
+<a id="ch-3-9"></a>
 ### 3.9 Summary
 
 Consent, identity, and intent together form the **foundational ethical framework** of ModelHaven Studio.
