@@ -55,6 +55,8 @@ With attention.
 With doubt.  
 With responsibility.
 
+[Back to table of contents](#table-of-contents)
+
 ---
 
-[Back to table of contents](#table-of-contents)
+
