@@ -15,5 +15,6 @@
 
 **Human counterbalance** — Structural human oversight of automated systems.
 
+[Back to table of contents](#table-of-contents)
 
 ---
