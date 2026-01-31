@@ -206,6 +206,6 @@ Fail-closed behavior and human responsibility remain guiding principles.
 
 The next chapter details how these principles are translated into **safety modes, sandboxes, and risk classes**—and how the system responds to escalating risk, malicious intent, and ethical stress points.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+---
