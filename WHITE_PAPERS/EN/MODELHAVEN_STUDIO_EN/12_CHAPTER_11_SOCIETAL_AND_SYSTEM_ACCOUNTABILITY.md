@@ -1,4 +1,4 @@
-<a id="h11"></a>
+<a id="ch-11"></a>
 ## Chapter 11 — Societal and System Accountability
 
 This whitepaper draws on public discourse, academic literature, journalistic sources, and direct observation of contemporary AI systems.
@@ -11,6 +11,6 @@ Where possible, alignment is sought with existing legislation (GDPR, AI Act) and
 
 This document explicitly invites peer review and critical evaluation.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+---
