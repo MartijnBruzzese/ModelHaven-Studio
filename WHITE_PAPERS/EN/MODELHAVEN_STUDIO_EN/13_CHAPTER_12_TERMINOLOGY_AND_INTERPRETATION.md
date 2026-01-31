@@ -14,3 +14,6 @@
 **Risk class** — A dynamic classification of interactions based on potential harm.
 
 **Human counterbalance** — Structural human oversight of automated systems.
+
+
+---
