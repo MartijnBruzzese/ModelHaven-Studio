@@ -7,6 +7,110 @@
 
 ---
 
+<a id="table-of-contents"></a>
+## Table of Contents
+
+- **Introduction**
+  - [Introduction](#introduction)
+  - [Positioning and Interpretation](#positioning-and-interpretation)
+
+- **Main Chapters**
+  - [Chapter 1 — The Implementation Problem](#chapter-1)
+    - 1.1 Ethics Without System-Level Behavior
+    - 1.2 Why Moderation and Policy Are Structurally Insufficient
+    - 1.3 The Myth of Neutrality
+    - 1.4 Scale as an Ethical Stress Test
+    - 1.5 Post-Hoc Constraints After Public Pressure: The Case of Grok AI
+    - 1.6 Design Failures and Malicious Exploitation
+    - 1.7 The Missing Element: Enforceability
+    - 1.8 Case Study: Roblox
+    - 1.9 Author’s Note
+
+  - [Chapter 2 — From Post-hoc Moderation to Design Responsibility](#h2)
+    - [2.1 Moderation as symptom management and inefficiency](#h2-1)
+    - [2.2 Boundary-setting after societal criticism: the case of Grok AI](#h2-2)
+    - [2.3 Design flaws and malicious intent](#h2-3)
+    - [2.4 Design ethics and human responsibility](#h2-4)
+    - [2.5 Technical infrastructure as an ethical factor](#h2-5)
+    - [2.6 Design before regulation, not after](#h2-6)
+    - [2.7 Summary](#h2-7)
+
+  - [Chapter 3 — Consent, Identity, and Intent as a Foundational Framework](#h3)
+    - [3.1 Consent as a dynamic state](#h3-1)
+    - [3.2 Identity without reduction](#h3-2)
+    - [3.3 Intent as an ethical signal](#h3-3)
+    - [3.4 Interaction between consent, identity, and intent](#h3-4)
+    - [3.5 Modes as interpretive frameworks, not exemptions](#h3-5)
+    - [3.6 User choice and adaptive reconfiguration](#h3-6)
+    - [3.7 UCSF as a non-static framework](#h3-7)
+    - [3.8 Modality-independent design (open design question)](#h3-8)
+    - [3.9 Summary](#h3-9)
+
+  - [Chapter 4 — Safety Modes, Sandboxes, and Risk Classes](#h4)
+    - 4.1 Safety modes as an interpretive framework
+    - 4.2 Sandboxes as controlled experimental environments
+    - 4.3 Risk classes and dynamic escalation
+    - 4.4 Fail-closed behavior as a design principle
+    - 4.5 Human intervention and governance
+    - 4.6 Adaptivity without normalization of risk
+    - 4.7 Summary
+
+  - [Chapter 5 — Failure, Boundaries, and Non-Negotiable Protection](#h5)
+    - [5.1 Failure as a design question, not an incident](#h5-1)
+    - [5.2 Non-negotiable zones: where failure is not permitted](#h5-2)
+    - [5.3 Fail-closed as an ethical default](#h5-3)
+    - [5.4 Minors: absolute protection, no exceptions](#h5-4)
+    - [5.5 Failure, liability, and human responsibility](#h5-5)
+    - [5.6 No ethical relaxation through market dynamics](#h5-6)
+    - [5.7 Summary](#h5-7)
+
+  - [Chapter 6 — Identity and Consent Tokens](#h6)
+    - 6.1 From implicit consent to explicit tokens
+    - 6.2 Properties of consent tokens
+    - 6.3 Identity as a protective layer
+    - 6.4 Delegation and multi-party consent
+    - 6.5 Tokens and fail-closed behavior
+    - 6.6 Privacy-by-design and minimal exposure
+    - 6.7 Summary
+
+  - [Chapter 7 — Governance, Oversight, and Human Counterbalance](#h7)
+    - 7.1 Why governance is not a side issue
+    - 7.2 Layered oversight
+    - 7.3 Escalation pathways
+    - 7.4 Transparency and audit trails
+    - 7.5 Peer review and external assessment
+    - 7.6 Human counterbalance as a permanent factor
+    - 7.7 Summary
+
+  - [Chapter 8 — Scale, Collaboration, and Societal Embedding](#h8)
+    - 8.1 Scale as a design problem
+    - 8.2 Collaboration as a structural component
+    - 8.3 Openness without extraction
+    - 8.4 Societal legitimacy
+    - 8.5 International applicability
+    - 8.6 Economic sustainability without ethical compromise
+    - 8.7 Summary
+
+  - [Chapter 9 — Closing Position](#h9)
+    - 9.1 What this document is
+    - 9.2 What this document is not
+    - 9.3 Design as responsibility
+    - 9.4 Call for scrutiny
+    - 9.5 Closing
+
+  - [Chapter 10 — Epilogue](#h10)
+    - 10.1 No neutral technology
+    - 10.2 Human scale
+    - 10.3 Acknowledgments and looking ahead
+    - 10.4 Epilogue
+
+- **Back Matter**
+  - [Chapter 11 — Societal and System Accountability](#h11)
+  - [Chapter 12 — Terminology Framework](#h12)
+  - [Chapter 13 — Scope Limits and Future Directions](#h13)
+  - [Chapter 14 — Author Reflections and Acknowledgements](#h14)
+
+
 ### Relationship to UCSF
 
 This whitepaper presents ModelHaven Studio as the implementation and architectural layer of the  
