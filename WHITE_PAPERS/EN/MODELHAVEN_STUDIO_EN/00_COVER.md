@@ -37,6 +37,6 @@ Unless otherwise specified, this text is provided under a license to be determin
 Use for evaluation, discussion, and non-extractive application is permitted.  
 Commercial implementation requires explicit permission from the author.
 
----
-
 © 2026 — Martijn Bruzzese
+
+---
