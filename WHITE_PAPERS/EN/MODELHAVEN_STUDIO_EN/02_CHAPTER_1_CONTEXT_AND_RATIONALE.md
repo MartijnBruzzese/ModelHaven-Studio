@@ -1,6 +1,7 @@
-<a id="chapter-1"></a>
-## Chapter 1 — The Implementation Problem
+<a id="ch-1"></a>
+## Chapter 1 — Context and Rationale
 
+<a id="ch-1-1"></a>
 ### 1.1 Ethics Without System-Level Behavior
 
 In recent years, countless guidelines, principles, and policy documents on responsible AI have been published. Almost all of them emphasize values such as transparency, fairness, safety, and human-centered design. Yet many AI systems continue to rely on the same underlying architectural logic: scale first, correct later.
@@ -13,6 +14,7 @@ This is not ethics by design, but ethics by intention.
 
 ---
 
+<a id="ch-1-2"></a>
 ### 1.2 Why Moderation and Policy Are Structurally Insufficient
 
 The prevailing approach across existing AI platforms is reactive. Content policies, moderation practices, and legal terms are introduced to address misuse after it has already occurred.
@@ -25,6 +27,7 @@ The result is a familiar cycle: incident, public backlash, policy adjustment, an
 
 ---
 
+<a id="ch-1-3"></a>
 ### 1.3 The Myth of Neutrality
 
 A common justification for limited ethical intervention is the claim that systems should remain “neutral.” Platforms present themselves as mere infrastructure, while responsibility is shifted onto users.
@@ -39,6 +42,7 @@ Systems are never value-neutral. They are either explicitly or implicitly normat
 
 ---
 
+<a id="ch-1-4"></a>
 ### 1.4 Scale as an Ethical Stress Test
 
 Many ethical failures do not stem from malicious intent, but from scale.
@@ -49,6 +53,7 @@ A system that is not designed to scale safely loses ethical legitimacy as its su
 
 ---
 
+<a id="ch-1-5"></a>
 ### 1.5 Post-Hoc Constraints After Public Pressure: The Case of Grok AI
 
 A recent illustration of this pattern can be found in Grok, the AI model developed by xAI.
@@ -59,6 +64,7 @@ This pattern—launch first, constrain later—demonstrates how ethics is often 
 
 ---
 
+<a id="ch-1-6"></a>
 ### 1.6 Design Failures and Malicious Exploitation
 
 Technological harm rarely has a single cause.
@@ -71,6 +77,7 @@ Responsibility therefore cannot be placed solely on users. Architectural choices
 
 ---
 
+<a id="ch-1-7"></a>
 ### 1.7 The Missing Element: Enforceability
 
 What is largely absent from the current AI landscape is not ethical awareness, but enforceability.
@@ -81,6 +88,7 @@ Effective protection requires ethics to function not as an appendix, but as a de
 
 ---
 
+<a id="ch-1-8"></a>
 ### 1.8 Case Study: Roblox
 
 During the final stages of this white paper, it was reported that the Dutch government had launched an investigation into Roblox due to potential exposure of minors to harmful interactions.
@@ -91,6 +99,7 @@ The problem is not a single platform. It is a structural design model in which s
 
 ---
 
+<a id="ch-1-9"></a>
 ### 1.9 Author’s Note
 
 The examples in this chapter are not intended as condemnations of individual companies or developers.
