@@ -136,7 +136,7 @@ Commercial implementation requires explicit permission from the author.
 
 - [Chapter 11 — Societal and System Accountability](#ch-11)
 
-- [Chapter 12 — Terminology Framework](#ch-12)
+- [Chapter 12 — Terminology](#ch-12)
 
 - [Chapter 13 — Scope Limits and Future Directions](#ch-13)
 
