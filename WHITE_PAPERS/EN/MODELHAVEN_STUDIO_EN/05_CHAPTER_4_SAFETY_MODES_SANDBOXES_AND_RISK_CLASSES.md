@@ -1,4 +1,4 @@
-<a id="h4"></a>
+<a id="ch-4"></a>
 ## Chapter 4 — Safety Modes, Sandboxes, and Risk Classes
 
 While Chapter 3 described the ethical foundations, this chapter focuses on their operational translation: how consent, identity, and intent are translated into concrete system behaviors.
@@ -7,6 +7,7 @@ ModelHaven Studio applies a layered safety architecture for this purpose, consis
 
 ---
 
+<a id="ch-4-1"></a>
 ### 4.1 Safety modes as an interpretive framework
 
 Safety modes determine the context in which interactions are interpreted. Examples include:
@@ -23,6 +24,7 @@ Crucially, modes are **not exception zones**. They expand or refine expression, 
 
 ---
 
+<a id="ch-4-2"></a>
 ### 4.2 Sandboxes as controlled experimental environments
 
 Sandboxes are bounded environments in which users can experiment within strictly defined limits.
@@ -44,6 +46,7 @@ They provide room, but no carte blanche.
 
 ---
 
+<a id="ch-4-3"></a>
 ### 4.3 Risk classes and dynamic escalation
 
 Each interaction is continuously evaluated by the system and assigned to a risk class.
@@ -66,6 +69,7 @@ This escalation proceeds gradually and contextually, rather than binarily.
 
 ---
 
+<a id="ch-4-4"></a>
 ### 4.4 Fail-closed behavior as a design principle
 
 When the system lacks sufficient certainty regarding:
@@ -86,6 +90,7 @@ Fail-closed is not a punitive mechanism, but a protective logic.
 
 ---
 
+<a id="ch-4-5"></a>
 ### 4.5 Human intervention and governance
 
 Although many processes are automated, human intervention remains essential.
@@ -101,6 +106,7 @@ Automation supports ethics, but does not replace it.
 
 ---
 
+<a id="ch-4-6"></a>
 ### 4.6 Adaptivity without normalization of risk
 
 An important distinction from existing systems is that ModelHaven Studio does not optimize for “habituation.”
@@ -111,6 +117,7 @@ The system does not learn to tolerate risk.
 
 ---
 
+<a id="ch-4-7"></a>
 ### 4.7 Summary
 
 Safety modes, sandboxes, and risk classes together form an adaptive protection architecture.
