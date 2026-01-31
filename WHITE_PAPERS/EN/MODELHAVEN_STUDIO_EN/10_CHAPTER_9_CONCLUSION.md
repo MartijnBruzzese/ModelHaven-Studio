@@ -1,4 +1,4 @@
-<a id="h9"></a>
+<a id="ch-9"></a>
 ## Chapter 9 — Closing Position
 
 This whitepaper does not describe a finished product, nor a universal blueprint.
@@ -13,6 +13,7 @@ They are presented not as definitive solutions, but as grounded proposals open t
 
 ---
 
+<a id="ch-9-1"></a>
 ### 9.1 What this document is
 
 This document is:
@@ -27,6 +28,7 @@ It seeks to bridge abstract ethical principles with concrete design decisions, a
 
 ---
 
+<a id="ch-9-2"></a>
 ### 9.2 What this document is not
 
 This document is not:
@@ -41,6 +43,7 @@ No single framework, organization, or team can claim exclusive authority over wh
 
 ---
 
+<a id="ch-9-3"></a>
 ### 9.3 Design as responsibility
 
 The central proposition of this whitepaper is simple:
@@ -57,6 +60,7 @@ Ethical responsibility therefore resides not only in policy, but in interfaces, 
 
 ---
 
+<a id="ch-9-4"></a>
 ### 9.4 Call for scrutiny
 
 ModelHaven Studio and UCSF are intended to be questioned.
@@ -69,6 +73,7 @@ Only through sustained critical dialogue, empirical testing, and real-world feed
 
 ---
 
+<a id="ch-9-5"></a>
 ### 9.5 Closing
 
 Not everything that is possible should be built.  
@@ -78,6 +83,6 @@ Consent, protection, and human counterbalance are not obstacles to innovation.
 
 They are structurally necessary and non-negotiable.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+---
