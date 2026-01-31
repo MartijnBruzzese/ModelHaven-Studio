@@ -1,211 +1,211 @@
 <a id="h3"></a>
-## Hoofdstuk 3 — Consent, Identiteit en Intent als Dragend Fundament
+## Chapter 3 — Consent, Identity, and Intent as a Foundational Framework
 
-ModelHaven Studio is ontworpen vanuit de overtuiging dat ethische veiligheid niet kan worden afgedwongen door één regel, één filter of één vorm van moderatie. Zij ontstaat uit de **samenhang** tussen meerdere lagen die elkaar begrenzen, corrigeren en versterken.
+ModelHaven Studio is designed from the conviction that ethical safety cannot be enforced through a single rule, a single filter, or a single form of moderation. It emerges from the **interplay** between multiple layers that constrain, correct, and reinforce one another.
 
-Binnen deze architectuur vormen **consent**, **identiteit** en **intent** het dragende ethische fundament. Deze drie lagen bepalen gezamenlijk:
+Within this architecture, **consent**, **identity**, and **intent** form the foundational ethical framework. Together, these three layers determine:
 
-- wat een systeem mag doen;
-- wanneer het mag handelen;
-- en wanneer het expliciet moet weigeren.
+- what a system is allowed to do;
+- when it may act;
+- and when it must explicitly refuse.
 
-Zonder deze samenhang is ethiek fragiel en contextblind. Met deze samenhang wordt bescherming structureel.
+Without this coherence, ethics remains fragile and context-blind. With it, protection becomes structural.
 
 ---
 
 <a id="h3-1"></a>
-### 3.1 Consent als dynamische toestand
+### 3.1 Consent as a dynamic state
 
-Binnen ModelHaven Studio wordt consent niet opgevat als een eenmalige handeling, maar als een **doorlopende, herroepbare toestand**.
+Within ModelHaven Studio, consent is not understood as a one-time action, but as a **continuous, revocable state**.
 
 Consent:
 
-- is altijd **contextspecifiek** (doel- en situatiegebonden);
-- is **tijdelijk** en niet automatisch overdraagbaar;
-- kan op elk moment **actief worden ingetrokken**, zonder sancties;
-- verliest geldigheid wanneer context, schaal of gebruik wezenlijk verandert.
+- is always **context-specific** (purpose- and situation-dependent);
+- is **temporary** and not automatically transferable;
+- can be **actively withdrawn** at any moment, without sanctions;
+- loses validity when context, scale, or usage changes materially.
 
-Een systeem dat functioneert op basis van verouderde, impliciete of geforceerde instemming wordt binnen ModelHaven Studio als ethisch ongeldig beschouwd, ongeacht juridische formaliteiten.
+A system that operates on the basis of outdated, implicit, or coerced agreement is considered ethically invalid within ModelHaven Studio, regardless of legal formalities.
 
-Consent is hier geen checkbox, maar een **ontwerpparameter**.
+Consent is not a checkbox here, but a **design parameter**.
 
 ---
 
 <a id="h3-2"></a>
-### 3.2 Identiteit zonder reductie
+### 3.2 Identity without reduction
 
-Veel digitale systemen reduceren identiteit tot:
+Many digital systems reduce identity to:
 
-- een account;
-- een dataset;
-- een avatar;
-- of een persistent profiel.
+- an account;
+- a dataset;
+- an avatar;
+- or a persistent profile.
 
-ModelHaven Studio verwerpt deze reductie.
+ModelHaven Studio rejects this reduction.
 
-Identiteit wordt hier begrepen als:
+Identity is understood here as:
 
-- **meervoudig** (afhankelijk van context en rol);
-- **relationeel** (betekenisvol binnen een specifieke interactie);
-- **beschermd** (niet vrij exploiteerbaar);
-- **herroepbaar** (loskoppelbaar van eerdere uitingen).
+- **multiple** (dependent on context and role);
+- **relational** (meaningful within a specific interaction);
+- **protected** (not freely exploitable);
+- **revocable** (decouplable from previous expressions).
 
-Identiteit impliceert nooit automatische beschikbaarheid of toestemming.  
-Zij is een **voorwaarde voor bescherming**, geen product.
+Identity never implies automatic availability or consent.  
+It is a **precondition for protection**, not a product.
 
 ---
 
 <a id="h3-3"></a>
-### 3.3 Intent als ethisch signaal
+### 3.3 Intent as an ethical signal
 
-Intent wordt binnen ModelHaven Studio niet behandeld als moreel oordeel over de gebruiker, maar als een **contextueel signaal** dat systeemgedrag stuurt.
+Within ModelHaven Studio, intent is not treated as a moral judgment of the user, but as a **contextual signal** that guides system behavior.
 
-Het systeem vraagt niet:
+The system does not ask:
 
-> “Wie is deze gebruiker?”
+> “Who is this user?”
 
-maar:
+but rather:
 
-> “Welke richting lijkt deze interactie op te bewegen?”
+> “In which direction does this interaction appear to be moving?”
 
-Intentie wordt uitsluitend gebruikt om:
+Intent is used exclusively to:
 
-- risico’s te signaleren;
-- beschermingsniveaus te verhogen;
-- of interacties te begrenzen of tijdelijk te weigeren.
+- signal risk;
+- raise protection levels;
+- or constrain or temporarily refuse interactions.
 
-Intent wordt **nooit** gebruikt voor:
+Intent is **never** used for:
 
-- straf;
-- permanente classificatie;
-- reputatiescores;
-- of externe labeling.
+- punishment;
+- permanent classification;
+- reputation scoring;
+- or external labeling.
 
-Intent is tijdelijk, situationeel en **geen identiteit**.
+Intent is temporary, situational, and **not identity**.
 
 ---
 
 <a id="h3-4"></a>
-### 3.4 Samenwerking tussen consent, identiteit en intent
+### 3.4 Interaction between consent, identity, and intent
 
-De kern van ModelHaven Studio ligt in de **interactie** tussen deze drie lagen.
+The core of ModelHaven Studio lies in the **interaction** between these three layers.
 
-Voorbeelden op systeemniveau:
+System-level examples:
 
-- Geldige identiteit zonder consent → **weigering**
-- Consent zonder duidelijke context → **beperking**
-- Ambigue intent bij kwetsbare context → **verhoogde bescherming**
-- Intrekking van consent → **onmiddellijke herconfiguratie**
-- Conflicterende signalen → **fail-closed gedrag**
+- Valid identity without consent → **refusal**
+- Consent without clear context → **restriction**
+- Ambiguous intent in a vulnerable context → **heightened protection**
+- Withdrawal of consent → **immediate reconfiguration**
+- Conflicting signals → **fail-closed behavior**
 
-Bij onzekerheid duwt het systeem niet door.  
-Onzekerheid leidt niet tot optimalisatie, maar tot **begrenzing**.
+In situations of uncertainty, the system does not push forward.  
+Uncertainty does not lead to optimization, but to **constraint**.
 
 ---
 
 <a id="h3-5"></a>
-### 3.5 Modi als interpretatiekader, niet als vrijbrief
+### 3.5 Modes as interpretive frameworks, not exemptions
 
-ModelHaven Studio kent verschillende **modi** (zoals adult, satire, kunst, muziek, journalistiek, story, voice), maar deze modi vormen **geen ethische uitzonderingszones**.
+ModelHaven Studio supports multiple **modes** (such as adult, satire, art, music, journalism, story, voice), but these modes do **not constitute ethical exception zones**.
 
-Modi:
+Modes:
 
-- verfijnen interpretatie;
-- contextualiseren expressie;
-- bepalen toon en interactievorm.
+- refine interpretation;
+- contextualize expression;
+- determine tone and interaction style.
 
-Zij **heffen het ethische fundament niet op**.
+They **do not override the ethical foundation**.
 
-Een adult-modus kan esthetische expressie versoepelen, maar:
+An adult mode may loosen aesthetic expression, but it:
 
-- heft consentvereisten niet op;
-- schakelt identiteitsbescherming niet uit;
-- neutraliseert intentiesensoren niet.
+- does not suspend consent requirements;
+- does not disable identity protection;
+- does not neutralize intent sensors.
 
-Modi sturen **hoe** iets gelezen wordt, niet **of** bescherming geldt.
+Modes guide **how** something is interpreted, not **whether** protection applies.
 
 ---
 
 <a id="h3-6"></a>
-### 3.6 Gebruikerskeuze en adaptieve herconfiguratie
+### 3.6 User choice and adaptive reconfiguration
 
-Gebruikers kunnen hun **startpositie** kiezen: zij mogen aangeven in welke modus zij willen werken. Het systeem stelt zich vervolgens af op de bijbehorende veiligheids- en interpretatiekaders.
+Users may choose their **starting position**: they can indicate which mode they wish to work in. The system then aligns itself with the corresponding safety and interpretive frameworks.
 
-Tegelijkertijd is het systeem **adaptief**.
+At the same time, the system is **adaptive**.
 
-Wanneer blijkt dat:
+When it becomes apparent that:
 
-- de activiteit verschuift (bijvoorbeeld van muziek naar journalistiek);
-- de intent verandert;
-- of de context escaleert;
+- activity shifts (for example, from music to journalism);
+- intent changes;
+- or context escalates;
 
-dan **past het systeem zich automatisch aan**, ongeacht de gekozen startmodus.
+the system **automatically adjusts**, regardless of the initially selected mode.
 
-De workflow wordt niet geblokkeerd, maar **veilig herijkt**.
+The workflow is not blocked, but **safely recalibrated**.
 
 ---
 
 <a id="h3-7"></a>
-### 3.7 UCSF als niet-statisch kader
+### 3.7 UCSF as a non-static framework
 
-UCSF is geen gesloten dogma. Het raamwerk erkent dat:
+UCSF is not a closed dogma. The framework acknowledges that:
 
-- technologische contexten veranderen;
-- nieuwe vormen van misbruik ontstaan;
-- bestaande principes soms ontoereikend blijken.
+- technological contexts change;
+- new forms of abuse emerge;
+- existing principles may at times prove insufficient.
 
-Wanneer nieuwe ethische risico’s niet adequaat worden afgedekt door bestaande principes, **moeten nieuwe principes expliciet kunnen worden toegevoegd** — via documentatie, peer review en verantwoording.
+When new ethical risks are not adequately covered by existing principles, **new principles must be able to be explicitly added** — through documentation, peer review, and accountability.
 
-Ethiek die niet kan evolueren, verliest haar beschermende waarde.
+Ethics that cannot evolve loses its protective value.
 
 ---
 
 <a id="h3-8"></a>
-### 3.8 Modaliteit-onafhankelijk ontwerp (open ontwerpvraag)
+### 3.8 Modality-independent design (open design question)
 
-De huidige AI-discussie is sterk gericht op tekst- en prompt-gebaseerde systemen. Deze focus is begrijpelijk, maar fundamenteel beperkt.
+Current AI discourse focuses heavily on text- and prompt-based systems. This focus is understandable, but fundamentally limited.
 
-AI functioneert ook in:
+AI also operates in:
 
-- beeld- en videogeneratie;
-- spraak- en steminterfaces;
-- games en simulaties;
-- virtuele en augmented reality;
-- driedimensionale en belichaamde omgevingen.
+- image and video generation;
+- speech and voice interfaces;
+- games and simulations;
+- virtual and augmented reality;
+- three-dimensional and embodied environments.
 
-In deze contexten wordt intentie zichtbaar in:
+In these contexts, intent becomes visible through:
 
-- timing en herhaling;
-- beweging en interactie;
-- ruimtelijke positionering;
-- relationele dynamiek tussen actoren.
+- timing and repetition;
+- movement and interaction;
+- spatial positioning;
+- relational dynamics between actors.
 
-ModelHaven Studio en UCSF zijn daarom normatief **modaliteit-onafhankelijk**:  
-consent, identiteit en intent behouden hun geldigheid bij overgang van tekst naar beeld, audio of 3D.
+ModelHaven Studio and UCSF are therefore normatively **modality-independent**:  
+consent, identity, and intent retain their validity when moving from text to image, audio, or 3D.
 
-**Hoe deze principes technisch, UX-matig en governance-matig worden vormgegeven in niet-tekstuele omgevingen is bewust nog niet uitgewerkt.**
+**How these principles are technically, experientially, and governance-wise implemented in non-textual environments is deliberately not yet specified.**
 
-Dit roept open vragen op, waaronder:
+This raises open questions, including:
 
-- hoe consent functioneert in real-time en belichaamde interacties;
-- hoe intent wordt geïnterpreteerd zonder expliciete prompts;
-- hoe sandboxes eruitzien in ruimtelijke of multiplayer contexten;
-- en waar de grens ligt tussen automatisering en menselijke interventie.
+- how consent functions in real-time and embodied interactions;
+- how intent is interpreted without explicit prompts;
+- what sandboxes look like in spatial or multiplayer contexts;
+- and where the boundary lies between automation and human intervention.
 
-Het open laten van deze vragen is geen tekortkoming, maar een **bewuste ethische keuze**.
+Leaving these questions open is not a deficiency, but a **deliberate ethical choice**.
 
 ---
 
 <a id="h3-9"></a>
-### 3.9 Samenvatting
+### 3.9 Summary
 
-Consent, identiteit en intent vormen samen het **dragende ethische fundament** van ModelHaven Studio.
+Consent, identity, and intent together form the **foundational ethical framework** of ModelHaven Studio.
 
-Modi verfijnen interpretatie, maar heffen bescherming niet op.  
-Fail-closed gedrag en menselijke verantwoordelijkheid blijven leidend.
+Modes refine interpretation but do not suspend protection.  
+Fail-closed behavior and human responsibility remain guiding principles.
 
-In het volgende hoofdstuk wordt uitgewerkt hoe deze principes worden vertaald naar **veiligheidsmodi, sandboxes en risicoklassen** — en hoe het systeem omgaat met oplopend risico, slechte intenties en ethische stresspunten.
+The next chapter details how these principles are translated into **safety modes, sandboxes, and risk classes**—and how the system responds to escalating risk, malicious intent, and ethical stress points.
 
 ---
 
-[Terug naar inhoudsopgave](#inhoudsopgave)
+[Back to table of contents](#table-of-contents)
