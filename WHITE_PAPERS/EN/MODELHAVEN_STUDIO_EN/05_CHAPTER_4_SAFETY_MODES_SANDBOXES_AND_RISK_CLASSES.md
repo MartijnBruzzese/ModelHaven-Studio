@@ -131,6 +131,6 @@ They ensure that:
 
 The next chapter details how this structure is complemented by **non-negotiable protection and explicit failure modes**.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+
