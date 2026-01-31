@@ -1,4 +1,4 @@
-<a id="h12"></a>
+<a id="ch-12"></a>
 ## Chapter 12 — Terminology Framework
 
 **Consent** — Contextual, temporary, and revocable authorization.
