@@ -1,4 +1,4 @@
-<a id="h5"></a>
+<a id="ch-5"></a>
 ## Chapter 5 — Failure, Boundaries, and Non-Negotiable Protection
 
 Any system that exercises power over identity, representation, and access must explicitly define **where it may fail** — and, above all, **where failure is unacceptable**.
@@ -10,7 +10,7 @@ Ethics therefore does not begin with promises of perfection, but with the **desi
 
 ---
 
-<a id="h5-1"></a>
+<a id="ch-5-1"></a>
 ### 5.1 Failure as a design question, not an incident
 
 In many existing AI systems, failure is treated as:
@@ -32,7 +32,7 @@ Failure is therefore:
 
 ---
 
-<a id="h5-2"></a>
+<a id="ch-5-2"></a>
 ### 5.2 Non-negotiable zones: where failure is not permitted
 
 Within ModelHaven Studio, explicit domains exist in which failure is **not acceptable** — regardless of commercial pressure, technical constraints, or societal trends.
@@ -56,7 +56,7 @@ When a system weakens these protections, it can be assumed that it does **not** 
 
 ---
 
-<a id="h5-3"></a>
+<a id="ch-5-3"></a>
 ### 5.3 Fail-closed as an ethical default
 
 When uncertainty arises — technical, contextual, or interpretive — ModelHaven Studio applies the **fail-closed principle**.
@@ -75,7 +75,7 @@ This principle is explicitly chosen to prevent:
 
 ---
 
-<a id="h5-4"></a>
+<a id="ch-5-4"></a>
 ### 5.4 Minors: absolute protection, no exceptions
 
 The protection of minors constitutes an **absolute boundary condition** within ModelHaven Studio.
@@ -97,7 +97,7 @@ This domain requires ongoing collaboration with experts in children’s rights, 
 
 ---
 
-<a id="h5-5"></a>
+<a id="ch-5-5"></a>
 ### 5.5 Failure, liability, and human responsibility
 
 Automation within ModelHaven Studio absolves no actor of responsibility.
@@ -118,7 +118,7 @@ A system that fails and refuses to learn forfeits its ethical legitimacy.
 
 ---
 
-<a id="h5-6"></a>
+<a id="ch-5-6"></a>
 ### 5.6 No ethical relaxation through market dynamics
 
 ModelHaven Studio explicitly rejects models in which:
@@ -136,7 +136,7 @@ ethics shifts from a design principle to a sales argument — and loses its mean
 
 ---
 
-<a id="h5-7"></a>
+<a id="ch-5-7"></a>
 ### 5.7 Summary
 
 Chapter 5 makes explicit that ModelHaven Studio:
@@ -151,6 +151,6 @@ Not everything that is profitable is legitimate.
 
 The next chapter elaborates how these boundaries are carried by **identity, consent tokens, and operational authorization in practice**.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+---
