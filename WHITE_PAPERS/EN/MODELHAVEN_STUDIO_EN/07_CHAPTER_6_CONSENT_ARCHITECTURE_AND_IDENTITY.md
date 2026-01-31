@@ -1,4 +1,4 @@
-<a id="h6"></a>
+<a id="ch-6"></a>
 ## Chapter 6 — Identity and Consent Tokens
 
 While earlier chapters described the normative and operational frameworks, this chapter focuses on the technical implementation of consent and identity within ModelHaven Studio.
@@ -9,6 +9,7 @@ Identity here does not function as ownership, but as a **precondition for protec
 
 ---
 
+<a id="ch-6-1"></a>
 ### 6.1 From implicit consent to explicit tokens
 
 In many current systems, consent is implicitly inferred from:
@@ -32,6 +33,7 @@ Without a valid token, no action takes place.
 
 ---
 
+<a id="ch-6-2"></a>
 ### 6.2 Properties of consent tokens
 
 Consent tokens within ModelHaven Studio are:
@@ -46,6 +48,7 @@ Tokens do not contain identity data themselves, but instead reference protected 
 
 ---
 
+<a id="ch-6-3"></a>
 ### 6.3 Identity as a protective layer
 
 Identity is technically separated from content and output.
@@ -66,6 +69,7 @@ This minimizes data leakage risk and concentration of power.
 
 ---
 
+<a id="ch-6-4"></a>
 ### 6.4 Delegation and multi-party consent
 
 Certain situations require shared responsibility, such as in cases of:
@@ -81,6 +85,7 @@ No single actor can unilaterally disable protective layers.
 
 ---
 
+<a id="ch-6-5"></a>
 ### 6.5 Tokens and fail-closed behavior
 
 When:
@@ -97,6 +102,7 @@ Tokens are not formalities, but active control components.
 
 ---
 
+<a id="ch-6-6"></a>
 ### 6.6 Privacy-by-design and minimal exposure
 
 Consent tokens are designed according to privacy-by-design principles:
@@ -110,6 +116,7 @@ The goal is not maximal control, but **minimal necessity**.
 
 ---
 
+<a id="ch-6-7"></a>
 ### 6.7 Summary
 
 Identity and consent tokens together form the technical backbone of ModelHaven Studio.
