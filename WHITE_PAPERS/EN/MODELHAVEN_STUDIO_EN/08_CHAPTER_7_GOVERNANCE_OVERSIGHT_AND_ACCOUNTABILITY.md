@@ -5,19 +5,19 @@ No technical system should hold exclusive authority over ethically charged decis
 
 ModelHaven Studio is therefore explicitly designed with **human counterbalance** as a structural component of its architecture.
 
-Automation supports processes, but it does not replace moral judgment.
+Automation supports processes, but does not replace moral judgment.
 
 ---
 
-### 7.1 Why governance is not an afterthought
+### 7.1 Why governance is not a side issue
 
-Many AI systems treat governance as an organizational side issue—something delegated to legal departments or compliance teams.
+Many AI systems treat governance as an organizational peripheral matter: something delegated to legal departments or compliance teams.
 
-ModelHaven Studio treats governance as a **design component**.
+ModelHaven Studio regards governance as a **design component**.
 
 Decision-making, escalation, and oversight are embedded in the technical structure from the outset.
 
-Without explicit governance, silent power concentration emerges.
+Without explicit governance, silent concentrations of power emerge.
 
 ---
 
@@ -32,18 +32,18 @@ Oversight within ModelHaven Studio is organized across multiple layers:
 
 No single layer is sufficient on its own.
 
-It is the overlap between them that creates robustness.
+It is precisely their overlap that creates robustness.
 
 ---
 
 ### 7.3 Escalation pathways
 
-When automated systems reach defined boundaries or detect ambiguity, escalation occurs:
+When automated systems reach defined boundaries or detect ambiguity, escalation follows:
 
 - first to internal human review;
-- then, when necessary, to external expertise.
+- subsequently, where necessary, to external expertise.
 
-Escalation is not an exceptional state, but a normal part of ethical operation.
+Escalation is not an exceptional state, but a normal component of ethical operation.
 
 ---
 
@@ -52,43 +52,43 @@ Escalation is not an exceptional state, but a normal part of ethical operation.
 All relevant decisions leave traces:
 
 - why something was permitted;
-- why something was denied;
+- why something was refused;
 - which protective layers were active.
 
 These audit trails are:
 
 - privacy-aware;
-- context-sensitive;
+- contextual;
 - and accessible to authorized overseers.
 
 They enable accountability without becoming surveillance systems.
 
 ---
 
-### 7.5 Peer review and external validation
+### 7.5 Peer review and external assessment
 
 ModelHaven Studio does not position itself as a closed system.
 
-External review by:
+External assessment by:
 
 - ethicists;
 - legal experts;
 - technologists;
 - people with lived experience;
 
-is an explicit part of the development cycle.
+forms an explicit part of the development cycle.
 
-No single team should monopolize its own moral framework.
+No team should be permitted to monopolize its own moral framework.
 
 ---
 
 ### 7.6 Human counterbalance as a permanent factor
 
-Human intervention is not an emergency measure.
+Human intervention is not an emergency provision.
 
 It is structurally present to:
 
-- prevent power concentration;
+- prevent concentrations of power;
 - correct automation bias;
 - and restore context where systems fall short.
 
@@ -98,13 +98,12 @@ This is not a slowdown of innovation, but its legitimization.
 
 ### 7.7 Summary
 
-Chapter 7 demonstrates that ModelHaven Studio does not outsource governance to policy—it embeds it in design.
+Chapter 7 shows that ModelHaven Studio does not outsource governance to policy, but anchors it in design.
 
-Human counterbalance, transparency, and external review together form the system’s social foundation.
+Human counterbalance, transparency, and external assessment together form the social foundation of the system.
 
-The next chapter explores how this structure remains scalable through **collaboration and societal integration**.
+The next chapter explains how this structure remains scalable through **collaboration and societal embedding**.
 
 ---
 
 [Back to table of contents](#table-of-contents)
-
