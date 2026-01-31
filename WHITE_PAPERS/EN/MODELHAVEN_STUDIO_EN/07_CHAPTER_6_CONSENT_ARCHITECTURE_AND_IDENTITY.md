@@ -130,6 +130,6 @@ They ensure that:
 
 The next chapter details how these mechanisms are embedded in **governance, oversight, and human counterbalance**.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+---
