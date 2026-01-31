@@ -1,4 +1,4 @@
-<a id="h8"></a>
+<a id="ch-8"></a>
 ## Chapter 8 — Scale, Collaboration, and Societal Embedding
 
 Many digital systems lose their ethical coherence as they grow. What is locally manageable becomes diffuse at scale. Responsibilities blur, and design choices become dictated by market logic.
@@ -7,6 +7,7 @@ ModelHaven Studio proceeds from the principle that scale must never serve as an 
 
 ---
 
+<a id="ch-8-1"></a>
 ### 8.1 Scale as a design problem
 
 Within ModelHaven Studio, scale is not regarded as a purely technical issue, but as a normative challenge.
@@ -21,6 +22,7 @@ Without these conditions, scale becomes a vector for harm.
 
 ---
 
+<a id="ch-8-2"></a>
 ### 8.2 Collaboration as a structural component
 
 ModelHaven Studio is designed as a collaborative model.
@@ -37,6 +39,7 @@ Collaboration takes place within shared ethical frameworks, not through loosely 
 
 ---
 
+<a id="ch-8-3"></a>
 ### 8.3 Openness without extraction
 
 While parts of the architecture may be open, ModelHaven Studio actively resists extractive models in which:
@@ -49,6 +52,7 @@ Here, openness means auditability, not exploitation.
 
 ---
 
+<a id="ch-8-4"></a>
 ### 8.4 Societal legitimacy
 
 Technical systems do not operate independently of social context.
@@ -63,6 +67,7 @@ Implementations must always be embedded within societal dialogue.
 
 ---
 
+<a id="ch-8-5"></a>
 ### 8.5 International applicability
 
 UCSF and ModelHaven Studio are designed as **principle-based systems**, not as culturally uniform solutions.
@@ -76,6 +81,7 @@ Local interpretation is permitted, provided core values remain intact:
 
 ---
 
+<a id="ch-8-6"></a>
 ### 8.6 Economic sustainability without ethical compromise
 
 Financial viability is necessary.
@@ -90,6 +96,7 @@ Sustainability must never come at the expense of safety.
 
 ---
 
+<a id="ch-8-7"></a>
 ### 8.7 Summary
 
 Chapter 8 positions ModelHaven Studio as a scalable system that embraces collaboration without losing its ethical foundation.
@@ -99,6 +106,6 @@ Collaboration requires shared values.
 
 The next chapter elaborates the **closing position** of this whitepaper.
 
----
-
 [Back to table of contents](#table-of-contents)
+
+---
