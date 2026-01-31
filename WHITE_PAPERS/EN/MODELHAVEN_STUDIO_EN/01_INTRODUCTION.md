@@ -31,3 +31,5 @@ The concepts described in this whitepaper are intended as a basis for further de
 The following chapters describe how ModelHaven Studio functions as an operational translation of UCSF: from normative framework to system behavior. Not to persuade, but to make visible which choices become necessary when consent, safety, and responsibility are not optional values, but structural requirements.
 
 [⬆ Back to table of contents](#table-of-contents)
+
+---
