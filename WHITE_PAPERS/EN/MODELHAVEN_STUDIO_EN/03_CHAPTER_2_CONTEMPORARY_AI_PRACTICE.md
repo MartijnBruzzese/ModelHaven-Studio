@@ -129,6 +129,7 @@ ModelHaven Studio positions design ethics as a primary responsibility—not to o
 
 The next chapter elaborates how **consent, identity, and intent** function as foundational system layers within this design philosophy.
 
+[Back to table of contents](#table-of-contents)
+
 ---
 
-[Back to table of contents](#table-of-contents)
