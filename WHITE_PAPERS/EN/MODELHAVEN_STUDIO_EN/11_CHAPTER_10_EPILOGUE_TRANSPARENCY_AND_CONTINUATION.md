@@ -1,4 +1,4 @@
-<a id="h10"></a>
+<a id="ch-10"></a>
 ## Chapter 10 — Epilogue
 
 This document emerged from observation, doubt, and engagement.
@@ -9,6 +9,7 @@ Writing this whitepaper was not a linear process. It was shaped by conversations
 
 ---
 
+<a id="ch-10-1"></a>
 ### 10.1 No neutral technology
 
 Technology is never neutral.
@@ -19,6 +20,7 @@ ModelHaven Studio is an attempt not to deny this reality, but to make it explici
 
 ---
 
+<a id="ch-10-2"></a>
 ### 10.2 Human scale
 
 The core of this work is simple:
@@ -31,6 +33,7 @@ Without human scale, automation becomes dehumanization.
 
 ---
 
+<a id="ch-10-3"></a>
 ### 10.3 Acknowledgments and looking ahead
 
 Thank you to everyone who shared their thoughts, asked questions, and challenged assumptions.
@@ -41,6 +44,7 @@ It is a beginning.
 
 ---
 
+<a id="ch-10-4"></a>
 ### 10.4 Epilogue
 
 What is described here is not a perfect system.
@@ -54,4 +58,3 @@ With responsibility.
 ---
 
 [Back to table of contents](#table-of-contents)
-
