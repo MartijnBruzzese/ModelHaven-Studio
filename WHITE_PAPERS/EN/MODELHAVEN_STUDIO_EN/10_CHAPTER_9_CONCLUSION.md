@@ -3,7 +3,7 @@
 
 This whitepaper does not describe a finished product, nor a universal blueprint.
 
-It presents an explicit design approach: one possible way to structurally embed consent, safety, and responsibility into AI systems.
+It outlines an explicit design approach: one possible way to structurally embed consent, safety, and responsibility within AI systems.
 
 ModelHaven Studio does not claim to have all the answers. It makes its choices visible.
 
@@ -17,7 +17,7 @@ This document is:
 - a proposal for ethical design;
 - an invitation to review, critique, and collaboration.
 
-It offers no guarantees—only direction.
+It offers no guarantees, but direction.
 
 ---
 
@@ -27,7 +27,7 @@ This document is not:
 
 - a commercial product proposal;
 - a closed platform definition;
-- a claim of moral ownership.
+- a claim to moral ownership.
 
 Ethics cannot be monopolized.
 
@@ -35,9 +35,9 @@ Ethics cannot be monopolized.
 
 ### 9.3 Design as responsibility
 
-The central thesis of this whitepaper is simple:
+The central proposition of this whitepaper is simple:
 
-Those who build systems that exert power over visibility, identity, and expression carry responsibility for their consequences.
+Those who build systems that exercise power over visibility, identity, and expression bear responsibility for their consequences.
 
 That responsibility cannot be outsourced solely to users, moderators, or legislators.
 
@@ -62,9 +62,8 @@ Not everything that scales is desirable.
 
 Consent, protection, and human counterbalance are not obstacles to innovation.
 
-They are its prerequisite.
+They are its condition.
 
 ---
 
 [Back to table of contents](#table-of-contents)
-
