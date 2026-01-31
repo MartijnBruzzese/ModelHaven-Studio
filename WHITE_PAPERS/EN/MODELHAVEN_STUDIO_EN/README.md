@@ -100,4 +100,6 @@
 - [Chapter 13 — Scope Limits and Future Directions](#ch-13)
 
 - [Chapter 14 — Author Reflections and Acknowledgements](#ch-14)
-Readme
+
+---
+
