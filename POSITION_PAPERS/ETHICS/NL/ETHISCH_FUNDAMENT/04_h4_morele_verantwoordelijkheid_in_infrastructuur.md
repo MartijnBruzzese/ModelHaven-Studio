@@ -117,7 +117,7 @@ Vaak voelt niemand zich volledig eigenaar.
 
 Niet uit onwil, maar omdat causaliteit is opgelost in processen en platforms.
 
-Individuele verantwoordelijkheid past slecht bij collectieve infrastructuur.
+Individuele verantwoordelijkheid is een onderdeel geworden van collectieve infrastructuur.
 
 ---
 
