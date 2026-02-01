@@ -142,4 +142,4 @@ Daar begint systeemethiek.
 
 ---
 
-[Terug naar inhoudsopgave](#toc)
+[Terug naar inhoudsopgave](inhoudsopgave.md)
