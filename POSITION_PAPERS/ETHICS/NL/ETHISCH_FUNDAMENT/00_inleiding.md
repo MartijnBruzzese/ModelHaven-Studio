@@ -125,10 +125,6 @@ Daar ligt het fundament van UCSF en ModelHaven Studio.
 
 In dit document ga ik op zoek naar mijn eigen ethische fundament, en onderzoek ik hoe dat fundament richting geeft aan het UCSF-gedachtegoed.
 
-Niet als eindantwoord.
-
-Maar als vertrekpunt.
-
 ---
 
 [Terug naar inhoudsopgave](inhoudsopgave.md)
