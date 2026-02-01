@@ -150,4 +150,4 @@ en dat systemen verantwoordelijkheid dragen.
 
 ---
 
-[Terug naar inhoudsopgave](#toc)
+[Terug naar inhoudsopgave](inhoudsopgave.md)
