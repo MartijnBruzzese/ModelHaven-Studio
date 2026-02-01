@@ -131,4 +131,4 @@ Maar als vertrekpunt.
 
 ---
 
-[↑ Terug naar inhoudsopgave](#toc)
+[Terug naar inhoudsopgave](inhoudsopgave.md)
