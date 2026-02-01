@@ -89,12 +89,7 @@ ModelHaven Studio onderzoekt hoe die richting vorm kan krijgen.
 Niet perfect.  
 Wel intentioneel.
 
-Voor lezers die verdieping zoeken:
-
-Het normatieve kader van UCSF wordt uitgewerkt in de UCSF White Paper.  
-De ontwerp- en implementatielaag wordt behandeld in de ModelHaven Studio White Paper.
-
-Dit document vormt de ethische onderstroom van beide: het beschrijft niet *wat* er gebouwd wordt, maar *waarom* en *vanuit welke waarden*.
+Dit document vormt de ethische onderstroom van zowel UCSF als ModelHaven Studio: het beschrijft niet *wat* er gebouwd wordt, maar *waarom* en *vanuit welke waarden*.
 
 ---
 
@@ -124,18 +119,20 @@ En het is niet vrijblijvend.
 
 Dit werk raakt aan hoe ik naar verantwoordelijkheid kijk.
 
-Ik geloof niet dat één persoon de wereld kan redden, maar ik geloof wel dat ieder van ons een kleine wereld beïnvloedt.
+Ik geloof niet dat één persoon “de wereld kan redden”.
 
-- In hoe we ontwerpen.  
-- In wat we accepteren.  
-- In wat we normaliseren.  
-- In wat we weigeren.
+Maar ik geloof wel dat ieder van ons een kleine wereld beïnvloedt.
+
+In hoe we ontwerpen.  
+In wat we accepteren.  
+In wat we normaliseren.  
+In wat we weigeren.
 
 UCSF is mijn manier om verantwoordelijkheid te nemen binnen mijn bereik.
 
 Niet vanuit perfectie.
 
-Maar vanuit zorg en twijfel. 
+Maar vanuit zorg.
 
 ---
 
