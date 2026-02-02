@@ -4,18 +4,15 @@
 Voordat we verder kunnen praten over AI, systemen, verantwoordelijkheid en bescherming, moeten we eerst even vertragen.
 
 Niet om technisch bij te scholen,  
-maar om stil te staan bij iets veel fundamentelers:
+maar om stil te staan bij iets fundamentelers:
 
 *wat bedoelen we eigenlijk met ethiek?*
 
-Niet als academisch vak.  
-Niet als theoretisch denkspel.
+Ik zie ethiek als iets dat diep verweven is in — en met — het dagelijks leven: in hoe we handelen, wat we normaliseren, en welke verantwoordelijkheid we dragen.
 
-Maar als iets dat diep verweven is met het dagelijks leven.
+In haar meest eenvoudige vorm gaat ethiek over de keuzes die we allemaal dagelijks maken. Je kunt het zien als een soort programmaatje — *ethiek.exe* — dat in je brein op de achtergrond draait en richting geeft aan morele beslissingen.
 
-In haar meest eenvoudige vorm gaat ethiek over de keuzes die we allemaal dagelijks moeten maken. Je kunt het zien als een soort programmaatje — *ethiek.exe* — dat in je brein op de achtergrond draait en je helpt richting te geven aan morele beslissingen.
-
-Natuurlijk is het in werkelijkheid complexer dan dat — maar het geeft je een idee.
+Natuurlijk is het in werkelijkheid complexer dan dat — maar het geeft een eerste intuïtie.
 
 Wat is juist om te doen?  
 Wat veroorzaakt schade?  
@@ -36,7 +33,7 @@ Het leven is ervan doordrongen.
 
 ---
 
-Een mooi cultureel voorbeeld hiervan zie je in de serie The Good Place.
+Een mooi cultureel voorbeeld hiervan zie je in **The Good Place**.
 
 Daar keert steeds opnieuw één eenvoudige, maar diepgaande vraag terug:
 
@@ -44,7 +41,7 @@ Daar keert steeds opnieuw één eenvoudige, maar diepgaande vraag terug:
 
 Die vraag komt niet uit de lucht vallen.
 
-Ze vindt haar oorsprong in het werk van filosoof T. M. Scanlon, onder andere in zijn boek What We Owe to Each Other.
+Ze vindt haar oorsprong in het werk van filosoof **T. M. Scanlon**, onder andere in zijn boek *What We Owe to Each Other*.
 
 Scanlons kernidee is dat ethiek niet draait om perfecte morele formules of maximale opbrengst, maar om wat we tegenover elkaar redelijkerwijs kunnen rechtvaardigen.
 
@@ -56,7 +53,7 @@ maar *wat kunnen we elkaar aandoen — en wat niet?*
 
 ## Ethiek is geen luxe
 
-Ethiek wordt vaak gepresenteerd als iets abstracts, iets voor filosofen, beleidsmakers of commissies.
+Ethiek wordt vaak gepresenteerd als iets abstracts — iets voor filosofen, beleidsmakers of commissies.
 
 Maar in werkelijkheid speelt ze zich af op microniveau.
 
