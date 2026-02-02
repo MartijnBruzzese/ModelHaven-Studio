@@ -37,9 +37,9 @@ Tot compliance.
 
 Ook UCSF is daar niet immuun voor.
 
-Zodra principes vastgelegd worden, ontstaat de verleiding om ze af te vinken in plaats van te dragen. Daarom blijft menselijke betrokkenheid essentieel. Niet als toezicht achteraf, maar als levende aanwezigheid in ontwerp, besluitvorming en gebruik.
+Zodra principes vastgelegd worden, ontstaat de verleiding om ze af te vinken in plaats van ze werkelijk te dragen. Daarom blijft menselijke betrokkenheid essentieel — niet als toezicht achteraf, maar als levende aanwezigheid in ontwerp, besluitvorming en gebruik.
 
-Ethiek verdampt wanneer ze uitsluitend wordt geformaliseerd.
+Ethiek verdampt wanneer zij uitsluitend wordt geformaliseerd.
 
 ---
 
@@ -49,7 +49,7 @@ Ik zie dit werk niet als een afgesloten systeem, maar als onderdeel van een bred
 
 Misschien zijn er anderen die vanuit andere hoeken tot vergelijkbare inzichten komen. Misschien bewegen we langzaam naar een gedeeld besef dat systeemontwerp verantwoordelijkheid met zich meebrengt.
 
-Als dat zo is, dan ontstaat vooruitgang niet door gelijk te krijgen, maar door convergentie.
+Als dat zo is, ontstaat vooruitgang niet door gelijk te krijgen, maar door convergentie.
 
 Door gesprek.  
 Door kritiek.  
@@ -78,13 +78,13 @@ Noem het zorg-eerst ethiek.
 Noem het systeemethiek.  
 Of misschien iets heel anders.
 
-Voor mij gaat het minder om de naam, en meer om de richting: een manier van denken waarin bescherming voorafgaat aan optimalisatie, en verantwoordelijkheid wordt meegenomen in ontwerp, niet achteraf wordt toegevoegd.
+Voor mij gaat het minder om de naam, en meer om de richting: een manier van denken waarin bescherming voorafgaat aan optimalisatie, en verantwoordelijkheid wordt meegenomen in ontwerp — niet achteraf wordt toegevoegd.
 
 Wat hier ontstaat, is geen doctrine.
 
 Het is een houding.
 
-Ik kom zelf uit de wereld van cocktails.
+Mijn oorsprong ligt in de wereld van hospitality en cocktails.
 
 Het draait daar om het combineren van ingrediënten, het juiste recept, timing, een beetje flair — maar vooral om gevoel en synergie. Je leert luisteren naar balans: wat overheerst, wat ondersteunt, wat ontbreekt.
 
