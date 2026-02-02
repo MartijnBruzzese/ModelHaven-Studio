@@ -49,7 +49,7 @@ Vaak voelt niemand zich eigenaar.
 
 Niet uit kwade wil, maar omdat causaliteit is opgelost in infrastructuur.
 
-Dit is een fundamenteel nieuw moreel probleem — precies het schaalvraagstuk dat Hans Jonas beschreef.
+Dit is een fundamenteel nieuw moreel probleem — precies het schaalvraagstuk dat **Hans Jonas** beschreef.
 
 ---
 
@@ -60,7 +60,7 @@ In systeemgedreven omgevingen is ethiek niet langer beperkt tot gedrag.
 Ontwerp *is* moreel handelen.
 
 Interfacekeuzes sturen aandacht.  
-Standaardkeuzes bepalen wat normaal wordt.  
+Standaardinstellingen bepalen wat normaal wordt.  
 Architectuur bepaalt wat zichtbaar is — en wat verdwijnt.
 
 Wat optioneel lijkt, wordt norm.  
@@ -87,7 +87,7 @@ Mensen zijn relationele subjecten: dragers van waardigheid, kwetsbaarheid en con
 
 Wanneer systemen mensen reduceren tot interactiepunten, verdwijnt die complexiteit.
 
-UCSF vertrekt expliciet vanuit het tegenovergestelde uitgangspunt — Kantiaans geformuleerd, naar Immanuel Kant:
+UCSF vertrekt expliciet vanuit het tegenovergestelde uitgangspunt — Kantiaans geformuleerd, naar **Immanuel Kant**:
 
 *mensen zijn geen middelen.*
 
@@ -139,7 +139,7 @@ Hoe langer ik met deze vragen bezig ben, hoe meer ik die uitspraak ben gaan begr
 
 Wanneer je dat eenmaal ziet, kun je niet meer terug naar geïsoleerd denken. Dan wordt duidelijk dat ethiek niet alleen gaat over individuele keuzes, maar over structuren. Over feedbackloops. Over machtsverdeling. Over wat zichtbaar wordt — en wat verdwijnt.
 
-Dat UCSF voortkomt uit een combinatie van verschillende ethische stromingen is daarom geen toeval. Het weerspiegelt precies die werkelijkheid: morele vragen laten zich niet meer vangen in één enkele traditie.
+Dat UCSF voortkomt uit een combinatie van verschillende ethische stromingen is daarom geen toeval. Het weerspiegelt deze werkelijkheid: morele vragen laten zich niet meer vangen in één enkele traditie.
 
 ---
 
@@ -154,15 +154,15 @@ Welke kwetsbaarheden produceren we?
 Wie wordt standaard beschermd — en wie niet?  
 Welke aannames worden ingebakken?
 
-In Rawls’ geest:
+In Rawls’ geest, naar **John Rawls**:
 
 ontwerp alsof je niet weet welke positie je zelf zult innemen.
 
-Vanuit Gilligans zorgethiek:
+Vanuit Gilligans zorgethiek, naar **Carol Gilligan**:
 
 macht brengt altijd zorgplicht met zich mee.
 
-En bij Scanlon draait het om één kernvraag:
+En bij **T. M. Scanlon** draait het om één kernvraag:
 
 regels moeten verdedigbaar zijn tegenover degenen die ze raken.
 
