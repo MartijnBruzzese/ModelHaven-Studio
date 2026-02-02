@@ -71,11 +71,11 @@ Bij Facebook kwamen fundamentele vragen over privacy, manipulatie en mentale gez
 
 Bij Napster werd pas ingegrepen toen een hele muziekindustrie al ontwricht was.
 
-De nasleep daarvan — met name binnen de muziekindustrie en organisaties als de Recording Industry Association of America — laat zien hoe traag bestaande systemen reageren op technologische verschuivingen. Daar zou op zichzelf al een volledige studie over te schrijven zijn: jaren van rechtszaken, verdedigingslinies en gemiste kansen om eerder tot nieuwe, eerlijkere modellen te komen.
+De nasleep daarvan — met name binnen de muziekindustrie en organisaties als de Recording Industry Association of America — laat zien hoe traag bestaande systemen reageren op technologische verschuivingen. Jaren van rechtszaken, verdedigingslinies en gemiste kansen om eerder tot nieuwe, eerlijkere modellen te komen.
 
 Bij Roblox ontstond maatschappelijke druk rondom kinderbescherming en moderatie nadat het platform al miljoenen jonge gebruikers had bereikt.
 
-En vandaag zien we vergelijkbare patronen bij nieuwe AI-spelers zoals xAI en hun modellen: krachtige systemen worden gelanceerd terwijl ethische kaders nog zoekende zijn.
+En vandaag zien we vergelijkbare patronen bij nieuwe AI-spelers zoals xAI: krachtige systemen worden gelanceerd terwijl ethische kaders nog zoekende zijn.
 
 Het patroon is steeds hetzelfde:
 
@@ -89,7 +89,7 @@ Ethiek volgt infrastructuur — in plaats van haar vooraf te vormen.
 
 ## Wanneer waarheid sneller is dan verantwoordelijkheid
 
-Een ander, menselijker voorbeeld van hetzelfde mechanisme zie je bij Julian Assange.
+Een ander, menselijker voorbeeld van hetzelfde mechanisme zie je bij **Julian Assange**.
 
 Hier was geen algoritme de katalysator, maar informatie-infrastructuur. Gevoelige waarheden werden openbaar gemaakt via digitale netwerken die sneller waren dan politieke en juridische kaders konden bijbenen.
 
@@ -99,7 +99,7 @@ eerst publicatie.
 dan wereldwijde impact.  
 pas daarna jarenlange juridische en morele afwikkeling.
 
-Wat dit laat zien, is dat niet alleen AI-systemen, maar álle schaalbare informatie-infrastructuur morele breuklijnen blootlegt. Transparantie, macht, bescherming en verantwoordelijkheid komen pas ter discussie wanneer schade al zichtbaar is — en vaak wordt die last gedragen door individuen, niet door systemen.
+Wat dit laat zien, is dat niet alleen AI-systemen, maar álle schaalbare informatie-infrastructuur morele breuklijnen blootlegt. Transparantie, macht, bescherming en verantwoordelijkheid komen pas ter discussie wanneer schade al zichtbaar is — en die last wordt vervolgens vaak gedragen door individuen, niet door systemen.
 
 ---
 
@@ -117,7 +117,7 @@ Vaak voelt niemand zich volledig eigenaar.
 
 Niet uit onwil, maar omdat causaliteit is opgelost in processen en platforms.
 
-Individuele verantwoordelijkheid is een onderdeel geworden van collectieve infrastructuur.
+Individuele verantwoordelijkheid is onderdeel geworden van collectieve infrastructuur.
 
 ---
 
