@@ -67,7 +67,7 @@ Het probeert:
 - bescherming structureel te maken  
 - zorg expliciet in ontwerp te verankeren  
 - grenzen architecturaal vast te leggen  
-- en menselijke waardigheid als harde randvoorwaarde te behandelen  
+- menselijke waardigheid als harde randvoorwaarde te behandelen  
 
 Niet als marketinglaag.  
 Niet als compliance-oefening.
@@ -80,7 +80,7 @@ Als fundament.
 
 Een logisch vervolg op elk normatief raamwerk is uitvoerbaarheid.
 
-Waar UCSF het morele fundament beschrijft, vormt ModelHaven Studio mijn poging om dat fundament te vertalen naar ontwerppraktijk. Het is geen productstrategie, maar een experimentele implementatielaag: een omgeving waarin principes als consent, bescherming en menselijke waardigheid vanaf het begin worden meegenomen in systeemarchitectuur.
+Waar UCSF het morele fundament beschrijft, vormt **ModelHaven Studio** mijn poging om dat fundament te vertalen naar ontwerppraktijk. Het is geen productstrategie, maar een experimentele implementatielaag: een omgeving waarin principes als consent, bescherming en menselijke waardigheid vanaf het begin worden meegenomen in systeemarchitectuur.
 
 UCSF biedt richting.
 
