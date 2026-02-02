@@ -11,9 +11,8 @@ Ik volg geen enkele school letterlijk. UCSF is expliciet interdisciplinair, rela
 
 ---
 
-## Deugdethiek — karakter als morele basis
-
-Aristoteles
+## Deugdethiek — karakter als morele basis  
+**Aristoteles**
 
 ***Ethiek draait hier niet om regels, maar om karakter — wie word je door je handelen?***
 
@@ -25,9 +24,8 @@ Binnen UCSF vertaalt zich dit naar mensgericht ontwerp: systemen moeten menselij
 
 ---
 
-## Plichtethiek — onschendbare grenzen
-
-Immanuel Kant
+## Plichtethiek — onschendbare grenzen  
+**Immanuel Kant**
 
 ***Sommige handelingen zijn principieel onaanvaardbaar, ongeacht hun uitkomst.  
 Mensen mogen nooit louter middel zijn.***
@@ -42,25 +40,23 @@ Dit vormt de normatieve ruggengraat van het raamwerk.
 
 ---
 
-## Gevolgenethiek — optimalisatie en haar schaduwzijde
-
-John Stuart Mill
+## Gevolgenethiek — optimalisatie en haar schaduwzijde  
+**John Stuart Mill**
 
 ***Moreel juist handelen wordt hier gedefinieerd door uitkomsten.***
 
-Mill stelt dat handelingen beoordeeld moeten worden op basis van het totale welzijn dat zij voortbrengen. Deze benadering heeft enorme invloed gehad op beleid, economie — en hedendaagse technologie.
+Mill stelt dat handelingen beoordeeld moeten worden op basis van het totale welzijn dat zij voortbrengen. Deze benadering heeft diepe invloed gehad op beleid, economie — en hedendaagse technologie.
 
 Optimalisatie, efficiëntie en schaalbaarheid zijn moderne erfgenamen van dit denken.
 
-Maar hier ontstaat spanning: wanneer gemiddelden leidend worden, verdwijnen individuele levens uit beeld. Schade kan worden gerechtvaardigd zolang het totaalplaatje positief lijkt.
+Maar hier ontstaat spanning: wanneer gemiddelden leidend worden, verdwijnen individuele levens uit beeld. Schade kan worden gelegitimeerd zolang het totaalplaatje positief lijkt.
 
-UCSF neemt bewust afstand van zuiver utilitarisme. Grootschalige systemen mogen nooit structureel slachtoffers creëren, ook niet wanneer statistieken dat legitimeren.
+UCSF neemt bewust afstand van zuiver utilitarisme. Grootschalige systemen mogen nooit structureel slachtoffers creëren, ook niet wanneer statistieken dat lijken te rechtvaardigen.
 
 ---
 
-## Rechtvaardigheid — ontwerpen vanuit onzekerheid
-
-John Rawls
+## Rechtvaardigheid — ontwerpen vanuit onzekerheid  
+**John Rawls**
 
 ***Ontwerp systemen alsof je niet weet welke positie je zelf zult innemen.***
 
@@ -70,15 +66,14 @@ Arm of rijk.
 Gezond of kwetsbaar.  
 Zichtbaar of onzichtbaar.
 
-Deze benadering dwingt tot rechtvaardige structuren die iedereen beschermen, juist omdat niemand weet waar hij zelf terechtkomt.
+Deze benadering dwingt tot structuren die iedereen beschermen, juist omdat niemand weet waar hij zelf terechtkomt.
 
 Binnen UCSF vertaalt dit zich naar rechtvaardig-van-ontwerp-principes: infrastructuur moet bescherming bieden ongeacht status, macht of context.
 
 ---
 
-## Zorgethiek — relationele verantwoordelijkheid
-
-Carol Gilligan
+## Zorgethiek — relationele verantwoordelijkheid  
+**Carol Gilligan**
 
 ***Ethiek is niet alleen normatief of resultaatgericht, maar relationeel.***
 
@@ -90,9 +85,8 @@ Dit vormt een kerncomponent van UCSF’s zorg-eerst benadering. Systemen moeten 
 
 ---
 
-## Verantwoordelijkheidsethiek — technologische macht
-
-Hans Jonas
+## Verantwoordelijkheidsethiek — technologische macht  
+**Hans Jonas**
 
 ***Technologische macht creëert automatisch morele verantwoordelijkheid.***
 
@@ -104,9 +98,8 @@ Hieruit volgt het principe van verantwoordelijkheid aan de bron: ethische reflec
 
 ---
 
-## Relationele ethiek — wederzijdse rechtvaardiging
-
-T. M. Scanlon
+## Relationele ethiek — wederzijdse rechtvaardiging  
+**T. M. Scanlon**
 
 ***Morele regels moeten verdedigbaar zijn tegenover degenen die ze raken.***
 
@@ -134,7 +127,7 @@ UCSF combineert:
 
 aangevuld met systeemdenken.
 
-Waar klassieke ethiek vooral individuen aanspreekt, richt UCSF zich op infrastructuur.
+Waar klassieke ethiek vooral individuen aanspreekt, richt UCSF zich expliciet op infrastructuur.
 
 Wanneer beslissingen worden geautomatiseerd, wanneer macht diffuus wordt, en wanneer schaal menselijke gevolgen maskeert, ontstaat een nieuw moreel domein.
 
