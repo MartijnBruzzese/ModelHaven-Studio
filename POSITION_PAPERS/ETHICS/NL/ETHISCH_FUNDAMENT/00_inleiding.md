@@ -12,7 +12,7 @@
 De lijst is lang — en we gaan ze niet allemaal opnoemen.  
 Dan kunnen we beter een woordenboek schrijven.
 
-Het zijn termen die inmiddels ingebakken zijn in ons leven.
+Het zijn termen die inmiddels ingebakken zijn in ons dagelijks leven.
 
 Net als eerder woorden als:
 
@@ -34,7 +34,7 @@ Het gasfornuis.
 De magnetron.  
 De airfryer.
 
-Ook die uitvindingen veranderden hoe we leefden, hoe we ons verplaatsten, hoe we kookten, hoe we onze tijd indeelden. Met elke nieuwe technologie kwamen nieuwe woorden, nieuwe gewoontes en nieuwe vanzelfsprekendheden.
+Ook deze uitvindingen veranderden hoe we leefden, hoe we ons verplaatsten, hoe we kookten en hoe we onze tijd indeelden. Met elke nieuwe technologie kwamen nieuwe woorden, nieuwe gewoontes en nieuwe vanzelfsprekendheden.
 
 Sinds de industriële revolutie zien we steeds hetzelfde patroon: nieuwe machines, nieuwe processen — en nieuwe taal.
 
@@ -47,17 +47,17 @@ Van massaproductie naar massa-data extractie.
 
 Waar productie ooit draaide om fysieke arbeid, draait macht nu steeds vaker om aandacht, gedrag en informatie — en om wie die stromen bezit, analyseert en verkoopt.
 
-Elke fase introduceert nieuwe begrippen, nieuwe beloften, en nieuwe machtsverhoudingen.
+Elke fase introduceert nieuwe begrippen, nieuwe beloften en nieuwe machtsverhoudingen.
 
 Technologie verandert niet alleen wat we doen.  
 Ze verandert hoe we denken.
 
 Vandaag zien we dat terug in een cultuur waarin “disruptie” wordt verheerlijkt, waarin techbros spreken over schaalbaarheid en optimalisatie alsof het natuurwetten zijn, en waarin menselijke gevolgen vaak pas zichtbaar worden nadat systemen al wereldwijd zijn uitgerold.
 
-De huidige golf van kunstmatige intelligentie — waaronder Large Language Models (LLM’s) — past precies in dat patroon.
+De huidige golf van kunstmatige intelligentie — waaronder Large Language Models (LLM’s) — past naadloos in dat patroon.
 
 De techniek ontwikkelt zich in razend tempo.  
-Zo snel zelfs, dat het schrijven van een tekst hierover eigenlijk al tijdens het werken eraan bijna achterhaald raakt.
+Zo snel zelfs, dat het schrijven van een tekst hierover tijdens het werken eraan al bijna achterhaald raakt.
 
 En toch is het nodig.
 
@@ -85,7 +85,7 @@ Want wie bepaalt eigenlijk wat wij kopen?
 Wat wij leuk vinden?  
 Wat wij niet leuk vinden?
 
-We consumeren wat ons wordt voorgeschoteld, terwijl diezelfde keuzes weer worden teruggevoerd in systemen die voorspellen wat we hierna zullen doen.
+We consumeren wat ons wordt voorgeschoteld, terwijl diezelfde keuzes worden teruggevoerd in systemen die voorspellen wat we hierna zullen doen.
 
 Zo zijn we langzaam verworden tot:
 
@@ -95,10 +95,10 @@ een trainingsbron voor AI.
 
 Dat klinkt apocalyptisch.
 
-En ja — dat is het soms ook.
+En ja — soms is het dat ook.
 
 Maar het is niet allemaal slecht.  
-En het is zeker ook niet allemaal goed.
+En zeker niet allemaal goed.
 
 Het punt is niet dat technologie per definitie verkeerd is.
 
