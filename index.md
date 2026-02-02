@@ -50,6 +50,14 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
   → [Read white paper](WHITE_PAPERS/EN/MODELHAVEN_STUDIO_WHITE_PAPER_EN_v1.0.md)  
   *(currently under development)*
 
+### Position Paper
+
+### 📄 Ethical Foundation (NL)
+
+Een position paper over ethiek, systeemontwerp en verantwoordelijkheid.
+
+- [Inhoudsopgave](POSITION_PAPERS/ETHICS/NL/ETHISCH_FUNDAMENT/inhoudsopgave.md)
+
 ---
 
 ## System Architecture
