@@ -26,6 +26,9 @@ ModelHaven Studio represents its applied implementation layer.
 This paper is a position document, not a finalized specification.  
 Its purpose is to establish philosophical grounding, ethical direction, and design intent.
 
+This is an English translation of the original Dutch paper.  
+Wording may evolve through future revisions; the underlying meaning and ethical commitments will remain unchanged.
+
 ---
 
-© Martijn Bruzzese — UCSF Working Draft
+© Martijn Bruzzese - 2026
