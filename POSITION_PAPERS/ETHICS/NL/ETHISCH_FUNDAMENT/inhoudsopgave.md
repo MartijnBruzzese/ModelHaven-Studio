@@ -1,5 +1,7 @@
 <a id="inhoudsopgave"></a>
-# Inhoudsopgave
+# Ethisch Fundament voor Consent-gebaseerde AI-systemen
+
+## Inhoudsopgave
 
 - [Inleiding](00_inleiding.md)
 
@@ -16,13 +18,13 @@
 
 Dit document presenteert de ethische fundamenten van het Universal Consent & Safety Framework (UCSF).
 
-UCSF is een ethisch raamwerk voor systeemverantwoordelijkheid binnen AI en digitale omgevingen.  
+UCSF is een ethisch raamwerk voor systeemverantwoordelijkheid binnen AI- en digitale omgevingen.  
 ModelHaven Studio vertegenwoordigt de toegepaste implementatielaag van dit raamwerk.
 
 Dit document is een position paper, geen afgeronde specificatie.  
 Het doel is het vastleggen van filosofische grondslagen, ethische richting en ontwerpintentie.
 
-Dit is een Engelse vertaling van het oorspronkelijke Nederlandse document.  
+Dit is het oorspronkelijke Nederlandse document.  
 Formuleringen kunnen in toekomstige revisies veranderen; de onderliggende betekenis en ethische uitgangspunten blijven onveranderd.
 
 ---
