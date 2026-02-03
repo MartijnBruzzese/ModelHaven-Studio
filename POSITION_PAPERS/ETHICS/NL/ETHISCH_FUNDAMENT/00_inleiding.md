@@ -127,4 +127,4 @@ In dit document ga ik op zoek naar mijn eigen ethische fundament, en onderzoek i
 
 ---
 
-[Terug naar inhoudsopgave](inhoudsopgave.md)
+[Terug naar inhoudsopgave](inhoudsopgave.md) | [Volgende →](01_h1_ethische_bouwstenen.md)
