@@ -37,17 +37,13 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
 
 ### Academic White Papers
 
-- 🇳🇱 **UCSF — Dutch v1.0**  
-  → [Read white paper](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.html)
+- 🇳🇱 **[UCSF — Dutch v1.0](WHITE_PAPERS/NL/UCSF_WHITE_PAPER_NL_v1.0.html)** 
 
-- 🇬🇧 **UCSF — English v1.0**  
-  → [Read white paper](WHITE_PAPERS/EN/UCSF_WHITE_PAPER_EN_v1.0.html)
+- 🇬🇧 **[UCSF — English v1.0](WHITE_PAPERS/EN/UCSF_WHITE_PAPER_EN_v1.0.html)**
 
-- 🇳🇱 **ModelHaven Studio — Dutch v1.0**  
-  → [Read white paper](WHITE_PAPERS/NL/MODELHAVEN_STUDIO_WHITE_PAPER_NL_v1.0.md)
+- 🇳🇱 **[ModelHaven Studio — Dutch v1.0](WHITE_PAPERS/NL/MODELHAVEN_STUDIO_WHITE_PAPER_NL_v1.0.md)**
 
-- 🇬🇧 **ModelHaven Studio — English v1.0**  
-  → [Read white paper](WHITE_PAPERS/EN/MODELHAVEN_STUDIO_WHITE_PAPER_EN_v1.0.md)  
+- 🇬🇧 **[ModelHaven Studio — English v1.0](WHITE_PAPERS/EN/MODELHAVEN_STUDIO_WHITE_PAPER_EN_v1.0.md)**  
 
 ### Position Paper
 
