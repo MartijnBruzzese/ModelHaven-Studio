@@ -95,4 +95,4 @@ I do not think so.
 
 ---
 
-[← Previous](05_ch5_position_statement.md) | [Back to table of contents](contents.md)
+[← Previous](05_ch5_position_statement.md) | [Back to table of contents](table_of_contents.md)
