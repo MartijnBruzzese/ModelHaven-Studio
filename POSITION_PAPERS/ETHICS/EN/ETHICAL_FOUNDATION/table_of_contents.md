@@ -1,4 +1,4 @@
-# UCSF — Ethical Foundations for Consent-Centered AI Systems
+# Ethical Foundations for Consent-Centered AI Systems
 
 ## Table of Contents
 
