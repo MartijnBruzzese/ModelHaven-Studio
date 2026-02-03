@@ -98,4 +98,4 @@ Ik denk van niet.
 
 ---
 
-[Terug naar inhoudsopgave](inhoudsopgave.md)
+[← Vorige](05_h5_positieverklaring.md) | [Terug naar inhoudsopgave](inhoudsopgave.md)
