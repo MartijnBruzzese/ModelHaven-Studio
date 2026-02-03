@@ -144,4 +144,4 @@ and that systems themselves carry responsibility.
 
 ---
 
-[← Back to table of contents](contents.md) | [Next chapter →](02_ch2_moral_foundations_of_ucsf.md)
+[← Back to table of contents](table_of_contents.md) | [Next chapter →](02_ch2_moral_foundations_of_ucsf.md)
