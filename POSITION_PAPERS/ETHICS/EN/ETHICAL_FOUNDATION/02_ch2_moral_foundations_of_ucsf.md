@@ -158,4 +158,4 @@ They converge.
 
 ---
 
-[← Previous](01_ch1_ethical_building_blocks.md) | [Back to table of contents](contents.md) | [Next →](03_ch3_beyond_the_individual.md)
+[← Previous](01_ch1_ethical_building_blocks.md) | [Back to table of contents](table_of_contents.md) | [Next →](03_ch3_beyond_the_individual.md)
