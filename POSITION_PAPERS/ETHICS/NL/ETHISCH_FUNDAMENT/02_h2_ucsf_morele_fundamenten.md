@@ -135,4 +135,4 @@ Daar begint systeemethiek.
 
 ---
 
-[Terug naar inhoudsopgave](inhoudsopgave.md)
+[← Vorige](01_h1_ethische_bouwstenen.md) | [Terug naar inhoudsopgave](inhoudsopgave.md) | [Volgende →](03_h3_ethiek_voorbij_het_individu.md)
