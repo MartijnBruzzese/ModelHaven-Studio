@@ -220,4 +220,4 @@ And this is where UCSF begins.
 
 ---
 
-[← Previous](02_ch2_moral_foundations_of_ucsf.md) | [Back to table of contents](contents.md) | [Next →](04_ch4_intent_infrastructure_responsibility.md)
+[← Previous](02_ch2_moral_foundations_of_ucsf.md) | [Back to table of contents](table_of_contents.md) | [Next →](04_ch4_intent_infrastructure_responsibility.md)
