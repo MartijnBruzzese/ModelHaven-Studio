@@ -216,4 +216,4 @@ En daar begint ook UCSF.
 
 ---
 
-[Terug naar inhoudsopgave](inhoudsopgave.md)
+[← Vorige](02_h2_ucsf_morele_fundamenten.md) | [Terug naar inhoudsopgave](inhoudsopgave.md) | [Volgende →](04_h4_morele_verantwoordelijkheid_in_infrastructuur.md)
