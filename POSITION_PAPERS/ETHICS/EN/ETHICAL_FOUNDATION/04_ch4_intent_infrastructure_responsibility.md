@@ -162,4 +162,4 @@ From principle to practice.
 
 ---
 
-[← Previous](03_ch3_beyond_the_individual.md) | [Back to table of contents](contents.md) | [Next →](05_ch5_position_statement.md)
+[← Previous](03_ch3_beyond_the_individual.md) | [Back to table of contents](table_of_contents.md) | [Next →](05_ch5_position_statement.md)
