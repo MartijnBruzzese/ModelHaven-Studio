@@ -146,4 +146,4 @@ En om verantwoordelijkheid niet te laten oplossen in infrastructuur — maar haa
 
 ---
 
-[Terug naar inhoudsopgave](inhoudsopgave.md)
+[← Vorige](04_h4_morele_verantwoordelijkheid_in_infrastructuur.md) | [Terug naar inhoudsopgave](inhoudsopgave.md) | [Volgende →](06_h6_reflecties_en_voorlopige_conclusies.md)
