@@ -133,4 +133,4 @@ And to resist allowing responsibility to dissolve into infrastructure — instea
 
 ---
 
-[← Previous](04_ch4_intent_infrastructure_responsibility.md) | [Back to table of contents](contents.md) | [Next →](06_ch6_reflections_and_provisional_conclusions.md)
+[← Previous](04_ch4_intent_infrastructure_responsibility.md) | [Back to table of contents](table_of_contents.md) | [Next →](06_ch6_reflections_and_provisional_conclusions.md)
