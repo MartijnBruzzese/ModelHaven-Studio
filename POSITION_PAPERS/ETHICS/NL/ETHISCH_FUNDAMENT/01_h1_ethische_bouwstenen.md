@@ -147,4 +147,4 @@ en dat systemen verantwoordelijkheid dragen.
 
 ---
 
-[Terug naar inhoudsopgave](inhoudsopgave.md)
+[← Vorige](00_inleiding.md) | [Terug naar inhoudsopgave](inhoudsopgave.md) | [Volgende →](02_h2_ucsf_morele_fundamenten.md)
