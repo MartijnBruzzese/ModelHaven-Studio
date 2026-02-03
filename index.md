@@ -51,7 +51,8 @@ ModelHaven Studio is a research-driven initiative exploring consent-first system
 
 ### Position Paper
 
-- 🇳🇱 **[Ethisch Fundament (NL)](POSITION_PAPERS/ETHICS/NL/ETHISCH_FUNDAMENT/inhoudsopgave.md)**  
+- 🇳🇱 **[Ethisch Fundament (NL)](POSITION_PAPERS/ETHICS/NL/ETHISCH_FUNDAMENT/inhoudsopgave.md)**
+- 🇬🇧 **[Ethisch Fundament (NL)(POSITION_PAPERS/ETHICS/EN/ETHICAL_FOUNDATION/table_of_contents.md)** 
   
 ---
 
