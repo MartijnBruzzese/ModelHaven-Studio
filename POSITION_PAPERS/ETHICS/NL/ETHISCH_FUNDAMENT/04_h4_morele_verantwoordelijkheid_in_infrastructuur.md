@@ -162,4 +162,4 @@ Van principe naar praktijk.
 
 ---
 
-[Terug naar inhoudsopgave](inhoudsopgave.md)
+[← Vorige](03_h3_ethiek_voorbij_het_individu.md) | [Terug naar inhoudsopgave](inhoudsopgave.md) | [Volgende →](05_h5_positieverklaring.md)
