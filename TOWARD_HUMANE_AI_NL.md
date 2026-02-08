@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Toward Humane AI
+title: Toward Humane AI — Introductie (NL)
 ---
+
 
 ### Nederlands
 
