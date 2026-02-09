@@ -3,7 +3,6 @@ layout: default
 title: ModelHaven Studio — Toward Humane AI
 show_licensing: true
 ---
-
 # Executive Summary — UCSF & ModelHaven Studio
 
 ---
