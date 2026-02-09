@@ -513,3 +513,17 @@ ul{padding-left:18px}
     transition: none !important;
   }
 }
+.card.collapsible .collapse-toggle{
+  transition: opacity 200ms ease;
+}
+
+.card.collapsible .collapse-toggle:hover{
+  opacity: 0.9;
+}
+
+.card.collapsible.is-open{
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.06),
+    0 10px 30px rgba(0,0,0,0.35);
+  transition: box-shadow 240ms ease;
+}
