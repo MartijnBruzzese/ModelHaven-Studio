@@ -30,6 +30,84 @@ document.addEventListener("DOMContentLoaded", () => {
   mermaid.init(undefined, document.querySelectorAll(".mermaid"));
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  document.querySelectorAll(".collapsible").forEach(card => {
+
+    const toggle = card.querySelector(".collapse-toggle");
+    const content = card.querySelector(".collapse-content");
+
+    if (!toggle || !content) return;
+
+    let isAnimating = false;
+
+    toggle.setAttribute("role", "button");
+    toggle.setAttribute("tabindex", "0");
+    toggle.setAttribute("aria-expanded", "false");
+
+    if (!toggle.querySelector(".chev")) {
+      const chev = document.createElement("span");
+      chev.className = "chev";
+      chev.textContent = "▸";
+      toggle.prepend(chev);
+    }
+
+    function open() {
+      if (isAnimating) return;
+      isAnimating = true;
+
+      card.classList.add("open");
+      toggle.setAttribute("aria-expanded", "true");
+
+      content.style.height = "0px";
+      content.style.opacity = "1";
+      content.offsetHeight;
+      content.style.height = content.scrollHeight + "px";
+    }
+
+    function close() {
+      if (isAnimating) return;
+      isAnimating = true;
+
+      content.style.height = content.scrollHeight + "px";
+      content.offsetHeight;
+      content.style.height = "0px";
+      content.style.opacity = "0";
+
+      card.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+    }
+
+    content.addEventListener("transitionend", (e) => {
+      if (e.propertyName !== "height") return;
+
+      if (card.classList.contains("open")) {
+        content.style.height = "auto";
+        content.style.opacity = "1";
+      }
+
+      isAnimating = false;
+    });
+
+    toggle.addEventListener("click", () => {
+      card.classList.contains("open") ? close() : open();
+    });
+
+    toggle.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        card.classList.contains("open") ? close() : open();
+      }
+    });
+
+    content.style.height = "0px";
+    content.style.opacity = "0";
+
+  });
+
+});
+</script>
 
 </body>
 </html>
