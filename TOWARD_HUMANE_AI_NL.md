@@ -1,3 +1,8 @@
+---
+layout: default
+title: Toward Humane AI — Introductie (NL)
+---
+
 ### Nederlands
 
 ModelHaven Studio is een onderzoeksgericht raamwerk en ontwerparchitectuur voor AI-systemen waarin toestemming, identiteit en veiligheid worden behandeld als fundamentele voorwaarden, niet als correctiemechanismen achteraf.
