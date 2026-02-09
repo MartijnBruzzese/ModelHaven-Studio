@@ -531,3 +531,6 @@ ul{padding-left:18px}
     0 10px 30px rgba(0,0,0,0.35);
   transition: box-shadow 240ms ease;
 }
+.card.collapsible.open .collapse-toggle{
+  color: var(--text);
+}
