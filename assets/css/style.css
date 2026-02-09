@@ -202,3 +202,105 @@ ul{padding-left:18px}
   border: 1px solid rgba(255,255,255,.10);
   box-shadow: 0 10px 22px rgba(0,0,0,.25);
 }
+/* ===================== */
+/* Prose (docs styling)  */
+/* ===================== */
+
+.prose{
+  font-size:16px;
+  line-height:1.7;
+}
+
+.prose p{ margin:0 0 14px; }
+.prose a{ color:var(--accent); }
+.prose a:hover{ text-decoration:underline; }
+
+.prose h1,.prose h2,.prose h3,.prose h4{
+  line-height:1.2;
+  letter-spacing:-.01em;
+  margin:26px 0 10px;
+}
+
+.prose h1{ font-size:38px; margin-top:6px; }
+.prose h2{ font-size:24px; margin-top:28px; }
+.prose h3{ font-size:18px; margin-top:20px; }
+.prose h4{ font-size:16px; margin-top:16px; color:var(--muted); }
+
+.prose hr{
+  border:0;
+  height:1px;
+  background:var(--line);
+  margin:18px 0;
+}
+
+.prose ul,.prose ol{
+  margin:0 0 14px;
+  padding-left:20px;
+}
+.prose li{ margin:6px 0; }
+
+.prose blockquote{
+  margin:14px 0;
+  padding:12px 14px;
+  border-left:3px solid rgba(139,211,255,.45);
+  background:rgba(139,211,255,.06);
+  border-radius:12px;
+  color:var(--muted);
+}
+
+/* Inline code */
+.prose code{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size:.95em;
+  background:rgba(255,255,255,.06);
+  border:1px solid rgba(255,255,255,.10);
+  padding:.12em .35em;
+  border-radius:8px;
+}
+
+/* Code blocks */
+.prose pre{
+  margin:14px 0;
+  padding:14px;
+  overflow:auto;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.12);
+  background:rgba(0,0,0,.22);
+  box-shadow:0 10px 22px rgba(0,0,0,.25);
+}
+.prose pre code{
+  background:transparent;
+  border:0;
+  padding:0;
+  display:block;
+  color:var(--text);
+}
+
+/* Tables */
+.prose table{
+  width:100%;
+  border-collapse:collapse;
+  margin:14px 0;
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:14px;
+  overflow:hidden;
+}
+.prose th,.prose td{
+  padding:10px 12px;
+  border-bottom:1px solid rgba(255,255,255,.10);
+  vertical-align:top;
+}
+.prose th{
+  text-align:left;
+  background:rgba(255,255,255,.04);
+}
+.prose tr:last-child td{ border-bottom:0; }
+
+/* Images */
+.prose img{
+  max-width:100%;
+  height:auto;
+  border-radius:14px;
+  border:1px solid rgba(255,255,255,.10);
+  box-shadow:0 10px 22px rgba(0,0,0,.25);
+}
