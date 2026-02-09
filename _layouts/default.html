@@ -11,10 +11,11 @@
 <body>
 <div class="wrap">
   <main class="prose">
-            {{ content }}
+    {{ content }}
   </main>
 </div>
 
+<!-- Mermaid -->
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
 mermaid.initialize({ startOnLoad: true });
@@ -30,6 +31,8 @@ document.addEventListener("DOMContentLoaded", () => {
   mermaid.init(undefined, document.querySelectorAll(".mermaid"));
 });
 </script>
+
+<!-- Collapsible (Hospitality style, cleaned + default open) -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -44,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     toggle.setAttribute("role", "button");
     toggle.setAttribute("tabindex", "0");
-    toggle.setAttribute("aria-expanded", "false");
+    toggle.setAttribute("aria-expanded", "true"); // default open
 
     if (!toggle.querySelector(".chev")) {
       const chev = document.createElement("span");
@@ -101,78 +104,14 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    content.style.height = "0px";
-    content.style.opacity = "0";
+    /* ---------- DEFAULT OPEN STATE ---------- */
+
+    card.classList.add("open");
+    content.style.height = "auto";
+    content.style.opacity = "1";
 
   });
 
-});
-</script>
-<script>
-document.querySelectorAll('.card.collapsible.is-collapsible').forEach((card) => {
-  const toggle = card.querySelector('.collapse-toggle');
-  const content = card.querySelector('.collapse-content');
-  if (!toggle || !content) return;
-
-  // Make <h3> behave like a button (same as hospitality vibe)
-  toggle.setAttribute('role', 'button');
-  toggle.setAttribute('tabindex', '0');
-  toggle.setAttribute('aria-expanded', 'false');
-
-  // init closed
-  content.hidden = true;
-  content.style.height = '0px';
-
-  const setOpen = (open) => {
-    card.classList.toggle('is-open', open);
-    toggle.setAttribute('aria-expanded', String(open));
-
-    if (open) {
-      content.hidden = false;
-
-      // open: 0 -> scrollHeight -> auto
-      content.style.height = '0px';
-      const h = content.scrollHeight;
-      content.style.height = h + 'px';
-
-      const onEnd = (e) => {
-        if (e.propertyName === 'height') {
-          content.style.height = 'auto';
-          content.removeEventListener('transitionend', onEnd);
-        }
-      };
-      content.addEventListener('transitionend', onEnd);
-
-    } else {
-      // close: auto -> px -> 0 -> hidden
-      const current = content.scrollHeight;
-      content.style.height = current + 'px';
-
-      requestAnimationFrame(() => {
-        content.style.height = '0px';
-      });
-
-      const onEnd = (e) => {
-        if (e.propertyName === 'height') {
-          content.hidden = true;
-          content.removeEventListener('transitionend', onEnd);
-        }
-      };
-      content.addEventListener('transitionend', onEnd);
-    }
-  };
-
-  toggle.addEventListener('click', () => {
-    const open = toggle.getAttribute('aria-expanded') === 'true';
-    setOpen(!open);
-  });
-
-  toggle.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter' || e.key === ' ') {
-      e.preventDefault();
-      toggle.click();
-    }
-  });
 });
 </script>
 
