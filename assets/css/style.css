@@ -304,3 +304,19 @@ ul{padding-left:18px}
   border:1px solid rgba(255,255,255,.10);
   box-shadow:0 10px 22px rgba(0,0,0,.25);
 }
+.hidden-lang{
+  display:none;
+}
+.flag-icon{
+  width:18px;
+  height:14px;
+  object-fit:cover;
+  border-radius:3px;
+  margin-right:8px;
+  vertical-align:middle;
+}
+
+.btn{
+  display:inline-flex;
+  align-items:center;
+}
