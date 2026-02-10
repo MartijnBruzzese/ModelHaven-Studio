@@ -601,3 +601,4 @@ ul{padding-left:18px}
   outline-offset: 3px;
   border-radius: 8px;
 }
+body { outline: 4px solid red; }
