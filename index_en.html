@@ -168,33 +168,37 @@ title: ModelHaven Studio — Toward Humane AI
     </div>
   </section>
 
-  <!-- Foundational Primitives -->
-  <section class="card collapsible" style="grid-column:1/-1;">
-    <h3 class="collapse-toggle">Foundational Primitives</h3>
+<section class="card collapsible" style="grid-column:1/-1;">
+  <h3 class="collapse-toggle">Foundational Primitives</h3>
 
-    <div class="collapse-content">
-      <p>
-        UCSF defines a set of core data primitives that operationalize consent,
-        identity integrity, revocation, and safety enforcement at the system level.
-      </p>
+  <div class="collapse-content">
 
-      <ul>
-        <li><strong>Consent Object</strong></li>
-        <li><strong>Identity Token</strong></li>
-        <li><strong>Revocation Signal</strong></li>
-        <li><strong>Safety Mode Flag</strong></li>
-        <li><strong>Fictionalisation Engine</strong> (conceptual component)</li>
-      </ul>
+    <p>
+      The architecture is composed of two primitive layers: a normative
+      data layer (UCSF) and an operational runtime layer (ModelHaven Studio).
+    </p>
 
-      <p class="muted">
-        See the full specification for formal definitions, required properties,
-        and behavioural guarantees.
-      </p>
+    <div style="display:grid; gap:12px; margin-top:12px;">
 
-      <p>
-        <a href="ucsf_primitives.html">Read full primitive specification →</a>
-      </p>
+      <a class="card" href="core_data_primitives.html" style="text-decoration:none;">
+        <h4 style="margin:0;">Core Data Primitives</h4>
+        <p class="muted" style="margin:6px 0 0;">
+          Consent Object · Identity Token · Revocation Signal · Safety Mode Flag · Fictionalisation Engine
+        </p>
+      </a>
+
+      <a class="card" href="operational_primitives.html" style="text-decoration:none;">
+        <h4 style="margin:0;">Operational Primitives</h4>
+        <p class="muted" style="margin:6px 0 0;">
+          Intent Signal · Risk Class · Interaction Mode · Human Oversight Layer · Fail-Closed Gate
+        </p>
+      </a>
+
     </div>
-  </section>
+
+  </div>
+</section>
+
+
 
 </div>
