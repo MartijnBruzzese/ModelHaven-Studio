@@ -339,3 +339,38 @@ h1{
     height:12px;
   }
 }
+/* ===================== */
+/* Glass Toast (Mobile) */
+/* ===================== */
+
+.glass-toast{
+  position:fixed;
+  left:50%;
+  bottom:24px;
+  transform:translateX(-50%) translateY(20px);
+  background:linear-gradient(
+    180deg,
+    rgba(139,211,255,0.08),
+    rgba(255,255,255,0.03)
+  );
+  backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,0.12);
+  border-radius:18px;
+  padding:14px 22px;
+  font-size:0.9rem;
+  color:var(--text);
+  box-shadow:
+    0 20px 40px rgba(0,0,0,.6),
+    inset 0 1px 0 rgba(255,255,255,.06);
+  opacity:0;
+  pointer-events:none;
+  transition:
+    opacity 260ms ease,
+    transform 260ms ease;
+  z-index:9999;
+}
+
+.glass-toast.show{
+  opacity:1;
+  transform:translateX(-50%) translateY(0);
+}

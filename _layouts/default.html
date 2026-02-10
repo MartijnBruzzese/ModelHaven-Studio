@@ -111,6 +111,49 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+
+  const messages = {
+    de: "Demnächst verfügbar.",
+    fr: "Bientôt disponible.",
+    it: "Prossimamente disponibile.",
+    es: "Próximamente disponible."
+  };
+
+  // Create toast element once
+  const toast = document.createElement("div");
+  toast.className = "glass-toast";
+  document.body.appendChild(toast);
+
+  function showToast(message){
+    toast.textContent = message;
+    toast.classList.add("show");
+
+    setTimeout(() => {
+      toast.classList.remove("show");
+    }, 2600);
+  }
+
+  document.querySelectorAll(".planned-lang").forEach(link => {
+
+    link.addEventListener("click", function(e){
+
+      // Alleen mobiel
+      if (window.innerWidth > 768) return;
+
+      e.preventDefault();
+
+      const lang = link.dataset.lang;
+      const message = messages[lang] || "Coming soon.";
+
+      showToast(message);
+    });
+
+  });
+
+});
+</script>
 
 
 </body>
