@@ -534,3 +534,19 @@ ul{padding-left:18px}
 .card.collapsible.open .collapse-toggle{
   color: var(--text);
 }
+
+/* Premium divider line for collapsibles */
+.card.collapsible .collapse-toggle{
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  transition: border-color 220ms ease, opacity 200ms ease;
+}
+
+.card.collapsible .collapse-toggle:hover{
+  border-bottom-color: rgba(255,255,255,0.12);
+}
+
+.card.collapsible.open .collapse-toggle{
+  border-bottom-color: rgba(255,255,255,0.10);
+}
