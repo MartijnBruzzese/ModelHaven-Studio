@@ -146,6 +146,13 @@ document.addEventListener("DOMContentLoaded", function(){
 
       const lang = link.dataset.lang;
       const message = messages[lang] || "Coming soon.";
+      const messages = {
+  de: "Demnächst verfügbar.",
+  fr: "Bientôt disponible.",
+  it: "Prossimamente disponibile.",
+  es: "Próximamente disponible."
+};
+
 
       showToast(message);
     });
