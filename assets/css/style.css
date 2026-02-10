@@ -75,16 +75,34 @@ h1{
   margin-top:18px;
 }
 
-.card{
+..card{
   grid-column:span 6;
-  border:1px solid var(--line);
+  border:1px solid rgba(255,255,255,0.08);
   border-radius:18px;
   padding:18px;
   background:linear-gradient(180deg, rgba(139,211,255,.06), rgba(255,255,255,.02));
   box-shadow:
     0 12px 28px rgba(0,0,0,.35),
     inset 0 1px 0 rgba(255,255,255,.06);
+
+  position:relative;
+  overflow:hidden;
+  backdrop-filter: blur(2px);
 }
+
+.card::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(
+    180deg,
+    rgba(139,211,255,0.08) 0%,
+    transparent 35%
+  );
+  pointer-events:none;
+  opacity:0.6;
+}
+
 
 .card h2{
   margin-top:0;
@@ -414,6 +432,9 @@ ul{padding-left:18px}
 }
 .card.collapsible.open .collapse-toggle{
   color: var(--text);
+  font-weight:600;
+letter-spacing:0.2px;
+
 }
 
 
@@ -469,7 +490,7 @@ ul{padding-left:18px}
   top:0.1em;
   width:18px;
   height:18px;
-  opacity:.75;
+  opacity: 0.6;;
   transform: rotate(0deg);
   transition: transform 240ms ease, opacity 240ms ease;
 
