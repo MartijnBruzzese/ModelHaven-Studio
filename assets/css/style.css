@@ -550,3 +550,54 @@ ul{padding-left:18px}
 .card.collapsible.open .collapse-toggle{
   border-bottom-color: rgba(255,255,255,0.10);
 }
+/* ============================= */
+/* Hospitality-style collapsible line + icon refinement */
+/* ============================= */
+
+.card.collapsible .collapse-toggle {
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  position: relative;
+  cursor: pointer;
+  transition: border-color 240ms ease, opacity 200ms ease;
+}
+
+.card.collapsible .collapse-toggle:hover {
+  border-bottom-color: rgba(255,255,255,0.18);
+  opacity: 0.95;
+}
+
+/* Chevron icon (match hospitality vibe) */
+.card.collapsible .collapse-toggle::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0.08em;
+  width: 18px;
+  height: 18px;
+  opacity: 0.75;
+  transform: rotate(0deg);
+  transition: transform 240ms ease, opacity 240ms ease;
+
+  background: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M8 10l4 4 4-4' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M8 10l4 4 4-4' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;
+}
+
+.card.collapsible.open .collapse-toggle::after {
+  transform: rotate(180deg);
+  opacity: 0.9;
+}
+
+/* Open state accent under border */
+.card.collapsible.open .collapse-toggle {
+  border-bottom-color: rgba(255,255,255,0.16);
+}
+
+/* Focus ring for accessibility */
+.card.collapsible .collapse-toggle:focus-visible {
+  outline: 2px solid rgba(255,255,255,0.22);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
