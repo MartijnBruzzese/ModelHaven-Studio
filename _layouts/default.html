@@ -32,7 +32,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
-<!-- Collapsible (Hospitality style, cleaned + default open) -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -40,20 +39,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const toggle = card.querySelector(".collapse-toggle");
     const content = card.querySelector(".collapse-content");
-
     if (!toggle || !content) return;
 
     let isAnimating = false;
 
     toggle.setAttribute("role", "button");
     toggle.setAttribute("tabindex", "0");
-    toggle.setAttribute("aria-expanded", "true"); // default open
 
-    if (!toggle.querySelector(".chev")) {
-      const chev = document.createElement("span");
-      chev.className = "chev";
-      chev.textContent = "▸";
-      toggle.prepend(chev);
+    const shouldOpen = card.hasAttribute("data-default-open");
+
+    if (shouldOpen) {
+      card.classList.add("open");
+      toggle.setAttribute("aria-expanded", "true");
+      content.style.height = "auto";
+      content.style.opacity = "1";
+    } else {
+      card.classList.remove("open");
+      toggle.setAttribute("aria-expanded", "false");
+      content.style.height = "0px";
+      content.style.opacity = "0";
     }
 
     function open() {
@@ -64,9 +68,9 @@ document.addEventListener("DOMContentLoaded", function () {
       toggle.setAttribute("aria-expanded", "true");
 
       content.style.height = "0px";
-      content.style.opacity = "1";
       content.offsetHeight;
       content.style.height = content.scrollHeight + "px";
+      content.style.opacity = "1";
     }
 
     function close() {
@@ -87,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       if (card.classList.contains("open")) {
         content.style.height = "auto";
-        content.style.opacity = "1";
       }
 
       isAnimating = false;
@@ -100,20 +103,15 @@ document.addEventListener("DOMContentLoaded", function () {
     toggle.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
         e.preventDefault();
-        card.classList.contains("open") ? close() : open();
+        toggle.click();
       }
     });
-
-    /* ---------- DEFAULT OPEN STATE ---------- */
-
-    card.classList.add("open");
-    content.style.height = "auto";
-    content.style.opacity = "1";
 
   });
 
 });
 </script>
+
 
 </body>
 </html>
