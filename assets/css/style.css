@@ -315,3 +315,27 @@ h1{
 @media (prefers-reduced-motion: reduce){
   *{transition:none!important}
 }
+
+/* ===================== */
+/* Language Topbar Mobile */
+/* ===================== */
+
+@media (max-width: 768px){
+
+  /* verberg planned label tekst */
+  .topbar .planned-lang::after{
+    display:none;
+  }
+
+  /* maak taal compacter */
+  .topbar a{
+    font-size:0.85em;
+    gap:4px;
+  }
+
+  /* zorg dat alleen vlag + taalcode zichtbaar is */
+  .topbar .flag-icon{
+    width:16px;
+    height:12px;
+  }
+}
