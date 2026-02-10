@@ -121,7 +121,6 @@ document.addEventListener("DOMContentLoaded", function(){
     es: "Próximamente disponible."
   };
 
-  // Create toast element once
   const toast = document.createElement("div");
   toast.className = "glass-toast";
   document.body.appendChild(toast);
@@ -139,28 +138,20 @@ document.addEventListener("DOMContentLoaded", function(){
 
     link.addEventListener("click", function(e){
 
-      // Alleen mobiel
       if (window.innerWidth > 768) return;
 
       e.preventDefault();
 
       const lang = link.dataset.lang;
-      const message = messages[lang] || "Coming soon.";
-      const messages = {
-  de: "Demnächst verfügbar.",
-  fr: "Bientôt disponible.",
-  it: "Prossimamente disponibile.",
-  es: "Próximamente disponible."
-};
+      showToast(messages[lang] || "Coming soon.");
 
-
-      showToast(message);
     });
 
   });
 
 });
 </script>
+
 
 
 </body>
