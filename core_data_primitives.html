@@ -1,0 +1,250 @@
+---
+layout: default
+title: Core Data Primitives — UCSF
+---
+
+<div class="topbar">
+  <a href="index_en.html">← Back to ModelHaven Studio</a>
+</div>
+
+<header class="hero">
+  <h1>Core Data Primitives</h1>
+  <p class="subtitle">UCSF — Consent, Identity, Revocation, Safety Modes</p>
+  <div class="hero-divider"></div>
+  <p class="muted">
+    Implementation-agnostic primitives that define the minimum data requirements for consent-first,
+    safety-governed AI systems.
+  </p>
+</header>
+
+<div class="grid">
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>Overview</h2>
+
+    <p>
+      This document defines the <strong>core data primitives</strong> of the Universal Consent &amp; Safety Framework (UCSF).
+      These primitives describe the fundamental building blocks a system needs in order to treat consent as first-class,
+      protect minors and animals, separate identity from style, support revocation, and fall back to fictional content
+      when consent is absent or revoked.
+    </p>
+
+    <p class="muted">
+      These primitives specify behaviour and guarantees — not any specific programming language, API, or database.
+    </p>
+  </section>
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>List of primitives</h2>
+
+    <p>UCSF currently defines four primary primitives:</p>
+
+    <ol>
+      <li><strong>Consent Object</strong></li>
+      <li><strong>Identity Token</strong></li>
+      <li><strong>Revocation Signal</strong></li>
+      <li><strong>Safety Mode Flag</strong></li>
+    </ol>
+
+    <p>A conceptual component is also defined:</p>
+
+    <ul>
+      <li><strong>Fictionalisation Engine</strong></li>
+    </ul>
+
+    <p class="muted">
+      Future versions of UCSF may add additional primitives.
+    </p>
+  </section>
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>1) Consent Object</h2>
+
+    <h3>1.1 Definition</h3>
+    <p>
+      A <strong>Consent Object</strong> is a machine-readable record that represents who is giving consent, what they are
+      consenting to, under what conditions, and for how long. It is the atomic unit of consent within UCSF.
+    </p>
+
+    <h3>1.2 Required properties</h3>
+    <p>A valid Consent Object MUST include:</p>
+    <ul>
+      <li><code>subject_id</code> — the human person granting consent</li>
+      <li><code>scope</code> — identity likeness / body likeness / voice / persona etc.</li>
+      <li><code>use_case</code> — permitted contexts (art, education, erotica, research etc.)</li>
+      <li><code>boundaries</code> — explicit limits and exclusions</li>
+      <li><code>expiry</code> — date/condition when consent ends</li>
+      <li><code>created_at</code> — timestamp of issuance</li>
+      <li><code>provenance</code> — how consent was obtained (interface, contract, etc.)</li>
+    </ul>
+
+    <h3>1.3 Optional properties</h3>
+    <p>May include:</p>
+    <ul>
+      <li><code>compensation_terms</code></li>
+      <li><code>jurisdiction</code></li>
+      <li><code>age_verification_status</code></li>
+      <li><code>health_safeguards_requested</code></li>
+      <li><code>notes_for-operators</code></li>
+    </ul>
+
+    <h3>1.4 Behavioural guarantees</h3>
+    <p>Systems following UCSF MUST ensure:</p>
+    <ul>
+      <li>no identity-based generation <strong>without</strong> a valid Consent Object</li>
+      <li>consent remains <strong>revocable at any time</strong></li>
+      <li>consent is <strong>not transferable</strong> unless explicitly stated</li>
+      <li>absence of valid consent → <strong>fail-closed</strong> or <strong>fiction fallback</strong></li>
+    </ul>
+  </section>
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>2) Identity Token</h2>
+
+    <h3>2.1 Definition</h3>
+    <p>
+      An <strong>Identity Token</strong> encodes the link between a human being and AI-generated content that depicts or
+      imitates them. It marks that identity is involved, not just style or category.
+    </p>
+
+    <h3>2.2 Required properties</h3>
+    <ul>
+      <li><code>subject_id</code></li>
+      <li><code>token_id</code> (unique identifier)</li>
+      <li><code>issued_at</code></li>
+      <li>reference to at least one valid <strong>Consent Object</strong></li>
+    </ul>
+
+    <h3>2.3 Behavioural guarantees</h3>
+    <p>Systems MUST:</p>
+    <ul>
+      <li>refuse to create Identity Tokens without consent</li>
+      <li>invalidate Identity Tokens upon revocation</li>
+      <li>prevent use for non-consensual deepfakes, non-consensual erotica, harassment, or impersonation</li>
+    </ul>
+
+    <h3>2.4 Identity vs Style separation</h3>
+    <p>Identity Tokens MUST be distinguished from:</p>
+    <ul>
+      <li><strong>Style Tokens</strong> — vibe, art style, aesthetic</li>
+      <li><strong>Category Tokens</strong> — general descriptors (e.g., redhead, biker, elf)</li>
+    </ul>
+
+    <p>UCSF requires systems to:</p>
+    <ul>
+      <li>allow style transfer</li>
+      <li>prevent <strong>identity theft</strong></li>
+    </ul>
+
+    <blockquote>
+      extracting aesthetic essence <strong>without copying the person</strong>.
+    </blockquote>
+  </section>
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>3) Revocation Signal</h2>
+
+    <h3>3.1 Definition</h3>
+    <p>
+      A <strong>Revocation Signal</strong> is a global instruction issued by a subject to withdraw consent, disable identity
+      use, and invalidate Identity Tokens.
+    </p>
+
+    <h3>3.2 Required behaviours</h3>
+    <p>Upon receiving a Revocation Signal, a UCSF-compliant system MUST:</p>
+    <ul>
+      <li>propagate the revocation through dependent subsystems</li>
+      <li>prevent further generation using the revoked identity</li>
+      <li>mark related Identity Tokens as <strong>invalid</strong></li>
+      <li>default to blocked output or fictionalised replacement content</li>
+    </ul>
+
+    <h3>3.3 Nature of revocation</h3>
+    <p>Revocation under UCSF is:</p>
+    <ul>
+      <li>unilateral</li>
+      <li>immediate</li>
+      <li>does not require justification</li>
+    </ul>
+
+    <p class="muted">
+      Platform inconvenience is not a valid reason to deny revocation.
+    </p>
+  </section>
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>4) Safety Mode Flag</h2>
+
+    <h3>4.1 Definition</h3>
+    <p>
+      A <strong>Safety Mode Flag</strong> determines which kinds of content the system is allowed to generate.
+    </p>
+
+    <p>Minimum required modes:</p>
+    <ul>
+      <li><code>MINOR_MODE</code></li>
+      <li><code>ADULT_MODE</code></li>
+    </ul>
+
+    <h3>4.2 MINOR_MODE guarantees</h3>
+    <p>MINOR_MODE MUST:</p>
+    <ul>
+      <li>disallow all erotic/sexual content</li>
+      <li>prohibit sexualisation of minors entirely</li>
+      <li>fail closed on age ambiguity</li>
+      <li>reduce parasocial bonding mechanics</li>
+      <li>avoid addictive interaction loops</li>
+    </ul>
+
+    <h3>4.3 ADULT_MODE guarantees</h3>
+    <p>ADULT_MODE MUST:</p>
+    <ul>
+      <li>require Consent Objects for identity-based generation</li>
+      <li>still prohibit minor/animal sexualisation absolutely</li>
+      <li>provide revocation controls and exits</li>
+      <li>fall back to fictionalisation where consent is absent or unclear</li>
+    </ul>
+  </section>
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>5) Fictionalisation Engine (Conceptual Component)</h2>
+
+    <h3>5.1 Purpose</h3>
+    <p>The Fictionalisation Engine exists to preserve fantasy and avoid harming real people.</p>
+
+    <h3>5.2 Behaviour</h3>
+    <p>When identity consent is missing or revoked, the engine:</p>
+    <ul>
+      <li>strips identity-linked characteristics</li>
+      <li>generates <strong>fully fictional characters instead</strong></li>
+      <li>clearly signals to the user that fictionalisation occurred</li>
+    </ul>
+
+    <h3>5.3 Hard constraints</h3>
+    <p>The Fictionalisation Engine MUST NOT:</p>
+    <ul>
+      <li>recreate the same real person</li>
+      <li>allow easy “reverse-engineering” of identity</li>
+      <li>intentionally mimic minors or specific real individuals</li>
+    </ul>
+  </section>
+
+  <section class="card" style="grid-column:1/-1;">
+    <h2>Status</h2>
+
+    <ul>
+      <li>Draft specification</li>
+      <li>Implementation-agnostic</li>
+      <li>Open to peer review</li>
+    </ul>
+
+    <p class="muted">
+      Last updated: December 26, 2025
+    </p>
+
+    <p>
+      <a href="index_en.html">← Back to ModelHaven Studio</a>
+    </p>
+  </section>
+
+</div>
