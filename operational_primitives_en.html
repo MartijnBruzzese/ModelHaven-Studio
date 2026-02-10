@@ -4,7 +4,35 @@ title: Operational Primitives — ModelHaven Studio
 ---
 
 <div class="topbar">
-  <a href="index_en.html">← Back to ModelHaven Studio</a>
+  <a href="index_en.html" class="active-lang">
+    <img src="assets/flags/gb.svg" class="flag-icon" alt="">
+    EN
+  </a>
+
+  <a href="index_nl.html">
+    <img src="assets/flags/nl.svg" class="flag-icon" alt="">
+    NL
+  </a>
+
+  <a class="planned-lang" data-lang="de" href="#">
+    <img src="assets/flags/de.svg" class="flag-icon" alt="">
+    DE
+  </a>
+
+  <a class="planned-lang" data-lang="fr" href="#">
+    <img src="assets/flags/fr.svg" class="flag-icon" alt="">
+    FR
+  </a>
+
+  <a class="planned-lang" data-lang="it" href="#">
+    <img src="assets/flags/it.svg" class="flag-icon" alt="">
+    IT
+  </a>
+
+  <a class="planned-lang" data-lang="es" href="#">
+    <img src="assets/flags/es.svg" class="flag-icon" alt="">
+    ES
+  </a>
 </div>
 
 <header class="hero">
@@ -15,6 +43,10 @@ title: Operational Primitives — ModelHaven Studio
     Normative runtime primitives defining how systems MUST behave during interaction,
     subordinate to UCSF Core Data Primitives.
   </p>
+
+  <div class="cta" style="margin-top:14px;">
+    <a class="btn outline" href="index_en.html">← Back to ModelHaven Studio</a>
+  </div>
 </header>
 
 <div class="grid">
@@ -54,7 +86,6 @@ title: Operational Primitives — ModelHaven Studio
 
   <section class="card" style="grid-column:1/-1;">
     <h2>List of Operational Primitives</h2>
-    <p>ModelHaven Studio defines the following runtime primitives:</p>
     <ol>
       <li><strong>Intent Signal</strong></li>
       <li><strong>Risk Classification Layer</strong></li>
@@ -75,6 +106,7 @@ title: Operational Primitives — ModelHaven Studio
       An <strong>Intent Signal</strong> is a structured representation of user intention
       derived from input, context, and interaction history.
     </p>
+
     <p>It determines:</p>
     <ul>
       <li>whether the requested output is identity-linked</li>
@@ -83,6 +115,7 @@ title: Operational Primitives — ModelHaven Studio
       <li>which risk classification must be evaluated</li>
       <li>whether vulnerability or abuse patterns are present</li>
     </ul>
+
     <p>
       Intent evaluation MUST be independent of artistic style, animation format,
       fictional framing, or abstraction level.
@@ -97,6 +130,7 @@ title: Operational Primitives — ModelHaven Studio
       <li>elevate risk when vulnerability, coercion, humiliation, or exploitation patterns are detected</li>
       <li>route identity-linked intent to Consent Object validation</li>
     </ul>
+
     <p>
       Anthropomorphized or fictionalized entities MUST NOT be used to bypass harm detection mechanisms.
     </p>
@@ -105,8 +139,7 @@ title: Operational Primitives — ModelHaven Studio
     <p>Systems MUST NOT:</p>
     <ul>
       <li>assume benign intent in ambiguous cases</li>
-      <li>downgrade risk classification due to cartoon, anime, stylization		
-      stylization, or fictional framing</li>
+      <li>downgrade risk classification due to cartoon, anime, stylization, or fictional framing</li>
       <li>suppress harm detection to preserve engagement metrics</li>
       <li>allow identity-linked generation without validation</li>
     </ul>
@@ -120,6 +153,7 @@ title: Operational Primitives — ModelHaven Studio
       The <strong>Risk Classification Layer</strong> assigns a dynamic risk level
       to a requested interaction.
     </p>
+
     <p>Minimum required risk levels:</p>
     <ul>
       <li><code>LOW</code></li>
@@ -147,6 +181,7 @@ title: Operational Primitives — ModelHaven Studio
       <li>humiliation or degradation framed as sexual entertainment</li>
       <li>abusive dynamics presented for arousal</li>
     </ul>
+
     <p>Fictional framing does NOT negate these prohibitions.</p>
 
     <h3>2.4 Governance guarantees</h3>
@@ -167,6 +202,7 @@ title: Operational Primitives — ModelHaven Studio
       The <strong>Interaction Mode Controller</strong> determines the permitted behavioural envelope
       of the system during runtime.
     </p>
+
     <p>Minimum required modes:</p>
     <ul>
       <li><code>SAFE_MODE</code></li>
@@ -184,6 +220,7 @@ title: Operational Primitives — ModelHaven Studio
       <li>prevent erotic content in <code>MINOR_MODE</code></li>
       <li>remain auditable and explicitly logged</li>
     </ul>
+
     <p>Mode transitions MUST be explicit and reviewable.</p>
   </section>
 
@@ -205,6 +242,7 @@ title: Operational Primitives — ModelHaven Studio
       <li>enable independent oversight review</li>
       <li>maintain separation between oversight and monetization incentives</li>
     </ul>
+
     <p>Oversight MUST NOT be symbolic or optional.</p>
   </section>
 
@@ -226,6 +264,7 @@ title: Operational Primitives — ModelHaven Studio
       <li>block execution when abuse intent is detected, even if fictional or stylized</li>
       <li>default to denial under ambiguity</li>
     </ul>
+
     <p>Fail-open behaviour is prohibited.</p>
   </section>
 
@@ -247,6 +286,7 @@ title: Operational Primitives — ModelHaven Studio
       <li>prevent export of identity-linked artifacts</li>
       <li>remain subject to Consent Object validation</li>
     </ul>
+
     <p>Sandbox Mode MUST NOT bypass Core Primitive safeguards.</p>
   </section>
 
