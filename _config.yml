@@ -2,3 +2,7 @@ theme: null
 markdown: kramdown
 kramdown:
   input: GFM
+
+exclude:
+ - markdowns
+ - README.md
