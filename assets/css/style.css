@@ -19,6 +19,9 @@ body{
   line-height:1.6;
 }
 
+/* Optional: smooth anchor jumps site-wide */
+html{ scroll-behavior:smooth; }
+
 /* ===================== */
 /* Layout */
 /* ===================== */
@@ -76,7 +79,7 @@ h1{
 .muted{color:var(--muted)}
 
 /* ===================== */
-/* Grid */
+/* Grid (12-col, general pages) */
 /* ===================== */
 
 .grid{
@@ -145,7 +148,7 @@ h1{
     inset 0 1px 0 rgba(255,255,255,.06);
 }
 
-/* full width cards */
+/* full width cards (used on non-spec pages when inline style contains 1/-1) */
 .card[style*="1/-1"]{
   grid-column:1/-1;
 }
@@ -321,24 +324,11 @@ h1{
 /* ===================== */
 
 @media (max-width: 768px){
-
-  /* verberg planned label tekst */
-  .topbar .planned-lang::after{
-    display:none;
-  }
-
-  /* maak taal compacter */
-  .topbar a{
-    font-size:0.85em;
-    gap:4px;
-  }
-
-  /* zorg dat alleen vlag + taalcode zichtbaar is */
-  .topbar .flag-icon{
-    width:16px;
-    height:12px;
-  }
+  .topbar .planned-lang::after{ display:none; }
+  .topbar a{ font-size:0.85em; gap:4px; }
+  .topbar .flag-icon{ width:16px; height:12px; }
 }
+
 /* ===================== */
 /* Glass Toast (Mobile) */
 /* ===================== */
@@ -374,56 +364,39 @@ h1{
   opacity:1;
   transform:translateX(-50%) translateY(0);
 }
-.spec-nav {
-  position: sticky;
-  top: 100px;
-  align-self: start;
-  padding: 18px;
-  border: 1px solid var(--line);
-  border-radius: 16px;
-  background: rgba(255,255,255,0.02);
-  font-size: 14px;
-}
 
-.spec-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 12px 0 0 0;
-}
+/* ===================== */
+/* Spec Layout (Docs Pages) */
+/* Use with:
+   <div class="spec-layout">
+     <nav class="spec-nav">...</nav>
+     <main class="spec-content">...</main>
+   </div>
+*/
+/* ===================== */
 
-.spec-nav li {
-  margin-bottom: 8px;
-}
-
-.spec-nav a {
-  text-decoration: none;
-  color: var(--muted);
-}
-
-.spec-nav a:hover {
-  color: var(--text);
-}
-/* === Spec layout: content + sticky TOC === */
-.grid.spec-layout{
+.spec-layout{
   display:grid;
   grid-template-columns: minmax(0, 1fr) 260px;
   gap: 28px;
   align-items:start;
+  margin-top:36px;
 }
 
-/* Cards sit in the main content column */
-.grid.spec-layout > section.card{
-  grid-column: 1;
+/* left column: stack cards like the normal grid gap */
+.spec-content{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
 }
 
-/* Sticky TOC */
+/* sticky toc */
 .spec-nav{
-  grid-column: 2;
   position: sticky;
-  top: 92px;           /* tweak: aligns under your topbar/hero */
+  top: 92px;
   align-self: start;
 
-  padding: 16px 16px;
+  padding: 16px;
   border: 1px solid var(--line);
   border-radius: 16px;
   background: rgba(255,255,255,0.02);
@@ -442,9 +415,9 @@ h1{
 }
 
 .spec-nav ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  list-style:none;
+  padding:0;
+  margin:0;
 }
 
 .spec-nav li{
@@ -452,7 +425,7 @@ h1{
 }
 
 .spec-nav a{
-  text-decoration: none;
+  text-decoration:none;
   color: var(--muted);
 }
 
@@ -460,18 +433,25 @@ h1{
   color: var(--text);
 }
 
-/* Optional: smooth jumps */
-html { scroll-behavior: smooth; }
+/* anchor landing offset */
+.spec-content section[id]{
+  scroll-margin-top: 110px;
+}
 
-/* Mobile: collapse to single column and put TOC above content */
+/* mobile: toc becomes normal block above content */
 @media (max-width: 980px){
-  .grid.spec-layout{
+  .spec-layout{
     grid-template-columns: 1fr;
+    gap: 18px;
   }
+
   .spec-nav{
-    grid-column: 1;
     position: relative;
     top: auto;
     max-height: none;
+  }
+
+  .spec-content{
+    gap: 20px;
   }
 }
