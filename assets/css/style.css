@@ -403,3 +403,75 @@ h1{
 .spec-nav a:hover {
   color: var(--text);
 }
+/* === Spec layout: content + sticky TOC === */
+.grid.spec-layout{
+  display:grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  gap: 28px;
+  align-items:start;
+}
+
+/* Cards sit in the main content column */
+.grid.spec-layout > section.card{
+  grid-column: 1;
+}
+
+/* Sticky TOC */
+.spec-nav{
+  grid-column: 2;
+  position: sticky;
+  top: 92px;           /* tweak: aligns under your topbar/hero */
+  align-self: start;
+
+  padding: 16px 16px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.02);
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  max-height: calc(100vh - 120px);
+  overflow: auto;
+}
+
+.spec-nav strong{
+  display:block;
+  margin-bottom: 10px;
+  letter-spacing: .2px;
+}
+
+.spec-nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.spec-nav li{
+  margin: 8px 0;
+}
+
+.spec-nav a{
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.spec-nav a:hover{
+  color: var(--text);
+}
+
+/* Optional: smooth jumps */
+html { scroll-behavior: smooth; }
+
+/* Mobile: collapse to single column and put TOC above content */
+@media (max-width: 980px){
+  .grid.spec-layout{
+    grid-template-columns: 1fr;
+  }
+  .spec-nav{
+    grid-column: 1;
+    position: relative;
+    top: auto;
+    max-height: none;
+  }
+}
