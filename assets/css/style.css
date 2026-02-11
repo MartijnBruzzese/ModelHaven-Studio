@@ -374,3 +374,32 @@ h1{
   opacity:1;
   transform:translateX(-50%) translateY(0);
 }
+.spec-nav {
+  position: sticky;
+  top: 100px;
+  align-self: start;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: rgba(255,255,255,0.02);
+  font-size: 14px;
+}
+
+.spec-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0 0;
+}
+
+.spec-nav li {
+  margin-bottom: 8px;
+}
+
+.spec-nav a {
+  text-decoration: none;
+  color: var(--muted);
+}
+
+.spec-nav a:hover {
+  color: var(--text);
+}
