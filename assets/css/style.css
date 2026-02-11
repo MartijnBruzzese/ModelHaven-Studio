@@ -455,3 +455,23 @@ h1{
     gap: 20px;
   }
 }
+/* Spec layout: explicit placement */
+.spec-layout{
+  display:grid;
+  grid-template-columns: minmax(0, 1fr) 260px;
+  grid-template-rows: auto;
+  gap: 28px;
+  align-items:start;
+  margin-top:36px;
+}
+
+/* Force the nav and content to start on the same first row */
+.spec-nav{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.spec-content{
+  grid-column: 1;
+  grid-row: 1;
+}
