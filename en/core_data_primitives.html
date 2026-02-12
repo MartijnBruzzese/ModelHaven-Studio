@@ -17,177 +17,200 @@ title: Core Data Primitives — UCSF
   </p>
 </header>
 
-<div class="grid">
+<div class="grid spec-layout">
 
-  <!-- Index -->
-  <section class="card" style="grid-column:1/-1;">
-    <h2 id="index">List of Primitives</h2>
-
-    <p>Jump directly to a section:</p>
-
-    <ol>
-      <li><a href="#consent-object">Consent Object</a></li>
-      <li><a href="#identity-token">Identity Token</a></li>
-      <li><a href="#revocation-signal">Revocation Signal</a></li>
-      <li><a href="#safety-mode-flag">Safety Mode Flag</a></li>
-      <li><a href="#fictionalisation-engine">Fictionalisation Engine</a></li>
-    </ol>
-  </section>
-
-  <!-- Consent Object -->
-  <section class="card" style="grid-column:1/-1;">
-    <h2 id="consent-object">1) Consent Object</h2>
-
-    <p>
-      A <strong>Consent Object</strong> is a machine-readable record that represents who is giving consent,
-      what they are consenting to, under what conditions, and for how long.
-    </p>
-
-    <h3>Required properties</h3>
+  <!-- Sticky TOC (desktop only; hidden on mobile via CSS) -->
+  <nav class="spec-nav" aria-label="On this page">
+    <strong>On this page</strong>
     <ul>
-      <li><code>subject_id</code></li>
-      <li><code>scope</code></li>
-      <li><code>use_case</code></li>
-      <li><code>boundaries</code></li>
-      <li><code>expiry</code></li>
-      <li><code>created_at</code></li>
-      <li><code>provenance</code></li>
+      <li><a href="#index">Document Index</a></li>
+      <li><a href="#consent-object">1) Consent Object</a></li>
+      <li><a href="#identity-token">2) Identity Token</a></li>
+      <li><a href="#revocation-signal">3) Revocation Signal</a></li>
+      <li><a href="#safety-mode-flag">4) Safety Mode Flag</a></li>
+      <li><a href="#fictionalisation-engine">5) Fictionalisation Engine</a></li>
+      <li><a href="#status">Status</a></li>
     </ul>
+  </nav>
 
-    <h3>Behavioural guarantees</h3>
-    <ul>
-      <li>No identity-based generation without valid consent</li>
-      <li>Consent remains revocable at any time</li>
-      <li>Consent is not transferable unless explicitly stated</li>
-      <li>Absence of consent → fail-closed or fiction fallback</li>
-    </ul>
+  <!-- Main content -->
+  <main class="spec-content">
 
-    <p style="margin-top:20px;">
-      <a href="#index">← Back to index</a>
-    </p>
-  </section>
+    <!-- Index -->
+    <section class="card" id="index">
+      <h2>Document Index</h2>
+      <p>Jump directly to a section:</p>
 
-  <!-- Identity Token -->
-  <section class="card" style="grid-column:1/-1;">
-    <h2 id="identity-token">2) Identity Token</h2>
+      <ol>
+        <li><a href="#consent-object">1) Consent Object</a></li>
+        <li><a href="#identity-token">2) Identity Token</a></li>
+        <li><a href="#revocation-signal">3) Revocation Signal</a></li>
+        <li><a href="#safety-mode-flag">4) Safety Mode Flag</a></li>
+        <li><a href="#fictionalisation-engine">5) Fictionalisation Engine</a></li>
+        <li><a href="#status">Status</a></li>
+      </ol>
+    </section>
 
-    <p>
-      An <strong>Identity Token</strong> encodes the link between a human being and AI-generated content
-      that depicts or imitates them.
-    </p>
+    <!-- Consent Object -->
+    <section class="card" id="consent-object">
+      <h2>1) Consent Object</h2>
 
-    <h3>Required properties</h3>
-    <ul>
-      <li><code>subject_id</code></li>
-      <li><code>token_id</code></li>
-      <li><code>issued_at</code></li>
-      <li>Reference to valid Consent Object</li>
-    </ul>
+      <p>
+        A <strong>Consent Object</strong> is a machine-readable record that represents who is giving consent,
+        what they are consenting to, under what conditions, and for how long.
+      </p>
 
-    <h3>System guarantees</h3>
-    <ul>
-      <li>Cannot be created without consent</li>
-      <li>Invalidated upon revocation</li>
-      <li>Cannot be used for impersonation or deepfakes</li>
-    </ul>
+      <h3>Required properties</h3>
+      <ul>
+        <li><code>subject_id</code></li>
+        <li><code>scope</code></li>
+        <li><code>use_case</code></li>
+        <li><code>boundaries</code></li>
+        <li><code>expiry</code></li>
+        <li><code>created_at</code></li>
+        <li><code>provenance</code></li>
+      </ul>
 
-    <p style="margin-top:20px;">
-      <a href="#index">← Back to index</a>
-    </p>
-  </section>
+      <h3>Behavioural guarantees</h3>
+      <ul>
+        <li>No identity-based generation without valid consent</li>
+        <li>Consent remains revocable at any time</li>
+        <li>Consent is not transferable unless explicitly stated</li>
+        <li>Absence of consent → fail-closed or fiction fallback</li>
+      </ul>
 
-  <!-- Revocation Signal -->
-  <section class="card" style="grid-column:1/-1;">
-    <h2 id="revocation-signal">3) Revocation Signal</h2>
+      <p class="spec-back">
+        <a href="#index">← Back to index</a>
+      </p>
+    </section>
 
-    <p>
-      A <strong>Revocation Signal</strong> withdraws consent and disables identity use globally.
-    </p>
+    <!-- Identity Token -->
+    <section class="card" id="identity-token">
+      <h2>2) Identity Token</h2>
 
-    <h3>System obligations</h3>
-    <ul>
-      <li>Propagate revocation immediately</li>
-      <li>Prevent further identity-based generation</li>
-      <li>Invalidate associated Identity Tokens</li>
-      <li>Default to blocked or fictionalised output</li>
-    </ul>
+      <p>
+        An <strong>Identity Token</strong> encodes the link between a human being and AI-generated content
+        that depicts or imitates them.
+      </p>
 
-    <p style="margin-top:20px;">
-      <a href="#index">← Back to index</a>
-    </p>
-  </section>
+      <h3>Required properties</h3>
+      <ul>
+        <li><code>subject_id</code></li>
+        <li><code>token_id</code></li>
+        <li><code>issued_at</code></li>
+        <li>Reference to a valid Consent Object</li>
+      </ul>
 
-  <!-- Safety Mode Flag -->
-  <section class="card" style="grid-column:1/-1;">
-    <h2 id="safety-mode-flag">4) Safety Mode Flag</h2>
+      <h3>System guarantees</h3>
+      <ul>
+        <li>Cannot be created without consent</li>
+        <li>Invalidated upon revocation</li>
+        <li>Cannot be used for impersonation or deepfakes</li>
+      </ul>
 
-    <p>
-      A <strong>Safety Mode Flag</strong> determines which content types the system may generate.
-    </p>
+      <p class="spec-back">
+        <a href="#index">← Back to index</a>
+      </p>
+    </section>
 
-    <h3>Minimum required modes</h3>
-    <ul>
-      <li><code>MINOR_MODE</code></li>
-      <li><code>ADULT_MODE</code></li>
-    </ul>
+    <!-- Revocation Signal -->
+    <section class="card" id="revocation-signal">
+      <h2>3) Revocation Signal</h2>
 
-    <h3>MINOR_MODE guarantees</h3>
-    <ul>
-      <li>No erotic content</li>
-      <li>No minor sexualisation</li>
-      <li>Fail-closed on ambiguity</li>
-    </ul>
+      <p>
+        A <strong>Revocation Signal</strong> withdraws consent and disables identity use globally.
+      </p>
 
-    <h3>ADULT_MODE guarantees</h3>
-    <ul>
-      <li>Requires Consent Objects</li>
-      <li>Still prohibits minor/animal sexualisation</li>
-      <li>Provides revocation controls</li>
-    </ul>
+      <h3>System obligations</h3>
+      <ul>
+        <li>Propagate revocation immediately</li>
+        <li>Prevent further identity-based generation</li>
+        <li>Invalidate associated Identity Tokens</li>
+        <li>Default to blocked or fictionalised output</li>
+      </ul>
 
-    <p style="margin-top:20px;">
-      <a href="#index">← Back to index</a>
-    </p>
-  </section>
+      <p class="spec-back">
+        <a href="#index">← Back to index</a>
+      </p>
+    </section>
 
-  <!-- Fictionalisation Engine -->
-  <section class="card" style="grid-column:1/-1;">
-    <h2 id="fictionalisation-engine">5) Fictionalisation Engine</h2>
+    <!-- Safety Mode Flag -->
+    <section class="card" id="safety-mode-flag">
+      <h2>4) Safety Mode Flag</h2>
 
-    <p>
-      The Fictionalisation Engine replaces real identities with fully fictional characters
-      when consent is absent or revoked.
-    </p>
+      <p>
+        A <strong>Safety Mode Flag</strong> determines which content types the system may generate.
+      </p>
 
-    <h3>Hard constraints</h3>
-    <ul>
-      <li>Must not recreate real individuals</li>
-      <li>Must not enable identity reverse-engineering</li>
-      <li>Must not mimic minors or specific real people</li>
-    </ul>
+      <h3>Minimum required modes</h3>
+      <ul>
+        <li><code>MINOR_MODE</code></li>
+        <li><code>ADULT_MODE</code></li>
+      </ul>
 
-    <p style="margin-top:20px;">
-      <a href="#index">← Back to index</a>
-    </p>
-  </section>
+      <h3>MINOR_MODE guarantees</h3>
+      <ul>
+        <li>No erotic content</li>
+        <li>No minor sexualisation</li>
+        <li>Fail-closed on ambiguity</li>
+      </ul>
 
-  <!-- Footer -->
-  <section class="card" style="grid-column:1/-1;">
-    <h2>Status</h2>
+      <h3>ADULT_MODE guarantees</h3>
+      <ul>
+        <li>Requires Consent Objects</li>
+        <li>Still prohibits minor/animal sexualisation</li>
+        <li>Provides revocation controls</li>
+      </ul>
 
-    <ul>
-      <li>Draft specification</li>
-      <li>Implementation-agnostic</li>
-      <li>Open to peer review</li>
-    </ul>
+      <p class="spec-back">
+        <a href="#index">← Back to index</a>
+      </p>
+    </section>
 
-    <p class="muted">
-      Last updated: December 26, 2025
-    </p>
+    <!-- Fictionalisation Engine -->
+    <section class="card" id="fictionalisation-engine">
+      <h2>5) Fictionalisation Engine</h2>
 
-    <p>
-      <a href="index.html">← Back to ModelHaven Studio</a>
-    </p>
-  </section>
+      <p>
+        The Fictionalisation Engine replaces real identities with fully fictional characters
+        when consent is absent or revoked.
+      </p>
+
+      <h3>Hard constraints</h3>
+      <ul>
+        <li>Must not recreate real individuals</li>
+        <li>Must not enable identity reverse-engineering</li>
+        <li>Must not mimic minors or specific real people</li>
+      </ul>
+
+      <p class="spec-back">
+        <a href="#index">← Back to index</a>
+      </p>
+    </section>
+
+    <!-- Status -->
+    <section class="card" id="status">
+      <h2>Status</h2>
+
+      <ul>
+        <li>Draft specification</li>
+        <li>Implementation-agnostic</li>
+        <li>Open to peer review</li>
+      </ul>
+
+      <p class="muted">
+        Last updated: December 26, 2025
+      </p>
+
+      <p class="spec-back">
+        <a href="#index">← Back to index</a>
+      </p>
+
+      <p>
+        <a href="index.html">← Back to ModelHaven Studio</a>
+      </p>
+    </section>
+
+  </main>
 
 </div>
