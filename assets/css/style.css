@@ -366,97 +366,96 @@ h1{
 }
 
 /* ===================== */
-/* Spec Layout (Docs) — TOC LEFT, HIDDEN ON MOBILE */
-/* Works with:
-   <div class="grid spec-layout">
-     <nav class="spec-nav">...</nav>
-     <main class="spec-content">...</main>
-   </div>
-*/
+/* Spec Layout — Clean Version */
+/* Left sticky navigation */
 /* ===================== */
 
 .grid.spec-layout{
-  /* keep the .grid look/spacing, but override the 12-col columns for docs */
+  display: grid;
   grid-template-columns: 260px minmax(0, 1fr);
   gap: 28px;
   align-items: start;
 }
 
-/* force placement + prevent flips */
-.grid.spec-layout > nav.spec-nav{
+/* Left column */
+.grid.spec-layout > .spec-nav{
   grid-column: 1;
   position: sticky;
   top: 92px;
   align-self: start;
 
-  padding: 14px 14px 12px;
+  padding: 16px;
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 18px;
   background: rgba(255,255,255,0.02);
 
   font-size: 14px;
-  line-height: 1.4;
+  line-height: 1.45;
 
   max-height: calc(100vh - 120px);
   overflow: auto;
 }
 
-.grid.spec-layout > nav.spec-nav strong{
-  display:block;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-  letter-spacing: .2px;
-}
-
-.grid.spec-layout > nav.spec-nav ul{
-  list-style:none;
-  padding:0;
-  margin:0;
-}
-
-.grid.spec-layout > nav.spec-nav li{
-  margin:8px 0;
-}
-
-.grid.spec-layout > nav.spec-nav a{
-  text-decoration:none;
-  color: var(--muted);
-}
-
-.grid.spec-layout > nav.spec-nav a:hover{
-  color: var(--text);
-}
-
-/* content column stacks cards */
-.grid.spec-layout > main.spec-content{
+/* Right column */
+.grid.spec-layout > .spec-content{
   grid-column: 2;
-  display:grid;
-  grid-template-columns: 1fr;
+  display: grid;
   gap: 26px;
 }
 
-/* anchor landing offset */
-.grid.spec-layout > main.spec-content section[id]{
+/* Nav title */
+.spec-nav strong{
+  display: block;
+  margin-bottom: 10px;
+  font-size: 13px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* Nav list */
+.spec-nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.spec-nav li{
+  margin: 8px 0;
+}
+
+.spec-nav a{
+  text-decoration: none;
+  color: var(--muted);
+  transition: color 160ms ease;
+}
+
+.spec-nav a:hover{
+  color: var(--text);
+}
+
+/* Anchor offset so sections don’t hide under hero */
+.spec-content section[id]{
   scroll-margin-top: 110px;
 }
 
-/* optional helper (used in your HTML) */
-.spec-back{ margin-top:20px; }
+/* ===================== */
+/* Mobile */
+/* ===================== */
 
-/* Mobile: hide TOC entirely, keep content full width */
 @media (max-width: 980px){
+
   .grid.spec-layout{
     grid-template-columns: 1fr;
-    gap: 18px;
-  }
-
-  .grid.spec-layout > nav.spec-nav{
-    display:none;
-  }
-
-  .grid.spec-layout > main.spec-content{
-    grid-column: 1;
     gap: 20px;
+  }
+
+  /* Hide left navigation completely */
+  .grid.spec-layout > .spec-nav{
+    display: none;
+  }
+
+  .grid.spec-layout > .spec-content{
+    grid-column: 1;
   }
 }
