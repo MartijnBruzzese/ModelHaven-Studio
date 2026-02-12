@@ -1,148 +1,243 @@
 ---
 layout: default
 title: Core Principles — UCSF
+
+hero_title: "Core Principles"
+hero_subtitle: "Universal Consent & Safety Framework (UCSF)"
+hero_description: "Normative charter defining the ethical foundation of UCSF."
+
+back_url: "/ModelHaven-Studio/en/index.html"
+back_label: "Toward Humane AI"
 ---
 
-<div class="topbar">
-  <a href="index.html">← Back to ModelHaven Studio</a>
-</div>
+{% include topbar.html %}
+{% include hero.html %}
+{% include spec_nav.html %}
 
-<header class="hero">
-  <h1>Core Principles</h1>
-  <p class="subtitle">Universal Consent & Safety Framework (UCSF)</p>
-  <div class="hero-divider"></div>
-  <p class="muted">
-    Normative ethical principles defining the architectural foundation of UCSF.
-  </p>
-</header>
+<main class="doc">
+  <div class="doc-inner">
 
-<div class="grid spec-layout">
-
-  <!-- Sticky Navigation -->
-  <nav class="spec-nav" aria-label="On this page">
-    <strong>On this page</strong>
-    <ul>
-      <li><a href="#index">Document Index</a></li>
-      <li><a href="#consent">1) Consent</a></li>
-      <li><a href="#safety">2) Safety</a></li>
-      <li><a href="#refusal">3) Ethical Refusal</a></li>
-      <li><a href="#power">4) Power & Responsibility</a></li>
-      <li><a href="#repair">5) Repair</a></li>
-      <li><a href="#oversight">6) Human Oversight</a></li>
-      <li><a href="#non-human">7) Non-Human Life</a></li>
-      <li><a href="#environment">8) Environmental Limits</a></li>
-      <li><a href="#architecture">9) Ethics as Architecture</a></li>
-      <li><a href="#positioning">Positioning Note</a></li>
-    </ul>
-  </nav>
-
-  <!-- Main Content -->
-  <main class="spec-content">
-
-    <!-- Index -->
-    <section class="card" id="index">
-      <h2>Document Index</h2>
-      <ol>
-        <li><a href="#consent">Consent Is a Condition, Not an Event</a></li>
-        <li><a href="#safety">Safety Is a Design Responsibility</a></li>
-        <li><a href="#refusal">Ethical Refusal Is a Valid Outcome</a></li>
-        <li><a href="#power">Power Requires Responsibility</a></li>
-        <li><a href="#repair">Repair Is an Ethical Obligation</a></li>
-        <li><a href="#oversight">Human Oversight Must Remain Meaningful</a></li>
-        <li><a href="#non-human">Non-Human Life Is Morally Relevant</a></li>
-        <li><a href="#environment">Environmental Limits Are Design Constraints</a></li>
-        <li><a href="#architecture">Ethics Must Be Architectural</a></li>
-      </ol>
+    <section class="doc-meta">
+      <p><strong>Version:</strong> v1.0</p>
+      <p><strong>Last updated:</strong> January 2026</p>
+      <p><strong>Author:</strong> Martijn Bruzzese</p>
     </section>
 
-    <section class="card" id="consent">
-      <h2>1) Consent Is a Condition, Not an Event</h2>
+    <hr class="doc-rule">
+
+    <section class="doc-section">
+      <h2>Purpose</h2>
+
+      <p>
+        This document defines the core ethical principles underlying UCSF.
+      </p>
+
+      <p>
+        These principles are normative: they describe how systems <em>ought</em> to behave
+        when consent, identity, safety, and power asymmetry are treated as design
+        responsibilities rather than policy afterthoughts.
+      </p>
+
+      <p>
+        They do not prescribe implementation.
+      </p>
+    </section>
+
+    <hr class="doc-rule">
+
+    <section class="doc-section">
+      <h2>1. Consent Is a Condition, Not an Event</h2>
+
       <p>Consent is not a one-time checkbox.</p>
+
+      <p>It is:</p>
+
       <ul>
         <li>contextual</li>
         <li>revocable</li>
         <li>continuous</li>
         <li>dependent on clarity and agency</li>
       </ul>
-      <p>Absence of consent defaults to refusal.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
+
+      <p>
+        Systems must treat consent as an ongoing state rather than a transactional moment.
+      </p>
+
+      <p>
+        Absence of consent defaults to refusal.
+      </p>
     </section>
 
-    <section class="card" id="safety">
-      <h2>2) Safety Is a Design Responsibility</h2>
+    <section class="doc-section">
+      <h2>2. Safety Is a Design Responsibility</h2>
+
       <p>Safety must be embedded at the architectural level.</p>
+
+      <p>It is not achieved through moderation alone.</p>
+
+      <p>Systems must be designed to:</p>
+
       <ul>
         <li>prevent foreseeable harm</li>
         <li>fail closed under uncertainty</li>
-        <li>avoid engagement optimization at the expense of protection</li>
+        <li>avoid optimizing for engagement at the expense of protection</li>
       </ul>
+
       <p>Safety is not reactive.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
     </section>
 
-    <section class="card" id="refusal">
-      <h2>3) Ethical Refusal Is a Valid Outcome</h2>
+    <section class="doc-section">
+      <h2>3. Ethical Refusal Is a Valid Outcome</h2>
+
       <p>Not all technically possible actions should be permitted.</p>
+
+      <p>Systems must retain the capacity to refuse requests that violate:</p>
+
+      <ul>
+        <li>consent</li>
+        <li>identity integrity</li>
+        <li>safety boundaries</li>
+        <li>power asymmetries</li>
+      </ul>
+
       <p>Refusal must be explicit, explainable, and consistent.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
     </section>
 
-    <section class="card" id="power">
-      <h2>4) Power Requires Responsibility</h2>
+    <section class="doc-section">
+      <h2>4. Power Requires Responsibility</h2>
+
       <p>Every system concentrates power:</p>
+
       <ul>
         <li>over visibility</li>
         <li>over representation</li>
         <li>over access</li>
         <li>over interaction</li>
       </ul>
+
       <p>Power without accountability leads to harm.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
+
+      <p>
+        UCSF asserts that those who design and operate systems carry responsibility
+        for their structural effects.
+      </p>
     </section>
 
-    <section class="card" id="repair">
-      <h2>5) Repair Is an Ethical Obligation</h2>
+    <section class="doc-section">
+      <h2>5. Repair Is an Ethical Obligation</h2>
+
+      <p>When harm occurs, responsibility does not end at prevention.</p>
+
+      <p>Systems and institutions must support:</p>
+
       <ul>
         <li>acknowledgement</li>
         <li>remediation</li>
         <li>transparency</li>
         <li>learning</li>
       </ul>
-      <p>Repair is part of ethical design.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
+
+      <p>Repair is part of ethical design, not a reputational afterthought.</p>
     </section>
 
-    <section class="card" id="oversight">
-      <h2>6) Human Oversight Must Remain Meaningful</h2>
+    <section class="doc-section">
+      <h2>6. Human Oversight Must Remain Meaningful</h2>
+
       <p>Automation must not replace moral judgment.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
+
+      <p>Human involvement is required where:</p>
+
+      <ul>
+        <li>consent is ambiguous</li>
+        <li>harm is plausible</li>
+        <li>identity is at stake</li>
+        <li>vulnerability is present</li>
+      </ul>
+
+      <p>
+        Delegating ethical decisions entirely to automated systems is itself an ethical failure.
+      </p>
     </section>
 
-    <section class="card" id="non-human">
-      <h2>7) Non-Human Life Is Morally Relevant</h2>
-      <p>Animals and vulnerable non-human beings must not be exposed to exploitation.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
+    <section class="doc-section">
+      <h2>7. Non-Human Life Is Morally Relevant</h2>
+
+      <p>
+        UCSF recognizes that ethical systems cannot be limited to human users alone.
+      </p>
+
+      <p>
+        Animals and vulnerable non-human beings must not be exposed to exploitation
+        or harm through digital systems.
+      </p>
+
+      <p>
+        Their protection is treated as a design constraint, not an optional feature.
+      </p>
     </section>
 
-    <section class="card" id="environment">
-      <h2>8) Environmental Limits Are Design Constraints</h2>
-      <p>Energy, water, and infrastructure impact are ethical considerations.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
+    <section class="doc-section">
+      <h2>8. Environmental Limits Are Design Constraints</h2>
+
+      <p>Large-scale digital systems consume:</p>
+
+      <ul>
+        <li>energy</li>
+        <li>water</li>
+        <li>physical infrastructure</li>
+      </ul>
+
+      <p>
+        These impacts are ethical considerations, not externalities.
+      </p>
+
+      <p>
+        UCSF treats environmental pressure as a first-class design factor
+        rather than a secondary operational concern.
+      </p>
     </section>
 
-    <section class="card" id="architecture">
-      <h2>9) Ethics Must Be Architectural</h2>
-      <p>Values must be reflected in structural boundaries and default behaviors.</p>
-      <p class="spec-back"><a href="#index">← Back to index</a></p>
+    <section class="doc-section">
+      <h2>9. Ethics Must Be Architectural</h2>
+
+      <p>Ethical intent without system-level enforcement is insufficient.</p>
+
+      <p>Values must be reflected in:</p>
+
+      <ul>
+        <li>structural boundaries</li>
+        <li>interaction constraints</li>
+        <li>default behaviors</li>
+        <li>governance models</li>
+      </ul>
+
+      <p>
+        Ethics belongs in architecture, not only in policy documents.
+      </p>
     </section>
 
-    <section class="card" id="positioning">
+    <hr class="doc-rule">
+
+    <section class="doc-section">
       <h2>Positioning Note</h2>
-      <p>UCSF offers an explicit ethical position intended for peer review and responsible adaptation.</p>
-      <p class="muted">Agreement is not required. Transparency is.</p>
-      <p><a href="index.html">← Back to ModelHaven Studio</a></p>
+
+      <p>UCSF does not claim universal authority.</p>
+
+      <p>It offers an explicit ethical position intended for:</p>
+
+      <ul>
+        <li>peer review</li>
+        <li>interdisciplinary discussion</li>
+        <li>responsible adaptation</li>
+      </ul>
+
+      <p>Agreement is not required. Transparency is.</p>
+
+      <p>
+        <em>These principles define UCSF v1.0 and will not be substantively altered
+        without formal versioning.</em>
+      </p>
     </section>
 
-  </main>
-
-</div>
+  </div>
+</main>
