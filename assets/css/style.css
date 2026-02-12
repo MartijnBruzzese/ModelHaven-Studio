@@ -364,32 +364,6 @@ h1{
   opacity:1;
   transform:translateX(-50%) translateY(0);
 }
-
-/* ===================== */
-/* Spec Layout (Docs Pages) */
-/* Use with:
-   <div class="spec-layout">
-     <nav class="spec-nav">...</nav>
-     <main class="spec-content">...</main>
-   </div>
-*/
-/* ===================== */
-
-.spec-layout{
-  display:grid;
-  grid-template-columns: minmax(0, 1fr) 260px;
-  gap: 28px;
-  align-items:start;
-  margin-top:36px;
-}
-
-/* left column: stack cards like the normal grid gap */
-.spec-content{
-  display:grid;
-  grid-template-columns: 1fr;
-  gap: 26px;
-}
-
 /* ===================== */
 /* Spec Layout (Docs) — TOC LEFT + mobile dropdown */
 /* Works with:
@@ -407,19 +381,19 @@ h1{
   align-items:start;
 }
 
-/* place columns explicitly (stable even if DOM order changes later) */
+/* place columns explicitly */
 .grid.spec-layout > details.spec-nav{ grid-column: 1; }
 .grid.spec-layout > main.spec-content{ grid-column: 2; }
 
-/* stack cards inside main nicely (your main already does this visually) */
-.spec-content{
+/* stack cards inside main nicely */
+.grid.spec-layout > main.spec-content{
   display:grid;
   grid-template-columns: 1fr;
   gap: 26px;
 }
 
 /* TOC box */
-details.spec-nav{
+.grid.spec-layout > details.spec-nav{
   position: sticky;
   top: 92px;
   align-self: start;
@@ -437,7 +411,7 @@ details.spec-nav{
 }
 
 /* Summary header */
-details.spec-nav summary{
+.grid.spec-layout > details.spec-nav summary{
   cursor: pointer;
   list-style: none;
   user-select: none;
@@ -448,25 +422,27 @@ details.spec-nav summary{
   border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-details.spec-nav summary::-webkit-details-marker{ display:none; }
+.grid.spec-layout > details.spec-nav summary::-webkit-details-marker{ display:none; }
 
-details.spec-nav ul{
+.grid.spec-layout > details.spec-nav ul{
   list-style:none;
   padding:0;
   margin: 12px 0 0;
 }
 
-details.spec-nav li{ margin: 8px 0; }
+.grid.spec-layout > details.spec-nav li{ margin: 8px 0; }
 
-details.spec-nav a{
+.grid.spec-layout > details.spec-nav a{
   text-decoration:none;
   color: var(--muted);
 }
 
-details.spec-nav a:hover{ color: var(--text); }
+.grid.spec-layout > details.spec-nav a:hover{ color: var(--text); }
 
-/* Anchor landing offset so headings don't hide under topbar/hero */
-.spec-content section[id]{ scroll-margin-top: 110px; }
+/* Anchor landing offset */
+.grid.spec-layout > main.spec-content section[id]{
+  scroll-margin-top: 110px;
+}
 
 /* Mobile: TOC becomes a compact dropdown ABOVE content */
 @media (max-width: 980px){
@@ -485,11 +461,11 @@ details.spec-nav a:hover{ color: var(--text); }
 
   .grid.spec-layout > main.spec-content{
     grid-column: 1;
+    gap: 20px;
   }
 
   /* optional: reduce visual weight on mobile */
-  details.spec-nav{
+  .grid.spec-layout > details.spec-nav{
     padding: 12px 14px;
   }
 }
-
