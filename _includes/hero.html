@@ -1,0 +1,15 @@
+<header class="hero">
+  <h1>{{ page.hero_title }}</h1>
+
+  {% if page.hero_subtitle %}
+    <p class="subtitle">{{ page.hero_subtitle }}</p>
+  {% endif %}
+
+  <div class="hero-divider"></div>
+
+  {% if page.hero_description %}
+    <p class="muted">
+      {{ page.hero_description }}
+    </p>
+  {% endif %}
+</header>
