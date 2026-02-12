@@ -465,8 +465,4 @@ h1{
   }
 }
 
-  /* optional: reduce visual weight on mobile */
-  .grid.spec-layout > details.spec-nav{
-    padding: 12px 14px;
-  }
-}
+
