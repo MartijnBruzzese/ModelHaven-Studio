@@ -464,5 +464,20 @@ h1{
     gap: 20px;
   }
 }
+@media (max-width: 980px){
+  .grid.spec-layout{
+    grid-template-columns: 1fr;
+  }
+
+  /* Hide the sticky navigation completely on mobile */
+  .grid.spec-layout > .spec-nav{
+    display: none;
+  }
+
+  /* Ensure content takes full width */
+  .grid.spec-layout > .spec-content{
+    grid-column: 1;
+  }
+}
 
 
