@@ -1,0 +1,10 @@
+<nav class="spec-nav" aria-label="On this page">
+  <strong>On this page</strong>
+  <ul>
+    {% for item in page.toc %}
+      <li>
+        <a href="#{{ item.id }}">{{ item.label }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
