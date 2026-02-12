@@ -14,22 +14,22 @@ title: ModelHaven Studio — Toward Humane AI
     NL
   </a>
 
-  <a class="planned-lang" data-planned="(Geplant)" href="#">
+  <a class="planned-lang" data-lang="de" href="#">
     <img src="assets/flags/de.svg" class="flag-icon" alt="">
     DE
   </a>
 
-  <a class="planned-lang" data-planned="(Prévu)" href="#">
+  <a class="planned-lang" data-lang="fr" href="#">
     <img src="assets/flags/fr.svg" class="flag-icon" alt="">
     FR
   </a>
 
-  <a class="planned-lang" data-planned="(Previsto)" href="#">
+  <a class="planned-lang" data-lang="it" href="#">
     <img src="assets/flags/it.svg" class="flag-icon" alt="">
     IT
   </a>
 
-  <a class="planned-lang" data-planned="(Planificado)" href="#">
+  <a class="planned-lang" data-lang="es" href="#">
     <img src="assets/flags/es.svg" class="flag-icon" alt="">
     ES
   </a>
@@ -39,12 +39,13 @@ title: ModelHaven Studio — Toward Humane AI
   <h1>ModelHaven Studio</h1>
   <p class="subtitle">Toward Humane AI</p>
   <div class="hero-divider"></div>
+
   <p class="muted">
-    Research &amp; design for consent-first, governance-aware AI systems.
+    Research & design for consent-first, governance-aware AI systems.
   </p>
 
   <div class="cta" style="margin-top:14px;">
-    <a class="btn outline" href="../index.html">← Language Selection</a>
+    <a class="btn outline" href="index.html">← Language Selection</a>
     <a class="btn outline" href="https://martijnbruzzese.github.io/Workspace/">← Home</a>
   </div>
 </header>
@@ -54,32 +55,48 @@ title: ModelHaven Studio — Toward Humane AI
   <!-- How to Navigate -->
   <section class="card collapsible" data-default-open="true" style="grid-column:1/-1;">
     <h3 class="collapse-toggle">How to Navigate</h3>
+
     <div class="collapse-content">
       <p class="muted">
         This page is structured as a layered document. Each section can be expanded
         individually, allowing readers to engage at different levels of depth.
       </p>
+
       <p>
-        The Entry &amp; Narrative provides conceptual orientation.
+        The Entry & Narrative provides conceptual orientation.
         The Executive Summary offers a condensed architectural overview.
         Subsequent sections move progressively from normative principles to
         technical translation.
       </p>
+
       <p>
-        Readers may approach the framework linearly, or navigate selectively
-        according to their disciplinary focus.
+        Readers may approach the framework linearly or navigate selectively
+        according to their disciplinary focus — governance, system architecture,
+        ethics, or implementation.
       </p>
     </div>
   </section>
 
   <!-- Entry & Narrative -->
   <section class="card collapsible" style="grid-column:1/-1;">
-    <h3 class="collapse-toggle">Entry &amp; Narrative</h3>
+    <h3 class="collapse-toggle">Entry & Narrative</h3>
+
     <div class="collapse-content">
       <p>
         ModelHaven Studio is a research-driven framework and design architecture
         for AI systems in which consent, identity, and safety are treated as
         foundational requirements rather than post-hoc constraints.
+      </p>
+
+      <p>
+        The project is anchored in the Universal Consent & Safety Framework (UCSF)
+        and provides its operational translation into system architecture,
+        governance models, and ethical design practices.
+      </p>
+
+      <p>
+        The framework acknowledges non-human life as morally relevant and treats
+        environmental limits as first-class design constraints.
       </p>
     </div>
   </section>
@@ -87,63 +104,65 @@ title: ModelHaven Studio — Toward Humane AI
   <!-- Executive Summary -->
   <section class="card collapsible" style="grid-column:1/-1;">
     <h3 class="collapse-toggle">Executive Summary</h3>
+
     <div class="collapse-content">
       <p>
-        UCSF defines the ethical foundation. ModelHaven Studio translates these
-        principles into enforceable system architecture.
+        UCSF defines the ethical foundation: explicit and revocable consent,
+        absolute protection for minors and vulnerable individuals,
+        and fail-closed behavior under uncertainty.
       </p>
+
+      <p>
+        ModelHaven Studio translates these principles into enforceable system
+        architecture through consent tokens, intent signaling, sandbox modes,
+        risk classes, and layered human oversight.
+      </p>
+    </div>
+  </section>
+
+  <!-- Core Principles (OWN CARD) -->
+  <section class="card" style="grid-column:1/-1;">
+    <h3>Core Principles</h3>
+
+    <p class="muted">
+      The ethical foundation of the Universal Consent & Safety Framework —
+      defining consent as condition, safety as architecture,
+      responsibility as structural obligation,
+      and ethics as enforceable design.
+    </p>
+
+    <div style="margin-top:16px;">
+      <a class="btn outline" href="en/core_principles.html">
+        View Core Principles →
+      </a>
     </div>
   </section>
 
   <!-- Foundational Primitives -->
-  <section class="card collapsible" style="grid-column:1/-1;">
-    <h3 class="collapse-toggle">Foundational Primitives</h3>
-    <div class="collapse-content">
+  <section class="card" style="grid-column:1/-1;">
+    <h3>Foundational Primitives</h3>
 
-      <p>
-        The architecture is composed of two primitive layers:
-        a normative data layer (UCSF) and an operational runtime layer (ModelHaven Studio).
-      </p>
+    <p class="muted">
+      The architecture consists of two primitive layers:
+      a normative data layer (UCSF) and an operational runtime layer.
+    </p>
 
-      <div style="display:grid; gap:12px; margin-top:12px;">
+    <div style="display:grid; gap:16px; margin-top:18px;">
 
-        <a class="card" href="core_data_primitives.html" style="text-decoration:none;">
-          <h4 style="margin:0;">Core Data Primitives</h4>
-          <p class="muted" style="margin:6px 0 0;">
-            Consent Object · Identity Token · Revocation Signal · Safety Mode Flag · Fictionalisation Engine
-          </p>
-        </a>
+      <a class="card" href="en/core_data_primitives.html" style="text-decoration:none;">
+        <h4 style="margin:0;">Core Data Primitives</h4>
+        <p class="muted" style="margin:6px 0 0;">
+          Consent Object · Identity Token · Revocation Signal · Safety Mode Flag · Fictionalisation Engine
+        </p>
+      </a>
 
-        <a class="card" href="operational_primitives.html" style="text-decoration:none;">
-          <h4 style="margin:0;">Operational Primitives</h4>
-          <p class="muted" style="margin:6px 0 0;">
-            Intent Signal · Risk Classification · Interaction Mode · Human Oversight · Fail-Closed Gate
-          </p>
-        </a>
+      <a class="card" href="operational_primitives.html" style="text-decoration:none;">
+        <h4 style="margin:0;">Operational Primitives</h4>
+        <p class="muted" style="margin:6px 0 0;">
+          Intent Signal · Risk Class · Interaction Mode · Human Oversight Layer · Fail-Closed Gate
+        </p>
+      </a>
 
-      </div>
-    </div>
-  </section>
-
-  <!-- Core Principles -->
-  <section class="card collapsible" style="grid-column:1/-1;">
-    <h3 class="collapse-toggle">Core Principles</h3>
-
-    <div class="collapse-content">
-      <p>
-        The ethical foundation of the Universal Consent &amp; Safety Framework.
-        These principles define consent as condition, safety as architecture,
-        responsibility as structural obligation, and ethics as enforceable design.
-      </p>
-
-      <div style="margin-top:14px;">
-        <a class="card" href="core_principles.html" style="text-decoration:none;">
-          <h4 style="margin:0;">Read Core Principles</h4>
-          <p class="muted" style="margin:6px 0 0;">
-            Normative foundation · Consent · Safety · Oversight · Environmental limits
-          </p>
-        </a>
-      </div>
     </div>
   </section>
 
