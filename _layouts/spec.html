@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% include topbar.html %}
+{% include hero.html %}
+
+<div class="grid spec-layout">
+  {% if page.toc %}
+    {% include spec-nav.html %}
+  {% endif %}
+
+  <main class="spec-content">
+    {{ content }}
+  </main>
+</div>
