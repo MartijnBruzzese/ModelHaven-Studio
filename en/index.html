@@ -95,28 +95,21 @@ title: ModelHaven Studio — Toward Humane AI
       <p>
         The project is anchored in the Universal Consent &amp; Safety Framework (UCSF)
         and provides its operational translation into system architecture,
-        governance models, and ethical design practices. Together, UCSF and
-        ModelHaven Studio aim to support innovation while preserving human
-        autonomy, dignity, and protection by design.
+        governance models, and ethical design practices.
       </p>
 
       <p>
-        The framework also acknowledges non-human life as morally relevant,
-        extending its concern for consent, safety, and dignity beyond humans
-        to animals and other vulnerable beings.
+        The framework acknowledges non-human life as morally relevant,
+        extending its concern beyond humans to animals and vulnerable beings.
       </p>
 
       <p>
         It treats environmental limits as first-class design constraints,
-        explicitly accounting for resource usage such as energy and water
-        consumption, and the broader ecological impact of large-scale
-        computational systems.
+        accounting for energy and resource usage.
       </p>
 
       <p>
-        The work is situated within the broader <em>Toward Humane AI</em>
-        discourse, which explores the philosophical, societal, and narrative
-        dimensions of consent-centered system design.
+        The work is situated within the broader <em>Toward Humane AI</em> discourse.
       </p>
     </div>
   </section>
@@ -127,45 +120,25 @@ title: ModelHaven Studio — Toward Humane AI
 
     <div class="collapse-content">
       <p>
-        The Universal Consent &amp; Safety Framework (UCSF) and ModelHaven Studio
-        together form a normative and technical framework for designing AI systems
-        in which consent, identity, and safety are treated as foundational
-        requirements rather than post-hoc corrective mechanisms.
+        UCSF and ModelHaven Studio together form a normative and technical framework
+        for AI systems in which consent, identity, and safety are treated as
+        foundational requirements.
       </p>
 
       <p>
-        UCSF defines the ethical foundation: explicit and revocable consent,
-        absolute protection for minors and vulnerable individuals, human
-        counter-power, and fail-closed behavior as the default response to
-        uncertainty.
+        Instead of reactive moderation, ethical constraints are embedded directly
+        into infrastructure through consent tokens, intent signaling,
+        sandboxed interaction modes, dynamic risk classes, and layered oversight.
       </p>
 
       <p>
-        ModelHaven Studio translates these principles into system architecture
-        and operational design. Instead of relying on reactive moderation,
-        ethical constraints are embedded directly into infrastructure through
-        consent tokens, intent signaling, sandboxed interaction modes, dynamic
-        risk classes, and layered human oversight.
+        The framework rejects models in which ethical boundaries are relaxed
+        based on payment tiers or commercial optimization.
       </p>
 
       <p>
-        Where many contemporary AI platforms address ethical risks only after
-        harm becomes visible, this approach reverses the paradigm by embedding
-        protection at design time. The framework explicitly rejects models in
-        which ethical boundaries are relaxed based on payment tiers, public
-        pressure, or commercial optimization.
-      </p>
-
-      <p>
-        The combined system is designed as a scalable, governance-aware
-        architecture that supports creative and technological innovation while
-        preserving human dignity, agency, and safety by design.
-      </p>
-
-      <p>
-        This document does not present a finished product, but a normative system
-        architecture intended for peer review, technical evaluation, and
-        multidisciplinary further development.
+        This document presents a normative system architecture intended for
+        peer review and further multidisciplinary development.
       </p>
     </div>
   </section>
@@ -175,89 +148,59 @@ title: ModelHaven Studio — Toward Humane AI
     <h3 class="collapse-toggle">Foundational Primitives</h3>
 
     <div class="collapse-content">
-
       <p>
-        The architecture is composed of two primitive layers: a normative
-        data layer (UCSF) and an operational runtime layer (ModelHaven Studio).
+        The architecture is composed of two primitive layers:
+        a normative data layer (UCSF) and an operational runtime layer (ModelHaven Studio).
       </p>
 
       <div style="display:grid; gap:12px; margin-top:12px;">
 
-        <a class="card" href="https://martijnbruzzese.github.io/ModelHaven-Studio/en/core_data_primitives.html" style="text-decoration:none;">
-          <h4 style="margin:0;">Core Data Primitives</h4>
-          <p class="muted" style="margin:6px 0 0;">
-            Consent Object · Identity Token · Revocation Signal · Safety Mode Flag · Fictionalisation Engine
-          </p>
-        </a>
+        <section class="card card--sub collapsible" data-default-open="true" style="padding:18px;">
+          <h4 class="collapse-toggle" style="margin:0;">Core Data Primitives</h4>
+          <div class="collapse-content">
+            <p class="muted" style="margin:6px 0 12px;">
+              Consent Object · Identity Token · Revocation Signal · Safety Mode Flag · Fictionalisation Engine
+            </p>
+            <p style="margin:0;">
+              <a class="btn outline" href="core_data_primitives.html">Open Core Data Primitives →</a>
+            </p>
+          </div>
+        </section>
 
-        <a class="card" href="operational_primitives.html" style="text-decoration:none;">
-          <h4 style="margin:0;">Operational Primitives</h4>
-          <p class="muted" style="margin:6px 0 0;">
-            Intent Signal · Risk Class · Interaction Mode · Human Oversight Layer · Fail-Closed Gate
-          </p>
-        </a>
+        <section class="card card--sub collapsible" style="padding:18px;">
+          <h4 class="collapse-toggle" style="margin:0;">Operational Primitives</h4>
+          <div class="collapse-content">
+            <p class="muted" style="margin:6px 0 12px;">
+              Intent Signal · Risk Class · Interaction Mode · Human Oversight Layer · Fail-Closed Gate
+            </p>
+            <p style="margin:0;">
+              <a class="btn outline" href="operational_primitives.html">Open Operational Primitives →</a>
+            </p>
+          </div>
+        </section>
 
-<div class="collapse-content">
-
-  <p>
-    The architecture is composed of two primitive layers: a normative
-    data layer (UCSF) and an operational runtime layer (ModelHaven Studio).
-  </p>
-
-  <div style="display:grid; gap:12px; margin-top:12px;">
-
-    <!-- Core Data Primitives -->
-    <section class="card card--sub collapsible" data-default-open="true" style="padding:18px;">
-      <h4 class="collapse-toggle" style="margin:0;">Core Data Primitives</h4>
-
-      <div class="collapse-content">
-        <p class="muted" style="margin:6px 0 12px;">
-          Consent Object · Identity Token · Revocation Signal · Safety Mode Flag · Fictionalisation Engine
-        </p>
-
-        <p style="margin:0;">
-          <a class="btn outline" href="core_data_primitives.html">Open Core Data Primitives →</a>
-        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Operational Primitives -->
-    <section class="card card--sub collapsible" style="padding:18px;">
-      <h4 class="collapse-toggle" style="margin:0;">Operational Primitives</h4>
+  <!-- Core Principles (Separate Collapsible) -->
+  <section class="card collapsible" style="grid-column:1/-1;">
+    <h3 class="collapse-toggle">Core Principles</h3>
 
-      <div class="collapse-content">
-        <p class="muted" style="margin:6px 0 12px;">
-          Intent Signal · Risk Class · Interaction Mode · Human Oversight Layer · Fail-Closed Gate
-        </p>
+    <div class="collapse-content">
+      <p class="muted">
+        The ethical foundation of UCSF — consent as condition, safety as architecture,
+        responsibility as structural obligation, ethics as enforceable design.
+      </p>
 
-        <p style="margin:0;">
-          <a class="btn outline" href="operational_primitives.html">Open Operational Primitives →</a>
-        </p>
-      </div>
-    </section>
+      <p>
+        This section defines the non-negotiable principles that constrain
+        governance, system architecture, and runtime behavior.
+      </p>
 
-    <!-- Core Principles -->
-    <section class="card card--sub collapsible" style="padding:18px;">
-      <h4 class="collapse-toggle" style="margin:0;">Core Principles</h4>
-
-      <div class="collapse-content">
-        <p class="muted" style="margin:6px 0 12px;">
-          The ethical foundation of UCSF — consent as condition, safety as architecture,
-          responsibility as structural obligation, ethics as enforceable design.
-        </p>
-
-        <p style="margin:0;">
-          <a class="btn outline" href="core_principles.html">Open Core Principles →</a>
-        </p>
-      </div>
-    </section>
-
-  </div>
-</div>
-
-
-</a>
-
+      <p style="margin:0;">
+        <a class="btn outline" href="core_principles.html">Open Core Principles →</a>
+      </p>
     </div>
   </section>
 
