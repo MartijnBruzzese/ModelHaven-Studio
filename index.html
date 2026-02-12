@@ -3,125 +3,45 @@ layout: default
 title: ModelHaven Studio — Toward Humane AI
 ---
 
+<div class="topbar">
+  <a href="../index.html">← Language Selection</a>
+  <a href="https://martijnbruzzese.github.io/Workspace/">← Home</a>
+</div>
+
 <header class="hero">
   <h1>ModelHaven Studio</h1>
   <p class="subtitle">Toward Humane AI</p>
   <div class="hero-divider"></div>
   <p class="muted">
-    Research &amp; design for consent-first, governance-aware AI systems.
+    Research & design for consent-first, governance-aware AI systems.
   </p>
 </header>
 
 <div class="grid">
 
+  <!-- Foundational Layer -->
   <section class="card" style="grid-column:1/-1;">
+    <h2>Foundational Architecture</h2>
 
-    <h2 style="margin-top:0;">Select Language</h2>
     <p class="muted">
-       English - in progress 
+      The architecture consists of a normative data layer and an operational runtime layer.
     </p>
 
-    <div class="lang-list" style="margin-top:22px;">
+    <div style="margin-top:18px; display:flex; flex-wrap:wrap; gap:12px;">
 
-      <a class="lang-row active" href="en/index.html">
-        <img src="assets/flags/gb.svg" alt="">
-        <span class="lang-title">English</span>
-        <span class="lang-status">Authoritative version</span>
+      <a class="btn outline" href="core_data_primitives.html">
+        Core Data Primitives
       </a>
 
-      <a class="lang-row" href="nl/index.html" data-hover="Wordt gebouwd">
-        <img src="assets/flags/nl.svg" alt="">
-        <span class="lang-title">Nederlands</span>
+      <a class="btn outline" href="operational_primitives.html">
+        Operational Primitives
       </a>
 
-      <a class="lang-row" href="de/index.html" data-hover="Im Aufbau">
-        <img src="assets/flags/de.svg" alt="">
-        <span class="lang-title">Deutsch</span>
-      </a>
-
-      <a class="lang-row" href="fr/index.html" data-hover="En construction">
-        <img src="assets/flags/fr.svg" alt="">
-        <span class="lang-title">Français</span>
-      </a>
-
-      <a class="lang-row" href="it/index.html" data-hover="In costruzione">
-        <img src="assets/flags/it.svg" alt="">
-        <span class="lang-title">Italiano</span>
-      </a>
-
-      <a class="lang-row" href="es/index.html" data-hover="En construcción">
-        <img src="assets/flags/es.svg" alt="">
-        <span class="lang-title">Español</span>
+      <a class="btn outline" href="core_principles.html">
+        Core Principles
       </a>
 
     </div>
-
   </section>
 
 </div>
-
-<style>
-/* Clean institutional language selector */
-
-.lang-list{
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-
-.lang-row{
-  display:flex;
-  align-items:center;
-  gap:14px;
-  padding:16px 18px;
-  border:1px solid var(--line);
-  border-radius:16px;
-  text-decoration:none;
-  color:var(--text);
-  position:relative;
-  transition:
-    border-color 200ms ease,
-    background 200ms ease;
-}
-
-.lang-row:hover{
-  border-color:rgba(255,255,255,0.16);
-  background:rgba(255,255,255,0.02);
-}
-
-.lang-row img{
-  width:22px;
-  height:16px;
-  border-radius:3px;
-}
-
-.lang-title{
-  font-weight:600;
-  letter-spacing:.2px;
-}
-
-.lang-status{
-  margin-left:auto;
-  font-size:13px;
-  color:var(--muted);
-}
-
-.lang-row::after{
-  content: attr(data-hover);
-  position:absolute;
-  right:18px;
-  font-size:13px;
-  color:var(--muted);
-  opacity:0;
-  transition:opacity 180ms ease;
-}
-
-.lang-row:hover::after{
-  opacity:1;
-}
-
-.lang-row.active{
-  border-color:rgba(139,211,255,0.25);
-  background:rgba(139,211,255,0.04);
-}
-</style>
