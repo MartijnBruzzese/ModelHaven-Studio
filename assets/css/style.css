@@ -9,6 +9,9 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
+/* Optional: smooth anchor jumps site-wide */
+html{ scroll-behavior:smooth; }
+
 body{
   font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   background:
@@ -18,9 +21,6 @@ body{
   color:var(--text);
   line-height:1.6;
 }
-
-/* Optional: smooth anchor jumps site-wide */
-html{ scroll-behavior:smooth; }
 
 /* ===================== */
 /* Layout */
@@ -364,36 +364,27 @@ h1{
   opacity:1;
   transform:translateX(-50%) translateY(0);
 }
+
 /* ===================== */
-/* Spec Layout (Docs) — TOC LEFT + mobile dropdown */
+/* Spec Layout (Docs) — TOC LEFT, HIDDEN ON MOBILE */
 /* Works with:
    <div class="grid spec-layout">
-     <details class="spec-nav">...</details>
+     <nav class="spec-nav">...</nav>
      <main class="spec-content">...</main>
    </div>
 */
 /* ===================== */
 
 .grid.spec-layout{
-  display:grid;
-  grid-template-columns: 260px minmax(0, 1fr); /* TOC LEFT */
+  /* keep the .grid look/spacing, but override the 12-col columns for docs */
+  grid-template-columns: 260px minmax(0, 1fr);
   gap: 28px;
-  align-items:start;
+  align-items: start;
 }
 
-/* place columns explicitly */
-.grid.spec-layout > details.spec-nav{ grid-column: 1; }
-.grid.spec-layout > main.spec-content{ grid-column: 2; }
-
-/* stack cards inside main nicely */
-.grid.spec-layout > main.spec-content{
-  display:grid;
-  grid-template-columns: 1fr;
-  gap: 26px;
-}
-
-/* TOC box */
-.grid.spec-layout > details.spec-nav{
+/* force placement + prevent flips */
+.grid.spec-layout > nav.spec-nav{
+  grid-column: 1;
   position: sticky;
   top: 92px;
   align-self: start;
@@ -410,53 +401,58 @@ h1{
   overflow: auto;
 }
 
-/* Summary header */
-.grid.spec-layout > details.spec-nav summary{
-  cursor: pointer;
-  list-style: none;
-  user-select: none;
-
-  margin: 0;
-  padding: 2px 0 10px;
-
+.grid.spec-layout > nav.spec-nav strong{
+  display:block;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
   border-bottom: 1px solid rgba(255,255,255,0.08);
+  letter-spacing: .2px;
 }
 
-.grid.spec-layout > details.spec-nav summary::-webkit-details-marker{ display:none; }
-
-.grid.spec-layout > details.spec-nav ul{
+.grid.spec-layout > nav.spec-nav ul{
   list-style:none;
   padding:0;
-  margin: 12px 0 0;
+  margin:0;
 }
 
-.grid.spec-layout > details.spec-nav li{ margin: 8px 0; }
+.grid.spec-layout > nav.spec-nav li{
+  margin:8px 0;
+}
 
-.grid.spec-layout > details.spec-nav a{
+.grid.spec-layout > nav.spec-nav a{
   text-decoration:none;
   color: var(--muted);
 }
 
-.grid.spec-layout > details.spec-nav a:hover{ color: var(--text); }
+.grid.spec-layout > nav.spec-nav a:hover{
+  color: var(--text);
+}
 
-/* Anchor landing offset */
+/* content column stacks cards */
+.grid.spec-layout > main.spec-content{
+  grid-column: 2;
+  display:grid;
+  grid-template-columns: 1fr;
+  gap: 26px;
+}
+
+/* anchor landing offset */
 .grid.spec-layout > main.spec-content section[id]{
   scroll-margin-top: 110px;
 }
 
-/* Mobile: TOC becomes a compact dropdown ABOVE content */
+/* optional helper (used in your HTML) */
+.spec-back{ margin-top:20px; }
+
+/* Mobile: hide TOC entirely, keep content full width */
 @media (max-width: 980px){
   .grid.spec-layout{
     grid-template-columns: 1fr;
     gap: 18px;
   }
 
-  .grid.spec-layout > details.spec-nav{
-    grid-column: 1;
-    position: relative;
-    top: auto;
-    max-height: none;
-    overflow: visible;
+  .grid.spec-layout > nav.spec-nav{
+    display:none;
   }
 
   .grid.spec-layout > main.spec-content{
@@ -464,20 +460,3 @@ h1{
     gap: 20px;
   }
 }
-@media (max-width: 980px){
-  .grid.spec-layout{
-    grid-template-columns: 1fr;
-  }
-
-  /* Hide the sticky navigation completely on mobile */
-  .grid.spec-layout > .spec-nav{
-    display: none;
-  }
-
-  /* Ensure content takes full width */
-  .grid.spec-layout > .spec-content{
-    grid-column: 1;
-  }
-}
-
-
