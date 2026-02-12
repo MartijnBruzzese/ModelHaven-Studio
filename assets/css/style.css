@@ -463,6 +463,7 @@ h1{
     grid-column: 1;
     gap: 20px;
   }
+}
 
   /* optional: reduce visual weight on mobile */
   .grid.spec-layout > details.spec-nav{
