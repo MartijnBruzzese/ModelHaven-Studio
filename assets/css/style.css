@@ -494,3 +494,22 @@ h1{
 @media (prefers-reduced-motion: reduce){
   *{transition:none!important}
 }
+/* Core Principles: constitutional feel */
+.core-constitution {
+  border: 1px solid rgba(255,255,255,0.14);
+}
+
+.core-constitution .collapse-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  letter-spacing: 0.2px;
+}
+
+.constitution-tag {
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.18);
+  opacity: 0.85;
+}
